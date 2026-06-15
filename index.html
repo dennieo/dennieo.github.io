@@ -90,9 +90,17 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Load fonts async so they don't block first paint; system fonts show instantly, then swap -->
     <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet" />
+      media="print"
+      onload="this.media='all'" />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600&display=swap" />
+    </noscript>
 
     <style>
       /* ============================ TOKENS ============================ */
@@ -1083,9 +1091,9 @@
               </div>
               <div class="project-media">
                 <div class="phones">
-                  <div class="phone" data-open="0"><img src="dist/img/numi/device-home.webp" alt="Numi home screen — daily nutrition overview" loading="lazy" /></div>
-                  <div class="phone" data-open="1"><img src="dist/img/numi/device-meal.webp" alt="Numi AI meal analysis screen" loading="lazy" /></div>
-                  <div class="phone" data-open="2"><img src="dist/img/numi/device-fasting.webp" alt="Numi intermittent fasting tracker" loading="lazy" /></div>
+                  <div class="phone" data-open="0"><img src="dist/img/numi/device-home.webp" alt="Numi home screen — daily nutrition overview" width="490" height="1000" loading="lazy" /></div>
+                  <div class="phone" data-open="1"><img src="dist/img/numi/device-meal.webp" alt="Numi AI meal analysis screen" width="490" height="1000" loading="lazy" /></div>
+                  <div class="phone" data-open="2"><img src="dist/img/numi/device-fasting.webp" alt="Numi intermittent fasting tracker" width="490" height="1000" loading="lazy" /></div>
                 </div>
                 <div class="lb-data" hidden>
                   <img data-src="dist/img/numi/device-home.webp" alt="Numi — home" />
