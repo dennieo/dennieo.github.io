@@ -6,20 +6,23 @@
 - Name: Dennie Ordynskyi (Denys Ordynskyi)
 - Role: Product Designer
 - Location: United States · remote-friendly
-- Currently: Product Designer at DraftKings; Founder & Designer of Numi (getnumi.app)
+- Currently: Product Designer at DraftKings; Founder & Designer of [Numi](https://getnumi.app)
 - Focus: AI-powered products, intelligent UX, product strategy and discovery, mobile and web apps, design systems, rapid prototyping, human-AI interaction
 - Languages: Ukrainian (native), English (professional), Russian (professional)
 - Status: Open to new product design opportunities and select collaborations
 
 ## Selected work
-- Numi (https://getnumi.app): AI-powered nutrition tracker for iPhone — snap a photo to instantly log calories, macros and micronutrients, with a personalized "Metabolic Fingerprint", fasting, weight and hydration tracking. Dennie's own product, designed and built end-to-end.
-- Linc (https://linc.cloud): Cloud studio platform-as-a-service; founding designer who built the design system and end-to-end UX.
-- MyGoTrainer: iOS marketplace connecting clients, personal trainers and facilities; owned the full UI/UX.
-- Shipshape: Smart-home connected hardware; led product look-and-feel and packaging.
-- Chatbox: Customer messaging SaaS; where Dennie started as a product designer.
-- E-commerce: Built retail experiences and design practices, scaling an agency into an e-commerce brand.
+- [Numi](https://getnumi.app): AI-powered nutrition tracker for iPhone — snap a photo to instantly log calories, macros and micronutrients, with a personalized "Metabolic Fingerprint", plus fasting, weight and hydration tracking. Dennie's own product, designed and built end-to-end.
+- [Linc](https://linc.cloud): Cloud studio platform-as-a-service; founding designer who built the design system and end-to-end UX.
+- [MyGoTrainer](https://imdennie.com/#work): iOS marketplace connecting clients, personal trainers and facilities; owned the full UI/UX.
+- [Shipshape](https://imdennie.com/#work): Smart-home connected hardware; led product look-and-feel and packaging.
+- [Chatbox](https://imdennie.com/#work): Customer messaging SaaS; where Dennie started as a product designer.
+- [E-commerce work](https://imdennie.com/#work): Built retail experiences and design practices, scaling an agency into an e-commerce brand.
 
 ## Links
-- LinkedIn: https://www.linkedin.com/in/dennieo/
-- Website: https://imdennie.com/
-- Numi: https://getnumi.app
+- [Website](https://imdennie.com/): Portfolio and selected work
+- [LinkedIn](https://www.linkedin.com/in/dennieo/): Professional profile and full experience
+- [Numi](https://getnumi.app): AI nutrition app, designed and built by Dennie
+
+## Contact
+- [Get in touch on LinkedIn](https://www.linkedin.com/in/dennieo/)
