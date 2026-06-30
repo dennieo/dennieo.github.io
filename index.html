@@ -209,12 +209,6 @@
         align-items: center;
         gap: 9px;
       }
-      .brand .dot {
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        background: var(--accent);
-      }
       .nav-links {
         display: flex;
         align-items: center;
@@ -281,35 +275,9 @@
         color: var(--text);
         background: var(--surface);
         border: 1px solid var(--border);
-        padding: 7px 14px 7px 11px;
+        padding: 7px 16px;
         border-radius: 999px;
         box-shadow: var(--shadow);
-      }
-      .badge .pulse {
-        position: relative;
-        width: 9px;
-        height: 9px;
-      }
-      .badge .pulse i {
-        position: absolute;
-        inset: 0;
-        border-radius: 50%;
-        background: #22c55e;
-      }
-      .badge .pulse i::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: 50%;
-        background: #22c55e;
-        animation: ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
-      }
-      @keyframes ping {
-        75%,
-        100% {
-          transform: scale(2.4);
-          opacity: 0;
-        }
       }
       .hero h1 {
         font-family: var(--font-display);
@@ -990,7 +958,7 @@
     <!-- NAV -->
     <header class="nav" id="nav">
       <div class="wrap nav-inner">
-        <a href="#top" class="brand"><span class="dot"></span>Dennie Ordynskyi</a>
+        <a href="#top" class="brand">Dennie Ordynskyi</a>
         <nav class="nav-links">
           <a class="link" href="#work">Work</a>
           <a class="link" href="#about">About</a>
@@ -1016,7 +984,7 @@
       <section class="hero" style="padding-top: clamp(40px, 8vw, 80px)">
         <div class="wrap">
           <span class="badge reveal">
-            <span class="pulse"><i></i></span> Available for new opportunities
+            Open to conversations &amp; projects — not long-term commitments
           </span>
           <h1 class="reveal">
             Hi, I’m Dennie — I turn complex problems into
