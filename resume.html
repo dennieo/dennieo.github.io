@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume — Dennie Ordynskyi, Product Designer</title>
+    <meta
+      name="description"
+      content="Resume of Dennie Ordynskyi — product designer with 14+ years shipping consumer and B2B products across web, mobile and AI. Currently at DraftKings; founder of the Numi and Tysha iOS apps." />
+    <meta name="author" content="Dennie Ordynskyi" />
+    <link rel="canonical" href="https://imdennie.com/resume.html" />
+    <meta name="robots" content="index, follow" />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ff5436'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23fff'%3ED%3C/text%3E%3C/svg%3E" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600&display=swap"
+      media="print"
+      onload="this.media='all'" />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600&display=swap" />
+    </noscript>
+
+    <style>
+      :root {
+        --bg: #f4f2ee;
+        --surface: #ffffff;
+        --text: #15141a;
+        --muted: #6c6a74;
+        --border: rgba(20, 18, 28, 0.12);
+        --accent: #ff5436;
+        --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+        --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--font-body);
+        font-size: 15.5px;
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+      }
+      a { color: inherit; }
+
+      .topbar {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 20px 24px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+      }
+      .topbar a.back {
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 14.5px;
+        font-weight: 500;
+      }
+      .topbar a.back:hover { color: var(--text); }
+      .print-btn {
+        font: inherit;
+        font-size: 14.5px;
+        font-weight: 500;
+        color: #fff;
+        background: var(--accent);
+        border: none;
+        border-radius: 10px;
+        padding: 10px 18px;
+        cursor: pointer;
+      }
+
+      .sheet {
+        max-width: 860px;
+        margin: 20px auto 56px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: clamp(28px, 5vw, 56px);
+        box-shadow: 0 1px 2px rgba(20, 18, 28, 0.04), 0 12px 40px rgba(20, 18, 28, 0.08);
+      }
+
+      h1 {
+        font-family: var(--font-display);
+        font-weight: 500;
+        font-size: clamp(30px, 5vw, 40px);
+        letter-spacing: -0.02em;
+        line-height: 1.05;
+        margin: 0;
+      }
+      .subtitle {
+        color: var(--accent);
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 6px;
+      }
+      .contact-line {
+        margin-top: 14px;
+        color: var(--muted);
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 18px;
+      }
+      .contact-line a { text-decoration: none; }
+      .contact-line a:hover { color: var(--text); }
+
+      h2 {
+        font-size: 12.5px;
+        font-weight: 600;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin: 36px 0 4px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--border);
+      }
+      .summary { margin: 14px 0 0; }
+
+      .job { margin-top: 22px; }
+      .job-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .job-head h3 {
+        font-size: 16.5px;
+        font-weight: 600;
+        margin: 0;
+      }
+      .job-head h3 .org {
+        font-weight: 400;
+        color: var(--muted);
+      }
+      .dates {
+        color: var(--muted);
+        font-size: 13.5px;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+      .job ul {
+        margin: 8px 0 0;
+        padding-left: 20px;
+      }
+      .job li { margin-top: 5px; }
+      .job li::marker { color: var(--accent); }
+
+      .cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 40px;
+      }
+      @media (max-width: 640px) {
+        .cols { grid-template-columns: 1fr; }
+      }
+      .skill-group { margin-top: 14px; }
+      .skill-group b { font-weight: 600; }
+      .skill-group span { color: var(--muted); }
+
+      .edu { margin-top: 14px; }
+      .edu .dates { float: right; }
+
+      /* ============ PRINT: clean 2-page document ============ */
+      @media print {
+        :root { --bg: #fff; --muted: #444; --border: #ddd; }
+        body { font-size: 10.5pt; background: #fff; }
+        .topbar { display: none; }
+        .sheet {
+          max-width: none;
+          margin: 0;
+          border: none;
+          border-radius: 0;
+          box-shadow: none;
+          padding: 0;
+        }
+        h1 { font-size: 22pt; }
+        h2 { margin-top: 18px; page-break-after: avoid; }
+        .job { page-break-inside: avoid; margin-top: 12px; }
+        a { text-decoration: none; color: inherit; }
+        @page { margin: 1.4cm 1.6cm; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <a class="back" href="/">&larr; imdennie.com</a>
+      <button class="print-btn" type="button" onclick="window.print()">Save as PDF</button>
+    </div>
+
+    <main class="sheet">
+      <header>
+        <h1>Dennie Ordynskyi</h1>
+        <div class="subtitle">Product Designer — AI-powered consumer &amp; B2B products</div>
+        <div class="contact-line">
+          <span>San Francisco Bay Area · Remote-friendly</span>
+          <a href="https://imdennie.com">imdennie.com</a>
+          <a href="https://www.linkedin.com/in/dennieo/" rel="noopener">linkedin.com/in/dennieo</a>
+          <a id="emailLink" href="#" rel="nofollow"><span id="emailText">email</span></a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Summary</h2>
+        <p class="summary">
+          Product designer with 14+ years designing and shipping digital products across web, mobile
+          and AI — including nearly a decade designing large-scale consumer experiences at DraftKings.
+          Independently, a founder who has taken two iOS apps from concept to the App Store — Numi
+          (AI-powered nutrition, 2025) and Tysha (baby sleep, 2026). I work where product strategy, UX and technology meet:
+          defining the product, designing the experience, prototyping with code and AI tools, and
+          shipping.
+        </p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+
+        <div class="job">
+          <div class="job-head">
+            <h3>Product Designer <span class="org">· DraftKings</span></h3>
+            <span class="dates">2016 — Present</span>
+          </div>
+          <ul>
+            <li>Design large-scale consumer experiences for one of the largest US sports-entertainment platforms, in a highly regulated, fast-moving environment.</li>
+            <li>Work where usability, performance and consistency directly shape engagement and business outcomes.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <h3>Founder &amp; Product Designer <span class="org">· Numi — AI nutrition app (iOS)</span></h3>
+            <span class="dates">2025 — Present</span>
+          </div>
+          <ul>
+            <li>Designed and built an AI-powered nutrition tracker end-to-end — concept, positioning, UX, design system and App Store launch.</li>
+            <li>Photo-based meal logging: snap a photo and AI analyzes calories, macros and micronutrients — replacing manual food logging entirely.</li>
+            <li>Designed a personal “Metabolic Fingerprint” insight engine plus fasting, weight and hydration tracking.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <h3>Founder &amp; Product Designer <span class="org">· Tysha — baby-sleep app (iOS)</span></h3>
+            <span class="dates">2026 — Present</span>
+          </div>
+          <ul>
+            <li>Shipped a real-time white/pink/brown-noise generator for new parents — no loops, no accounts, no ads, fully offline.</li>
+            <li>Designed around one-handed 3 a.m. use: layered sound mixer, saveable “Rooms”, fading sleep timer, Siri and Lock Screen control.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <h3>Founding Product Designer <span class="org">· Linc — cloud studio platform</span></h3>
+            <span class="dates">2016 — 2018</span>
+          </div>
+          <ul>
+            <li>First designer: established the brand, scalable design system and end-to-end UX for a studio platform-as-a-service for content creators.</li>
+            <li>Defined personas and flows, and iterated from user feedback alongside engineering.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <h3>Senior Product Designer <span class="org">· Blue Stout — e-commerce agency</span></h3>
+            <span class="dates">2014 — 2018</span>
+          </div>
+          <ul>
+            <li>Helped grow a small agency into a large e-commerce brand, designing conversion-focused experiences for major retail clients.</li>
+            <li>Established the company’s design practices and development flows; mentored junior designers.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <h3>Lead Product Designer <span class="org">· ShipShape Smart Homes — IoT</span></h3>
+            <span class="dates">2016 — 2017</span>
+          </div>
+          <ul>
+            <li>Led the look and feel of the app and physical product packaging for smart-home connected hardware — concept to shelf.</li>
+            <li>Played a key role in the company’s product-market-fit strategy; drove agile delivery via scrums, sprint planning and retros.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <h3>Product Designer <span class="org">· Chatbox — customer-messaging SaaS</span></h3>
+            <span class="dates">2014 — 2016</span>
+          </div>
+          <ul>
+            <li>Worked between management, sales and engineering to ship core product features fast at an early-stage startup.</li>
+            <li>Design work contributed to securing investment and landing the first large customers.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <h3>Earlier</h3>
+            <span class="dates">2012 — 2014</span>
+          </div>
+          <ul>
+            <li>UI/UX Designer at Bilberry Software (clients incl. Chipotle, reviews.com); freelance product designer ranked top 5% on Elance; program management for a distributed R&amp;D team at Audyssey Laboratories (2017).</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="cols">
+          <div class="skill-group">
+            <b>Product design</b><br />
+            <span>Product strategy &amp; discovery, end-to-end UX, UI &amp; interaction design, design systems, rapid prototyping, user research, mobile (iOS/Android) &amp; web</span>
+          </div>
+          <div class="skill-group">
+            <b>AI</b><br />
+            <span>AI product design, human–AI interaction, LLM-powered features, AI-assisted development &amp; prototyping (concept → working product)</span>
+          </div>
+          <div class="skill-group">
+            <b>Ways of working</b><br />
+            <span>0→1 and scale-up environments, cross-functional collaboration with engineering &amp; PM, agile (Scrum/Kanban), mentoring</span>
+          </div>
+          <div class="skill-group">
+            <b>Languages</b><br />
+            <span>English (professional), Ukrainian (native), Russian (professional)</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="edu">
+          <span class="dates">2002 — 2007</span>
+          <b>Kyiv University of Tourism, Economics and Law</b><br />
+          <span style="color: var(--muted)">Additional coursework: Human–Computer Interaction, Machine Learning</span>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      (function () {
+        var u = ["gehucka", "gmail", "com"];
+        var addr = u[0] + String.fromCharCode(64) + u[1] + "." + u[2];
+        var a = document.getElementById("emailLink");
+        a.setAttribute("href", "mai" + "lto:" + addr);
+        document.getElementById("emailText").textContent = addr;
+      })();
+    </script>
+  </body>
+</html>

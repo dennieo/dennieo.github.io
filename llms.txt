@@ -20,8 +20,15 @@
 - [Chatbox](https://imdennie.com/#work): Customer messaging SaaS; where Dennie started as a product designer.
 - [E-commerce work](https://imdennie.com/#work): Built retail experiences and design practices, scaling an agency into an e-commerce brand.
 
+## Writing
+- [Blog](https://imdennie.com/blog/): Practical writing on design careers, AI products, and building apps solo
+- [How to become a product designer in 2026](https://imdennie.com/blog/how-to-become-a-product-designer.html): Career guide from 14 years in the field
+- [Shipping two iOS apps solo with AI](https://imdennie.com/blog/shipping-apps-solo-with-ai.html): What AI changed about a designer's job
+- [Designing AI products](https://imdennie.com/blog/designing-ai-products.html): Six UX lessons from building the Numi AI nutrition app
+
 ## Links
 - [Website](https://imdennie.com/): Portfolio and selected work
+- [Resume](https://imdennie.com/resume.html): Full resume — experience, skills and education
 - [LinkedIn](https://www.linkedin.com/in/dennieo/): Professional profile and full experience
 - [Numi](https://getnumi.app): AI nutrition app, designed and built by Dennie
 - [Tysha](https://tyshaapp.com): Baby-sleep white-noise app, designed and built by Dennie
