@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>I Shipped Two iOS Apps Solo — What AI Changed About Being a Designer | Dennie Ordynskyi</title>
+    <meta
+      name="description"
+      content="After 14 years designing products for other companies, I designed and built two iOS apps alone — an AI nutrition tracker and a baby-sleep app. Here's what AI tools actually changed about a designer's job, and what they didn't." />
+    <meta name="author" content="Dennie Ordynskyi" />
+    <link rel="canonical" href="https://imdennie.com/blog/shipping-apps-solo-with-ai.html" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="I Shipped Two iOS Apps Solo — What AI Changed About Being a Designer" />
+    <meta property="og:description" content="A designer's honest account of taking two apps from idea to the App Store alone, with AI as the build partner." />
+    <meta property="og:url" content="https://imdennie.com/blog/shipping-apps-solo-with-ai.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ff5436'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23fff'%3ED%3C/text%3E%3C/svg%3E" />
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("theme");
+          var sys = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          document.documentElement.setAttribute("data-theme", saved || sys);
+        } catch (e) {}
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "I Shipped Two iOS Apps Solo — What AI Changed About Being a Designer",
+        "description": "A designer's honest account of taking two apps from idea to the App Store alone, with AI as the build partner.",
+        "author": { "@type": "Person", "name": "Dennie Ordynskyi", "url": "https://imdennie.com/" },
+        "datePublished": "2026-07-02",
+        "dateModified": "2026-07-02",
+        "mainEntityOfPage": "https://imdennie.com/blog/shipping-apps-solo-with-ai.html",
+        "publisher": { "@type": "Person", "name": "Dennie Ordynskyi" }
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600&display=swap"
+      media="print"
+      onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600&display=swap" />
+    </noscript>
+    <link rel="stylesheet" href="/dist/blog.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav-inner">
+        <a href="/" class="brand">Dennie Ordynskyi</a>
+        <nav class="nav-links">
+          <a class="link" href="/#work">Work</a>
+          <a class="link keep" href="/blog/">Blog</a>
+          <a class="link" href="/resume.html">Resume</a>
+          <a class="link" href="/#contact">Contact</a>
+          <button class="toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+            <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+            <svg class="moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="post">
+      <div class="wrap">
+        <span class="eyebrow">Building in public</span>
+        <h1>I shipped two iOS apps solo — what AI changed about being a designer</h1>
+        <div class="post-meta">Dennie Ordynskyi · July 2026 · 8 min read</div>
+
+        <div class="post-body">
+          <p>
+            For fourteen years I designed products that other people built. That's the deal, as a
+            product designer: you shape the thing, you hand it over, engineers make it real. I was
+            fine with that deal. Then, in 2025, I broke it — I designed <em>and built</em> an
+            AI-powered nutrition app called <a href="https://getnumi.app" rel="noopener">Numi</a>
+            and put it on the App Store. Alone. In 2026 I did it again with
+            <a href="https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" rel="noopener">Tysha</a>,
+            a white-noise app for new parents.
+          </p>
+          <p>
+            No engineering team. No agency. A designer, an idea, and today's AI tools.
+            This post is the honest version of how that went — what AI genuinely changed about my
+            job, and what it turned out to change not at all.
+          </p>
+
+          <h2>Why these two apps</h2>
+          <p>
+            Both came from my own life, which I now think is the only sane way to pick a solo
+            project. Numi exists because I wanted to track what I ate without the misery of manual
+            food logging — search the database, weigh the portion, give up by Thursday. The design
+            thesis was simple: <strong>point your camera at the plate, and the app does the rest</strong> —
+            calories, macros, micronutrients, plus context-aware guidance it builds up over time.
+          </p>
+          <p>
+            Tysha exists because of the 3 a.m. shift with a baby. Every white-noise app I tried
+            had looping audio that clicked, ads (ads! at 3 a.m.!), or needed an account and a
+            connection. So: real-time generated white, pink and brown noise, fully offline, no
+            accounts, one-handed. The entire product is designed around a person holding an infant
+            in the dark.
+          </p>
+          <!-- TODO (Dennie): add 2-3 sentences of personal color here — the actual night/moment you decided to build each one. Specifics make this post. -->
+
+          <h2>What AI actually changed</h2>
+          <h3>The prototype became the product</h3>
+          <p>
+            My old workflow: mockups → clickable prototype → specs → wait → review builds → polish
+            what survived. The prototype was a promise, not a product. With AI-assisted coding
+            tools, that gap collapsed. I could design a flow in the morning and hold a working
+            version on my phone in the evening. Not a simulation of the feature — the feature.
+          </p>
+          <h3>Iteration got absurdly cheap</h3>
+          <p>
+            When changing a real, running app costs minutes instead of a sprint, you stop guessing.
+            Numi's photo-logging flow went through many working versions before launch — versions I
+            could actually cook dinner with, not click through in a design tool. Some ideas I was
+            sure about died in an evening of real use. That kind of learning used to cost weeks of
+            someone else's time, so it rarely happened.
+          </p>
+          <h3>The design tool changed shape</h3>
+          <p>
+            I still design screens, but a growing share of "designing" now happens in the working
+            product itself: adjusting motion, spacing, haptics, the feel of things — details that
+            never survive the translation from mockup to build. For the first time in my career,
+            what shipped is exactly what I designed, because there was no translation step.
+          </p>
+          <!-- TODO (Dennie): name your actual stack here (e.g. SwiftUI + Claude Code / Cursor / etc.) and roughly how long each app took. Real tool names and timelines are what people ask about first, and they're strong AI-fluency signals for recruiters reading this. -->
+
+          <h2>What AI didn't change</h2>
+          <p>This is the part the hype skips, and it's where fourteen years of design earned its keep:</p>
+          <ul>
+            <li>
+              <strong>Knowing what to build.</strong> AI will happily build the wrong thing faster.
+              Numi isn't "an AI calorie app" — it's a position against the misery of manual logging.
+              Tysha isn't "a sound app" — it's one-handed, offline, instant, because that's what
+              3 a.m. actually requires. Those decisions are the product. No tool made them.
+            </li>
+            <li>
+              <strong>Taste and editing.</strong> AI output — code or UI — trends toward the
+              average of everything it's seen. Every screen in both apps had a generic version
+              first. The job was saying no to it, over and over.
+            </li>
+            <li>
+              <strong>The last 20%.</strong> App Store review, edge cases, empty states, what
+              happens when the camera sees a plate that's half in shadow. Shipping is still
+              shipping. It's just that one person can now afford to do all of it.
+            </li>
+          </ul>
+
+          <h2>What this means if you're a designer</h2>
+          <p>
+            I don't think every designer needs to become a founder. I do think the ground has
+            moved under our role, in a direction that favors us:
+          </p>
+          <ul>
+            <li>
+              <strong>Designers are the best-positioned people in tech right now.</strong> We've
+              always known what to build and how it should feel; building was the locked door. The
+              door is open.
+            </li>
+            <li>
+              <strong>A shipped side project is the new portfolio piece.</strong> Hiring teams now
+              routinely ask for evidence of AI fluency. One live product answers every version of
+              that question — it proves product thinking, craft, technical fluency and follow-through
+              in a single link.
+            </li>
+            <li>
+              <strong>Start smaller than feels impressive.</strong> Tysha is a "small" app and it
+              taught me as much as products with teams behind them. Pick a problem from your own
+              week, scope it to one core loop, and take it all the way to shipped. All the way —
+              the learning is disproportionately in the last mile.
+            </li>
+          </ul>
+
+          <div class="callout">
+            <b>The one-line takeaway:</b> AI didn't replace the designer. It removed the excuse
+            that a designer can't ship. Fourteen years in, that's the biggest change to this job
+            I've ever seen — and it's an upgrade.
+          </div>
+
+          <p>
+            If you're a designer thinking about building something: my next post breaks down the
+            actual design lessons from working <em>on</em> AI —
+            <a href="/blog/designing-ai-products.html">Designing AI products: lessons from building Numi</a>.
+            And if you're starting your design career from zero, start here:
+            <a href="/blog/how-to-become-a-product-designer.html">How to become a product designer in 2026</a>.
+          </p>
+        </div>
+
+        <div class="author-box">
+          <b>Dennie Ordynskyi</b> is a product designer with 14+ years of experience, currently
+          designing large-scale consumer products at DraftKings. He's also the founder and designer
+          of <a href="https://getnumi.app" rel="noopener">Numi</a> (AI nutrition) and
+          <a href="https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" rel="noopener">Tysha</a>
+          (baby sleep) on the App Store. More at <a href="/">imdennie.com</a> ·
+          <a href="https://www.linkedin.com/in/dennieo/" rel="noopener">LinkedIn</a>.
+        </div>
+      </div>
+    </main>
+
+    <footer class="site">
+      <div class="wrap">
+        <div>© <span id="year">2026</span> Dennie Ordynskyi</div>
+        <div><a href="/blog/">← All posts</a></div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var root = document.documentElement;
+        document.getElementById("themeToggle").addEventListener("click", function () {
+          var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+          root.setAttribute("data-theme", next);
+          try { localStorage.setItem("theme", next); } catch (e) {}
+        });
+        document.getElementById("year").textContent = new Date().getFullYear();
+      })();
+    </script>
+  </body>
+</html>
