@@ -57,6 +57,7 @@
     <link rel="stylesheet" href="/dist/blog.css" />
   </head>
   <body>
+    <div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
     <header class="nav">
       <div class="nav-inner">
         <a href="/" class="brand">Dennie Ordynskyi</a>
@@ -198,6 +199,22 @@
           </p>
         </div>
 
+        <div class="read-next">
+          <span class="rn-label">Read next</span>
+          <div class="rn-grid">
+            <a class="rn-card" href="/blog/designing-ai-products.html">
+              <span class="cat">AI &amp; design · 7 min read</span>
+              <h3>Designing AI products: 6 lessons from building an AI nutrition app</h3>
+              <span class="more">Read the lessons →</span>
+            </a>
+            <a class="rn-card" href="/blog/how-to-become-a-product-designer.html">
+              <span class="cat">Careers in design · 9 min read</span>
+              <h3>How to become a product designer in 2026 — advice from 14 years in</h3>
+              <span class="more">Read the guide →</span>
+            </a>
+          </div>
+        </div>
+
         <div class="author-box">
           <b>Dennie Ordynskyi</b> is a product designer with 14+ years of experience, currently
           designing large-scale consumer products at DraftKings. He's also the founder and designer
@@ -225,6 +242,15 @@
           try { localStorage.setItem("theme", next); } catch (e) {}
         });
         document.getElementById("year").textContent = new Date().getFullYear();
+
+        var bar = document.getElementById("progressBar");
+        function onScroll() {
+          var h = document.documentElement;
+          var max = h.scrollHeight - h.clientHeight;
+          bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + "%";
+        }
+        window.addEventListener("scroll", onScroll, { passive: true });
+        onScroll();
       })();
     </script>
   </body>
