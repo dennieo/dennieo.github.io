@@ -784,6 +784,63 @@
         font-size: 15px;
       }
 
+      /* ============================ TESTIMONIALS ============================ */
+      .quote-grid {
+        margin-top: clamp(28px, 4vw, 44px);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+      }
+      @media (max-width: 820px) {
+        .quote-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .quote-card {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: clamp(22px, 3vw, 30px);
+        box-shadow: var(--shadow);
+        transition: transform 0.3s ease, border-color 0.3s ease;
+      }
+      .quote-card:hover {
+        transform: translateY(-4px);
+        border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+      }
+      .quote-card .qmark {
+        font-family: var(--font-display);
+        font-style: italic;
+        font-size: 44px;
+        line-height: 0.6;
+        color: var(--accent);
+        user-select: none;
+      }
+      .quote-card blockquote {
+        margin: 14px 0 0;
+        font-family: var(--font-display);
+        font-size: clamp(17px, 2vw, 19px);
+        line-height: 1.5;
+        letter-spacing: -0.005em;
+      }
+      .quote-card figcaption {
+        margin-top: auto;
+        padding-top: 20px;
+      }
+      .qc-name {
+        font-weight: 600;
+        font-size: 15.5px;
+      }
+      .qc-role {
+        color: var(--muted);
+        font-size: 13.5px;
+        margin-top: 3px;
+        line-height: 1.4;
+      }
+
       /* ============================ WRITING ============================ */
       .post-grid {
         margin-top: clamp(28px, 4vw, 44px);
@@ -1427,6 +1484,113 @@
                 <img data-src="dist/img/ecomm/ecomm-3@2x.jpg" alt="E-commerce — 3" />
               </div>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section id="testimonials">
+        <div class="wrap">
+          <div class="reveal">
+            <span class="eyebrow">Kind words</span>
+            <h2 class="sec-title">What people I’ve worked with say.</h2>
+            <p class="sec-intro">
+              From
+              <a href="https://www.linkedin.com/in/dennieo/" target="_blank" rel="noopener" style="color: var(--text); font-weight: 500">LinkedIn recommendations</a>
+              by founders and leaders I’ve built products with.
+            </p>
+          </div>
+          <div class="quote-grid">
+            <figure class="quote-card reveal">
+              <span class="qmark" aria-hidden="true">“</span>
+              <blockquote>
+                Denys is an exceptional UI/UX designer and Product Owner with a
+                great sense of feature design… He draws a clear distinction
+                between something looking great vs. something being a great
+                user experience. I have no reservations about recommending
+                Denys as a part of any team that wants to take its UI/UX
+                talent to the next level.
+              </blockquote>
+              <figcaption>
+                <div class="qc-name">Kira Rudik</div>
+                <div class="qc-role">Member of Parliament, Ukraine · managed Dennie directly</div>
+              </figcaption>
+            </figure>
+
+            <figure class="quote-card reveal">
+              <span class="qmark" aria-hidden="true">“</span>
+              <blockquote>
+                Denys is a very strong UI/UX designer with transferrable
+                skills in HTML, CSS and light JavaScript. He’s very easy to
+                work with, has a great attitude, has strong intuition about
+                feature design, and is a pleasure to be around. He’s hard
+                working, strongly self-motivated, and quick to learn.
+              </blockquote>
+              <figcaption>
+                <div class="qc-name">Phil Gordon</div>
+                <div class="qc-role">CEO &amp; Founder, Prompt.io · managed Dennie directly</div>
+              </figcaption>
+            </figure>
+
+            <figure class="quote-card reveal">
+              <span class="qmark" aria-hidden="true">“</span>
+              <blockquote>
+                Dennie is a hard-working, grind-it-out, get-the-job-done UI/UX
+                designer… He uses his strong communication skills and
+                obsessive focus on product to rapidly develop high-quality
+                products. I truly enjoyed working with Dennie and would gladly
+                endorse him as a UI/UX designer.
+              </blockquote>
+              <figcaption>
+                <div class="qc-name">Dane McLeod</div>
+                <div class="qc-role">Product builder · 3× founder, FinTech &amp; SaaS · managed Dennie directly</div>
+              </figcaption>
+            </figure>
+
+            <figure class="quote-card reveal">
+              <span class="qmark" aria-hidden="true">“</span>
+              <blockquote>
+                Denys is a detail-oriented and forward-thinking designer. He
+                deeply cares about his work, always asks the right questions
+                and is a great team player. He always met deadlines, was well
+                organized and was an integral part of the success of all the
+                projects he worked on.
+              </blockquote>
+              <figcaption>
+                <div class="qc-name">Adam Brazg</div>
+                <div class="qc-role">CEO, Bilberrry · managed Dennie directly</div>
+              </figcaption>
+            </figure>
+
+            <figure class="quote-card reveal">
+              <span class="qmark" aria-hidden="true">“</span>
+              <blockquote>
+                Dennie managed a team that developed exceptional work product
+                with remarkably little direction or oversight. He took
+                responsibility for understanding the product vision… Dennie
+                quickly learned whatever was required to accomplish the job
+                and maintained flexibility to change plans when needed.
+              </blockquote>
+              <figcaption>
+                <div class="qc-name">Alexander Linn</div>
+                <div class="qc-role">Founder &amp; CEO, Shipshape AI · managed Dennie directly</div>
+              </figcaption>
+            </figure>
+
+            <figure class="quote-card reveal">
+              <span class="qmark" aria-hidden="true">“</span>
+              <blockquote>
+                He is a very meticulous, well-organized, and disciplined
+                Program Manager. Dennie made it easy to coordinate the efforts
+                of a large R&amp;D team… He managed deliverables and worked at
+                all hours to make sure that projects move forward and
+                milestones were met. Highly recommended.
+              </blockquote>
+              <figcaption>
+                <div class="qc-name">Chris Kyriakakis</div>
+                <div class="qc-role">Professor &amp; Chief Audio Scientist · worked with Dennie for a year</div>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
