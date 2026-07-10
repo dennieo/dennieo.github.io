@@ -234,6 +234,23 @@
         .nav-links a.link {
           display: none;
         }
+        .nav-links a.link.keep {
+          display: inline-block;
+        }
+      }
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: 0;
+        z-index: 100;
+        background: var(--accent);
+        color: var(--accent-ink);
+        padding: 10px 18px;
+        border-radius: 0 0 10px 0;
+        font-weight: 500;
+      }
+      .skip-link:focus {
+        left: 0;
       }
       .toggle {
         width: 40px;
@@ -727,6 +744,100 @@
         width: 16px;
         height: 16px;
       }
+      .rc-thumbs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-bottom: 14px;
+      }
+      .rc-thumb {
+        position: relative;
+        display: block;
+        padding: 0;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        overflow: hidden;
+        background: var(--surface-2);
+        cursor: zoom-in;
+        aspect-ratio: 16 / 10;
+        transition: transform 0.25s ease, border-color 0.25s ease;
+      }
+      .rc-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+      }
+      .rc-thumb:hover {
+        transform: translateY(-3px);
+        border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+      }
+      .rc-more {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: rgba(8, 8, 10, 0.5);
+        backdrop-filter: blur(2px);
+        color: #fff;
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      /* ============================ WRITING ============================ */
+      .post-grid {
+        margin-top: clamp(28px, 4vw, 44px);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+      @media (max-width: 820px) {
+        .post-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .post-tile {
+        display: flex;
+        flex-direction: column;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: clamp(20px, 2.6vw, 26px);
+        box-shadow: var(--shadow);
+        transition: transform 0.3s ease, border-color 0.3s ease;
+      }
+      .post-tile:hover {
+        transform: translateY(-4px);
+        border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+      }
+      .post-tile .pt-cat {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .post-tile h3 {
+        font-family: var(--font-display);
+        font-weight: 500;
+        font-size: 20.5px;
+        letter-spacing: -0.01em;
+        line-height: 1.3;
+        margin: 10px 0 0;
+      }
+      .post-tile p {
+        color: var(--muted);
+        font-size: 14.5px;
+        line-height: 1.6;
+        margin: 10px 0 0;
+      }
+      .post-tile .pt-more {
+        margin-top: auto;
+        padding-top: 18px;
+        color: var(--accent);
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .writing-all {
+        margin-top: 28px;
+      }
 
       /* ============================ ABOUT ============================ */
       .about-grid {
@@ -959,16 +1070,17 @@
   </head>
 
   <body>
+    <a class="skip-link" href="#work">Skip to work</a>
     <!-- NAV -->
     <header class="nav" id="nav">
       <div class="wrap nav-inner">
         <a href="#top" class="brand">Dennie Ordynskyi</a>
         <nav class="nav-links">
-          <a class="link" href="#work">Work</a>
+          <a class="link keep" href="#work">Work</a>
           <a class="link" href="#about">About</a>
           <a class="link" href="blog/">Blog</a>
           <a class="link" href="resume.html">Resume</a>
-          <a class="link" href="#contact">Contact</a>
+          <a class="link keep" href="#contact">Contact</a>
           <button
             class="toggle"
             id="themeToggle"
@@ -1016,9 +1128,9 @@
 
           <div class="stats reveal">
             <div class="stat"><div class="num">14+</div><div class="lbl">Years designing products</div></div>
+            <div class="stat"><div class="num">2</div><div class="lbl">Own apps live on the App&nbsp;Store</div></div>
             <div class="stat"><div class="num">0→1</div><div class="lbl">Startups shipped from scratch</div></div>
             <div class="stat"><div class="num">AI-first</div><div class="lbl">Building AI-powered products</div></div>
-            <div class="stat"><div class="num">Remote</div><div class="lbl">US-based · remote-friendly</div></div>
           </div>
         </div>
       </section>
@@ -1152,9 +1264,14 @@
                 <li>Design System</li><li>Product UX</li><li>0→1</li>
               </ul>
               <div class="rc-foot">
+                <div class="rc-thumbs">
+                  <button class="rc-thumb" type="button" data-open="0" aria-label="Open Linc gallery, image 1"><img src="dist/img/linc/linc-1@2x.jpg" alt="Linc — studio dashboard" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="1" aria-label="Open Linc gallery, image 2"><img src="dist/img/linc/linc-3@2x.jpg" alt="Linc — product screens" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="2" aria-label="Open Linc gallery, image 3"><img src="dist/img/linc/linc-2@2x.jpg" alt="Linc — design system" loading="lazy" /><span class="rc-more">+1</span></button>
+                </div>
                 <button class="rc-shots" type="button" data-open="0">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>
-                  View 4 shots
+                  View all 4 shots
                 </button>
               </div>
               <div class="lb-data" hidden>
@@ -1183,9 +1300,14 @@
                 <li>iOS App</li><li>Marketplace</li><li>End-to-end UI</li>
               </ul>
               <div class="rc-foot">
+                <div class="rc-thumbs">
+                  <button class="rc-thumb" type="button" data-open="0" aria-label="Open MyGoTrainer gallery, image 1"><img src="dist/img/mgt/mgt-1@2x.jpg" alt="MyGoTrainer — app screens" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="1" aria-label="Open MyGoTrainer gallery, image 2"><img src="dist/img/mgt/mgt-2@2x.jpg" alt="MyGoTrainer — booking flow" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="2" aria-label="Open MyGoTrainer gallery, image 3"><img src="dist/img/mgt/mgt-3@2x.jpg" alt="MyGoTrainer — trainer profiles" loading="lazy" /><span class="rc-more">+4</span></button>
+                </div>
                 <button class="rc-shots" type="button" data-open="0">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>
-                  View 7 shots
+                  View all 7 shots
                 </button>
               </div>
               <div class="lb-data" hidden>
@@ -1217,9 +1339,14 @@
                 <li>Product Design</li><li>IoT</li><li>Packaging</li>
               </ul>
               <div class="rc-foot">
+                <div class="rc-thumbs">
+                  <button class="rc-thumb" type="button" data-open="0" aria-label="Open Shipshape gallery, image 1"><img src="dist/img/ss/ss-1@2x.jpg" alt="Shipshape — app design" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="1" aria-label="Open Shipshape gallery, image 2"><img src="dist/img/ss/ss-2@2x.jpg" alt="Shipshape — smart-home screens" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="2" aria-label="Open Shipshape gallery, image 3"><img src="dist/img/ss/ss-3@2x.jpg" alt="Shipshape — packaging" loading="lazy" /></button>
+                </div>
                 <button class="rc-shots" type="button" data-open="0">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>
-                  View 3 shots
+                  View all 3 shots
                 </button>
               </div>
               <div class="lb-data" hidden>
@@ -1248,9 +1375,14 @@
                 <li>SaaS</li><li>Messaging</li><li>Cross-functional</li>
               </ul>
               <div class="rc-foot">
+                <div class="rc-thumbs">
+                  <button class="rc-thumb" type="button" data-open="0" aria-label="Open Chatbox gallery, image 1"><img src="dist/img/chatbox/chatbox-1@2x.jpg" alt="Chatbox — messaging UI" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="1" aria-label="Open Chatbox gallery, image 2"><img src="dist/img/chatbox/chatbox-2@2x.jpg" alt="Chatbox — dashboard" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="2" aria-label="Open Chatbox gallery, image 3"><img src="dist/img/chatbox/chatbox-3@2x.jpg" alt="Chatbox — product screens" loading="lazy" /></button>
+                </div>
                 <button class="rc-shots" type="button" data-open="0">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>
-                  View 3 shots
+                  View all 3 shots
                 </button>
               </div>
               <div class="lb-data" hidden>
@@ -1279,9 +1411,14 @@
                 <li>E-commerce</li><li>Conversion</li><li>Mentoring</li>
               </ul>
               <div class="rc-foot">
+                <div class="rc-thumbs">
+                  <button class="rc-thumb" type="button" data-open="0" aria-label="Open e-commerce gallery, image 1"><img src="dist/img/ecomm/ecomm-1@2x.jpg" alt="E-commerce — storefront design" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="1" aria-label="Open e-commerce gallery, image 2"><img src="dist/img/ecomm/ecomm-2@2x.jpg" alt="E-commerce — product pages" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="2" aria-label="Open e-commerce gallery, image 3"><img src="dist/img/ecomm/ecomm-3@2x.jpg" alt="E-commerce — checkout flow" loading="lazy" /></button>
+                </div>
                 <button class="rc-shots" type="button" data-open="0">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>
-                  View 3 shots
+                  View all 3 shots
                 </button>
               </div>
               <div class="lb-data" hidden>
@@ -1362,6 +1499,59 @@
         </div>
       </section>
 
+      <!-- WRITING -->
+      <section id="writing">
+        <div class="wrap">
+          <div class="reveal">
+            <span class="eyebrow">Writing</span>
+            <h2 class="sec-title">Notes on design, AI &amp; shipping solo.</h2>
+            <p class="sec-intro">
+              Practical writing from actually building products — design
+              careers, AI product patterns, and what happens when a designer
+              ships apps alone.
+            </p>
+          </div>
+          <div class="post-grid">
+            <a class="post-tile reveal" href="blog/how-to-become-a-product-designer.html">
+              <span class="pt-cat">Careers in design · 9 min read</span>
+              <h3>How to become a product designer in 2026 — advice from 14 years in</h3>
+              <p>
+                The actual path into product design: the skills that matter
+                now, a portfolio with zero experience, and an honest take on
+                the AI question.
+              </p>
+              <span class="pt-more">Read the guide →</span>
+            </a>
+            <a class="post-tile reveal" href="blog/shipping-apps-solo-with-ai.html">
+              <span class="pt-cat">Building in public · 8 min read</span>
+              <h3>I shipped two iOS apps solo — what AI changed about being a designer</h3>
+              <p>
+                Numi and Tysha went from idea to the App Store with a team of
+                one. What AI tools actually changed — and what they didn’t
+                touch at all.
+              </p>
+              <span class="pt-more">Read the story →</span>
+            </a>
+            <a class="post-tile reveal" href="blog/designing-ai-products.html">
+              <span class="pt-cat">AI &amp; design · 7 min read</span>
+              <h3>Designing AI products: 6 lessons from building an AI nutrition app</h3>
+              <p>
+                AI products are probabilistic — sometimes wrong, always
+                uncertain, never instant. Six reusable UX lessons from a
+                shipped product.
+              </p>
+              <span class="pt-more">Read the lessons →</span>
+            </a>
+          </div>
+          <div class="writing-all reveal">
+            <a class="btn btn-ghost" href="blog/">
+              Browse all posts
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <!-- CONTACT -->
       <section id="contact" class="contact">
         <div class="wrap">
@@ -1369,8 +1559,9 @@
             <span class="eyebrow" style="justify-content: center">Get in touch</span>
             <h2 class="sec-title">Let’s build something people love.</h2>
             <p class="sec-intro">
-              I’m open to product design roles and select collaborations. The
-              fastest way to reach me is LinkedIn or email.
+              I’m open to senior product design roles and select collaborations
+              — US-based and remote-friendly. The fastest way to reach me is
+              LinkedIn or email.
             </p>
           </div>
           <div class="contact-cta reveal">
@@ -1396,6 +1587,7 @@
         <div>© <span id="year">2026</span> Dennie Ordynskyi · Product Designer</div>
         <div class="footer-links">
           <a href="blog/">Blog</a>
+          <a href="resume.html">Resume</a>
           <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/dennieo/">LinkedIn</a>
           <a href="#top">Back to top ↑</a>
         </div>
