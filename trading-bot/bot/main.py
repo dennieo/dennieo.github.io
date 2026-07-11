@@ -7,6 +7,7 @@ import sys
 import time
 
 from bot.config import load_config
+from bot.consensus import entry_allowed_by_smartmoney
 from bot.exchange import Exchange
 from bot.executor import Executor
 from bot.indicators import add_indicators
@@ -69,6 +70,14 @@ class Bot:
         if not allowed:
             log.info("%s: вход запрещён — %s", symbol, why)
             return
+        sm_ok, sm_why = entry_allowed_by_smartmoney(
+            self.cfg.raw.get("smartmoney_filter", {}), symbol
+        )
+        if not sm_ok:
+            log.info("%s: вход отклонён — %s", symbol, sm_why)
+            return
+        if sm_why:
+            log.info("%s: %s", symbol, sm_why)
         price = self.ex.last_price(symbol)
         atr_value = float(df["atr"].iloc[-1])
         qty = self.risk.position_size(equity, price, atr_value, self.executor.cash())

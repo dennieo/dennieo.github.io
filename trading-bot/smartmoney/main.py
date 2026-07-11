@@ -11,6 +11,7 @@ import sys
 import time
 
 from bot.config import load_config
+from bot.consensus import write_consensus
 from bot.notifier import Notifier
 from smartmoney.hyperliquid import HyperliquidClient
 from smartmoney.scoring import rank_wallets
@@ -150,6 +151,11 @@ class SmartMoneyBot:
                     log.info(msg)
                     self.notifier.send(msg)
                     self.execute(sig)
+                # публикуем анализ для трендового бота (smartmoney_filter)
+                if not tracker.first_poll:
+                    write_consensus(
+                        self.sm["consensus_file"], tracker.prev_longs, len(wallets)
+                    )
                 self.manage_positions()
             except KeyboardInterrupt:
                 break

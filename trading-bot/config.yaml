@@ -38,6 +38,15 @@ paths:
 telegram:
   enabled: false               # true + токен/чат в .env для уведомлений
 
+# Связка анализаторов: трендовый бот входит, только если smart-money бот
+# видит поддержку умных кошельков. Требует запущенного smartmoney-бота;
+# если его данные недоступны/устарели — фильтр мягко отключается (fail-open).
+smartmoney_filter:
+  enabled: false               # true = покупать только при поддержке умных денег
+  min_longs: 2                 # минимум умных кошельков в лонге по монете
+  max_age_min: 10              # свежесть консенсуса; старше — игнорируем фильтр
+  consensus_file: data/consensus.json
+
 # Smart-money трекер (python -m smartmoney.main) — см. docs/ALT_STRATEGIES.md
 smartmoney:
   api_url: https://api.hyperliquid.xyz/info
@@ -53,6 +62,7 @@ smartmoney:
     ETH: ETH/USDT
     SOL: SOL/USDT
   poll_interval_sec: 60
+  consensus_file: data/consensus.json  # сюда публикуется анализ для трендового бота
   auto_trade: false            # false = только уведомления (режим наблюдения)
   budget_usdt: 0               # лимит USDT этого бота на общем счёте (0 = без лимита)
   db: data/smartmoney.db       # отдельное состояние, не пересекается с v1
