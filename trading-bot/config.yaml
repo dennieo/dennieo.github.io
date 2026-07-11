@@ -34,3 +34,21 @@ paths:
 
 telegram:
   enabled: false               # true + токен/чат в .env для уведомлений
+
+# Smart-money трекер (python -m smartmoney.main) — см. docs/ALT_STRATEGIES.md
+smartmoney:
+  api_url: https://api.hyperliquid.xyz/info
+  leaderboard_url: https://stats-data.hyperliquid.xyz/Mainnet/leaderboard
+  leaderboard_candidates: 50   # сколько адресов брать из лидерборда на скоринг
+  wallets: []                  # или свои адреса 0x... (тогда лидерборд не нужен)
+  min_trades: 30               # минимум закрытых сделок для доверия к кошельку
+  top_n: 10                    # сколько лучших кошельков отслеживать
+  consensus_min: 3             # сколько должны сойтись в лонге для сигнала
+  coins: [BTC, ETH, SOL]
+  map_to_spot:                 # исполнение сигнала на споте Binance (auto_trade)
+    BTC: BTC/USDT
+    ETH: ETH/USDT
+    SOL: SOL/USDT
+  poll_interval_sec: 60
+  auto_trade: false            # false = только уведомления (режим наблюдения)
+  db: data/smartmoney.db       # отдельное состояние, не пересекается с v1
