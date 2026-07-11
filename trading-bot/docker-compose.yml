@@ -27,3 +27,14 @@ services:
     volumes:
       - ./data:/app/data
       - ./config.yaml:/app/config.yaml:ro
+
+  # автоперенастройка: раз в interval_days подбирает параметры на свежих
+  # данных и применяет, только если они лучше текущих на out-of-sample
+  retune:
+    build: .
+    command: python -m backtest.retune --apply --loop
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml:ro

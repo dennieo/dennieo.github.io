@@ -12,9 +12,12 @@ class RiskManager:
         self.state = state
 
     def position_size(self, equity: float, price: float, atr_value: float,
-                      available_quote: float) -> float:
-        """Кол-во базовой валюты: рискуем risk_per_trade_pct капитала до стопа."""
-        risk_usd = equity * self.p["risk_per_trade_pct"] / 100
+                      available_quote: float, risk_mult: float = 1.0) -> float:
+        """Кол-во базовой валюты: рискуем risk_per_trade_pct капитала до стопа.
+
+        risk_mult — адаптивный множитель стратегии (bot/adaptive.py).
+        """
+        risk_usd = equity * self.p["risk_per_trade_pct"] / 100 * risk_mult
         stop_distance = self.p["stop_atr_mult"] * atr_value
         if stop_distance <= 0:
             return 0.0

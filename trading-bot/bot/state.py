@@ -81,6 +81,14 @@ class State:
         self.db.commit()
         return {**pos, "exit_price": exit_price, "pnl": pnl, "reason": reason}
 
+    def recent_pnls(self, strategy: str, limit: int) -> list[float]:
+        """PnL последних сделок стратегии (новые первыми) — для адаптации риска."""
+        rows = self.db.execute(
+            "SELECT pnl FROM trades WHERE strategy = ? ORDER BY id DESC LIMIT ?",
+            (strategy, limit),
+        ).fetchall()
+        return [float(r[0]) for r in rows]
+
     def invested_usdt(self) -> float:
         """Сколько USDT сейчас вложено в открытые позиции (по ценам входа)."""
         row = self.db.execute(

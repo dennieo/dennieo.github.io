@@ -38,6 +38,29 @@ paper:
   starting_balance_usdt: 500
   fee_pct: 0.1                  # комиссия тейкера Binance
 
+# Самоулучшение со временем -------------------------------------------------
+
+# 1) Адаптивный риск: стратегия с хорошим недавним profit factor получает
+#    больше капитала, с плохим — меньше (но не ноль: может реабилитироваться)
+adaptive:
+  enabled: true
+  window_trades: 20            # окно последних сделок стратегии
+  min_trades: 8                # меньше сделок — нейтральный множитель 1.0
+  floor_mult: 0.25             # минимум риска для сливающей стратегии
+  cap_mult: 1.25               # максимум для зарабатывающей
+
+# 2) Автоперенастройка параметров (python -m backtest.retune --apply --loop):
+#    walk-forward подбор на свежих данных; применяется только если лучше
+#    текущих на out-of-sample. Боты подхватывают новые параметры без рестарта.
+retune:
+  override_file: data/params_override.json
+  log_file: data/retune_log.jsonl
+  interval_days: 7
+  days_history: 240
+  min_oos_trades: 5            # кандидат с меньшим числом OOS-сделок отклоняется
+  min_improvement_pct: 2.0     # минимальный прирост OOS-доходности, п.п.
+  max_dd_worsening_pct: 5.0    # насколько просадке позволено стать хуже, п.п.
+
 paths:
   db: data/bot.db
   stop_file: data/STOP         # общий kill switch: touch data/STOP останавливает
@@ -70,6 +93,7 @@ smartmoney:
     ETH: ETH/USDT
     SOL: SOL/USDT
   poll_interval_sec: 60
+  rescore_hours: 24            # 3) ротация: пересчёт рейтинга кошельков раз в сутки
   consensus_file: data/consensus.json  # сюда публикуется анализ для трендового бота
   auto_trade: false            # false = только уведомления (режим наблюдения)
   budget_usdt: 0               # лимит USDT этого бота на общем счёте (0 = без лимита)

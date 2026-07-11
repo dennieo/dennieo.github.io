@@ -5,7 +5,9 @@
 import logging
 import sys
 import time
+from pathlib import Path
 
+from bot.adaptive import risk_multiplier
 from bot.config import load_config
 from bot.consensus import entry_allowed_by_smartmoney
 from bot.exchange import Exchange
@@ -25,7 +27,9 @@ log = logging.getLogger("main")
 
 class Bot:
     def __init__(self, config_path: str = "config.yaml"):
+        self.config_path = config_path
         self.cfg = load_config(config_path)
+        self._override_mtime = self._override_file_mtime()
         self.state = State(self.cfg["paths"]["db"])
         self.ex = Exchange(self.cfg)
         self.executor = Executor(
@@ -36,6 +40,20 @@ class Bot:
         self.last_candle_ts: dict[str, object] = {}
 
     # --- helpers ---
+    def _override_file_mtime(self) -> float | None:
+        p = Path((self.cfg.raw.get("retune") or {}).get("override_file", ""))
+        return p.stat().st_mtime if p and p.exists() else None
+
+    def maybe_reload_params(self):
+        """Горячая перезагрузка параметров, когда retune записал новые."""
+        mtime = self._override_file_mtime()
+        if mtime == self._override_mtime:
+            return
+        self._override_mtime = mtime
+        self.cfg = load_config(self.config_path)
+        log.info("Параметры обновлены автоперенастройкой (retune)")
+        self.notifier.send("🔧 Параметры стратегии обновлены автоперенастройкой")
+
     def equity(self) -> float:
         """Кэш + текущая стоимость открытых позиций."""
         total = self.executor.cash()
@@ -80,7 +98,12 @@ class Bot:
             log.info("%s: %s", symbol, sm_why)
         price = self.ex.last_price(symbol)
         atr_value = float(df["atr"].iloc[-1])
-        qty = self.risk.position_size(equity, price, atr_value, self.executor.cash())
+        mult = risk_multiplier(
+            self.state, strategy_name, self.cfg.raw.get("adaptive", {})
+        )
+        qty = self.risk.position_size(
+            equity, price, atr_value, self.executor.cash(), risk_mult=mult
+        )
         if qty <= 0:
             log.info("%s: размер позиции нулевой (мало баланса/мин. ордер)", symbol)
             return
@@ -127,6 +150,7 @@ class Bot:
         self.notifier.send(f"🤖 Бот запущен ({self.cfg.mode}), equity {self.equity():.2f} USDT")
         while True:
             try:
+                self.maybe_reload_params()
                 for symbol in self.cfg.symbols:
                     self.process_symbol(symbol)
                 self.state.snapshot_equity(self.equity())

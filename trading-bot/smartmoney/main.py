@@ -91,6 +91,7 @@ class SmartMoneyBot:
             trade = t["state"].close_position(symbol, fill, "smart_money_exit")
             self.notifier.send(f"❌ SM: закрыл {symbol} по {fill:.2f}, PnL {trade['pnl']:+.2f}")
         elif signal.action == "BUY" and not pos:
+            from bot.adaptive import risk_multiplier
             from bot.indicators import add_indicators
             from bot.strategy import stop_and_take
             equity = t["executor"].cash()
@@ -103,7 +104,12 @@ class SmartMoneyBot:
             )
             price = t["exchange"].last_price(symbol)
             atr_value = float(df["atr"].iloc[-1])
-            qty = t["risk"].position_size(equity, price, atr_value, t["executor"].cash())
+            mult = risk_multiplier(
+                t["state"], "smart_money", self.cfg.raw.get("adaptive", {})
+            )
+            qty = t["risk"].position_size(
+                equity, price, atr_value, t["executor"].cash(), risk_mult=mult
+            )
             if qty <= 0:
                 return
             fill = t["executor"].open_long(symbol, qty, price)
@@ -133,18 +139,39 @@ class SmartMoneyBot:
                     f"❌ SM: закрыл {symbol} по {fill:.2f} ({reason}), PnL {trade['pnl']:+.2f}"
                 )
 
-    # --- цикл ---
-    def run(self):
+    def _new_tracker(self) -> tuple[SmartMoneyTracker, int]:
         wallets = self.select_wallets()
         tracker = SmartMoneyTracker(
             self.client, wallets, self.sm["coins"], self.sm["consensus_min"]
         )
+        return tracker, len(wallets)
+
+    # --- цикл ---
+    def run(self):
+        tracker, n_wallets = self._new_tracker()
+        wallets = tracker.wallets
         mode = "auto_trade" if self.trade else "только сигналы"
         log.info("Слежу за %d кошельками, монеты %s, консенсус >=%d (%s)",
-                 len(wallets), self.sm["coins"], self.sm["consensus_min"], mode)
-        self.notifier.send(f"🧠 Smart-money бот запущен ({mode}): {len(wallets)} кошельков")
+                 n_wallets, self.sm["coins"], self.sm["consensus_min"], mode)
+        self.notifier.send(f"🧠 Smart-money бот запущен ({mode}): {n_wallets} кошельков")
+        rescore_sec = self.sm.get("rescore_hours", 0) * 3600
+        last_rescore = time.monotonic()
         while True:
             try:
+                # ротация: пересчитываем рейтинг кошельков, слабых заменяем
+                if rescore_sec and time.monotonic() - last_rescore >= rescore_sec:
+                    last_rescore = time.monotonic()
+                    old = set(tracker.wallets)
+                    tracker, n_wallets = self._new_tracker()
+                    wallets = tracker.wallets
+                    added = len(set(wallets) - old)
+                    dropped = len(old - set(wallets))
+                    log.info("Ротация кошельков: +%d новых, -%d выбыло", added, dropped)
+                    if added or dropped:
+                        self.notifier.send(
+                            f"🔄 Ротация умных кошельков: +{added} / -{dropped}, "
+                            f"отслеживаю {n_wallets}"
+                        )
                 for sig in tracker.tick():
                     msg = (f"{'🟢' if sig.action == 'BUY' else '🔴'} SM-сигнал: {sig.action} "
                            f"{sig.coin} — в лонге {sig.longs}/{sig.total} умных кошельков")
