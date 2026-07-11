@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS positions (
     entry_price REAL NOT NULL,
     stop_loss REAL NOT NULL,
     take_profit REAL NOT NULL,
+    strategy TEXT NOT NULL DEFAULT 'trend',
     opened_at TEXT NOT NULL
 );
 CREATE TABLE IF NOT EXISTS trades (
@@ -23,6 +24,7 @@ CREATE TABLE IF NOT EXISTS trades (
     exit_price REAL NOT NULL,
     pnl REAL NOT NULL,
     reason TEXT NOT NULL,
+    strategy TEXT NOT NULL DEFAULT 'trend',
     opened_at TEXT NOT NULL,
     closed_at TEXT NOT NULL
 );
@@ -58,10 +60,11 @@ class State:
     def open_positions_count(self) -> int:
         return self.db.execute("SELECT COUNT(*) FROM positions").fetchone()[0]
 
-    def save_position(self, symbol, qty, entry_price, stop_loss, take_profit):
+    def save_position(self, symbol, qty, entry_price, stop_loss, take_profit,
+                      strategy: str = "trend"):
         self.db.execute(
-            "INSERT OR REPLACE INTO positions VALUES (?,?,?,?,?,?)",
-            (symbol, qty, entry_price, stop_loss, take_profit, _now()),
+            "INSERT OR REPLACE INTO positions VALUES (?,?,?,?,?,?,?)",
+            (symbol, qty, entry_price, stop_loss, take_profit, strategy, _now()),
         )
         self.db.commit()
 
@@ -70,9 +73,9 @@ class State:
         pnl = (exit_price - pos["entry_price"]) * pos["qty"]
         self.db.execute(
             "INSERT INTO trades (symbol, qty, entry_price, exit_price, pnl, reason,"
-            " opened_at, closed_at) VALUES (?,?,?,?,?,?,?,?)",
+            " strategy, opened_at, closed_at) VALUES (?,?,?,?,?,?,?,?,?)",
             (symbol, pos["qty"], pos["entry_price"], exit_price, pnl, reason,
-             pos["opened_at"], _now()),
+             pos["strategy"], pos["opened_at"], _now()),
         )
         self.db.execute("DELETE FROM positions WHERE symbol = ?", (symbol,))
         self.db.commit()

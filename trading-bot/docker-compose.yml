@@ -18,3 +18,12 @@ services:
     volumes:
       - ./data:/app/data
       - ./config.yaml:/app/config.yaml:ro
+
+  funding-monitor:
+    build: .
+    command: python -m monitor.funding
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml:ro

@@ -7,6 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY bot/ bot/
 COPY backtest/ backtest/
 COPY smartmoney/ smartmoney/
+COPY monitor/ monitor/
 COPY config.yaml .
 
 # состояние (SQLite) живёт на томе: -v $(pwd)/data:/app/data

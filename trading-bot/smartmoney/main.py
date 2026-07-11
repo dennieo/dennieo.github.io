@@ -108,7 +108,7 @@ class SmartMoneyBot:
                 return
             fill = t["executor"].open_long(symbol, qty, price)
             stop, take = stop_and_take(fill, atr_value, self.cfg.risk)
-            t["state"].save_position(symbol, qty, fill, stop, take)
+            t["state"].save_position(symbol, qty, fill, stop, take, "smart_money")
             self.notifier.send(f"✅ SM: купил {symbol} qty={qty:.8f} по {fill:.2f}, SL {stop:.2f}")
 
     def manage_positions(self):

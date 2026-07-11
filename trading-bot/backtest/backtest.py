@@ -11,7 +11,7 @@ import pandas as pd
 
 from bot.config import load_config
 from bot.indicators import add_indicators
-from bot.strategy import Signal, generate_signal, stop_and_take
+from bot.strategy import entry_decision, exit_decision, stop_and_take
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger("backtest")
@@ -45,7 +45,6 @@ def run_backtest(df: pd.DataFrame, cfg, starting_balance: float) -> dict:
     for i in range(WARMUP, len(df)):
         window = df.iloc[: i + 1]
         candle = df.iloc[i]
-        signal = generate_signal(window, cfg.strategy)
 
         if pos:
             exit_price, reason = None, None
@@ -53,30 +52,34 @@ def run_backtest(df: pd.DataFrame, cfg, starting_balance: float) -> dict:
                 exit_price, reason = pos["stop"], "stop_loss"
             elif candle["high"] >= pos["take"]:
                 exit_price, reason = pos["take"], "take_profit"
-            elif signal == Signal.SELL:
+            elif exit_decision(window, cfg.strategy, pos["strategy"]):
                 exit_price, reason = candle["close"], "exit_signal"
             if exit_price is not None:
                 cash += pos["qty"] * exit_price * (1 - fee)
                 trades.append(
-                    {"pnl": pos["qty"] * (exit_price - pos["entry"]), "reason": reason}
+                    {"pnl": pos["qty"] * (exit_price - pos["entry"]),
+                     "reason": reason, "strategy": pos["strategy"]}
                 )
                 pos = None
-        elif signal == Signal.BUY:
-            price, atr_value = candle["close"], candle["atr"]
-            risk_usd = cash * risk["risk_per_trade_pct"] / 100
-            stop_dist = risk["stop_atr_mult"] * atr_value
-            qty = min(risk_usd / stop_dist, cash / price) if stop_dist > 0 else 0
-            if qty * price >= risk["min_order_usdt"]:
-                cash -= qty * price * (1 + fee)
-                stop, take = stop_and_take(price, atr_value, risk)
-                pos = {"qty": qty, "entry": price, "stop": stop, "take": take}
+        else:
+            should_enter, strategy_name = entry_decision(window, cfg.strategy)
+            if should_enter:
+                price, atr_value = candle["close"], candle["atr"]
+                risk_usd = cash * risk["risk_per_trade_pct"] / 100
+                stop_dist = risk["stop_atr_mult"] * atr_value
+                qty = min(risk_usd / stop_dist, cash / price) if stop_dist > 0 else 0
+                if qty * price >= risk["min_order_usdt"]:
+                    cash -= qty * price * (1 + fee)
+                    stop, take = stop_and_take(price, atr_value, risk)
+                    pos = {"qty": qty, "entry": price, "stop": stop,
+                           "take": take, "strategy": strategy_name}
 
         equity_curve.append(cash + (pos["qty"] * candle["close"] if pos else 0))
 
     if pos:  # закрываем хвост по последней цене
         cash += pos["qty"] * df["close"].iloc[-1] * (1 - fee)
         trades.append({"pnl": pos["qty"] * (df["close"].iloc[-1] - pos["entry"]),
-                       "reason": "end_of_data"})
+                       "reason": "end_of_data", "strategy": pos["strategy"]})
 
     eq = pd.Series(equity_curve)
     wins = [t for t in trades if t["pnl"] > 0]

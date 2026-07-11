@@ -14,7 +14,7 @@ from bot.indicators import add_indicators
 from bot.notifier import Notifier
 from bot.risk import RiskManager
 from bot.state import State
-from bot.strategy import Signal, generate_signal, stop_and_take
+from bot.strategy import detect_regime, entry_decision, exit_decision, stop_and_take
 
 logging.basicConfig(
     level=logging.INFO,
@@ -46,25 +46,25 @@ class Bot:
         return total
 
     # --- логика одного символа ---
-    def manage_open_position(self, symbol: str, pos: dict, signal: Signal):
+    def manage_open_position(self, symbol: str, pos: dict, df, new_candle: bool):
         price = self.ex.last_price(symbol)
         reason = None
         if price <= pos["stop_loss"]:
             reason = "stop_loss"
         elif price >= pos["take_profit"]:
             reason = "take_profit"
-        elif signal == Signal.SELL:
+        elif new_candle and exit_decision(df, self.cfg.strategy, pos["strategy"]):
             reason = "exit_signal"
         if not reason:
             return
         fill = self.executor.close_long(symbol, pos["qty"], price)
         trade = self.state.close_position(symbol, fill, reason)
         self.notifier.send(
-            f"❌ Закрыл {symbol} по {fill:.2f} ({reason}), "
+            f"❌ Закрыл {symbol} [{pos['strategy']}] по {fill:.2f} ({reason}), "
             f"PnL {trade['pnl']:+.2f} USDT"
         )
 
-    def try_enter(self, symbol: str, df):
+    def try_enter(self, symbol: str, df, strategy_name: str):
         equity = self.equity()
         allowed, why = self.risk.entry_allowed(equity)
         if not allowed:
@@ -90,9 +90,9 @@ class Bot:
                 return
         fill = self.executor.open_long(symbol, qty, price)
         stop, take = stop_and_take(fill, atr_value, self.cfg.risk)
-        self.state.save_position(symbol, qty, fill, stop, take)
+        self.state.save_position(symbol, qty, fill, stop, take, strategy_name)
         self.notifier.send(
-            f"✅ Купил {symbol}: qty={qty:.8f} по {fill:.2f}, "
+            f"✅ Купил {symbol} [{strategy_name}]: qty={qty:.8f} по {fill:.2f}, "
             f"SL {stop:.2f} / TP {take:.2f}"
         )
 
@@ -104,17 +104,19 @@ class Bot:
             return
         new_candle = self.last_candle_ts.get(symbol) != df["ts"].iloc[-1]
         df = add_indicators(df, self.cfg.strategy)
-        signal = generate_signal(df, self.cfg.strategy) if new_candle else Signal.HOLD
         if new_candle:
             self.last_candle_ts[symbol] = df["ts"].iloc[-1]
-            log.info("%s: новая свеча %s, сигнал %s", symbol, df["ts"].iloc[-1], signal)
+            log.info("%s: новая свеча %s, режим рынка: %s", symbol,
+                     df["ts"].iloc[-1], detect_regime(df, self.cfg.strategy))
 
         pos = self.state.get_position(symbol)
         if pos:
-            # стопы/тейки проверяем каждым тиком, не только на новой свече
-            self.manage_open_position(symbol, pos, signal)
-        elif signal == Signal.BUY:
-            self.try_enter(symbol, df)
+            # стопы/тейки проверяем каждым тиком, сигнальный выход — на новой свече
+            self.manage_open_position(symbol, pos, df, new_candle)
+        elif new_candle:
+            should_enter, strategy_name = entry_decision(df, self.cfg.strategy)
+            if should_enter:
+                self.try_enter(symbol, df, strategy_name)
 
     # --- цикл ---
     def run(self):
