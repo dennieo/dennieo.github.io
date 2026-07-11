@@ -23,6 +23,8 @@ risk:
   max_open_positions: 2
   max_daily_loss_pct: 5.0       # дневной kill switch
   min_order_usdt: 11            # минимальный ордер Binance ~10 USDT + запас
+  budget_usdt: 0                # лимит USDT для этого бота на общем счёте (0 = без лимита);
+                                # ставьте, если параллельно работает smartmoney-бот
 
 paper:
   starting_balance_usdt: 500
@@ -30,7 +32,8 @@ paper:
 
 paths:
   db: data/bot.db
-  stop_file: STOP              # создайте этот файл, чтобы остановить новые входы
+  stop_file: data/STOP         # общий kill switch: touch data/STOP останавливает
+                               # новые входы у ВСЕХ ботов (data/ — общий том)
 
 telegram:
   enabled: false               # true + токен/чат в .env для уведомлений
@@ -51,4 +54,5 @@ smartmoney:
     SOL: SOL/USDT
   poll_interval_sec: 60
   auto_trade: false            # false = только уведомления (режим наблюдения)
+  budget_usdt: 0               # лимит USDT этого бота на общем счёте (0 = без лимита)
   db: data/smartmoney.db       # отдельное состояние, не пересекается с v1

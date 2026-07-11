@@ -78,6 +78,13 @@ class State:
         self.db.commit()
         return {**pos, "exit_price": exit_price, "pnl": pnl, "reason": reason}
 
+    def invested_usdt(self) -> float:
+        """Сколько USDT сейчас вложено в открытые позиции (по ценам входа)."""
+        row = self.db.execute(
+            "SELECT COALESCE(SUM(qty * entry_price), 0) FROM positions"
+        ).fetchone()
+        return float(row[0])
+
     # --- капитал ---
     def snapshot_equity(self, equity: float):
         self.db.execute(

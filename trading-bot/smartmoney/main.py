@@ -51,7 +51,9 @@ class SmartMoneyBot:
             self.trade = {
                 "state": state,
                 "exchange": exchange,
-                "executor": Executor(self.cfg, exchange, state),
+                "executor": Executor(
+                    self.cfg, exchange, state, self.sm.get("budget_usdt")
+                ),
                 "risk": RiskManager(self.cfg, state),
             }
 

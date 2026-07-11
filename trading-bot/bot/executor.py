@@ -12,20 +12,27 @@ CASH_KEY = "paper_cash_usdt"
 
 
 class Executor:
-    def __init__(self, cfg, exchange, state):
+    def __init__(self, cfg, exchange, state, budget_usdt: float | None = None):
         self.cfg = cfg
         self.ex = exchange
         self.state = state
         self.paper = cfg.mode == "paper"
         self.fee = cfg.paper["fee_pct"] / 100
+        # бюджет бота в USDT: чтобы несколько ботов могли жить на одном
+        # счёте, не претендуя на весь баланс (0/None = без ограничения)
+        self.budget = budget_usdt or None
         if self.paper and self.state.kv_get(CASH_KEY) is None:
             self.state.kv_set(CASH_KEY, str(cfg.paper["starting_balance_usdt"]))
 
     def cash(self) -> float:
-        """Свободный кэш в котируемой валюте (USDT)."""
+        """Свободный кэш этого бота в котируемой валюте (USDT)."""
         if self.paper:
             return float(self.state.kv_get(CASH_KEY))
-        return self.ex.quote_balance("USDT")
+        free = self.ex.quote_balance("USDT")
+        if self.budget:
+            headroom = max(self.budget - self.state.invested_usdt(), 0.0)
+            free = min(free, headroom)
+        return free
 
     def open_long(self, symbol: str, qty: float, price: float) -> float:
         """Покупка. Возвращает фактическую цену исполнения."""

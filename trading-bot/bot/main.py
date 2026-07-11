@@ -27,7 +27,9 @@ class Bot:
         self.cfg = load_config(config_path)
         self.state = State(self.cfg["paths"]["db"])
         self.ex = Exchange(self.cfg)
-        self.executor = Executor(self.cfg, self.ex, self.state)
+        self.executor = Executor(
+            self.cfg, self.ex, self.state, self.cfg.risk.get("budget_usdt")
+        )
         self.risk = RiskManager(self.cfg, self.state)
         self.notifier = Notifier(self.cfg)
         self.last_candle_ts: dict[str, object] = {}
