@@ -548,6 +548,37 @@
         width: 16px;
         height: 16px;
       }
+      .project-links {
+        margin-top: 22px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 20px;
+      }
+      .project-links .project-link {
+        margin-top: 0;
+      }
+      .case-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        font-weight: 500;
+        font-size: 14.5px;
+        color: var(--accent);
+        padding: 7px 14px;
+        border-radius: 999px;
+        border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--border));
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
+        transition: background 0.2s ease, gap 0.2s ease;
+      }
+      .case-link:hover {
+        background: color-mix(in srgb, var(--accent) 15%, transparent);
+        gap: 10px;
+      }
+      .case-link svg {
+        width: 15px;
+        height: 15px;
+      }
 
       /* Media compositions */
       .project-media {
@@ -1222,7 +1253,7 @@
                 <div class="project-logo"><img src="dist/img/numi/icon.png" alt="Numi app icon" width="52" height="52" loading="lazy" /></div>
                 <div class="project-index">
                   AI nutrition app · iOS
-                  <span class="badge-live"><i></i> Live on the App Store</span>
+                  <span class="badge-live"><i></i> In beta · TestFlight</span>
                 </div>
                 <h3>Numi</h3>
                 <div class="tagline">Food clarity, redesigned.</div>
@@ -1239,10 +1270,16 @@
                 <ul class="tags">
                   <li>Founder &amp; Designer</li><li>iOS App</li><li>AI / Vision</li><li>Design System</li><li>0→1</li>
                 </ul>
-                <a class="project-link" href="https://getnumi.app" target="_blank" rel="noopener">
-                  Visit getnumi.app
-                  <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
-                </a>
+                <div class="project-links">
+                  <a class="case-link" href="case/numi.html">
+                    Read the case study
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                  </a>
+                  <a class="project-link" href="https://getnumi.app" target="_blank" rel="noopener">
+                    Visit getnumi.app
+                    <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                  </a>
+                </div>
               </div>
               <div class="project-media">
                 <div class="phones">
@@ -1282,10 +1319,16 @@
                 <ul class="tags">
                   <li>Founder &amp; Designer</li><li>iOS App</li><li>Audio / DSP</li><li>Offline-first</li><li>0→1</li>
                 </ul>
-                <a class="project-link" href="https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" target="_blank" rel="noopener">
-                  View on the App Store
-                  <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
-                </a>
+                <div class="project-links">
+                  <a class="case-link" href="case/tysha.html">
+                    Read the case study
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                  </a>
+                  <a class="project-link" href="https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" target="_blank" rel="noopener">
+                    View on the App Store
+                    <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                  </a>
+                </div>
               </div>
               <div class="project-media">
                 <div class="phones">
@@ -1325,10 +1368,16 @@
                 <ul class="tags">
                   <li>Founder &amp; Designer</li><li>Web Platform</li><li>Payments</li><li>AI Menu</li><li>0→1</li>
                 </ul>
-                <a class="project-link" href="https://karta-nu.vercel.app/" target="_blank" rel="noopener">
-                  Visit karta-nu.vercel.app
-                  <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
-                </a>
+                <div class="project-links">
+                  <a class="case-link" href="case/karta.html">
+                    Read the case study
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                  </a>
+                  <a class="project-link" href="https://karta-nu.vercel.app/" target="_blank" rel="noopener">
+                    Visit karta-nu.vercel.app
+                    <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                  </a>
+                </div>
               </div>
               <div class="project-media">
                 <div class="frame" data-open="0">
