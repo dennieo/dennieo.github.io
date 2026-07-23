@@ -20,6 +20,11 @@
 - [Chatbox](https://imdennie.com/#work): Customer messaging SaaS; where Dennie started as a product designer.
 - [E-commerce work](https://imdennie.com/#work): Built retail experiences and design practices, scaling an agency into an e-commerce brand.
 
+## Case studies
+- [Numi case study](https://imdennie.com/case/numi.html): How Numi turns food logging into a single photo — problem, product thinking, personas, key UX/UI decisions, design system and outcomes for an AI nutrition app. Currently in beta.
+- [Tysha case study](https://imdennie.com/case/tysha.html): Designing a baby-sleep white-noise app for the 3 a.m. shift — one-handed, offline, half-asleep-proof. Live on the App Store (5.0 rating).
+- [Karta case study](https://imdennie.com/case/karta.html): One QR code for a whole restaurant — designing a two-sided ordering and payment platform (guest web app + owner back office) end-to-end.
+
 ## Writing
 - [Blog](https://imdennie.com/blog/): Practical writing on design careers, AI products, and building apps solo
 - [How to become a product designer in 2026](https://imdennie.com/blog/how-to-become-a-product-designer.html): Career guide from 14 years in the field

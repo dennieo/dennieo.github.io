@@ -14,6 +14,15 @@
     <meta property="og:description" content="Designing a baby-sleep app so simple you can use it half-asleep." />
     <meta property="og:url" content="https://imdennie.com/case/tysha.html" />
     <meta property="og:image" content="https://imdennie.com/dist/img/tysha/screen-1.webp" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://imdennie.com/dist/img/tysha/screen-1.webp" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Article","headline":"Tysha — a product design case study","description":"Designing a baby-sleep white-noise app for the 3 a.m. shift: one-handed, offline, half-asleep-proof — the product thinking, UX decisions and design system.","image":"https://imdennie.com/dist/img/tysha/screen-1.webp","datePublished":"2026-07-22","dateModified":"2026-07-22","inLanguage":"en","url":"https://imdennie.com/case/tysha.html","author":{"@type":"Person","name":"Dennie Ordynskyi","url":"https://imdennie.com/"},"publisher":{"@type":"Person","name":"Dennie Ordynskyi"},"about":{"@type":"MobileApplication","name":"Tysha","applicationCategory":"LifestyleApplication","operatingSystem":"iOS","url":"https://tyshaapp.com"},"isPartOf":{"@type":"WebSite","name":"Dennie Ordynskyi","url":"https://imdennie.com/"}}
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://imdennie.com/"},{"@type":"ListItem","position":2,"name":"Work","item":"https://imdennie.com/#work"},{"@type":"ListItem","position":3,"name":"Tysha case study","item":"https://imdennie.com/case/tysha.html"}]}
+    </script>
     <meta name="theme-color" content="#faf6f0" id="theme-color-meta" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23b9772e'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='60' font-style='italic' text-anchor='middle' fill='%23fff'%3ET%3C/text%3E%3C/svg%3E" />
 
@@ -165,7 +174,7 @@
       .insights .q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--accent); line-height: 1; flex: none; }
       .insights p { margin: 0; font-size: 15.5px; }
 
-      .decision { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 60px); align-items: center; padding: clamp(30px, 5vw, 56px) 0; border-top: 1px solid var(--border); }
+      .decision { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 60px); align-items: center; padding: clamp(28px, 5vw, 58px) 0; }
       .decision:nth-child(even) .d-media { order: -1; }
       @media (max-width: 820px) { .decision { grid-template-columns: 1fr; gap: 24px; } .decision:nth-child(even) .d-media { order: 0; } }
       .d-tag { font-size: 12.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
@@ -205,9 +214,12 @@
       .foot { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
       .foot a:hover { color: var(--text); }
 
-      .reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
+      .reveal { opacity: 0; transform: translateY(26px); transition: opacity .8s ease, transform .9s cubic-bezier(.16,.84,.29,1); }
       .reveal.in { opacity: 1; transform: none; }
-      @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+      .d-media { will-change: transform; }
+      .d-media img { opacity: 0; transform: scale(.93); transition: opacity .9s ease, transform 1s cubic-bezier(.16,.84,.29,1); transition-delay: .06s; }
+      .decision.in .d-media img { opacity: 1; transform: none; }
+      @media (prefers-reduced-motion: reduce) { .reveal, .d-media img { opacity: 1 !important; transform: none !important; transition: none !important; } .d-media { will-change: auto; } }
     </style>
   </head>
 
@@ -253,8 +265,8 @@
             <a class="btn btn-ghost" href="#problem">Read the study ↓</a>
           </div>
           <div class="hero-shot reveal">
-            <div class="ph"><img src="../dist/img/tysha/screen-1.webp" alt="Tysha sound mixer" loading="lazy" /></div>
-            <div class="ph"><img src="../dist/img/tysha/screen-2.webp" alt="Tysha sound library" loading="lazy" /></div>
+            <div class="ph"><img src="../dist/img/tysha/screen-1.webp" alt="Tysha sound mixer" width="600" height="1299" decoding="async" fetchpriority="high" /></div>
+            <div class="ph"><img src="../dist/img/tysha/screen-2.webp" alt="Tysha sound library" width="600" height="1299" decoding="async" /></div>
           </div>
         </div>
       </section>
@@ -368,7 +380,7 @@
               </p>
               <div class="why"><b>Why it works:</b> a half-asleep parent can build the exact sound they need without focusing their eyes.</div>
             </div>
-            <div class="d-media"><img src="../dist/img/tysha/screen-1.webp" alt="Tysha orbital sound mixer" loading="lazy" /></div>
+            <div class="d-media"><img src="../dist/img/tysha/screen-1.webp" alt="Tysha orbital sound mixer" width="600" height="1299" decoding="async" loading="lazy" /></div>
           </div>
 
           <div class="decision reveal">
@@ -384,7 +396,7 @@
               </p>
               <div class="why"><b>Why it works:</b> the copy does the reassuring, so a panicked parent trusts the pick instantly.</div>
             </div>
-            <div class="d-media"><img src="../dist/img/tysha/screen-2.webp" alt="Tysha categorized sound library" loading="lazy" /></div>
+            <div class="d-media"><img src="../dist/img/tysha/screen-2.webp" alt="Tysha categorized sound library" width="600" height="1299" decoding="async" loading="lazy" /></div>
           </div>
 
           <div class="decision reveal">
@@ -399,7 +411,7 @@
               </p>
               <div class="why"><b>Why it works:</b> the best sleep app is one you stop touching; every feature pushes toward putting it away.</div>
             </div>
-            <div class="d-media"><img src="../dist/img/tysha/screen-3.webp" alt="Tysha saved rooms and fading sleep timer" loading="lazy" /></div>
+            <div class="d-media"><img src="../dist/img/tysha/screen-3.webp" alt="Tysha saved rooms and fading sleep timer" width="600" height="1299" decoding="async" loading="lazy" /></div>
           </div>
         </div>
       </section>
@@ -512,6 +524,27 @@
           es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
         }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
         document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
+
+        /* subtle scroll parallax on the floating screenshots */
+        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          var media = Array.prototype.slice.call(document.querySelectorAll(".d-media"));
+          if (media.length) {
+            var pT = false;
+            var pMove = function () {
+              pT = false;
+              var vh = window.innerHeight;
+              for (var i = 0; i < media.length; i++) {
+                var r = media[i].getBoundingClientRect();
+                if (r.bottom < -80 || r.top > vh + 80) continue;
+                var off = ((r.top + r.height / 2) - vh / 2) / vh;
+                media[i].style.transform = "translateY(" + (off * -18).toFixed(1) + "px)";
+              }
+            };
+            window.addEventListener("scroll", function () { if (!pT) { pT = true; requestAnimationFrame(pMove); } }, { passive: true });
+            window.addEventListener("resize", pMove, { passive: true });
+            pMove();
+          }
+        }
       })();
     </script>
   </body>
