@@ -1288,9 +1288,6 @@
         <div class="wrap">
           <div class="hero-grid">
             <div>
-              <span class="badge reveal">
-                Open to senior product design roles &amp; select collaborations
-              </span>
               <h1 class="reveal">
                 Hi, I’m Dennie — I turn complex problems into
                 <em>simple, intelligent</em> products.
@@ -2052,38 +2049,52 @@
           var heroPhoto = document.getElementById("heroPhoto");
           var heroBlob = heroStage.querySelector(".blob");
           var heroRaf = null,
-            hpx = 0,
-            hpy = 0;
+            targetX = 0,
+            targetY = 0,
+            curX = 0,
+            curY = 0;
           var applyHeroParallax = function () {
-            var rx = (hpy * -8).toFixed(2);
-            var ry = (hpx * 8).toFixed(2);
+            curX += (targetX - curX) * 0.08;
+            curY += (targetY - curY) * 0.08;
+            var rx = (curY * -8).toFixed(2);
+            var ry = (curX * 8).toFixed(2);
             heroCard.style.transform =
               "rotateX(" + rx + "deg) rotateY(" + ry + "deg)";
             heroPhoto.style.transform =
               "translate(" +
-              (-hpx * 10).toFixed(2) +
+              (-curX * 10).toFixed(2) +
               "px," +
-              (-hpy * 10).toFixed(2) +
+              (-curY * 10).toFixed(2) +
               "px) scale(1.02)";
             heroBlob.style.transform =
               "translate(" +
-              (hpx * 22).toFixed(2) +
+              (curX * 22).toFixed(2) +
               "px," +
-              (hpy * 22).toFixed(2) +
+              (curY * 22).toFixed(2) +
               "px)";
-            heroRaf = null;
+            if (
+              Math.abs(targetX - curX) > 0.001 ||
+              Math.abs(targetY - curY) > 0.001
+            ) {
+              heroRaf = requestAnimationFrame(applyHeroParallax);
+            } else {
+              heroRaf = null;
+            }
           };
-          heroStage.addEventListener("mousemove", function (e) {
-            var r = heroStage.getBoundingClientRect();
-            hpx = ((e.clientX - r.left) / r.width - 0.5) * 2;
-            hpy = ((e.clientY - r.top) / r.height - 0.5) * 2;
+          window.addEventListener("mousemove", function (e) {
+            targetX = (e.clientX / window.innerWidth - 0.5) * 2;
+            targetY = (e.clientY / window.innerHeight - 0.5) * 2;
             if (!heroRaf) heroRaf = requestAnimationFrame(applyHeroParallax);
           });
-          heroStage.addEventListener("mouseleave", function () {
-            hpx = 0;
-            hpy = 0;
-            if (!heroRaf) heroRaf = requestAnimationFrame(applyHeroParallax);
-          });
+          document.documentElement.addEventListener(
+            "mouseleave",
+            function () {
+              targetX = 0;
+              targetY = 0;
+              if (!heroRaf)
+                heroRaf = requestAnimationFrame(applyHeroParallax);
+            }
+          );
         }
 
         /* ---------- Bot-safe email ---------- */
