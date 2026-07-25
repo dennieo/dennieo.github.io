@@ -100,13 +100,13 @@
     <!-- Load fonts async so they don't block first paint; system fonts show instantly, then swap -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
       media="print"
       onload="this.media='all'" />
     <noscript>
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600&display=swap" />
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" />
     </noscript>
 
     <style>
@@ -123,7 +123,7 @@
         --shadow: 0 1px 2px rgba(20, 18, 28, 0.04),
           0 12px 40px rgba(20, 18, 28, 0.08);
         --maxw: 1120px;
-        --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+        --font-display: "Sora", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
         --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto,
           sans-serif;
       }
@@ -310,7 +310,7 @@
       }
       .hero h1 {
         font-family: var(--font-display);
-        font-weight: 400;
+        font-weight: 700;
         font-size: clamp(38px, 7vw, 76px);
         line-height: 1.04;
         letter-spacing: -0.025em;
@@ -481,7 +481,7 @@
       }
       .sec-title {
         font-family: var(--font-display);
-        font-weight: 400;
+        font-weight: 700;
         font-size: clamp(30px, 5vw, 50px);
         letter-spacing: -0.02em;
         line-height: 1.08;
@@ -778,7 +778,7 @@
       }
       .more-head h3 {
         font-family: var(--font-display);
-        font-weight: 400;
+        font-weight: 700;
         font-size: clamp(24px, 3.4vw, 34px);
         letter-spacing: -0.02em;
         margin: 0;
@@ -844,6 +844,30 @@
       }
       .role-card .tags {
         margin-top: 18px;
+      }
+      .rc-store {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 16px;
+        padding: 8px 15px;
+        font-size: 13.5px;
+        font-weight: 500;
+        color: var(--text);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        transition: border-color 0.2s ease, transform 0.2s ease;
+      }
+      .rc-store:hover {
+        border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+        transform: translateY(-1px);
+      }
+      .rc-store .apple {
+        width: 14px;
+        height: 14px;
+        flex: none;
+        margin-top: -2px;
       }
       .rc-foot {
         margin-top: auto;
@@ -1602,18 +1626,25 @@
                 </div>
               </div>
               <p>
-                Smart-home connected hardware. I led the look and feel of the app
-                and the product packaging, and drove agile delivery through daily
-                scrums, sprint planning and retrospectives — concept to shelf.
+                Smart-home monitoring that catches household problems before they
+                get expensive. I led a team of three and owned design end to end —
+                UI/UX, the design system, the brand and its mascot. I did the
+                research firsthand — running user interviews and climbing into the
+                crawlspaces where the sensors get installed — then shipped the
+                mobile app alongside engineering and stakeholders.
               </p>
               <ul class="tags">
-                <li>Product Design</li><li>IoT</li><li>Packaging</li>
+                <li>Design leadership</li><li>Design system</li><li>IoT</li>
               </ul>
+              <a class="rc-store" href="https://apps.apple.com/app/shipshape-home/id1504558034" target="_blank" rel="noopener" aria-label="View Shipshape on the App Store">
+                <svg class="apple" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+                View on the App Store
+              </a>
               <div class="rc-foot">
                 <div class="rc-thumbs">
                   <button class="rc-thumb" type="button" data-open="0" aria-label="Open Shipshape gallery, image 1"><img src="dist/img/ss/ss-1@2x.jpg" alt="Shipshape — app design" loading="lazy" /></button>
                   <button class="rc-thumb" type="button" data-open="1" aria-label="Open Shipshape gallery, image 2"><img src="dist/img/ss/ss-2@2x.jpg" alt="Shipshape — smart-home screens" loading="lazy" /></button>
-                  <button class="rc-thumb" type="button" data-open="2" aria-label="Open Shipshape gallery, image 3"><img src="dist/img/ss/ss-3@2x.jpg" alt="Shipshape — packaging" loading="lazy" /></button>
+                  <button class="rc-thumb" type="button" data-open="2" aria-label="Open Shipshape gallery, image 3"><img src="dist/img/ss/ss-3@2x.jpg" alt="Shipshape — product design" loading="lazy" /></button>
                 </div>
                 <button class="rc-shots" type="button" data-open="0">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>
@@ -1632,18 +1663,20 @@
               <div class="rc-head">
                 <span class="logo-mono" style="--c1:#8b5cf6; --c2:#ec4899" aria-hidden="true">C</span>
                 <div>
-                  <h4>Chatbox</h4>
+                  <h4><a href="https://prompt.io" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Chatbox<span aria-hidden="true" style="opacity:.5; font-size:.72em; margin-left:.2em; vertical-align:top;">↗</span></a></h4>
                   <div class="rc-role">Product Designer</div>
                 </div>
               </div>
               <p>
-                Where my product-design journey began. Working between
-                management, sales and engineering, I helped ship core features
-                fast — work that helped secure investment and land the first big
-                customers.
+                Where my product-design career began. I designed and built the
+                front-end UI for a channel-based team-messaging product — years
+                before that pattern became the category Slack would define.
+                Working shoulder-to-shoulder with engineers, sales and
+                leadership, I shipped core features fast — work that helped
+                secure investment and land the first major customers.
               </p>
               <ul class="tags">
-                <li>SaaS</li><li>Messaging</li><li>Cross-functional</li>
+                <li>SaaS</li><li>Team messaging</li><li>Front-end UI</li>
               </ul>
               <div class="rc-foot">
                 <div class="rc-thumbs">
@@ -1673,10 +1706,10 @@
                 </div>
               </div>
               <p>
-                Helped grow a small agency into a large e-commerce brand,
-                building experiences for major retail clients. I established the
-                design practices and development flows, and mentored junior
-                designers along the way.
+                Helped scale a small agency into a full e-commerce brand,
+                designing experiences for major retail clients. I established the
+                design practices and delivery flows, and mentored the junior
+                designers on the team.
               </p>
               <ul class="tags">
                 <li>E-commerce</li><li>Conversion</li><li>Mentoring</li>
