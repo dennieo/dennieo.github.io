@@ -1,34 +1,20 @@
-/* Google Analytics 4 for imdennie.com
- * One file, loaded on every page. Put your Measurement ID below and it goes live.
- * Beyond pageviews it tracks the high-intent actions on a portfolio:
- *   - link_click  (with link_category: app_store, karta_demo, numi_site,
- *                  prompt_io, linkedin, github, shipshape, email, case_study,
- *                  blog, external)
- *   - resume_pdf  (someone saved/printed the resume)
+/* Custom GA4 events for imdennie.com
+ *
+ * The base Google tag (gtag.js loader + config) is the standard inline snippet
+ * in each page's <head> — that's what Google's tag detection looks for. This
+ * file only adds the extra, high-intent events on top of it:
+ *   - link_click  (link_category: app_store, karta_demo, numi_site, prompt_io,
+ *                  linkedin, github, shipshape, email, case_study, blog)
+ *   - resume_pdf  (someone saved / printed the resume)
+ *
+ * It pushes to the same dataLayer the inline tag created, so nothing loads
+ * twice and there are no duplicate pageviews. Harmless if the tag is absent.
  */
 (function () {
   "use strict";
 
-  // ---------------------------------------------------------------------------
-  // TODO(Dennie): paste your GA4 Measurement ID here (looks like "G-ABC123DEF4").
-  // Get it at analytics.google.com → Admin → Data streams → your web stream.
-  var GA_ID = "G-SXF5SS0QYH";
-  // ---------------------------------------------------------------------------
-
-  // Stay completely off until a real ID is set (the placeholder disables it).
-  if (GA_ID === "G-XXXXXXXXXX" || !/^G-[A-Z0-9]{6,}$/.test(GA_ID)) return;
-
-  // Load the gtag library.
-  var g = document.createElement("script");
-  g.async = true;
-  g.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
-  document.head.appendChild(g);
-
   window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  window.gtag = gtag;
-  gtag("js", new Date());
-  gtag("config", GA_ID);
+  function gtag() { window.dataLayer.push(arguments); }
 
   // Classify a clicked link into a useful bucket (or null = ignore).
   function categorize(a) {
@@ -45,7 +31,7 @@
     }
 
     var host = a.hostname;
-    if (/apps\.apple\.com$/.test(host) || /(^|\.)apps\.apple\.com$/.test(host)) return "app_store";
+    if (/(^|\.)apps\.apple\.com$/.test(host)) return "app_store";
     if (/(^|\.)getnumi\.app$/.test(host)) return "numi_site";
     if (/karta-nu\.vercel\.app$/.test(host)) return "karta_demo";
     if (/(^|\.)prompt\.io$/.test(host)) return "prompt_io";
