@@ -30,6 +30,7 @@
 - [How to become a product designer in 2026](https://imdennie.com/blog/how-to-become-a-product-designer.html): Career guide from 14 years in the field
 - [Shipping two iOS apps solo with AI](https://imdennie.com/blog/shipping-apps-solo-with-ai.html): What AI changed about a designer's job
 - [Designing AI products](https://imdennie.com/blog/designing-ai-products.html): Six UX lessons from building the Numi AI nutrition app
+- [AI product design: designing for the cost of being wrong](https://imdennie.com/blog/ai-product-design.html): AI product design comes down to one variable: your feature can be confidently wrong. Here is the wrongness budget, draft versus commit surfaces, and what shipped.
 
 ## Links
 - [Website](https://imdennie.com/): Portfolio and selected work
