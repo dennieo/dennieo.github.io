@@ -175,6 +175,7 @@
       .skill-group { margin-top: 14px; }
       .skill-group b { font-weight: 600; }
       .skill-group span { color: var(--muted); }
+      .skill-group.wide { grid-column: 1 / -1; }
 
       .edu { margin-top: 14px; }
       .edu .dates { float: right; }
@@ -182,8 +183,15 @@
       /* ============ PRINT: clean 2-page document ============ */
       @media print {
         :root { --bg: #fff; --muted: #444; --border: #ddd; }
-        body { font-size: 10.5pt; background: #fff; }
+        body { font-size: 10pt; line-height: 1.45; background: #fff; }
         .topbar { display: none; }
+        .summary { margin-top: 8px; }
+        .job li { margin-top: 3px; }
+        .skill-group { margin-top: 8px; }
+        .cols { grid-template-columns: repeat(3, 1fr); gap: 0 22px; }
+        .skill-group.wide { grid-column: 2 / -1; }
+        .job-head { page-break-after: avoid; }
+        .edu { page-break-inside: avoid; }
         .sheet {
           max-width: none;
           margin: 0;
@@ -193,10 +201,10 @@
           padding: 0;
         }
         h1 { font-size: 22pt; }
-        h2 { margin-top: 18px; page-break-after: avoid; }
-        .job { page-break-inside: avoid; margin-top: 12px; }
+        h2 { margin-top: 14px; padding-bottom: 5px; page-break-after: avoid; }
+        .job { margin-top: 9px; }
         a { text-decoration: none; color: inherit; }
-        @page { margin: 1.4cm 1.6cm; }
+        @page { margin: 1.1cm 1.4cm; }
       }
     </style>
   <script defer src="/dist/analytics.js"></script>
@@ -212,7 +220,7 @@
         <h1>Dennie Ordynskyi</h1>
         <div class="subtitle">Product Designer — AI-powered consumer &amp; B2B products</div>
         <div class="contact-line">
-          <span>San Francisco Bay Area · Remote-friendly</span>
+          <span>Kyiv, Ukraine · Remote</span>
           <a href="https://imdennie.com">imdennie.com</a>
           <a href="https://www.linkedin.com/in/dennieo/" rel="noopener">linkedin.com/in/dennieo</a>
           <a id="emailLink" href="#" rel="nofollow"><span id="emailText">email</span></a>
@@ -222,13 +230,14 @@
       <section>
         <h2>Summary</h2>
         <p class="summary">
-          Product designer with 14+ years designing and shipping digital products across web, mobile
-          and AI — including nearly a decade designing large-scale consumer experiences at DraftKings.
+          Product designer with 14+ years turning complex problems into simple, intelligent products
+          — including nearly a decade at DraftKings designing large-scale, regulated consumer
+          experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks.
           Independently, a founder who has shipped three products from concept to launch — Numi
-          (AI-powered nutrition, iOS, 2025), Tysha (baby sleep, iOS, 2026) and Karta (a QR ordering
-          and payment platform for restaurants, web, 2026). I work where product strategy, UX and
-          technology meet: defining the product, designing the experience, prototyping with code and
-          AI tools, and shipping.
+          (AI-powered nutrition, iOS), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR
+          ordering and payments for restaurants, web). I work across 0→1 product design, AI-powered
+          experiences, complex product UX and design systems: defining the product, designing the
+          experience, prototyping in code and shipping.
         </p>
       </section>
 
@@ -237,18 +246,21 @@
 
         <div class="job">
           <div class="job-head">
-            <h3>Product Designer <span class="org">· DraftKings</span></h3>
+            <h3>Product Designer <span class="org">· DraftKings — Sportsbook, web &amp; native</span></h3>
             <span class="dates">2016 — Present</span>
           </div>
           <ul>
-            <li>Design large-scale consumer experiences for one of the largest US sports-entertainment platforms, in a highly regulated, fast-moving environment.</li>
-            <li>Work where usability, performance and consistency directly shape engagement and business outcomes.</li>
+            <li>Design the bet slip and checkout — the flow every wager passes through — across web and the native app (rated 4.8 from 1.2M+ App Store ratings), for millions of monthly players in 25+ regulated US states, each with its own rules.</li>
+            <li>Simplified a complex multi-bet checkout — odds changes, limits, rejections and other edge states — into a flow that measurably improved bet-placement conversion.</li>
+            <li>Own the web sportsbook experience end to end: led a responsive web redesign, keep web at feature parity with native, and maintain the shared web component library and interaction patterns.</li>
+            <li>Started on the self-service betting kiosks for retail casino sportsbooks — designing within hardware and compliance constraints alongside hardware, operations and compliance teams — rolled out across multiple casinos and states.</li>
+            <li>Partner with product and engineering leads on the roadmap, review work across squads in design critiques, and drove cross-team initiatives spanning web and native.</li>
           </ul>
         </div>
 
         <div class="job">
           <div class="job-head">
-            <h3>Founder &amp; Product Designer <span class="org">· Karta — QR ordering &amp; payments (web platform)</span></h3>
+            <h3>Founder &amp; Product Designer <span class="org">· Karta — QR ordering &amp; payments, web</span></h3>
             <span class="dates">2026 — Present</span>
           </div>
           <ul>
@@ -276,7 +288,7 @@
             <span class="dates">2026 — Present</span>
           </div>
           <ul>
-            <li>Shipped a real-time white/pink/brown-noise generator for new parents — no loops, no accounts, no ads, fully offline.</li>
+            <li>Shipped a real-time white/pink/brown-noise generator for new parents — no loops, no accounts, no ads, fully offline. Holds a 5.0 rating on the App Store.</li>
             <li>Designed around one-handed 3 a.m. use: layered sound mixer, saveable “Rooms”, fading sleep timer, Siri and Lock Screen control.</li>
           </ul>
         </div>
@@ -356,6 +368,10 @@
             <b>Languages</b><br />
             <span>English (professional), Ukrainian (native), Russian (professional)</span>
           </div>
+          <div class="skill-group wide">
+            <b>Tools</b><br />
+            <span>Figma &amp; FigJam (design, prototyping) · Claude Code, Cursor and other AI coding tools · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel</span>
+          </div>
         </div>
       </section>
 
@@ -363,8 +379,8 @@
         <h2>Education</h2>
         <div class="edu">
           <span class="dates">2002 — 2007</span>
-          <b>Kyiv University of Tourism, Economics and Law</b><br />
-          <span style="color: var(--muted)">Additional coursework: Human–Computer Interaction, Machine Learning</span>
+          <b>Kyiv University of Tourism, Economics and Law</b> — Master’s degree<br />
+          <span style="color: var(--muted)">Additional coursework: Machine Learning — Stanford University, via Coursera</span>
         </div>
       </section>
     </main>
