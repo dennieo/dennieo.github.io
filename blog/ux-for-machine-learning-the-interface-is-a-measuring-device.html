@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SXF5SS0QYH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SXF5SS0QYH');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UX for machine learning: the interface is a measuring device | Dennie Ordynskyi</title>
+    <meta name="description" content="How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing." />
+    <meta name="author" content="Dennie Ordynskyi" />
+    <link rel="canonical" href="https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="UX for machine learning: the interface is a measuring device" />
+    <meta property="og:description" content="How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing." />
+    <meta property="og:url" content="https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html" />
+    <meta property="article:published_time" content="2026-09-09T14:00:00.000Z" />
+    <meta property="og:image" content="https://imdennie.com/blog/cards/ux-for-machine-learning-the-interface-is-a-measuring-device.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="UX for machine learning: the interface is a measuring device" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="UX for machine learning: the interface is a measuring device" />
+    <meta name="twitter:description" content="How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing." />
+    <meta name="twitter:image" content="https://imdennie.com/blog/cards/ux-for-machine-learning-the-interface-is-a-measuring-device.png" />
+
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ff5436'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23fff'%3ED%3C/text%3E%3C/svg%3E" />
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("theme");
+          var sys = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          document.documentElement.setAttribute("data-theme", saved || sys);
+        } catch (e) {}
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "UX for machine learning: the interface is a measuring device",
+        "description": "How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing.",
+        "author": {
+          "@type": "Person",
+          "@id": "https://imdennie.com/#person",
+          "name": "Dennie Ordynskyi",
+          "url": "https://imdennie.com/",
+          "jobTitle": "Product Designer",
+          "sameAs": [
+            "https://www.linkedin.com/in/dennieo/",
+            "https://getnumi.app",
+            "https://tyshaapp.com"
+          ]
+        },
+        "creator": {
+          "@type": "Person",
+          "@id": "https://imdennie.com/#person",
+          "name": "Dennie Ordynskyi",
+          "url": "https://imdennie.com/",
+          "jobTitle": "Product Designer",
+          "sameAs": [
+            "https://www.linkedin.com/in/dennieo/",
+            "https://getnumi.app",
+            "https://tyshaapp.com"
+          ]
+        },
+        "datePublished": "2026-09-09T14:00:00.000Z",
+        "dateModified": "2026-09-09T14:00:00.000Z",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://imdennie.com/blog/"
+        },
+        "publisher": {
+          "@type": "Person",
+          "@id": "https://imdennie.com/#person",
+          "name": "Dennie Ordynskyi",
+          "url": "https://imdennie.com/",
+          "jobTitle": "Product Designer",
+          "sameAs": [
+            "https://www.linkedin.com/in/dennieo/",
+            "https://getnumi.app",
+            "https://tyshaapp.com"
+          ]
+        },
+        "inLanguage": "en"
+      }
+    </script>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ff5436'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23fff'%3ED%3C/text%3E%3C/svg%3E" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ff5436'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23fff'%3ED%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      media="print"
+      onload="this.media='all'" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="/dist/blog.css" />
+    <link rel="stylesheet" href="/blog.css?v=98mvp1" />
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SXF5SS0QYH');
+    </script>
+    <script>
+    (function () {
+    try {
+    var saved = localStorage.getItem("theme");
+    var sys = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", saved || sys);
+    } catch (e) {}
+    })();
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SXF5SS0QYH');
+    </script>
+    <script>
+    (function () {
+    try {
+    var saved = localStorage.getItem("theme");
+    var sys = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", saved || sys);
+    } catch (e) {}
+    })();
+    </script>
+  </head>
+  <body class="orbit-page">
+    <header class="nav">
+    <div class="nav-inner">
+    <a href="/" class="brand" aria-label="Dennie Ordynskyi"><span class="brand-full">Dennie Ordynskyi</span><span class="brand-short">Dennie O.</span></a>
+    <nav class="nav-links">
+    <a class="link keep" href="/#work">Work</a>
+    <a class="link" href="/#about">About</a>
+    <a class="link link-story" href="/story.html">Story ✦</a>
+    <a class="link" href="/blog/">Blog</a>
+    <a class="link" href="/resume.html">Resume</a>
+    <a class="link keep" href="/#contact">Contact</a>
+    <button class="toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+    <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+    <svg class="moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+    </nav>
+    </div>
+    </header>
+
+    <main>
+      <article class="orbit-wrap">
+        <nav class="orbit-crumb" aria-label="Breadcrumb"><a href="/blog/">← Writing</a></nav>
+        <p class="orbit-kicker">Design &amp; ML</p>
+        <h1 class="orbit-title">UX for machine learning: the interface is a measuring device</h1>
+        <p class="orbit-meta">Dennie Ordynskyi · September 2026 · 8 min read</p>
+
+        <div class="orbit-body">
+          <p>UX for machine learning differs from ordinary product UX in one specific way: every screen you build is simultaneously a control surface and a measuring device. Deterministic software takes input and returns the same output forever. An ML feature returns a guess, and whatever your interface makes easy to inspect and cheap to fix becomes the only part of that guess you ever get feedback on. So the layout is not just how the model is presented. It is what the model will learn about next, and what it will stay blind to.</p><p>That is the whole discipline compressed into a sentence. The rest of this piece is what it actually costs in practice, using decisions from features I have shipped and kept running.</p><h2>UX for machine learning has three time horizons, not one</h2><p>Most design writing about ML covers a single inference: input goes in, prediction comes out, how do we show it. That is the easy third. A deployed ML product operates on three clocks at once, and they conflict.</p><ul><li><strong>Seconds.</strong> One inference. Latency, loading state, how the result is framed when it lands.</li><li><strong>The session.</strong> The person disagrees with something and either fixes it or abandons the flow. This is where trust is won or lost, and it is the part with the least design attention in most products.</li><li><strong>Months.</strong> The model is now shaped by your correction UI. Personalisation, drift, and the slow question of whether the feature is still being used at all.</li></ul><p>Design each screen for the clock it actually lives on. A loading animation is a seconds problem. A confirm-or-fix control is a session problem. Whether the thing degrades quietly over half a year is a months problem, and no amount of polish on the first two will save you from it.</p><h2>Checkability bias: the interface decides your training set</h2><p>Here is the pattern I would most like other people to name and use, because it cost me the most to notice.</p><blockquote><p><strong>Checkability bias:</strong> a machine learning product only receives corrections for outputs the interface renders checkable. Everything else is silently accepted, so it looks correct in your data whether it is or not.</p></blockquote><p>Numi analyses a photo of a meal and returns a breakdown: what the food is, roughly how much of it, and the nutrition that follows. Two things in that output have completely different feedback profiles.</p><p>Portion size is checkable. The person is holding the plate. If the model says one egg and there were two, they know, they can see the field, and fixing it takes a tap. Corrections arrive constantly.</p><p>Micronutrients are not checkable. Nobody looks at a potassium figure and thinks "that's off by fifteen percent." There is no ground truth in the room. So corrections on those fields arrive at approximately zero, forever, no matter how wrong they are.</p><p>If you read the correction logs naively, you conclude the model is weakest exactly where the interface is strongest at exposing it. That is backwards, and it is a trap that scales: the fields you designed well look worst, and the fields nobody can verify look flawless. Any prioritisation done off that data drifts toward polishing what is already visible.</p><p>The practical consequence: before you ship an ML surface, list every field and mark which ones the user can actually verify. That list is your real feedback surface. Treat the rest as unmeasured, not as accurate.</p><h2>Only ask for confirmation where the user holds ground truth</h2><p>The obvious response to uncertainty is to ask. Put a confirm control on everything, let the person be the arbiter, ship it. This makes products worse, and it took me a while to work out why.</p><p>A confirmation control is a claim about the user. It says: <em>you know this better than the model does.</em> When that is true, the interaction is respectful and fast. When it is false, you have handed someone a decision they have no basis for making, and they feel it immediately. Asking a person to confirm a micronutrient estimate does three bad things at once: it produces noise instead of signal, it teaches them nothing, and it makes the fields they <em>could</em> verify feel just as arbitrary as the ones they cannot.</p><p>So the test I use now, before adding any confirm-or-fix affordance:</p><ol><li><strong>Does the person have ground truth the model lacks?</strong> If yes, confirmation is the right control and should be one tap.</li><li><strong>Is it derived from something they do have ground truth on?</strong> Then let them fix the upstream value and recompute. Do not make them edit the derivative.</li><li><strong>Neither?</strong> Show it as an estimate with its inputs visible, and do not ask. A number nobody can check should never wear a checkbox.</li></ol><p>Correcting a portion in Numi recalculates everything downstream from it. That is one edit against ground truth the person definitely has, and it moves the whole panel. The alternative, a form of twelve editable nutrition fields, would be technically more flexible and practically dead.</p><p>The claim behind all this, stated plainly so it can be argued with: <strong>a model's output is a proposal, not a verdict.</strong> An interface that renders a prediction as fact turns every near-miss into damage the person cannot see. Rendering it as something you confirm or fix makes being wrong a normal, expected part of the interaction rather than an error state, and that difference is load-bearing. The correction path is the most important screen in an ML product and reliably the least designed one.</p><h2>You cannot fake instant, so design the wait to show understanding</h2><p>Vision analysis takes seconds. No engineering effort removes that; you can shave it, you cannot eliminate it. What is fully under design control is what those seconds communicate.</p><p>A single indeterminate spinner says: something is happening, possibly nothing, please wait. Staged progress that names what is being worked out says: this is being understood, in this order, and here is how far it has got. Same duration. Very different read on competence.</p><p>The generalisation is worth keeping: perceived competence during latency is an interface decision, not a model property. Two products on the identical model, with identical response times, will be judged differently on how good the model is, purely on how the wait was staged. If your ML feature is slow and you have exhausted the engineering, the remaining work is not performance work. It is copy and sequencing.</p><h2>When the user has to act on a number, explainable beats accurate</h2><p>This is the trade I would defend hardest, because it looks like settling for less.</p><p>Numi's health score is deterministic. Stated inputs, fixed rules, same meal in gives the same number out. A language model could almost certainly produce a more nuanced score. I did not use one, and the reason is not accuracy.</p><p>A score a model produced cannot be checked, argued with, or learned from. When a person sees it drop and asks why, the honest answer is a shrug. There is no lever. A deterministic score with visible inputs can be interrogated: it went down because of this, so here is what to change. That is the property that keeps a number in use after the novelty has worn off.</p><p>So the rule: <strong>if the user is expected to act on a number, the number needs a mechanism they can inspect.</strong> Accuracy without explicability is fine for ranking, retrieval, and anything happening behind the scenes. It fails the moment you ask someone to change their behaviour because of it.</p><h2>Silence is a state, and almost nobody builds it</h2><p>Generic output is a trust leak. "Great choice!" reads as machinery rather than attention, and one obviously canned line contaminates the credible ones around it. Users are extremely good at spotting the template, and once they have spotted one, they discount all of them.</p><p>The rule I hold to: an insight either cites something real about this person today, what they ate, what is left, what changed this week, or it does not render at all. No fallback string. No encouraging filler when there is nothing to say.</p><p>Which means the empty state is a designed feature, not a gap. Here is the falsifiable version: <strong>if your ML feature has no condition under which it renders nothing, it will be ignored within weeks of daily use.</strong> Something that always speaks is something the eye learns to skip. Something that speaks only when it has a reason gets read.</p><h2>Autonomy is a ladder: detect, suggest, act</h2><p>The last structural decision. There are three separable capabilities, and products routinely collapse them into one.</p><ul><li><strong>Detect.</strong> Notice a pattern and say so. "Your intake has been flat for two weeks."</li><li><strong>Suggest.</strong> Propose a specific change, with the reason attached, and wait.</li><li><strong>Act.</strong> Make the change and report it afterwards.</li></ul><p>Numi keeps these separate on purpose. An app that silently rewrites your targets has taken a decision you can neither see nor contest, and when you eventually notice, you cannot tell which of your numbers were yours. Detection is nearly free in trust terms. Action is expensive and has to be earned.</p><p>Earned how: one confirmed suggestion at a time, visibly. A system that has proposed twenty things and been accepted nineteen times has a case for acting unprompted on the twentieth kind of thing. A system that acts on day one has no case and no recovery. The agent tooling of the last two years is rediscovering this as "progressive delegation", and the shipped lesson has not changed: the rung is granted by the user, not claimed by the product.</p><h2>What I would measure instead of accuracy</h2><p>Model accuracy is an engineering metric. It tells you very little about whether the interface around the model is working. Three things I find more informative:</p><ul><li><strong>Correction rate per field.</strong> Not aggregate. Per field, read against the checkability list from earlier. A field with zero corrections is either perfect or unverifiable, and you need to know which.</li><li><strong>Corrections per session over time, with session count flat.</strong> Falling corrections against steady usage suggests the model is genuinely fitting the person. Falling corrections against falling usage means people gave up.</li><li><strong>Silence ratio.</strong> How often the insight surface renders nothing. If that number is zero, you are producing filler and you will pay for it in attention.</li></ul><p>None of this is about making the model better. It is about the fact that in a machine learning product the interface is part of the system under test, and it is generating the data you will use to judge everything else. Build it as though it were, because it is. If you want the same argument applied to a specific product surface rather than to method, the work behind these decisions is at <a href="https://imdennie.com">imdennie.com</a>.</p>
+        </div>
+
+        <p class="orbit-foot"><a href="/blog/">← All writing</a></p>
+      </article>
+    </main>
+
+    <footer class="site">
+    <div class="wrap">
+    <div>© <span id="year">2026</span> Dennie Ordynskyi</div>
+    <div><a href="/blog/">← All posts</a></div>
+    </div>
+    </footer>
+  </body>
+</html>
