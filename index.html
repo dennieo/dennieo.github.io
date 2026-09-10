@@ -1475,6 +1475,69 @@
         }
       }
 
+      /* ====================== HAND-DRAWN UNDERLINE ====================== */
+      /* <span class="uline">word</span> — the SVG stroke is injected by JS
+         and drawn once the word scrolls into view. */
+      .uline {
+        --uline-w: 0.11em;
+        position: relative;
+        display: inline-block;
+        line-height: 1;
+        white-space: nowrap;
+      }
+      .uline-mark {
+        position: absolute;
+        left: -0.1em;
+        bottom: -0.2em;
+        width: calc(100% + 0.22em);
+        height: 0.28em;
+        overflow: visible;
+        pointer-events: none;
+        color: var(--accent);
+      }
+      .uline-mark path {
+        fill: none;
+        stroke: currentColor;
+        stroke-width: var(--uline-w);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+        /* paths carry pathLength="1", so a dash of 1 covers the whole stroke */
+        stroke-dasharray: 1;
+        stroke-dashoffset: 1;
+      }
+      /* the lighter second pass, like going back over the line */
+      .uline-mark .u2 {
+        stroke-width: calc(var(--uline-w) * 0.62);
+        opacity: 0.5;
+      }
+      .uline.is-drawn .uline-mark path {
+        animation: uline-draw 0.62s cubic-bezier(0.22, 0.68, 0.32, 1) 0.28s
+          forwards;
+      }
+      .uline.is-drawn .uline-mark .u2 {
+        animation-duration: 0.36s;
+        animation-delay: 0.52s;
+      }
+      @keyframes uline-draw {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+      /* thinner relative stroke as the type gets bigger */
+      .sec-title .uline {
+        --uline-w: 0.075em;
+      }
+      .hero h1 .uline {
+        --uline-w: 0.062em;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .uline-mark path {
+          stroke-dashoffset: 0;
+          animation: none !important;
+        }
+      }
+
       /* ============================ REVEAL ============================ */
       .reveal {
         opacity: 0;
@@ -1538,7 +1601,8 @@
               <p class="lead reveal">
                 Product designer working at the intersection of product, AI and
                 technology. I help teams turn complex ideas into products people
-                can understand, use and love — from early concept to shipped
+                can understand, use and <span class="uline">love</span> — from early
+                concept to shipped
                 experience.
               </p>
               <ul class="cred reveal" aria-label="At a glance">
@@ -1816,7 +1880,7 @@
           <div class="problems-grid">
             <div class="reveal">
               <span class="eyebrow">How I think</span>
-              <h2 class="sec-title">Problems I like solving.</h2>
+              <h2 class="sec-title">Problems I like <span class="uline">solving.</span></h2>
               <p class="sec-intro">
                 The questions I keep coming back to — the ones that decide
                 whether a product works, long before the UI gets polished.
@@ -1885,7 +1949,7 @@
         <div class="wrap">
           <div class="reveal">
             <span class="eyebrow">Track record</span>
-            <h2 class="sec-title">Where I’ve owned the design before.</h2>
+            <h2 class="sec-title">Where I’ve <span class="uline">owned</span> the design before.</h2>
             <p class="sec-intro">
               Earlier products where I owned the design — research and flows
               through design systems and shipped, polished UI. Today I design
@@ -2200,7 +2264,7 @@
         <div class="wrap">
           <div class="reveal">
             <span class="eyebrow">Writing</span>
-            <h2 class="sec-title">Notes on design, AI &amp; shipping solo.</h2>
+            <h2 class="sec-title">Notes on design, AI &amp; shipping <span class="uline">solo.</span></h2>
             <p class="sec-intro">
               Practical writing from actually building products — design
               careers, AI product patterns, and what happens when a designer
@@ -2322,7 +2386,7 @@
         <div class="wrap">
           <div class="reveal">
             <span class="eyebrow" style="justify-content: center">Get in touch</span>
-            <h2 class="sec-title">Let’s build something people love.</h2>
+            <h2 class="sec-title">Let’s <span class="uline">build</span> something people love.</h2>
             <p class="sec-intro">
               I’m open to senior product design roles and select collaborations
               — based in Kyiv, working remotely with teams in the US and Europe.
@@ -2424,6 +2488,53 @@
         document.querySelectorAll(".reveal").forEach(function (el) {
           io.observe(el);
         });
+
+        /* ---------- Hand-drawn underlines ---------- */
+        (function () {
+          var SVG_NS = "http://www.w3.org/2000/svg";
+          /* three sketched sweeps so repeated marks don't look stamped */
+          var strokes = [
+            [
+              "M4 10.4C36 6 78 5.2 112 7.7c27 2 55 3.2 84-1.9",
+              "M44 14.2c44-1.6 100-1.2 142-2.6"
+            ],
+            [
+              "M5 7.6c34 4.4 82 5 118 1.8 28-2.4 52-2.8 72 .8",
+              "M30 14.4c46 1.4 106 .6 152-2"
+            ],
+            [
+              "M3 9.4c40-3.4 96-3.8 140-1 22 1.4 40 2.4 54-.8",
+              "M22 13.8c38-1.8 86-2 126-1"
+            ]
+          ];
+          var ulineIO = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (e) {
+                if (!e.isIntersecting) return;
+                e.target.classList.add("is-drawn");
+                ulineIO.unobserve(e.target);
+              });
+            },
+            { threshold: 0.6, rootMargin: "0px 0px -4% 0px" }
+          );
+          document.querySelectorAll(".uline").forEach(function (el, i) {
+            var svg = document.createElementNS(SVG_NS, "svg");
+            svg.setAttribute("class", "uline-mark");
+            svg.setAttribute("viewBox", "0 0 200 16");
+            svg.setAttribute("preserveAspectRatio", "none");
+            svg.setAttribute("aria-hidden", "true");
+            svg.setAttribute("focusable", "false");
+            strokes[i % strokes.length].forEach(function (d, j) {
+              var path = document.createElementNS(SVG_NS, "path");
+              path.setAttribute("d", d);
+              path.setAttribute("pathLength", "1");
+              if (j) path.setAttribute("class", "u2");
+              svg.appendChild(path);
+            });
+            el.appendChild(svg);
+            ulineIO.observe(el);
+          });
+        })();
 
         /* ---------- Hero photo parallax ---------- */
         var heroStage = document.getElementById("heroPhotoStage");
