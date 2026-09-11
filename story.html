@@ -440,43 +440,76 @@
         margin: 0 auto;
         padding: 4vh 24px 0;
       }
-      .tl {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        width: 2px;
-        margin-left: -1px;
-        background: var(--border);
+      /* The journey line: one SVG path that draws itself as you scroll.
+         Geometry is rebuilt from the real chapter node positions in JS —
+         --tl-amp caps how far it bows between stops; the real amount is
+         measured from the free space beside the cards, so the line always
+         stays clear of them. */
+      .story {
+        --tl-amp: 110px;
       }
-      .tl-fill {
+      .tl {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, var(--accent), #ffa07a);
-        transform-origin: top;
-        transform: scaleY(0);
+        overflow: visible;
+        pointer-events: none;
+      }
+      .tl-track,
+      .tl-draw {
+        fill: none;
+        stroke-linecap: round;
+      }
+      .tl-track {
+        stroke: var(--border);
+        stroke-width: 2;
+      }
+      .tl-draw {
+        stroke: url(#tlGrad);
+        stroke-width: 2.5;
+      }
+      .tl-stop-a {
+        stop-color: var(--accent);
+      }
+      .tl-stop-b {
+        stop-color: #ffa07a;
+      }
+      /* where the journey lands — styled like a chapter node */
+      .tl-end {
+        fill: var(--bg);
+        stroke: var(--border);
+        stroke-width: 2;
+        transition: fill 0.4s ease, stroke 0.4s ease;
+      }
+      .tl-end.arrived {
+        fill: var(--accent);
+        stroke: var(--accent);
       }
       .tl-dot {
-        position: absolute;
-        left: 50%;
-        top: 0;
-        width: 13px;
-        height: 13px;
-        border-radius: 50%;
-        background: var(--accent);
-        transform: translate(-50%, -50%);
-        box-shadow: 0 0 0 5px color-mix(in srgb, var(--accent) 22%, transparent),
-          0 0 22px var(--accent);
+        opacity: 0;
+        transition: opacity 0.45s ease;
+      }
+      .tl-dot.on {
+        opacity: 1;
+      }
+      .tl-halo {
+        fill: var(--accent);
+        opacity: 0.22;
+      }
+      .tl-core {
+        fill: var(--accent);
+        filter: drop-shadow(0 0 10px var(--accent));
       }
 
       .chapter {
         position: relative;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 0 60px;
+        /* the gutter is the journey line's playground — wide enough that the
+           weave never has to duck behind a card */
+        gap: 0 clamp(60px, 8vw, 120px);
         padding: 11vh 0;
         min-height: 62vh;
         align-items: center;
@@ -814,12 +847,8 @@
           padding-left: 20px;
           padding-right: 20px;
         }
-        .tl {
-          left: 26px;
-          margin-left: 0;
-        }
-        .tl-dot {
-          left: 27px;
+        .story {
+          --tl-amp: 34px;
         }
         .chapter {
           grid-template-columns: 1fr;
@@ -827,7 +856,7 @@
           min-height: 0;
         }
         .chapter::before {
-          left: 27px;
+          left: 7px;
           top: 58px;
           margin-left: -6.5px;
         }
@@ -919,10 +948,22 @@
 
       <!-- STORY -->
       <div class="story" id="story">
-        <div class="tl" aria-hidden="true">
-          <i class="tl-fill" id="tlFill"></i>
-          <i class="tl-dot" id="tlDot"></i>
-        </div>
+        <svg class="tl" id="tlSvg" aria-hidden="true" focusable="false"
+             preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="tlGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop class="tl-stop-a" offset="0" />
+              <stop class="tl-stop-b" offset="1" />
+            </linearGradient>
+          </defs>
+          <path class="tl-track" id="tlTrack" />
+          <path class="tl-draw" id="tlDraw" />
+          <circle class="tl-end" id="tlEnd" r="6.5" />
+          <g class="tl-dot" id="tlDot">
+            <circle class="tl-halo" r="11" />
+            <circle class="tl-core" r="5.5" />
+          </g>
+        </svg>
 
         <!-- 01 · ORIGINS -->
         <section class="chapter" data-year="Ukraine">
@@ -1319,13 +1360,102 @@
           });
         }
 
-        /* ---------- Scroll: progress bar + timeline fill/dot ---------- */
+        /* ---------- The journey line ----------
+           A single SVG path is generated from where the chapter nodes actually
+           sit, weaving toward each card in turn, then drawn with a dash offset
+           tied to how far the viewport centre has travelled through .story. */
         var progress = document.getElementById("progress");
         var story = document.getElementById("story");
-        var tlFill = document.getElementById("tlFill");
+        var tlSvg = document.getElementById("tlSvg");
+        var tlTrack = document.getElementById("tlTrack");
+        var tlDraw = document.getElementById("tlDraw");
         var tlDot = document.getElementById("tlDot");
-        var ticking = false;
+        var tlEnd = document.getElementById("tlEnd");
+        var pathLen = 0;
+        var lastT = 0;
 
+        /* Centre of a chapter's node — the ::before dot on the line. */
+        function nodePoint(ch) {
+          var cs = window.getComputedStyle(ch, "::before");
+          var x = parseFloat(cs.left);
+          var y = parseFloat(cs.top);
+          if (!isFinite(x) || !isFinite(y)) {
+            /* mirrors the CSS if a browser won't resolve pseudo-element offsets */
+            var narrow = window.matchMedia("(max-width: 820px)").matches;
+            x = narrow ? 7 : ch.offsetWidth / 2;
+            y = narrow ? 58 : ch.offsetHeight / 2;
+          }
+          /* the -6.5px margins re-centre the dot, so left/top *are* the centre */
+          return { x: ch.offsetLeft + x, y: ch.offsetTop + y };
+        }
+
+        function buildPath() {
+          var chs = story.querySelectorAll(".chapter");
+          var w = story.clientWidth;
+          var h = story.offsetHeight;
+          if (!chs.length || !w || !h) return;
+
+          var pts = [];
+          for (var i = 0; i < chs.length; i++) pts.push(nodePoint(chs[i]));
+          var cx = pts[0].x;
+
+          /* How far the line may swing: the narrowest gap between it and a
+             card, minus a little breathing room — so it never hides behind
+             one. A cubic only reaches three quarters of its control offset,
+             hence the divide. */
+          var room = cx; /* never run off the left edge either */
+          for (var c = 0; c < chs.length; c++) {
+            var card = chs[c].querySelector(".card");
+            if (!card) continue;
+            var l = chs[c].offsetLeft + card.offsetLeft;
+            var r = l + card.offsetWidth;
+            room = Math.min(room, r <= cx ? cx - r : l >= cx ? l - cx : 0);
+          }
+          var cap = parseFloat(
+            window.getComputedStyle(story).getPropertyValue("--tl-amp")
+          ) || 110;
+          var amp = Math.min(cap, Math.max(0, room - 10) / 0.75);
+
+          /* bow toward the first card, then keep alternating sides */
+          var firstCard = chs[0].querySelector(".card");
+          var dir = firstCard && firstCard.offsetLeft + firstCard.offsetWidth / 2 > cx ? 1 : -1;
+
+          var stops = [{ x: cx, y: 0 }].concat(pts, [{ x: cx, y: h }]);
+          var d = "M" + cx.toFixed(1) + " 0";
+          for (var s = 1; s < stops.length; s++) {
+            var a = stops[s - 1];
+            var b = stops[s];
+            var dy = b.y - a.y;
+            /* short hops get a shallower bow so the weave stays even */
+            var k = cx + dir * amp * Math.min(1, Math.abs(dy) / 260);
+            d +=
+              " C" + k.toFixed(1) + " " + (a.y + dy * 0.34).toFixed(1) +
+              "," + k.toFixed(1) + " " + (b.y - dy * 0.34).toFixed(1) +
+              "," + b.x.toFixed(1) + " " + b.y.toFixed(1);
+            dir = -dir;
+          }
+
+          tlSvg.setAttribute("viewBox", "0 0 " + w + " " + h);
+          tlTrack.setAttribute("d", d);
+          tlDraw.setAttribute("d", d);
+          pathLen = tlDraw.getTotalLength();
+          tlDraw.style.strokeDasharray = pathLen + " " + pathLen;
+          tlEnd.setAttribute("cx", cx.toFixed(1));
+          tlEnd.setAttribute("cy", h.toFixed(1));
+          drawTo(lastT);
+        }
+
+        function drawTo(t) {
+          lastT = t;
+          if (!pathLen) return;
+          tlDraw.style.strokeDashoffset = (pathLen * (1 - t)).toFixed(2);
+          var head = tlDraw.getPointAtLength(pathLen * t);
+          tlDot.setAttribute("transform", "translate(" + head.x.toFixed(2) + "," + head.y.toFixed(2) + ")");
+          tlDot.classList.toggle("on", t > 0.002 && t < 0.999);
+          tlEnd.classList.toggle("arrived", t > 0.995);
+        }
+
+        var ticking = false;
         function onScroll() {
           if (ticking) return;
           ticking = true;
@@ -1337,17 +1467,31 @@
             progress.style.transform = "scaleX(" + p + ")";
             document.getElementById("hud").classList.toggle("scrolled", window.scrollY > 8);
 
-            /* timeline fill: how far the viewport centre has travelled through .story */
+            /* how far the viewport centre has travelled through .story */
             var rect = story.getBoundingClientRect();
             var centre = window.innerHeight * 0.5;
             var t = (centre - rect.top) / rect.height;
-            t = Math.max(0, Math.min(1, t));
-            tlFill.style.transform = "scaleY(" + t + ")";
-            tlDot.style.top = t * 100 + "%";
+            drawTo(Math.max(0, Math.min(1, t)));
           });
         }
         window.addEventListener("scroll", onScroll, { passive: true });
         window.addEventListener("resize", onScroll, { passive: true });
+
+        /* rebuild the geometry whenever the story reflows — the typewriter
+           growing a question, a font landing, a rotation */
+        var buildQueued = false;
+        function scheduleBuild() {
+          if (buildQueued) return;
+          buildQueued = true;
+          requestAnimationFrame(function () {
+            buildQueued = false;
+            buildPath();
+          });
+        }
+        if (window.ResizeObserver) new ResizeObserver(scheduleBuild).observe(story);
+        window.addEventListener("resize", scheduleBuild);
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(scheduleBuild);
+        buildPath();
         onScroll();
 
         /* ---------- Typewriter for questions ---------- */
