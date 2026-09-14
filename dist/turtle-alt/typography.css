@@ -1,0 +1,245 @@
+/* Shared type roles. Layout and product colors live in the page stylesheets. */
+:root {
+  --type-label: 0.75rem;
+  --type-small: 0.875rem;
+  --type-body: 1rem;
+  --type-lead: 1.125rem;
+  --type-title: clamp(1.75rem, 1.35rem + 0.8vw, 2.25rem);
+  --type-section: clamp(2.25rem, 1.15rem + 3vw, 4.5rem);
+  --type-display: clamp(2.5rem, 1.35rem + 5vw, 6.75rem);
+  --weight-body: 400;
+  --weight-label: 500;
+  --weight-title: 600;
+  --weight-display: 700;
+}
+body {
+  font-size: var(--type-body);
+  font-weight: var(--weight-body);
+  line-height: 1.6;
+}
+h1,
+h2,
+h3 {
+  font-weight: var(--weight-title);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+.hero h1 > span,
+.approach-intro h1 > span {
+  display: block;
+  text-wrap: balance;
+}
+.keep-phrase {
+  display: inline-block;
+  max-width: 100%;
+}
+.eyebrow,
+.micro,
+.header-caption,
+.site-footer p,
+.site-footer > div,
+.about-image > span,
+.approach-portrait figcaption,
+.approach-product figcaption {
+  font-size: var(--type-label);
+  line-height: 1.5;
+}
+.eyebrow {
+  font-weight: var(--weight-label);
+  letter-spacing: 0.075em;
+}
+.micro,
+.header-caption {
+  font-weight: var(--weight-label);
+}
+.wordmark {
+  font-size: 2.25rem;
+  font-weight: var(--weight-display);
+  line-height: 1;
+  letter-spacing: -0.065em;
+}
+.pill,
+.text-link {
+  font-size: var(--type-small);
+  font-weight: var(--weight-title);
+  line-height: 1.3;
+}
+.site-menu {
+  font-size: var(--type-body);
+  font-weight: var(--weight-title);
+  line-height: 1.4;
+}
+.hero h1 {
+  font-size: var(--type-display);
+  font-weight: var(--weight-display);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+}
+.hero-bottom p {
+  font-size: var(--type-body);
+  line-height: 1.6;
+  max-width: 52ch;
+}
+.showcase-copy h2,
+.section-heading h2,
+.about h2 {
+  font-size: var(--type-section);
+  font-weight: var(--weight-display);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+.showcase-copy p {
+  font-size: var(--type-body);
+  line-height: 1.5;
+  max-width: 34ch;
+}
+.showcase-copy .eyebrow {
+  font-size: var(--type-label);
+}
+.showcase-tabs button {
+  font-size: var(--type-small);
+  font-weight: var(--weight-title);
+  line-height: 1.4;
+}
+.company-list {
+  font-size: clamp(1.375rem, 1rem + 1vw, 2rem);
+  font-weight: var(--weight-title);
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+}
+.section-heading > p,
+.project > p,
+.expertise article p,
+.contact-bottom p,
+.approach-links p {
+  font-size: var(--type-body);
+  line-height: 1.6;
+}
+.section-heading > p {
+  max-width: 36ch;
+}
+.project-caption h3,
+.approach-links h2 {
+  font-size: var(--type-title);
+  font-weight: var(--weight-title);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+.project-caption span,
+.archive-links button span,
+.quote-section figcaption,
+.gallery-controls span,
+.approach-links a > span {
+  font-size: var(--type-small);
+  font-weight: var(--weight-label);
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+.project-cta,
+.expertise-more {
+  font-size: var(--type-small);
+  font-weight: var(--weight-title);
+  line-height: 1.4;
+}
+.archive-links button,
+.expertise h3,
+.writing-row h3,
+.gallery-bar h2 {
+  font-size: 1.5rem;
+  font-weight: var(--weight-title);
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+.expertise-number {
+  font-size: var(--type-small);
+  font-weight: var(--weight-label);
+  font-variant-numeric: tabular-nums;
+}
+.about-copy > p:not(.eyebrow) {
+  font-size: var(--type-lead);
+  line-height: 1.65;
+  max-width: 52ch;
+}
+.quote-section blockquote {
+  font-size: clamp(1.75rem, 1rem + 2.5vw, 3.125rem);
+  font-weight: var(--weight-label);
+  line-height: 1.22;
+  letter-spacing: -0.025em;
+  text-wrap: pretty;
+}
+.quote-section figcaption strong {
+  font-weight: var(--weight-title);
+}
+.contact h2 {
+  font-size: clamp(3rem, 2rem + 6vw, 8.25rem);
+  font-weight: var(--weight-display);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+}
+.approach-intro h1 {
+  font-size: clamp(2.125rem, 1.5rem + 3vw, 4.5rem);
+  font-weight: var(--weight-display);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+.approach-principles h2 {
+  font-size: var(--type-label);
+  font-weight: var(--weight-label);
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+}
+.approach-principles p {
+  font-size: clamp(1.5rem, 1rem + 1.5vw, 2.25rem);
+  font-weight: var(--weight-label);
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  max-width: 32ch;
+}
+@media (max-width: 1050px) {
+  .writing-row h3 {
+    font-size: 1.375rem;
+  }
+}
+@media (max-width: 700px) {
+  .wordmark {
+    font-size: 1.875rem;
+  }
+  .site-menu {
+    font-size: 1.75rem;
+    letter-spacing: -0.025em;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 1.3rem + 4.5vw, 3.125rem);
+    line-height: 1.07;
+  }
+  .header-actions .pill {
+    font-size: var(--type-label);
+    white-space: nowrap;
+  }
+  .showcase-copy h2 {
+    font-size: 2.25rem;
+  }
+  .showcase-tabs button {
+    font-size: var(--type-label);
+  }
+  .project-cta {
+    font-size: var(--type-label);
+  }
+  .contact h2 {
+    font-size: clamp(2.5rem, 1.5rem + 5vw, 4.25rem);
+    line-height: 1.06;
+  }
+  .about-copy > p:not(.eyebrow) {
+    font-size: var(--type-body);
+  }
+  .approach-intro h1 {
+    font-size: clamp(2rem, 1.25rem + 3.5vw, 2.875rem);
+  }
+  .gallery-bar h2 {
+    font-size: 1.25rem;
+  }
+}

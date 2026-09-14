@@ -100,10 +100,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="dist/turtle-alt/style.css" />
+    <link rel="stylesheet" href="dist/turtle-alt/typography.css" />
     <script src="dist/turtle-alt/navigation.js" defer></script>
     <link rel="stylesheet" href="dist/turtle-alt/cursor.css" />
     <script src="dist/turtle-alt/cursor.js" defer></script>
@@ -141,8 +142,10 @@
           Dennie Ordynskyi · Based in Kyiv, working everywhere
         </p>
         <h1 id="hero-title">
-          Complex ideas.<br />Simple products.<br /><span
-            >A little human magic.</span
+          <span>Complex ideas.</span>
+          <span>Simple products.</span>
+          <span class="hero-aside"
+            >A little <span class="keep-phrase">human magic.</span></span
           >
         </h1>
         <div class="hero-bottom">
@@ -284,7 +287,7 @@
               aria-label="Read the Numi case study"
               ><img
                 class="project-cover"
-                src="dist/img/covers/numi-cover.webp"
+                src="dist/img/covers/numi-cover-refined.webp"
                 alt="Numi daily nutrition, weekly report, and progress screens on three layered phones"
                 loading="lazy"
                 decoding="async"

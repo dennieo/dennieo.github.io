@@ -124,3 +124,70 @@ product content or external text/cursor/toast is included in the generated asset
 No remaining P0/P1/P2 issues within this cover-presentation scope.
 
 final result: passed
+
+## Follow-up: bolder typography and neutral Numi background
+
+The user requested stronger text, a better Numi background, and typography research
+before implementation. Research and the resulting type roles are recorded in
+`typography-notes.md`, with primary sources from Carbon, GOV.UK, and W3C.
+
+Visual target: the existing alternate site, adjusted according to this request.
+Baseline captures: `type-before-hero.png`, `type-before-work.png` (896 × 924), and
+`type-before-approach.png` (1280 × 720). Final captures use the corresponding
+`type-after-*.png` names and identical viewports. Same evidence directory as above.
+`type-comparison-hero.png`, `type-comparison-work.png`, and
+`type-comparison-approach.png` place baseline left and implementation right at
+native screenshot resolution, with no cropping or density rescaling. The first
+two comparisons are 1792 × 924; approach is 2560 × 720. State: menu closed,
+homepage at top/work respectively, approach at top. These compare the requested
+refinement, not pixel fidelity to the older light type.
+
+Required surfaces reviewed:
+- Typography: DM Sans retained, four weight roles, 700 display / 600 titles and
+  actions / 500 labels and statements / 400 body. Body text 16–18px equivalent;
+  checked rendered small text is at least 12px. Shared rem-based scale, tighter
+  heading tracking, more generous paragraph leading, balanced headline phrases.
+  Browser confirmed the 700 face loaded. Cursor keeps its approved 20px treatment.
+- Rhythm: original section structure and project grid retained. Metadata wraps
+  or stacks; mobile expertise uses one column to accommodate larger readable type.
+- Colors: brighter muted text; Numi cover and showcase use a quiet pale stone
+  background, allowing the interface colors to stand out. Other covers unchanged.
+- Images: inspected the refined Numi cover at full resolution and in the grid.
+  Three phones and real interface remain closely preserved, with minor generated
+  screen-edge/food-image differences. Original cover retained. Built-in imagegen
+  prompt saved alongside the refined asset.
+- Copy: normalized visible text matches the previous commit on both pages.
+  Project destinations, galleries, and hover annotations preserved.
+
+Iteration findings:
+1. [P2, fixed] At 320px the larger header label wrapped and the hero's second line
+   broke awkwardly. Reduced compact-header padding and tuned the mobile display
+   scale. Final `type-mobile-hero.png` shows complete controls and intended phrases.
+2. [P2, fixed] Larger expertise headings risked overflowing the two narrow columns.
+   Mobile now uses one column. `type-mobile-work-expertise.png` shows the final
+   390px work section and 320px expertise section, including readable supporting text.
+3. [P2, fixed] Isolated final words in mobile headline wrapping weakened the type
+   rhythm. Balanced each headline phrase and grouped short endings without forcing
+   unbreakable text. Recaptured home and approach mobile states.
+4. [P2, fixed] Independent review found cursor.css overriding the shared Learn more
+   text size. Removed that declaration; the element now inherits the new type role.
+
+Mobile evidence: `type-mobile-hero.png`, `type-mobile-work-expertise.png`, and
+`type-mobile-approach.png` show 390px and 320px frames within a 1280 × 720 capture.
+Read-only measurements inside both page frames found document width equal to
+viewport width, no section/header/footer horizontal overflow, and 12px minimum
+checked rendered text. No physical-device or full 200% zoom audit claimed.
+
+Focused typography is legible in the full-resolution heading and project-caption
+comparisons; separate crops were unnecessary. Verified menu opening/closing,
+View project cursor, font loading, and all 80 local references across both pages.
+No browser errors or warnings. Formatting and git whitespace checks pass.
+
+- [x] Research typography approaches before changes.
+- [x] Refine both alternate pages and Numi color treatment.
+- [x] Verify desktop and mobile rendering and correct found issues.
+- [x] Preserve existing content and destinations.
+
+No remaining P0/P1/P2 issues within this refinement scope.
+
+final result: passed

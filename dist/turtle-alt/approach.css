@@ -6,9 +6,6 @@
   margin-bottom: 32px;
 }
 .approach-intro h1 {
-  font-size: clamp(42px, 4.6vw, 72px);
-  line-height: 1.06;
-  letter-spacing: -0.04em;
   max-width: 1250px;
 }
 .approach-story {
@@ -41,7 +38,7 @@
   position: absolute;
   top: 18px;
   left: 20px;
-  font-size: 10px;
+
   background: #080808;
   padding: 8px 10px;
 }
@@ -59,26 +56,19 @@
   height: auto;
 }
 .approach-product figcaption {
-  font-size: 10px;
   margin-top: 12px;
-  line-height: 1.5;
+
   color: #c6c6c8;
 }
 .approach-principles article {
   margin-bottom: 64px;
 }
 .approach-principles h2 {
-  font-size: 11px;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #a5a5a4;
   margin-bottom: 22px;
 }
-.approach-principles p {
-  font-size: clamp(24px, 2.5vw, 36px);
-  line-height: 1.2;
-  letter-spacing: -0.025em;
-}
+
 .approach-links {
   border-top: 1px solid var(--line);
   padding-top: 56px;
@@ -95,18 +85,13 @@
   padding: 12px 0 44px;
 }
 .approach-links a > span {
-  font-size: 12px;
   color: #949dff;
 }
 .approach-links h2 {
-  font-size: 26px;
-  letter-spacing: -0.03em;
   margin-top: 24px;
   margin-bottom: 14px;
 }
 .approach-links p {
-  font-size: 14px;
-  line-height: 1.55;
   color: var(--muted);
 }
 .approach-links .arrow {
@@ -135,14 +120,9 @@
   .approach-portrait img {
     height: 340px;
   }
-  .approach-principles p {
-    font-size: 27px;
-  }
+
   .approach-links > div {
     gap: 28px;
-  }
-  .approach-links h2 {
-    font-size: 24px;
   }
 }
 @media (max-width: 700px) {
@@ -150,10 +130,7 @@
     padding-top: 48px;
     padding-bottom: 65px;
   }
-  .approach-intro h1 {
-    font-size: clamp(34px, 8vw, 46px);
-    line-height: 1.09;
-  }
+
   .approach-intro h1 br {
     display: initial;
   }
@@ -182,13 +159,9 @@
     margin-bottom: 42px;
   }
   .approach-principles h2 {
-    font-size: 10px;
     margin-bottom: 18px;
   }
-  .approach-principles p {
-    font-size: 26px;
-    line-height: 1.24;
-  }
+
   .approach-links {
     padding-top: 42px;
     padding-bottom: 55px;
@@ -210,6 +183,5 @@
   }
   .approach-links h2 {
     margin-top: 15px;
-    font-size: 28px;
   }
 }
