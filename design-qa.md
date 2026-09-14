@@ -85,3 +85,42 @@ User clarified that the reference is Turtle's mouse-over behavior, supplying scr
 - No remaining P0/P1/P2 issues. JavaScript syntax, whitespace, and interactive target annotations checked.
 
 final result: passed
+
+## Follow-up: composed project covers
+
+Created four 1536 × 1024 presentation covers from the existing Numi, Tysha, Karta,
+and Linc screens using built-in Image Generation. Exact prompts and source lists
+are in `dist/img/covers/README.md`. WebP encoding totals 491,456 bytes. Original
+screens remain in their project folders and case studies; generated small text,
+icons, and chart details may differ slightly, so these covers serve as presentation
+mockups rather than exact UI records.
+
+Visual source: the user's `Screenshot 2026-09-14 at 22.01.21.png` from Turtle.
+Karta most closely follows its large desktop upper-right and three mobile panels
+across the lower-left. Numi and Tysha use layered phones; Linc uses two desktop
+windows. Product-specific colors, light, and shadows unify the covers. No reference
+product content or external text/cursor/toast is included in the generated assets.
+
+- All four covers were inspected at full resolution and in the project grid.
+- Replaced the old CSS collages with contained 3:2 images. Both rows keep complete
+  screen compositions within the cards, with a small hover zoom and live cursor.
+- Desktop browser inspection at 896 pixels; mobile inspection in 390- and
+  320-pixel frames. No clipping or horizontal overflow observed visually.
+- Verified the View project cursor over Numi and Karta, Karta case-study navigation,
+  Linc gallery opening/dismissal, loaded assets, and gallery cursor cleanup.
+- 53 local homepage references resolve. Git whitespace check and formatting pass.
+  No browser errors or warnings observed. Read-only review confirmed preserved
+  destinations and interactions; corrected the asset notes' reference attribution.
+- Evidence in the same directory: `covers-desktop-hover.png`,
+  `covers-desktop-second-row.png`, `covers-karta-hover.png`, `covers-mobile.png`,
+  and `covers-mobile-second-row.png`.
+- `covers-comparison.png`: 1440 × 500, supplied reference left, final Karta cover
+  right. Reference crop (58,35)–(1722,1191) removes the webpage border; each image
+  is proportionally reduced to fit a 720 × 500 panel with black letterboxing.
+  The supplied cursor/toast remains visible only in the reference for context.
+  Comparison checks composition, relative screen scale, spacing, colors, shadows,
+  and device framing. Different product UI and 3:2 framing are intentional.
+
+No remaining P0/P1/P2 issues within this cover-presentation scope.
+
+final result: passed

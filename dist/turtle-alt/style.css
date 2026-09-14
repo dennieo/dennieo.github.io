@@ -427,7 +427,7 @@ a:focus-visible,
 .project-visual {
   display: flex;
   width: 100%;
-  aspect-ratio: 1.17;
+  aspect-ratio: 3 / 2;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -435,49 +435,14 @@ a:focus-visible,
   padding: 0;
   text-align: left;
 }
-.project-visual > img,
-.numi-pair {
-  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-.project-visual:hover > img {
-  transform: scale(1.025);
-}
-.numi-visual {
-  background: #c9dac6;
-}
-.numi-pair {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.project-visual > .project-cover {
   width: 100%;
-  gap: 22px;
-  padding: 30px 50px;
-  transform: rotate(-9deg);
-}
-.numi-pair img {
-  width: 43%;
-  height: auto;
-  max-height: 440px;
-  object-fit: contain;
-}
-.numi-pair img:first-child {
-  transform: translateY(34px);
-}
-.numi-pair img:last-child {
-  transform: translateY(-24px);
-}
-.numi-visual:hover .numi-pair {
-  transform: rotate(-6deg) scale(1.03);
-}
-.tysha-visual {
-  background: #c19774;
-  gap: 8px;
-  padding: 28px;
-}
-.tysha-visual > img {
-  width: 48%;
   height: 100%;
   object-fit: contain;
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.project-visual:hover > .project-cover {
+  transform: scale(1.025);
 }
 .project-cta {
   position: absolute;
@@ -496,31 +461,6 @@ a:focus-visible,
   filter: none;
   width: 15px;
   height: 15px;
-}
-.karta-visual {
-  background: #dde4ed;
-  padding: 44px 24px;
-}
-.karta-dashboard {
-  width: 100%;
-  box-shadow: 0 16px 32px #1c2a4226;
-}
-.karta-phone {
-  position: absolute;
-  right: 34px;
-  bottom: 48px;
-  width: 24%;
-  max-height: 70%;
-  object-fit: contain;
-  box-shadow: 0 12px 30px #17223533;
-}
-.linc-visual {
-  background: #bfb0e0;
-  padding: 35px;
-}
-.linc-visual > img {
-  width: 100%;
-  box-shadow: 0 16px 40px #30175830;
 }
 .project-caption {
   display: flex;
@@ -781,9 +721,6 @@ a:focus-visible,
   .showcase-phones img {
     max-height: 600px;
   }
-  .numi-pair img {
-    max-height: 570px;
-  }
 }
 @media (max-width: 1050px) {
   .header-caption {
@@ -818,9 +755,6 @@ a:focus-visible,
     align-items: flex-start;
     flex-direction: column;
     gap: 4px;
-  }
-  .numi-pair {
-    padding: 25px;
   }
   .expertise-grid {
     grid-template-columns: 1fr 1fr;
@@ -1020,18 +954,6 @@ a:focus-visible,
     grid-template-columns: 1fr;
     gap: 38px;
   }
-  .project-visual {
-    aspect-ratio: 1.08;
-  }
-  .numi-pair {
-    padding: 30px 42px;
-  }
-  .numi-pair img {
-    max-height: 340px;
-  }
-  .tysha-visual {
-    padding: 18px;
-  }
   .project-caption {
     flex-direction: row;
     align-items: baseline;
@@ -1056,16 +978,6 @@ a:focus-visible,
     font-size: 11px;
     right: 14px;
     bottom: 14px;
-  }
-  .karta-visual {
-    padding: 35px 20px;
-  }
-  .karta-phone {
-    right: 24px;
-    bottom: 40px;
-  }
-  .linc-visual {
-    padding: 22px;
   }
   .archive {
     margin-top: 40px;
