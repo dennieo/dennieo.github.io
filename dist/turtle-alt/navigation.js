@@ -50,3 +50,40 @@
 
   document.querySelector("#year").textContent = new Date().getFullYear();
 })();
+
+// Keep the original text available to assistive technology; only the visual
+// duplicate moves into view. Static anchors leave menu and gallery labels alone.
+(() => {
+  "use strict";
+  document
+    .querySelectorAll("a.pill, .site-menu a, a.text-link")
+    .forEach((link) => {
+      if (
+        link.classList.contains("hover-link") ||
+        link.closest("[aria-live], [data-dynamic-label], [data-no-text-swap]")
+      )
+        return;
+
+      const textNodes = [...link.childNodes].filter(
+        (node) => node.nodeType === Node.TEXT_NODE && node.textContent.trim(),
+      );
+      if (!textNodes.length) return;
+
+      textNodes.forEach((node) => {
+        const slot = document.createElement("span");
+        slot.className = "hover-link-slot";
+        const original = document.createElement("span");
+        original.className = "hover-link-original";
+        const copy = document.createElement("span");
+        copy.className = "hover-link-copy";
+        copy.textContent = node.textContent;
+        copy.setAttribute("aria-hidden", "true");
+        // If the enhancement stylesheet fails, show just the original label.
+        copy.hidden = true;
+        node.replaceWith(slot);
+        original.append(node);
+        slot.append(original, copy);
+      });
+      link.classList.add("hover-link");
+    });
+})();

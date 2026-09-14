@@ -59,6 +59,7 @@ final result: passed
 Added `approach.html` after the user's “See our approach” reference. The homepage hero now links to it with “See my approach”; the main menu includes Approach. Shared navigation and year behavior moved into `navigation.js`, preserving the homepage showcase/gallery script.
 
 Source: https://turtle.design/approach. Same evidence directory as above:
+
 - `approach-reference.png` and `approach-desktop.png`: 1280 × 720 screenshots, both at the top of the page, menu closed.
 - `approach-comparison.png`: 2560 × 720 side-by-side comparison, reference left and implementation right, no density scaling before compositing.
 - `approach-mobile.png`: 390-pixel mobile iframe within the browser screenshot.
@@ -143,6 +144,7 @@ homepage at top/work respectively, approach at top. These compare the requested
 refinement, not pixel fidelity to the older light type.
 
 Required surfaces reviewed:
+
 - Typography: DM Sans retained, four weight roles, 700 display / 600 titles and
   actions / 500 labels and statements / 400 body. Body text 16–18px equivalent;
   checked rendered small text is at least 12px. Shared rem-based scale, tighter
@@ -160,6 +162,7 @@ Required surfaces reviewed:
   Project destinations, galleries, and hover annotations preserved.
 
 Iteration findings:
+
 1. [P2, fixed] At 320px the larger header label wrapped and the hero's second line
    broke awkwardly. Reduced compact-header padding and tuned the mobile display
    scale. Final `type-mobile-hero.png` shows complete controls and intended phrases.
@@ -189,5 +192,37 @@ No browser errors or warnings. Formatting and git whitespace checks pass.
 - [x] Preserve existing content and destinations.
 
 No remaining P0/P1/P2 issues within this refinement scope.
+
+final result: passed
+
+## Follow-up: closer Turtle hover behavior
+
+Scope, live-source observations, screenshots, three-step flow, and verification
+limits are recorded in `hover-notes.md`. The approved output is the implemented
+alternate site, supported by a scoped comparison report.
+
+- [P2, fixed] Earlier 160px cursor obscured substantially more product UI than
+  Turtle's live 80px CSS circle. Matched the 80px circle and retained 12px labels.
+- [P2, fixed] Scrolling removed the old cursor until the mouse moved. Scroll now
+  rechecks the element underneath the last mouse coordinates and updates mode.
+- [P2, fixed] Exit visibility cut off fading. Opacity now handles entry/exit;
+  keyboard, blur, viewport exit, media changes, and dialogs restore native cursor.
+- [P2, fixed] Global hidden styling suppressed rolling-text duplicates during
+  implementation. A scoped override restores them; accessible names stay singular.
+- [P2, fixed] A white control cursor disappeared on white pill hovers. These pills
+  now use a dark compact dot.
+
+Verified the actual default/link/project/service states, 1.01 project zoom,
+stationary-pointer scroll, keyboard focus, menu Enter/Escape, gallery Next/Escape,
+and Approach navigation. Reviewed the final reference/implementation crop side
+by side at native scale. Labels, circle geometry, contrast, and surrounding
+product images are clear. Homepage 390/320px and Approach 320px captures show no
+horizontal overflow or clipped header labels. Browser logs are clean. Syntax,
+formatting, and git whitespace checks pass. Touch and reduced-motion fallbacks
+were reviewed in code, without claiming a physical-device or OS-setting test.
+
+The new 80px circle and 12px label intentionally supersede earlier notes referring
+to the 160px/20px cursor. Existing bold typography and Numi color remain intact.
+No remaining P0/P1/P2 issues within this hover refinement scope.
 
 final result: passed

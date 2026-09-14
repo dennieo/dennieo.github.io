@@ -1,36 +1,83 @@
 .context-cursor {
+  display: none;
   position: fixed;
-  top: 0;
-  left: 0;
+  inset: 0;
   z-index: 80;
-  width: 0;
-  height: 0;
   pointer-events: none;
   user-select: none;
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+.context-cursor-position,
+.context-cursor-dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+}
+.context-cursor-ring {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgb(255 255 255 / 75%);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 12%);
+  transform: translate(-50%, -50%);
+  transition:
+    width 180ms ease,
+    height 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+.context-cursor-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  transition: opacity 150ms ease;
+}
+.context-cursor[data-mode="link"] .context-cursor-ring {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-color: #fff;
+}
+.context-cursor[data-mode="link"][data-contrast="dark"] .context-cursor-ring {
+  background: #080808;
+  border-color: #080808;
+}
+.context-cursor[data-mode="lens"] .context-cursor-ring {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-color: #fff;
+  transition-duration: 280ms;
+}
+.context-cursor:not([data-mode="default"]) .context-cursor-dot {
+  opacity: 0;
 }
 .context-cursor-label {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 160px;
-  height: 160px;
-  padding: 20px;
-  border-radius: 50%;
-  background: #fff;
+  width: 80px;
+  height: 80px;
   color: #080808;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 1.1;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.025em;
   text-transform: uppercase;
   text-align: center;
   white-space: pre-line;
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.3);
-  transition:
-    transform 0.22s ease,
-    opacity 0.16s ease;
+  transform: translate(-50%, -50%);
+  transition: opacity 200ms ease;
+}
+.context-cursor-label.is-active {
+  opacity: 1;
+  transition-delay: 90ms;
 }
 .expertise-link {
   display: flex;
@@ -44,28 +91,37 @@
   padding-top: 24px;
   margin-top: auto;
 }
-.expertise-link:hover h3 {
-  color: #a3aaff;
+.expertise-more .arrow {
+  transition: transform 300ms ease;
 }
 @media (hover: hover) and (pointer: fine) {
+  .context-cursor {
+    display: block;
+  }
   .context-cursor.is-visible {
-    visibility: visible;
-  }
-  .context-cursor.is-visible .context-cursor-label {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
   }
-  [data-cursor].is-cursor-hovered,
-  [data-cursor].is-cursor-hovered * {
+  .has-context-cursor,
+  .has-context-cursor * {
     cursor: none !important;
   }
   .is-cursor-hovered .project-cta,
   .is-cursor-hovered .round-link {
     opacity: 0;
   }
+  .expertise-link:is(:hover, :focus-visible) .expertise-more .arrow {
+    transform: translateX(12px);
+  }
 }
 @media (prefers-reduced-motion: reduce) {
-  .context-cursor-label {
+  .context-cursor,
+  .context-cursor-ring,
+  .context-cursor-dot,
+  .context-cursor-label,
+  .expertise-more .arrow {
     transition: none;
+  }
+  .expertise-link:is(:hover, :focus-visible) .expertise-more .arrow {
+    transform: none;
   }
 }
