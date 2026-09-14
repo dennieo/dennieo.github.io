@@ -53,3 +53,20 @@ Evidence directory: `/Users/dennie/.codex/visualizations/2026/09/14/01a0a148-7bf
 - [x] Keep local preview available for review.
 
 final result: passed
+
+## Follow-up: My approach page
+
+Added `approach.html` after the user's “See our approach” reference. The homepage hero now links to it with “See my approach”; the main menu includes Approach. Shared navigation and year behavior moved into `navigation.js`, preserving the homepage showcase/gallery script.
+
+Source: https://turtle.design/approach. Same evidence directory as above:
+- `approach-reference.png` and `approach-desktop.png`: 1280 × 720 screenshots, both at the top of the page, menu closed.
+- `approach-comparison.png`: 2560 × 720 side-by-side comparison, reference left and implementation right, no density scaling before compositing.
+- `approach-mobile.png`: 390-pixel mobile iframe within the browser screenshot.
+
+Visual assessment: shared black canvas, light grotesque type, generous spacing, thin divider, and split imagery/text layout. Dennie's wordmark, navigation, real portrait and Linc artwork, factual personal copy, and larger opening type intentionally adapt the source for a personal portfolio. The page keeps the existing alternate design's colors and font. No Turtle branding or team photographs were reused.
+
+Focused checks: inspected split artwork and paragraph scale in-browser. Fixed a mobile sentence-joining issue by retaining heading line breaks. Moved the portrait caption to the top so the overlapping product image no longer covers it; recapture shows the complete caption. No remaining P0/P1/P2 issues in the scoped adaptation.
+
+Verified approach menu → homepage work, homepage showcase switching after extracting shared navigation, homepage “See my approach” → new page, all 99 combined static references across both pages, JS syntax, and whitespace. Browser console had no errors/warnings. Mobile visually inspected at 390 pixels. A second read-only review found no further navigation, local-link, or factual-copy issues. No deployment.
+
+final result: passed
