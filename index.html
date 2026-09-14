@@ -105,6 +105,8 @@
     />
     <link rel="stylesheet" href="dist/turtle-alt/style.css" />
     <script src="dist/turtle-alt/navigation.js" defer></script>
+    <link rel="stylesheet" href="dist/turtle-alt/cursor.css" />
+    <script src="dist/turtle-alt/cursor.js" defer></script>
     <script src="dist/turtle-alt/main.js" defer></script>
     <script src="dist/analytics.js" defer></script>
   </head>
@@ -172,6 +174,7 @@
         >
           <a
             class="showcase-link"
+            data-cursor="View project"
             href="case/numi.html"
             aria-label="Explore Numi case study"
           >
@@ -276,6 +279,7 @@
           <article class="project">
             <a
               class="project-visual numi-visual"
+              data-cursor="View project"
               href="case/numi.html"
               aria-label="Read the Numi case study"
               ><div class="numi-pair">
@@ -311,6 +315,7 @@
           <article class="project">
             <a
               class="project-visual tysha-visual"
+              data-cursor="View project"
               href="case/tysha.html"
               aria-label="Read the Tysha case study"
               ><img
@@ -341,6 +346,7 @@
           <article class="project">
             <a
               class="project-visual karta-visual"
+              data-cursor="View project"
               href="case/karta.html"
               aria-label="Read the Karta case study"
               ><img
@@ -373,6 +379,7 @@
           <article class="project">
             <button
               class="project-visual linc-visual"
+              data-cursor="View gallery"
               type="button"
               data-gallery="linc"
               aria-label="Open Linc project gallery"
@@ -403,13 +410,21 @@
         <div class="archive">
           <p class="eyebrow">More from the archive</p>
           <div class="archive-links">
-            <button type="button" data-gallery="mgt">
+            <button type="button" data-cursor="View gallery" data-gallery="mgt">
               MyGoTrainer <span>Mobile marketplace</span></button
-            ><button type="button" data-gallery="ss">
+            ><button type="button" data-cursor="View gallery" data-gallery="ss">
               Shipshape <span>Smart home</span></button
-            ><button type="button" data-gallery="chatbox">
+            ><button
+              type="button"
+              data-cursor="View gallery"
+              data-gallery="chatbox"
+            >
               Chatbox <span>Team messaging</span></button
-            ><button type="button" data-gallery="ecomm">
+            ><button
+              type="button"
+              data-cursor="View gallery"
+              data-gallery="ecomm"
+            >
               E-commerce <span>Retail experiences</span>
             </button>
           </div>
@@ -433,36 +448,96 @@
         </div>
         <div class="expertise-grid">
           <article>
-            <span class="expertise-number">01</span>
-            <h3>Zero to one</h3>
-            <p>
-              Finding the right problem, shaping the first experience, and
-              getting something real into people’s hands.
-            </p>
+            <a
+              class="expertise-link"
+              href="approach.html"
+              data-cursor="Learn more"
+            >
+              <span class="expertise-number">01</span>
+              <h3>Zero to one</h3>
+              <p>
+                Finding the right problem, shaping the first experience, and
+                getting something real into people’s hands.
+              </p>
+              <span class="expertise-more"
+                >Learn more
+                <img
+                  class="arrow"
+                  src="dist/turtle-alt/arrow-right.svg"
+                  alt=""
+                  width="18"
+                  height="18"
+              /></span>
+            </a>
           </article>
           <article>
-            <span class="expertise-number">02</span>
-            <h3>Intelligent experiences</h3>
-            <p>
-              Making AI useful, understandable, and trustworthy. Keeping people
-              in control of the things that matter.
-            </p>
+            <a
+              class="expertise-link"
+              href="approach.html"
+              data-cursor="Learn more"
+            >
+              <span class="expertise-number">02</span>
+              <h3>Intelligent experiences</h3>
+              <p>
+                Making AI useful, understandable, and trustworthy. Keeping
+                people in control of the things that matter.
+              </p>
+              <span class="expertise-more"
+                >Learn more
+                <img
+                  class="arrow"
+                  src="dist/turtle-alt/arrow-right.svg"
+                  alt=""
+                  width="18"
+                  height="18"
+              /></span>
+            </a>
           </article>
           <article>
-            <span class="expertise-number">03</span>
-            <h3>Clarity in complexity</h3>
-            <p>
-              Untangling workflows and information-heavy products. Making the
-              powerful feel refreshingly simple.
-            </p>
+            <a
+              class="expertise-link"
+              href="approach.html"
+              data-cursor="Learn more"
+            >
+              <span class="expertise-number">03</span>
+              <h3>Clarity in complexity</h3>
+              <p>
+                Untangling workflows and information-heavy products. Making the
+                powerful feel refreshingly simple.
+              </p>
+              <span class="expertise-more"
+                >Learn more
+                <img
+                  class="arrow"
+                  src="dist/turtle-alt/arrow-right.svg"
+                  alt=""
+                  width="18"
+                  height="18"
+              /></span>
+            </a>
           </article>
           <article>
-            <span class="expertise-number">04</span>
-            <h3>Systems that scale</h3>
-            <p>
-              Creating foundations that keep a product coherent and help the
-              team ship its next great thing.
-            </p>
+            <a
+              class="expertise-link"
+              href="approach.html"
+              data-cursor="Learn more"
+            >
+              <span class="expertise-number">04</span>
+              <h3>Systems that scale</h3>
+              <p>
+                Creating foundations that keep a product coherent and help the
+                team ship its next great thing.
+              </p>
+              <span class="expertise-more"
+                >Learn more
+                <img
+                  class="arrow"
+                  src="dist/turtle-alt/arrow-right.svg"
+                  alt=""
+                  width="18"
+                  height="18"
+              /></span>
+            </a>
           </article>
         </div>
       </section>
@@ -556,7 +631,10 @@
               height="18"
           /></a>
         </div>
-        <a class="writing-row" href="blog/how-to-become-a-product-designer.html"
+        <a
+          class="writing-row"
+          data-cursor="Read story"
+          href="blog/how-to-become-a-product-designer.html"
           ><span class="micro">Careers in design</span>
           <h3>How to become a product designer in 2026</h3>
           <span class="micro">9 min read</span
@@ -566,7 +644,10 @@
             alt=""
             width="24"
             height="24" /></a
-        ><a class="writing-row" href="blog/shipping-apps-solo-with-ai.html"
+        ><a
+          class="writing-row"
+          data-cursor="Read story"
+          href="blog/shipping-apps-solo-with-ai.html"
           ><span class="micro">Building in public</span>
           <h3>I shipped two iOS apps solo. Here’s what AI changed.</h3>
           <span class="micro">8 min read</span
@@ -576,7 +657,10 @@
             alt=""
             width="24"
             height="24" /></a
-        ><a class="writing-row" href="blog/designing-ai-products.html"
+        ><a
+          class="writing-row"
+          data-cursor="Read story"
+          href="blog/designing-ai-products.html"
           ><span class="micro">AI &amp; design</span>
           <h3>Designing AI products: six lessons from building one</h3>
           <span class="micro">7 min read</span

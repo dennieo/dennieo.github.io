@@ -70,3 +70,18 @@ Focused checks: inspected split artwork and paragraph scale in-browser. Fixed a 
 Verified approach menu → homepage work, homepage showcase switching after extracting shared navigation, homepage “See my approach” → new page, all 99 combined static references across both pages, JS syntax, and whitespace. Browser console had no errors/warnings. Mobile visually inspected at 390 pixels. A second read-only review found no further navigation, local-link, or factual-copy issues. No deployment.
 
 final result: passed
+
+## Follow-up: contextual hover cursor
+
+User clarified that the reference is Turtle's mouse-over behavior, supplying screenshots of the circular LEARN MORE and VIEW PROJECT cursors. Added the matching interactive treatment to the existing alternate branch.
+
+- Cursor: 160-pixel white circle, 20-pixel black uppercase text, two lines, centered on the pointer. Smooth position interpolation and scale-in; reduced motion follows immediately without transitions.
+- Targets: project images/showcase/approach project cards → View project; Linc/archive buttons → View gallery; expertise links → Learn more; writing rows → Read story. Header links, small buttons, and product tabs keep conventional pointers.
+- Existing project CTA pills disappear only while their target has the custom pointer. They return on mouse exit or keyboard use. Expertise regions are real links with persistent Learn more labels.
+- Enhancement is aria-hidden, pointer-events:none, and requires a fine hover-capable mouse. Touch/pen pointers and keyboard navigation keep native behavior. Reviewed media/pointer guards; no physical touch-device test claimed.
+- Browser verified View project, Learn more, View gallery; position tracking (target x=360, cursor x=359.848 after settling); target exit; Tab cleanup; gallery opening cleanup; Escape dismissal and restored gallery-trigger focus. No console errors or warnings observed. Source review found no additional actionable issues.
+- Source screenshots: user attachments `Screenshot 2026-09-14 at 22.00.40.png` and `Screenshot 2026-09-14 at 22.00.47.png`.
+- Evidence in the directory above: `hover-learn-more.png` and `hover-view-project.png` (896 × 924 browser captures); `hover-comparison.png` (400 × 400, source left/implementation right). The paired comparison uses 200 × 200 crops around the 160-pixel circles, without resizing. It verifies circle size, fill, typography, line break, and overlay placement; background portfolio content intentionally differs.
+- No remaining P0/P1/P2 issues. JavaScript syntax, whitespace, and interactive target annotations checked.
+
+final result: passed

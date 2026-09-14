@@ -1,0 +1,72 @@
+.context-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+  visibility: hidden;
+}
+.context-cursor-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
+  padding: 20px;
+  border-radius: 50%;
+  background: #fff;
+  color: #080808;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: pre-line;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.3);
+  transition:
+    transform 0.22s ease,
+    opacity 0.16s ease;
+}
+.expertise-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.expertise-more {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 24px;
+  margin-top: auto;
+  font-size: 12px;
+}
+.expertise-link:hover h3 {
+  color: #a3aaff;
+}
+@media (hover: hover) and (pointer: fine) {
+  .context-cursor.is-visible {
+    visibility: visible;
+  }
+  .context-cursor.is-visible .context-cursor-label {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  [data-cursor].is-cursor-hovered,
+  [data-cursor].is-cursor-hovered * {
+    cursor: none !important;
+  }
+  .is-cursor-hovered .project-cta,
+  .is-cursor-hovered .round-link {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .context-cursor-label {
+    transition: none;
+  }
+}
