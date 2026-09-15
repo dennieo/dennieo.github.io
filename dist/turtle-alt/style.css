@@ -177,7 +177,7 @@ a:focus-visible,
   backdrop-filter: blur(16px);
 }
 
-.wordmark-dot {
+.wordmark {
   color: var(--accent);
 }
 .header-caption {
