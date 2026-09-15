@@ -5,7 +5,8 @@
   --muted: #b5b5b1;
   --line: #2b2b2b;
   --blue: #4c59f5;
-  --action: #b1fa1e;
+  --action: #b1ff14;
+  --action-hover: #ceff6d;
   --radius-card: 28px;
   --radius-panel: 40px;
   --radius-signature: 96px;
@@ -138,8 +139,8 @@ a:focus-visible,
   filter: none;
 }
 .primary:hover {
-  background: #c2ff49;
-  border-color: #c2ff49;
+  background: var(--action-hover);
+  border-color: var(--action-hover);
   color: var(--bg);
 }
 .primary:hover .arrow {

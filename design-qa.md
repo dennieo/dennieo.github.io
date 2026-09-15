@@ -272,3 +272,21 @@ Verification:
 No remaining P0/P1/P2 issues within this rounded-shape and action-color scope.
 
 final result: passed
+
+## Follow-up: DraftKings Predictions neon green
+
+The user replaced the prior hex preference with the neon green used by
+[DraftKings Predictions](https://predictions.draftkings.com/en). Inspected the
+live public header action: default computed background `rgb(177, 255, 20)`
+(`#B1FF14`), hover `rgb(206, 255, 109)` (`#CEFF6D`). Source capture:
+`neon-reference.png` in the existing evidence directory.
+
+Updated shared primary-action tokens to those two colors and refreshed the
+stylesheet version on both alternate pages. Browser checks confirm the homepage
+and Approach actions render `#B1FF14`, and the homepage hover renders `#CEFF6D`.
+Dark text, arrows, and the compact hover cursor remain visible. Text contrast
+against `#080808` is 16.39:1 normally and 17.31:1 on hover. Final visual capture:
+`neon-after-hero.png`. Layout and responsive rules were not changed in this pass.
+Whitespace check passes; no remaining issues within this color-only scope.
+
+final result: passed
