@@ -290,3 +290,20 @@ against `#080808` is 16.39:1 normally and 17.31:1 on hover. Final visual capture
 Whitespace check passes; no remaining issues within this color-only scope.
 
 final result: passed
+
+## Follow-up: synchronize cached interaction assets
+
+The user reported unchanged color and missing cursor/hover behavior, then confirmed
+that refreshing resolved it. Inspection of their selected tab found the expected
+`#B1FF14`, visible View project cursor, fine-pointer mode, 14 enhanced text links,
+and no browser errors. The disappearance was not reproduced during inspection.
+
+Found a cache-versioning hazard: newer versioned cursor JavaScript was paired with
+unversioned cursor CSS; navigation JavaScript and text-hover CSS were also
+unversioned. Updated all seven alternate CSS/JS references on each page to the same
+fresh revision. This includes both coupled interaction pairs and the color styles.
+No cursor behavior or color values changed. Both sets of local asset paths resolve,
+and formatting/whitespace checks pass. The user confirmed the refreshed interaction
+was working before this additional cache hardening.
+
+final result: passed
