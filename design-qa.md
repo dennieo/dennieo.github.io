@@ -226,3 +226,49 @@ to the 160px/20px cursor. Existing bold typography and Numi color remain intact.
 No remaining P0/P1/P2 issues within this hover refinement scope.
 
 final result: passed
+
+## Follow-up: rounded elements, individual details, and lime primary actions
+
+The user requested more rounded elements and a more individual feel, then specified
+`#B1FA1E` for primary actions. Kept the accepted layout, bold type, project covers,
+and contextual hover behavior, while refining the existing shapes.
+
+- Shared radii: 28px cards and 40px large panels; 20px/24px on narrow screens.
+  Portraits repeat a larger bottom-right curve (96px desktop / 64px mobile).
+- Rounded showcase, project images, navigation sheet, portrait/collage frames,
+  contact-section top edge, and gallery. Product tabs now sit in a rounded tray.
+- Small asymmetric number stamps and circular arrow backgrounds add repeated
+  details without enclosing the text sections in additional cards.
+- Primary buttons use exactly `#B1FA1E`, dark `#080808` text/arrows, and a lighter
+  `#C2FF49` hover. Browser computed colors confirm both pages. Text contrast is
+  approximately 15.8:1 normally and 16.9:1 on hover. Primary hover cursor is dark.
+- Versioned the changed shared assets after preview caching retained old button
+  colors; refreshed both pages and verified the new stylesheet URLs and colors.
+
+Visual comparison: `rounded-comparison-hero.png` and
+`rounded-comparison-work.png`, each 1792 × 924, show the baseline left and final
+implementation right. Both source captures are 896 × 924, without cropping or
+rescaling. Same hero/work anchors and closed menus. The hero includes the final
+lime color; typography/content remain aligned. Project corners remove only the
+background edges, preserving the composed screens. Compared both images together
+and checked complete portrait framing in `rounded-about.png`,
+`rounded-approach.png`, and `rounded-approach-mobile.png`.
+
+Verification:
+
+- [P2, fixed] Tablet navigation wrapped two labels at 701px. Fluid gaps and nowrap
+  labels now keep every item on one line without menu or document overflow.
+- [P2, fixed] Rounded showcase clipping could conceal link focus. The containing
+  panel now displays the focus outline; verified with actual Shift+Tab navigation.
+- Tab switching works by mouse and arrow keys; selected state and focus remain
+  visible. At 320px the tray fits three 84px-wide, 44px-high buttons without clipping.
+- Homepage checked at 320px and 701px; Approach artwork/contact checked at 390px.
+  Document widths equal viewport widths. Full portrait, caption, product artwork,
+  and contact action fit. Screenshots live alongside the comparisons above.
+- Verified the lime hover color and dark compact cursor in the browser. Runtime
+  logs are clean. Read-only review, JavaScript syntax, formatting, and whitespace
+  checks pass. These checks do not constitute a full accessibility/device audit.
+
+No remaining P0/P1/P2 issues within this rounded-shape and action-color scope.
+
+final result: passed

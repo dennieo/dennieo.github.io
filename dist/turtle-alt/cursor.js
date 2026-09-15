@@ -111,10 +111,8 @@
       'a[href], button, summary, [role="button"], [role="tab"], [role="link"]',
     );
     setTarget(lens || control, lens ? "lens" : control ? "link" : "default");
-    // Ordinary pills turn white on hover; keep their compact cursor visible.
-    cursor.dataset.contrast = control?.matches(".pill:not(.primary)")
-      ? "dark"
-      : "light";
+    // Light primary buttons and white pill hovers need a dark compact cursor.
+    cursor.dataset.contrast = control?.matches(".pill") ? "dark" : "light";
     if (!visible) {
       x = targetX;
       y = targetY;

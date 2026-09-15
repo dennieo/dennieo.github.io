@@ -5,6 +5,10 @@
   --muted: #b5b5b1;
   --line: #2b2b2b;
   --blue: #4c59f5;
+  --action: #b1fa1e;
+  --radius-card: 28px;
+  --radius-panel: 40px;
+  --radius-signature: 96px;
   --gutter: clamp(24px, 4.2vw, 80px);
   font-family: "DM Sans", Arial, sans-serif;
   font-synthesis: none;
@@ -119,18 +123,27 @@ a:focus-visible,
   filter: none;
 }
 .primary {
-  background: var(--blue);
-  border-color: var(--blue);
-  color: #fff;
-  padding: 16px 24px;
+  background: var(--action);
+  border-color: var(--action);
+  color: var(--bg);
+  gap: 14px;
+  padding: 8px 8px 8px 22px;
+}
+.primary > .arrow {
+  width: 36px;
+  height: 36px;
+  padding: 9px;
+  border-radius: 50%;
+  background: #0003;
+  filter: none;
 }
 .primary:hover {
-  background: #6470ff;
-  border-color: #6470ff;
-  color: #fff;
+  background: #c2ff49;
+  border-color: #c2ff49;
+  color: var(--bg);
 }
 .primary:hover .arrow {
-  filter: invert(1);
+  filter: none;
 }
 .text-link {
   display: inline-flex;
@@ -173,18 +186,23 @@ a:focus-visible,
 .site-menu {
   display: flex;
   justify-content: flex-end;
-  gap: 28px;
+  gap: clamp(12px, 2vw, 28px);
   padding: 22px var(--gutter);
   background: var(--bg);
   border-bottom: 1px solid var(--line);
 }
 .menu-ready .site-menu {
   position: fixed;
-  inset: 102px 0 auto;
+  inset: 102px var(--gutter) auto;
   z-index: 29;
+  padding: 22px 28px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #151617;
 }
 .site-menu a {
   padding: 8px 0;
+  white-space: nowrap;
 }
 .site-menu a:hover {
   color: #9ba3ff;
@@ -217,6 +235,14 @@ a:focus-visible,
   color: #172821;
   overflow: hidden;
   min-height: 480px;
+  border-radius: var(--radius-panel);
+}
+.showcase-stage:has(.showcase-link:focus-visible) {
+  outline: 2px solid #9ba3ff;
+  outline-offset: 6px;
+}
+.showcase-link:focus-visible {
+  outline: none;
 }
 .showcase-link {
   display: grid;
@@ -334,17 +360,29 @@ a:focus-visible,
 }
 .showcase-tabs {
   display: flex;
-  gap: 22px;
+  gap: 4px;
+  padding: 5px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #151617;
 }
 .showcase-tabs button {
   background: none;
-  padding: 12px 0;
-  border-bottom: 1px solid transparent;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 999px;
   color: var(--muted);
+  white-space: nowrap;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
 }
 .showcase-tabs button[aria-selected="true"] {
   color: var(--ink);
-  border-color: var(--ink);
+  background: #303246;
+}
+.showcase-tabs button:hover {
+  color: var(--ink);
 }
 .experience {
   text-align: center;
@@ -394,6 +432,7 @@ a:focus-visible,
   overflow: hidden;
   padding: 0;
   text-align: left;
+  border-radius: var(--radius-card);
 }
 .project-visual > .project-cover {
   width: 100%;
@@ -475,7 +514,13 @@ a:focus-visible,
   gap: 36px;
 }
 .expertise-number {
-  display: block;
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #353b58;
+  border-radius: 14px 14px 14px 4px;
+  background: #1a1e30;
   color: #949dff;
 
   margin-bottom: 34px;
@@ -499,6 +544,8 @@ a:focus-visible,
   background: #161819;
   position: relative;
   overflow: hidden;
+  border-radius: var(--radius-panel) var(--radius-panel) var(--radius-signature)
+    var(--radius-panel);
 }
 .about-image img {
   height: 100%;
@@ -514,6 +561,7 @@ a:focus-visible,
   background: var(--bg);
   padding: 8px 12px;
   border-radius: 30px;
+  max-width: calc(100% - 44px);
 }
 .about-copy .eyebrow {
   margin-bottom: 22px;
@@ -570,6 +618,7 @@ a:focus-visible,
 .contact {
   padding-block: 100px;
   background: #15161b;
+  border-radius: var(--radius-panel) var(--radius-panel) 0 0;
 }
 .contact .eyebrow {
   margin-bottom: 32px;
@@ -611,6 +660,7 @@ a:focus-visible,
   color: var(--ink);
   border: 1px solid #444;
   overflow: auto;
+  border-radius: var(--radius-card);
 }
 .gallery::backdrop {
   background: #000c;
@@ -699,6 +749,11 @@ a:focus-visible,
   }
 }
 @media (max-width: 700px) {
+  :root {
+    --radius-card: 20px;
+    --radius-panel: 24px;
+    --radius-signature: 64px;
+  }
   html {
     scroll-padding-top: 88px;
   }
@@ -717,10 +772,11 @@ a:focus-visible,
     min-width: 66px;
   }
   .primary {
-    padding: 15px 20px;
+    padding: 8px 8px 8px 18px;
   }
   .menu-ready .site-menu {
-    inset: 80px 0 auto;
+    inset: 80px var(--gutter) auto;
+    padding: 16px 22px;
   }
   .site-menu {
     flex-direction: column;
@@ -816,7 +872,11 @@ a:focus-visible,
   .showcase-tabs {
     width: 100%;
     justify-content: space-between;
-    gap: 10px;
+    gap: 4px;
+  }
+  .showcase-tabs button {
+    flex: 1;
+    padding: 10px 8px;
   }
   .experience {
     padding-block: 52px;

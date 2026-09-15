@@ -27,6 +27,9 @@
   transform: rotate(-4deg);
   max-width: 440px;
   position: relative;
+  border-radius: var(--radius-panel);
+  border-bottom-right-radius: var(--radius-signature);
+  overflow: hidden;
 }
 .approach-portrait img {
   width: 100%;
@@ -41,6 +44,9 @@
 
   background: #080808;
   padding: 8px 10px;
+  max-width: calc(100% - 40px);
+  border-radius: 12px;
+  overflow-wrap: anywhere;
 }
 .approach-product {
   width: 90%;
@@ -50,10 +56,12 @@
   position: relative;
   background: #202026;
   padding: 12px;
+  border-radius: var(--radius-card);
 }
 .approach-product img {
   width: 100%;
   height: auto;
+  border-radius: 12px;
 }
 .approach-product figcaption {
   margin-top: 12px;
@@ -85,6 +93,13 @@
   padding: 12px 0 44px;
 }
 .approach-links a > span {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #3d4258;
+  border-radius: 14px 14px 14px 4px;
+  background: #1a1d2a;
   color: #949dff;
 }
 .approach-links h2 {
