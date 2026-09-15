@@ -54,6 +54,7 @@ Evidence directory: `/Users/dennie/.codex/visualizations/2026/09/14/01a0a148-7bf
 
 final result: passed
 
+
 ## Follow-up: My approach page
 
 Added `approach.html` after the user's “See our approach” reference. The homepage hero now links to it with “See my approach”; the main menu includes Approach. Shared navigation and year behavior moved into `navigation.js`, preserving the homepage showcase/gallery script.
@@ -305,5 +306,60 @@ fresh revision. This includes both coupled interaction pairs and the color style
 No cursor behavior or color values changed. Both sets of local asset paths resolve,
 and formatting/whitespace checks pass. The user confirmed the refreshed interaction
 was working before this additional cache hardening.
+
+final result: passed
+
+## Follow-up: complete neon palette integration
+
+Reviewed all 13 portfolio pages for first-party color drift. Shared
+`dist/palette.css` now defines the canonical `#B1FF14` action, `#CEFF6D` hover,
+dark foreground, theme-aware green text, soft fills, borders, focus and selection.
+Both alternate pages and every linked Story, Resume, blog and case-study page
+consume it. Final asset revision: `20260915-palette-2`.
+
+1. Homepage and Approach — passed. Removed purple logo dots, selected tabs,
+   number stamps, link states, focus rings and tinted interface surfaces. Arrows
+   now mask the existing SVG with currentColor, so icons and labels respond
+   together. Verified hero actions, selected tabs with arrow-key navigation,
+   Approach current navigation, writing hover and mobile controls at 320px.
+2. Linked pages — passed for palette scope. Story, Resume and all six blog pages
+   share theme-aware accents. All three case studies use shared navigation,
+   buttons, focus and footer links while retaining product branding, swatches
+   and screenshots. Rendered Story and an article in light/dark modes, Resume,
+   blog index, Numi, Tysha and Karta (including dark case controls).
+3. Interaction and integration — passed. The approved white 80px project/story
+   cursor remains visible; green pill hovers retain the dark compact cursor.
+   Both alternate pages fit at 320px without document overflow. Browser logs
+   contain no warnings/errors for the inspected pages. All 13 palette imports,
+   73 local assets, arrow mask, 38 inline scripts, 16 JSON blocks and alternate
+   JavaScript syntax were checked; no missing asset or token dependency found.
+
+Fixed findings:
+
+- [P2] Accent colors were scattered across independent declarations and older
+  stylesheets; they now reference shared semantic tokens.
+- [P2] White foreground on neon selection and skip links would be unreadable;
+  shared dark foreground gives 16.39:1 contrast on the primary fill.
+- [P2] Neon text/progress on light surfaces would be faint; theme-aware green
+  text gives 5.80–6.83:1 on tested light surfaces, with dark-theme neon retained.
+- [P2] The UX-for-ML article referenced a missing duplicate `/blog.css`; removed
+  that import and retained its valid shared stylesheet.
+
+Evidence in the existing turtle-alt evidence directory: `palette-before-hero.png`,
+`palette-after-hero.png`, `palette-before-expertise.png`,
+`palette-after-expertise.png`, `palette-showcase-focus.png`,
+`palette-work-hover.png`, `palette-writing-hover.png`, `palette-approach.png`,
+`palette-home-mobile.png`, `palette-approach-mobile.png`, `palette-story-light.png`,
+`palette-story-dark.png`, `palette-resume.png`, `palette-blog.png`,
+`palette-blog-article-light.png`, `palette-blog-article-dark.png`,
+`palette-case-numi.png`, `palette-case-tysha.png`, `palette-case-karta-dark.png`.
+Viewed the matched before/after expertise screenshots together at 1280×720:
+layout and type are preserved, with clear green badges and matching arrows.
+
+Some cached case markup initially showed the old controls; reload verified the
+new HTML and computed neon values. Final coupled asset revisions are synchronized
+again. Product imagery and case-study brand presentations intentionally retain
+their original colors. Checks cover this palette change, not a full accessibility,
+physical-device, print-output, or cross-browser audit.
 
 final result: passed

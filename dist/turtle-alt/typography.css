@@ -133,7 +133,7 @@ p {
 .archive-links button span,
 .quote-section figcaption,
 .gallery-controls span,
-.approach-links a > span {
+.approach-links a > span:not(.arrow) {
   font-size: var(--type-small);
   font-weight: var(--weight-label);
   line-height: 1.5;

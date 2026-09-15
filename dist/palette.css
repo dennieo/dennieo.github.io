@@ -1,0 +1,32 @@
+/* Shared portfolio palette. Product artwork retains its original colors. */
+:root {
+  --brand-neon: #b1ff14;
+  --brand-neon-hover: #ceff6d;
+  --brand-on-neon: #080808;
+  --brand-accent-text: #3f6500;
+  --brand-accent-soft: color-mix(
+    in srgb,
+    var(--brand-neon) 14%,
+    var(--surface, #fff)
+  );
+  --brand-accent-line: color-mix(
+    in srgb,
+    var(--brand-accent-text) 35%,
+    var(--border, transparent)
+  );
+  --brand-focus: var(--brand-accent-text);
+}
+
+html[data-theme="dark"] {
+  --brand-accent-text: var(--brand-neon);
+}
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--brand-focus);
+  outline-offset: 4px;
+}
+
+::selection {
+  background: var(--brand-neon);
+  color: var(--brand-on-neon);
+}
