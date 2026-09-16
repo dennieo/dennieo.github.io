@@ -44,6 +44,7 @@
 - [Designing AI products](https://imdennie.com/blog/designing-ai-products.html): Six UX lessons from building the Numi AI nutrition app
 - [AI product design: designing for the cost of being wrong](https://imdennie.com/blog/ai-product-design.html): AI product design comes down to one variable: your feature can be confidently wrong. Here is the wrongness budget, draft versus commit surfaces, and what shipped.
 - [UX for machine learning: the interface is a measuring device](https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html): How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing.
+- [AI UX patterns that survive contact with a real model](https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-real-model.html): Seven AI UX patterns from shipping a vision-based nutrition app solo: correction-first results, latency as understanding, deterministic scores, and the silence state.
 
 ## Links
 - [Website](https://imdennie.com/): Portfolio and selected work
