@@ -96,3 +96,14 @@ Evidence directory: `/Users/dennie/.codex/visualizations/2026/09/19/01a0bb1c-eb4
 - Preview remains local. No deployment, commit, or remote push.
 
 final result: passed
+
+## Discovery and release QA — 2026-09-22
+
+- Extended the approved visual system to the sixth article that was already present on the live site, preserving its full article text and publication date.
+- Added unique descriptions, canonical URLs, Open Graph and X card metadata, one consistent favicon, and linked structured data for all 14 public pages.
+- Added page-specific social images, Markdown alternatives for every page, `llms.txt`, combined `llms-full.txt`, and a 14-URL sitemap. Numi is consistently described as released on the App Store.
+- Added `scripts/sync-discovery.py` so discovery files can be regenerated from the public HTML, plus `scripts/check-discovery.py` for repeatable validation.
+- Verified 256 local links and anchors with no missing targets. Structured data parses on all pages, discovery validation passes, and git reports no whitespace errors.
+- Browser QA passed on the homepage, the newest article, and the Numi case study at 390px: meaningful content rendered, no horizontal overflow or framework overlay appeared, and no console warnings or errors were observed.
+
+final result: passed

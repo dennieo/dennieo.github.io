@@ -11,104 +11,168 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>UX for machine learning: the interface is a measuring device | Dennie Ordynskyi</title>
-    <meta name="description" content="How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing." />
+
     <meta name="author" content="Dennie Ordynskyi" />
-    <link rel="canonical" href="https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html" />
-
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="UX for machine learning: the interface is a measuring device" />
-    <meta property="og:description" content="How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing." />
-    <meta property="og:url" content="https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html" />
-    <meta property="article:published_time" content="2026-09-09T14:00:00.000Z" />
-    <meta property="og:image" content="https://imdennie.com/blog/cards/ux-for-machine-learning-the-interface-is-a-measuring-device.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="UX for machine learning: the interface is a measuring device" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="UX for machine learning: the interface is a measuring device" />
-    <meta name="twitter:description" content="How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing." />
-    <meta name="twitter:image" content="https://imdennie.com/blog/cards/ux-for-machine-learning-the-interface-is-a-measuring-device.png" />
-
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23B1FF14'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23080808'%3ED%3C/text%3E%3C/svg%3E" />
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "UX for machine learning: the interface is a measuring device",
-        "description": "How UX for machine learning differs from ordinary product design: the interface decides what the model learns, which fields deserve confirmation, and when to render nothing.",
-        "author": {
-          "@type": "Person",
-          "@id": "https://imdennie.com/#person",
-          "name": "Dennie Ordynskyi",
-          "url": "https://imdennie.com/",
-          "jobTitle": "Product Designer",
-          "sameAs": [
-            "https://www.linkedin.com/in/dennieo/",
-            "https://getnumi.app",
-            "https://tyshaapp.com"
-          ]
-        },
-        "creator": {
-          "@type": "Person",
-          "@id": "https://imdennie.com/#person",
-          "name": "Dennie Ordynskyi",
-          "url": "https://imdennie.com/",
-          "jobTitle": "Product Designer",
-          "sameAs": [
-            "https://www.linkedin.com/in/dennieo/",
-            "https://getnumi.app",
-            "https://tyshaapp.com"
-          ]
-        },
-        "datePublished": "2026-09-09T14:00:00.000Z",
-        "dateModified": "2026-09-09T14:00:00.000Z",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html"
-        },
-        "isPartOf": {
-          "@type": "Blog",
-          "@id": "https://imdennie.com/blog/"
-        },
-        "publisher": {
-          "@type": "Person",
-          "@id": "https://imdennie.com/#person",
-          "name": "Dennie Ordynskyi",
-          "url": "https://imdennie.com/",
-          "jobTitle": "Product Designer",
-          "sameAs": [
-            "https://www.linkedin.com/in/dennieo/",
-            "https://getnumi.app",
-            "https://tyshaapp.com"
-          ]
-        },
-        "inLanguage": "en"
-      }
-    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-SXF5SS0QYH');
-    </script>
-
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-SXF5SS0QYH');
-    </script>
-
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" />
     <link rel="stylesheet" href="/dist/open-studio/style.css?v=20260919-artwork" />
-    <link rel="stylesheet" href="/dist/open-studio/pages.css?v=20260919" />
+    <link rel="stylesheet" href="/dist/open-studio/pages.css?v=20260920" />
+<link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ffffff'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23101b1e'%3ED%3C/text%3E%3C/svg%3E"
+    />
+    <meta name="description" content="How interface design shapes what machine learning systems learn: correction paths, checkability, and knowing when to show nothing." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="canonical" href="https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html" />
+    <link rel="describedby" href="/llms.txt" type="text/plain" />
+    <link rel="alternate" type="text/markdown" href="/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html.md" title="Markdown version" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Dennie Ordynskyi" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="UX for machine learning: the interface is a measuring device | Dennie Ordynskyi" />
+    <meta property="og:description" content="How interface design shapes what machine learning systems learn: correction paths, checkability, and knowing when to show nothing." />
+    <meta property="og:url" content="https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html" />
+    <meta property="og:image" content="https://imdennie.com/blog/cards/ux-for-machine-learning-the-interface-is-a-measuring-device.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content="UX for machine learning: the interface is a measuring device | Dennie Ordynskyi" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="UX for machine learning: the interface is a measuring device | Dennie Ordynskyi" />
+    <meta name="twitter:description" content="How interface design shapes what machine learning systems learn: correction paths, checkability, and knowing when to show nothing." />
+    <meta name="twitter:image" content="https://imdennie.com/blog/cards/ux-for-machine-learning-the-interface-is-a-measuring-device.png" />
+    <meta name="twitter:image:alt" content="UX for machine learning: the interface is a measuring device | Dennie Ordynskyi" />
+    <meta property="article:published_time" content="2026-09-09T14:00:00.000Z" />
+    <meta property="article:modified_time" content="2026-09-09T14:00:00.000Z" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://imdennie.com/#person",
+      "name": "Dennie Ordynskyi",
+      "alternateName": "Denys Ordynskyi",
+      "url": "https://imdennie.com/",
+      "image": "https://imdennie.com/dist/img/hero/dennie-hero.png",
+      "jobTitle": "Product Designer",
+      "description": "Product designer at DraftKings and creator of Numi, Tysha, and Karta, based in Kyiv, Ukraine.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "DraftKings"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kyiv",
+        "addressCountry": "UA"
+      },
+      "knowsLanguage": [
+        "Ukrainian",
+        "English",
+        "Russian"
+      ],
+      "knowsAbout": [
+        "Product design",
+        "User experience design",
+        "Design systems",
+        "AI product design",
+        "Mobile and web applications"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/dennieo/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://imdennie.com/#website",
+      "name": "Dennie Ordynskyi",
+      "url": "https://imdennie.com/",
+      "publisher": {
+        "@id": "https://imdennie.com/#person"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html#webpage",
+      "url": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html",
+      "name": "UX for machine learning: the interface is a measuring device | Dennie Ordynskyi",
+      "description": "How interface design shapes what machine learning systems learn: correction paths, checkability, and knowing when to show nothing.",
+      "inLanguage": "en",
+      "dateModified": "2026-09-22",
+      "isPartOf": {
+        "@id": "https://imdennie.com/#website"
+      },
+      "about": {
+        "@id": "https://imdennie.com/#person"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://imdennie.com/blog/cards/ux-for-machine-learning-the-interface-is-a-measuring-device.png",
+        "width": 1200,
+        "height": 630
+      },
+      "mainEntity": {
+        "@id": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html#article"
+      },
+      "breadcrumb": {
+        "@id": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html#breadcrumbs"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "UX for machine learning: the interface is a measuring device",
+      "description": "How interface design shapes what machine learning systems learn: correction paths, checkability, and knowing when to show nothing.",
+      "author": {
+        "@id": "https://imdennie.com/#person"
+      },
+      "datePublished": "2026-09-09T14:00:00.000Z",
+      "dateModified": "2026-09-09T14:00:00.000Z",
+      "mainEntityOfPage": {
+        "@id": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://imdennie.com/blog/#blog"
+      },
+      "publisher": {
+        "@id": "https://imdennie.com/#person"
+      },
+      "inLanguage": "en",
+      "@id": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html#article",
+      "url": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html",
+      "image": "https://imdennie.com/blog/cards/ux-for-machine-learning-the-interface-is-a-measuring-device.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://imdennie.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Writing",
+          "item": "https://imdennie.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "UX for machine learning: the interface is a measuring device | Dennie Ordynskyi",
+          "item": "https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html"
+        }
+      ]
+    }
+  ]
+}
+    </script>
   </head>
   <body id="top" class="article-page">
     <a class="skip-link" href="#main-content">Skip to content</a>

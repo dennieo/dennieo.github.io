@@ -11,92 +11,168 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>AI product design: designing for the cost of being wrong | Dennie Ordynskyi</title>
-    <meta name="description" content="AI product design comes down to one variable: your feature can be confidently wrong. Here is the wrongness budget, draft versus commit surfaces, and what shipped." />
+
     <meta name="author" content="Dennie Ordynskyi" />
-    <link rel="canonical" href="https://imdennie.com/blog/ai-product-design.html" />
-
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="AI product design: designing for the cost of being wrong" />
-    <meta property="og:description" content="AI product design comes down to one variable: your feature can be confidently wrong. Here is the wrongness budget, draft versus commit surfaces, and what shipped." />
-    <meta property="og:url" content="https://imdennie.com/blog/ai-product-design.html" />
-    <meta property="article:published_time" content="2026-08-28T11:28:39.053Z" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="AI product design: designing for the cost of being wrong" />
-    <meta name="twitter:description" content="AI product design comes down to one variable: your feature can be confidently wrong. Here is the wrongness budget, draft versus commit surfaces, and what shipped." />
-
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23B1FF14'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23080808'%3ED%3C/text%3E%3C/svg%3E" />
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "AI product design: designing for the cost of being wrong",
-        "description": "AI product design comes down to one variable: your feature can be confidently wrong. Here is the wrongness budget, draft versus commit surfaces, and what shipped.",
-        "author": {
-          "@type": "Person",
-          "@id": "https://imdennie.com/#person",
-          "name": "Dennie Ordynskyi",
-          "url": "https://imdennie.com/",
-          "jobTitle": "Product Designer",
-          "sameAs": [
-            "https://www.linkedin.com/in/dennieo/",
-            "https://getnumi.app",
-            "https://tyshaapp.com"
-          ]
-        },
-        "creator": {
-          "@type": "Person",
-          "@id": "https://imdennie.com/#person",
-          "name": "Dennie Ordynskyi",
-          "url": "https://imdennie.com/",
-          "jobTitle": "Product Designer",
-          "sameAs": [
-            "https://www.linkedin.com/in/dennieo/",
-            "https://getnumi.app",
-            "https://tyshaapp.com"
-          ]
-        },
-        "datePublished": "2026-08-28T11:28:39.053Z",
-        "dateModified": "2026-08-28T11:28:39.053Z",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://imdennie.com/blog/ai-product-design.html"
-        },
-        "isPartOf": {
-          "@type": "Blog",
-          "@id": "https://imdennie.com/blog/"
-        },
-        "publisher": {
-          "@type": "Person",
-          "@id": "https://imdennie.com/#person",
-          "name": "Dennie Ordynskyi",
-          "url": "https://imdennie.com/",
-          "jobTitle": "Product Designer",
-          "sameAs": [
-            "https://www.linkedin.com/in/dennieo/",
-            "https://getnumi.app",
-            "https://tyshaapp.com"
-          ]
-        },
-        "inLanguage": "en"
-      }
-    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-SXF5SS0QYH');
-    </script>
-
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" />
     <link rel="stylesheet" href="/dist/open-studio/style.css?v=20260919-artwork" />
-    <link rel="stylesheet" href="/dist/open-studio/pages.css?v=20260919" />
+    <link rel="stylesheet" href="/dist/open-studio/pages.css?v=20260920" />
+<link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ffffff'/%3E%3Ctext x='50' y='71' font-family='Georgia,serif' font-size='62' font-style='italic' text-anchor='middle' fill='%23101b1e'%3ED%3C/text%3E%3C/svg%3E"
+    />
+    <meta name="description" content="Designing AI products for the cost of being wrong: correction paths, draft states, output length, and lessons from shipping real products." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="canonical" href="https://imdennie.com/blog/ai-product-design.html" />
+    <link rel="describedby" href="/llms.txt" type="text/plain" />
+    <link rel="alternate" type="text/markdown" href="/blog/ai-product-design.html.md" title="Markdown version" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Dennie Ordynskyi" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="AI product design: designing for the cost of being wrong | Dennie Ordynskyi" />
+    <meta property="og:description" content="Designing AI products for the cost of being wrong: correction paths, draft states, output length, and lessons from shipping real products." />
+    <meta property="og:url" content="https://imdennie.com/blog/ai-product-design.html" />
+    <meta property="og:image" content="https://imdennie.com/dist/img/social/portfolio.jpg" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:alt" content="Dennie Ordynskyi — product designer and builder, portfolio homepage" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI product design: designing for the cost of being wrong | Dennie Ordynskyi" />
+    <meta name="twitter:description" content="Designing AI products for the cost of being wrong: correction paths, draft states, output length, and lessons from shipping real products." />
+    <meta name="twitter:image" content="https://imdennie.com/dist/img/social/portfolio.jpg" />
+    <meta name="twitter:image:alt" content="Dennie Ordynskyi — product designer and builder, portfolio homepage" />
+    <meta property="article:published_time" content="2026-08-28T11:28:39.053Z" />
+    <meta property="article:modified_time" content="2026-08-28T11:28:39.053Z" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://imdennie.com/#person",
+      "name": "Dennie Ordynskyi",
+      "alternateName": "Denys Ordynskyi",
+      "url": "https://imdennie.com/",
+      "image": "https://imdennie.com/dist/img/hero/dennie-hero.png",
+      "jobTitle": "Product Designer",
+      "description": "Product designer at DraftKings and creator of Numi, Tysha, and Karta, based in Kyiv, Ukraine.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "DraftKings"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kyiv",
+        "addressCountry": "UA"
+      },
+      "knowsLanguage": [
+        "Ukrainian",
+        "English",
+        "Russian"
+      ],
+      "knowsAbout": [
+        "Product design",
+        "User experience design",
+        "Design systems",
+        "AI product design",
+        "Mobile and web applications"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/dennieo/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://imdennie.com/#website",
+      "name": "Dennie Ordynskyi",
+      "url": "https://imdennie.com/",
+      "publisher": {
+        "@id": "https://imdennie.com/#person"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://imdennie.com/blog/ai-product-design.html#webpage",
+      "url": "https://imdennie.com/blog/ai-product-design.html",
+      "name": "AI product design: designing for the cost of being wrong | Dennie Ordynskyi",
+      "description": "Designing AI products for the cost of being wrong: correction paths, draft states, output length, and lessons from shipping real products.",
+      "inLanguage": "en",
+      "dateModified": "2026-09-22",
+      "isPartOf": {
+        "@id": "https://imdennie.com/#website"
+      },
+      "about": {
+        "@id": "https://imdennie.com/#person"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://imdennie.com/dist/img/social/portfolio.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "mainEntity": {
+        "@id": "https://imdennie.com/blog/ai-product-design.html#article"
+      },
+      "breadcrumb": {
+        "@id": "https://imdennie.com/blog/ai-product-design.html#breadcrumbs"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "AI product design: designing for the cost of being wrong",
+      "description": "Designing AI products for the cost of being wrong: correction paths, draft states, output length, and lessons from shipping real products.",
+      "author": {
+        "@id": "https://imdennie.com/#person"
+      },
+      "datePublished": "2026-08-28T11:28:39.053Z",
+      "dateModified": "2026-08-28T11:28:39.053Z",
+      "mainEntityOfPage": {
+        "@id": "https://imdennie.com/blog/ai-product-design.html#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://imdennie.com/blog/#blog"
+      },
+      "publisher": {
+        "@id": "https://imdennie.com/#person"
+      },
+      "inLanguage": "en",
+      "@id": "https://imdennie.com/blog/ai-product-design.html#article",
+      "url": "https://imdennie.com/blog/ai-product-design.html",
+      "image": "https://imdennie.com/dist/img/social/portfolio.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://imdennie.com/blog/ai-product-design.html#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://imdennie.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Writing",
+          "item": "https://imdennie.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI product design: designing for the cost of being wrong | Dennie Ordynskyi",
+          "item": "https://imdennie.com/blog/ai-product-design.html"
+        }
+      ]
+    }
+  ]
+}
+    </script>
   </head>
   <body id="top" class="article-page">
     <a class="skip-link" href="#main-content">Skip to content</a>

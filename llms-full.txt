@@ -1,0 +1,1654 @@
+# Dennie Ordynskyi — public website content
+
+---
+
+Updated: 2026-09-22. Generated from the public HTML pages; canonical URLs are listed for each page.
+
+---
+
+## Dennie Ordynskyi — Product Designer
+
+Source: https://imdennie.com/
+
+Updated: 2026-09-22
+
+# I design and build digital products.
+
+I’m Dennie, a product designer at DraftKings.  I also make my own apps — from first idea to launch.
+
+[View selected work  ](https://imdennie.com/#work)
+
+Based in Kyiv 14+ years in product design
+
+## Selected work
+
+Independent products & collaborations
+
+[![Numi home and photo-based meal analysis on two phones against pale lavender](https://imdennie.com/dist/img/covers/open-studio/numi.webp)](https://imdennie.com/case/numi.html)
+
+### [Numi  ](https://imdennie.com/case/numi.html)
+
+AI nutrition tracking for iPhone.
+
+Concept, design & development
+
+[![Tysha live sound mixer beside its fading sleep timer on a soft oatmeal background](https://imdennie.com/dist/img/covers/open-studio/tysha.webp)](https://imdennie.com/case/tysha.html)
+
+### [Tysha  ](https://imdennie.com/case/tysha.html)
+
+Sleep sounds for babies and tired parents.
+
+Concept, design & development
+
+[![Karta restaurant dashboard with the guest pancake ordering screen on pale sage](https://imdennie.com/dist/img/covers/open-studio/karta.webp)](https://imdennie.com/case/karta.html)
+
+### [Karta  ](https://imdennie.com/case/karta.html)
+
+QR ordering and payments for restaurants.
+
+Concept, design & development
+
+![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
+
+### Linc
+
+A cloud studio for content creators.
+
+Founding product designer
+
+### Earlier work
+
+MyGoTrainer   Shipshape   Chatbox   E-commerce
+
+## A bit about me
+
+A designer who likes to see things through.
+
+I’m Dennie Ordynskyi. I’ve spent 14+ years designing products across mobile and web. Today, I work on large-scale consumer experiences at DraftKings.
+
+I also build my own products. Numi, Tysha, and Karta are projects I’ve taken from the initial idea through design and development.
+
+I’m based in Kyiv and work with teams across the US and Europe.
+
+[My story  ](https://imdennie.com/story.html)[My approach  ](https://imdennie.com/approach.html)[Resume  ](https://imdennie.com/resume.html)
+
+## Notes on design & building
+
+[All writing  ](https://imdennie.com/blog/)
+
+[
+
+### How to become a product designer in 2026
+
+9 min read  ](https://imdennie.com/blog/how-to-become-a-product-designer.html) [
+
+### I shipped two iOS apps solo. Here’s what AI changed.
+
+8 min read  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [
+
+### Designing AI products: six lessons from building one
+
+7 min read  ](https://imdennie.com/blog/designing-ai-products.html)
+
+## Have something in mind?
+
+I’m open to senior product design roles  and select collaborations.
+
+[Get in touch  ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
+
+
+---
+
+## My story — Dennie Ordynskyi
+
+Source: https://imdennie.com/story.html
+
+Updated: 2026-09-22
+
+My story
+
+# A little about how I got here.
+
+It’s the story of how a kid from Ukraine ended up designing products used by millions. Questions asked, lessons learned, products shipped.
+
+[Read my story  ](https://imdennie.com/story.html#story)
+
+Chapter 01 · Origins
+
+## So… where does this story begin?
+
+In Ukraine  — where I was born and raised, and where I first learned that the fastest way to understand how something works is to take it apart. Most things survived the process. Some even worked afterwards.
+
+Chapter 02 · Kyiv
+
+## Did you study design?
+
+Nope. Kyiv University of Tourism, Economics and Law , 2002–2007. No design degree, no bootcamp — just relentless curiosity and a computer. Everything that came after was learned by shipping.
+
+Chapter 03 · First pixels
+
+## When did design find you?
+
+Around 2011 — and it stuck. My product-design journey properly began at Chatbox , a team-messaging SaaS — the pattern Slack would later make famous — working between management, sales and engineering. The features I helped ship fast helped secure investment and land the first big customers.
+
+Along the way
+
+- Photoshop
+- Illustrator
+- HTML & CSS
+- Pixel patience
+
+Chapter 04 · The e-commerce years
+
+## Then what happened?
+
+I helped grow a small agency into a large e-commerce brand , designing experiences for major retail clients. Along the way I set up the design practices and dev workflows — and mentored the junior designers coming up behind me.
+
+Along the way
+
+- Sketch
+- Shopify
+- Conversion design
+- Mentoring
+
+Chapter 05 · Going lead
+
+## When did you start leading?
+
+As Lead Product Designer  I led a team of three and shipped Shipshape  — smart-home monitoring that catches household problems early, from the app and design system to the brand and its mascot. I even climbed into the crawlspaces where the sensors get installed to get the research right. Then MyGoTrainer , an iOS marketplace where I owned the UX for all three sides: clients, trainers and facilities.
+
+Along the way
+
+- Design leadership
+- IoT
+- Marketplaces
+- User research
+
+Chapter 06 · Day one
+
+## What was your biggest bet?
+
+Joining Linc  as Founding Product Designer  — employee-one energy, a studio platform for content creators, nothing but a blank canvas. I built the design system and the end-to-end UX from scratch, iterating with users and engineers daily.
+
+Along the way
+
+- Figma
+- Design systems
+- 0→1 product
+
+Chapter 07 · The big leagues
+
+## And where do you work now?
+
+DraftKings  — since 2016, nearly a decade of designing large-scale consumer experiences  in one of the fastest-moving, most regulated spaces in tech. When millions of people use what you design, usability, performance and consistency stop being nice-to-haves.
+
+Along the way
+
+- Design at scale
+- Experimentation
+- Regulated UX
+- Accessibility
+
+Chapter 08 · Everything changes
+
+## When did everything change?
+
+When AI agents  showed up. Suddenly one designer could research, design, code and ship an entire product. I went all-in — prototyping at the speed of thought, with language models as teammates instead of tools.
+
+Along the way
+
+- Claude
+- ChatGPT
+- Claude Code
+- AI agents
+- SwiftUI
+
+Chapter 09 · Proof of work
+
+## Okay — prove it.
+
+[Numi](https://getnumi.app) — an AI nutrition tracker  for iPhone, live on the App Store. Snap a photo of your meal; it reads calories, macros and micronutrients, and builds a personal “Metabolic Fingerprint.” Concept, design, code, App Store — designed and built solo , shipped in 2025.
+
+Along the way
+
+- Solo-shipped an iOS app
+- AI / Vision
+- Founder
+
+Chapter 10 · The 3 a.m. shift
+
+## Did you stop there?
+
+Of course not. In 2026 I shipped [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) — a white-noise app for exhausted parents. Real-time generated sound, no loops, no ads, no internet needed. Every screen designed for one hand, in the dark, at 3 a.m.
+
+Along the way
+
+- App #2 shipped
+- Audio / DSP
+- Offline-first
+
+Chapter 11 · One QR code
+
+## Two apps in one year — done?
+
+Not even close. Mid-2026 I started [Karta](https://karta-nu.vercel.app/) — one QR code for a whole restaurant.  Guests scan the table sticker to browse, order, split and pay in their own language, no app needed; owners get a full back office with live floor plans, analytics, auto-split payouts and an AI waiter. My biggest solo build yet — guest app, dashboard and design system, end-to-end.
+
+Along the way
+
+- Full platform, 0→1
+- Payments
+- AI menu
+- Web app
+
+Chapter 12 · Now playing
+
+## So… what’s next?
+
+Today I’m in Kyiv — designing at DraftKings, running three live products, and open to senior product design roles & select collaborations. The next chapter could start with your message.
+
+14+ years of design  3 products shipped & live  3 languages  ∞ curiosity
+
+[  Write the next chapter  ](mailto:gehucka@gmail.com?subject=The%20next%20chapter) [  LinkedIn ](https://www.linkedin.com/in/dennieo/) [ Selected work  ](https://imdennie.com/index.html)
+
+
+---
+
+## My approach — Dennie Ordynskyi
+
+Source: https://imdennie.com/approach.html
+
+Updated: 2026-09-22
+
+My approach
+
+#  I get close to the problem.  Make the complicated feel simple.   And stay with it until it ships.
+
+![Dennie Ordynskyi playing golf](https://imdennie.com/dist/img/hero/dennie-hero.png)
+
+A curious human, on and off the screen.
+
+![Design system and interface work for Linc](https://imdennie.com/dist/img/linc/linc-2@2x.jpg)
+
+From the details to the bigger picture. / Linc
+
+## 01 / Get close to the problem
+
+I want to understand how people actually use a product. At Shipshape, that meant climbing into the crawlspaces where the sensors were installed. The context matters as much as the screen.
+
+## 02 / Make it real early
+
+I turn ideas into something we can try, question, and improve. At Linc, I built the experience from scratch, working with users and engineers to figure out what belonged in the product.
+
+## 03 / Make complexity feel simple
+
+At DraftKings, I design for usability, performance, and consistency at scale. I bring that same attention to smaller products — right down to designing Tysha for one hand, in the dark, at 3 a.m.
+
+## 04 / Follow the idea through
+
+I like taking responsibility beyond the design file. Building Numi, Tysha, and Karta myself keeps me close to the decisions that shape the final experience.
+
+[See the work behind the words  ](https://imdennie.com/index.html#work)
+
+Where that thinking shows up
+
+[01
+
+## Intelligent products
+
+Numi / Making nutrition tracking simpler with AI.
+
+](https://imdennie.com/case/numi.html)[02
+
+## Everyday experiences
+
+Tysha / A little less friction for tired parents.
+
+](https://imdennie.com/case/tysha.html)[03
+
+## Connected systems
+
+Karta / A restaurant experience that works together.
+
+](https://imdennie.com/case/karta.html)
+
+Have something in mind?
+
+## Let’s make something matter.
+
+[Start a conversation  ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
+
+Open to senior product design roles and select collaborations.
+
+
+---
+
+## Resume — Dennie Ordynskyi, Product Designer
+
+Source: https://imdennie.com/resume.html
+
+Updated: 2026-09-22
+
+Resume
+
+Save as PDF
+
+# Dennie Ordynskyi
+
+Product Designer — AI-powered consumer & B2B products
+
+Kyiv, Ukraine · Remote  [imdennie.com](https://imdennie.com) [linkedin.com/in/dennieo](https://www.linkedin.com/in/dennieo/) [gehucka@gmail.com ](mailto:gehucka@gmail.com)
+
+## Summary
+
+Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has shipped three products from concept to launch — Numi (AI-powered nutrition, iOS), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, prototyping in code and shipping.
+
+## Experience
+
+### Product Designer · DraftKings — Sportsbook, web & native
+
+2016 — Present
+
+- Design the bet slip and checkout — the flow every wager passes through — across web and the native app (rated 4.8 from 1.2M+ App Store ratings), for millions of monthly players in 25+ regulated US states, each with its own rules.
+- Simplified a complex multi-bet checkout — odds changes, limits, rejections and other edge states — into a flow that measurably improved bet-placement conversion.
+- Own the web sportsbook experience end to end: led a responsive web redesign, keep web at feature parity with native, and maintain the shared web component library and interaction patterns.
+- Started on the self-service betting kiosks for retail casino sportsbooks — designing within hardware and compliance constraints alongside hardware, operations and compliance teams — rolled out across multiple casinos and states.
+- Partner with product and engineering leads on the roadmap, review work across squads in design critiques, and drove cross-team initiatives spanning web and native.
+
+### Founder & Product Designer · Karta — QR ordering & payments, web
+
+2026 — Present
+
+- Designing and building an end-to-end restaurant platform: one QR code lets guests browse, order, split and pay in their own language with no app install.
+- Owner back office with real-time floor plan, menu editor, analytics, POS integrations and auto-routed payment splits between kitchen, bar and staff tips.
+- Built the guest web app, owner dashboard, AI menu recommender and shared design system solo.
+
+### Founder & Product Designer · Numi — AI nutrition app (iOS)
+
+2025 — Present
+
+- Designed and built an AI-powered nutrition tracker end-to-end — concept, positioning, UX, design system and App Store release.
+- Photo-based meal logging: snap a photo and AI analyzes calories, macros and micronutrients — replacing manual food logging entirely.
+- Designed a personal “Metabolic Fingerprint” insight engine plus fasting, weight and hydration tracking.
+
+### Founder & Product Designer · Tysha — baby-sleep app (iOS)
+
+2026 — Present
+
+- Shipped a real-time white/pink/brown-noise generator for new parents — no loops, no accounts, no ads, fully offline. Holds a 5.0 rating on the App Store.
+- Designed around one-handed 3 a.m. use: layered sound mixer, saveable “Rooms”, fading sleep timer, Siri and Lock Screen control.
+
+### Founding Product Designer · Linc — cloud studio platform
+
+2016 — 2018
+
+- First designer: established the brand, scalable design system and end-to-end UX for a studio platform-as-a-service for content creators.
+- Defined personas and flows, and iterated from user feedback alongside engineering.
+
+### Senior Product Designer · Blue Stout — e-commerce agency
+
+2014 — 2018
+
+- Helped grow a small agency into a large e-commerce brand, designing conversion-focused experiences for major retail clients.
+- Established the company’s design practices and development flows; mentored junior designers.
+
+### Lead Product Designer · ShipShape Smart Homes — IoT
+
+2016 — 2017
+
+- Owned product design end to end for a smart-home monitoring platform — UI/UX, design system, brand identity and mascot — while leading and mentoring a team of three designers.
+- Ran hands-on research, including field interviews and site visits into the crawlspaces where the sensors get installed, to ground the product in real-world conditions.
+- Partnered with engineering and stakeholders to ship the mobile app; drove agile delivery via sprint planning, scrums and retros.
+
+### Product Designer · Chatbox — customer-messaging SaaS
+
+2014 — 2016
+
+- Designed and built the front-end UI for a channel-based team-messaging product — the pattern Slack would later define — working across management, sales and engineering to ship core features fast.
+- Design work contributed to securing investment and landing the first major customers.
+
+### Earlier
+
+2012 — 2014
+
+- UI/UX Designer at Bilberry Software (clients incl. Chipotle, reviews.com); freelance product designer ranked top 5% on Elance; program management for a distributed R&D team at Audyssey Laboratories (2017).
+
+## Skills
+
+**Product design**  Product strategy & discovery, end-to-end UX, UI & interaction design, design systems, rapid prototyping, user research, mobile (iOS/Android) & web
+
+**AI**  AI product design, human–AI interaction, LLM-powered features, AI-assisted development & prototyping (concept → working product)
+
+**Ways of working**  0→1 and scale-up environments, cross-functional collaboration with engineering & PM, agile (Scrum/Kanban), mentoring
+
+**Languages**  English (professional), Ukrainian (native), Russian (professional)
+
+**Tools**  Figma & FigJam (design, prototyping) · Claude Code, Cursor and other AI coding tools · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
+
+## Education
+
+2002 — 2007  **Kyiv University of Tourism, Economics and Law** — Master’s degree  Additional coursework: Machine Learning — Stanford University, via Coursera
+
+
+---
+
+## Numi — case study · Dennie Ordynskyi
+
+Source: https://imdennie.com/case/numi.html
+
+Updated: 2026-09-22
+
+AI nutrition · iOS · Founder product
+
+# Numi makes logging a meal cost one photo.
+
+A nutrition app that kills the tap-tap-tap of manual food logging. Snap a photo, get calories, macros and micronutrients back — and a coach that speaks in plain language, not spreadsheets.
+
+- **Role** · Founder, Product Designer & Engineer
+- **Timeline** · 2025 → present
+- **Platform** · iOS (SwiftUI)
+- **Scope** · Concept → UX → UI → build → App Store
+
+[ Visit getnumi.app  ](https://getnumi.app) [Read the study ↓](https://imdennie.com/case/numi.html#problem)
+
+![Numi product overview](https://imdennie.com/dist/img/covers/open-studio/numi.webp)
+
+**01** — Overview
+
+Most trackers ask you to search a database and do portion math  three times a day. Numi’s bet is that the log has to disappear into a single tap — and that the numbers only matter if the app tells you what they mean.
+
+My role: Founder · Design · Build
+
+Team: Solo, with AI tooling
+
+Surfaces: Logging · Insights · Fasting
+
+Core tech: Vision AI · SwiftUI
+
+Status: Released on the App Store
+
+**02** — The problem
+
+## People don’t quit tracking because they stop caring. They quit because it’s work.
+
+Every food diary starts the same way: motivated. Then real life hits — a rushed lunch, a shared plate, a dish with no barcode — and the friction compounds. Search, scroll, guess the grams, repeat. Within a couple of weeks most people just… stop.
+
+So the real design problem was never “show more nutrition data.” It was protect the habit  — make the first log of the day effortless, and make the data earn its place by changing what the person does next.
+
+**03** — Product thinking
+
+## Three bets the whole product leans on.
+
+01
+
+### Logging must be a reflex
+
+If capturing a meal costs more than a photo, the habit dies. The camera is the primary action, everywhere.
+
+02
+
+### Numbers need a narrator
+
+1,642 kcal means nothing on its own. Numi turns a week of data into a sentence you actually read.
+
+03
+
+### Respect the whole day
+
+Eating, fasting, weight and hydration live on one home — because they’re one story, not four apps.
+
+**04** — Who it’s for
+
+## Two people I kept designing for.
+
+Personas drawn from Numi’s audience — and the design beliefs that shaped how it works.
+
+#### The lapsed tracker
+
+Wants results without a second job
+
+Has tried three other apps and abandoned each one around day 10. Will stay only if logging never feels like data entry. Success = still logging in week four.
+
+#### The optimizer
+
+Wants signal, not just a food diary
+
+Already disciplined; cares about macros, fasting windows and trends. Will stay if the insights are sharper than what a spreadsheet gives them.
+
+- “
+
+People don’t quit tracking because they stop caring — they quit because it’s work.  Friction is the enemy, not willpower.
+
+- “
+
+Users don’t want more charts; they want to be told one thing — “are you on track or not.”
+
+- “
+
+The bar for effortless: even a complex, multi-item dish  logs in under 10 seconds from a single photo.
+
+**05** — Key UX & UI decisions
+
+## Where the product thinking became pixels.
+
+Logging
+
+### The camera is the front door
+
+A persistent shutter button anchors the home screen. Tap it, point at the plate, and vision AI returns calories, macros and micronutrients — no search field, no portion slider. The plate becomes the input.
+
+**Why it works:** the highest-friction moment of every tracker is now the lowest-effort one, so the habit survives real life.
+
+![Numi meal / weekly analysis screen](https://imdennie.com/dist/img/numi/device-meal.webp)
+
+Home
+
+### One glance, three rings
+
+The home leads with protein, carbs and fat as color-coded rings over a filmstrip of today’s meals. No reading required — the shape of the day tells you if you’re on track before you’ve parsed a single number.
+
+**Why it works:** answers the only question most people have — “am I good?” — in under a second, then lets the curious drill in.
+
+![Numi home with macro rings and meals](https://imdennie.com/dist/img/numi/device-home.webp)
+
+Insights
+
+### A weekly report that reads like a note
+
+Instead of a wall of charts, Numi writes the week up in plain language — “something broke mid-week,” an adherence score, what to fix — backed by a simple seven-day bar. The AI does the interpreting so the user doesn’t have to.
+
+**Why it works:** insight only changes behavior if it’s understood; a sentence lands where a scatter plot doesn’t.
+
+![Numi AI weekly narrative report](https://imdennie.com/dist/img/numi/device-weekly-alt.webp)
+
+Fasting
+
+### Fasting on the same timeline
+
+The eating window lives on the home, not in a separate app — with a plain-English state (“eating window closed, body switching to stored energy”) and gentle guidance. Tracking and fasting stop competing for attention.
+
+**Why it works:** one mental model for the whole day beats stitching together three single-purpose tools.
+
+![Numi fasting window timeline](https://imdennie.com/dist/img/numi/device-fasting.webp)
+
+**06** — Design system
+
+## A dark canvas so the food pops.
+
+Numi runs on a near-black surface: real meal photos and saturated macro gradients do the talking, while big numerals and generous rounded cards keep dense data calm. Every metric maps to a fixed hue — protein, carbs, fat, hydration — so color itself becomes a legend you learn once.
+
+Component language
+
+- Macro rings
+- Meal filmstrip
+- Insight cards
+- Timeline / window
+- Big-numeral stats
+- Shutter FAB
+- Plain-language states
+- Tabbed home
+
+Reusable tokens and components meant the whole app could stay consistent while shipping fast — one designer-engineer, one system, no drift between concept and build.
+
+**07** — Outcomes
+
+## What shipped.
+
+Numi is available on the App Store — designed, built, and shipped end to end.
+
+Live
+
+Available on the App Store
+
+Photo
+
+Zero-typing meal logging
+
+<10s
+
+To log a complex dish
+
+1
+
+Designer-engineer, end-to-end
+
+**08** — More
+
+## See it running, or read another study.
+
+[ Visit getnumi.app  ](https://getnumi.app) [All work](https://imdennie.com/index.html#work)
+
+[ Next case study Tysha — baby sleep    ](https://imdennie.com/case/tysha.html) [ Case study Karta — restaurant platform    ](https://imdennie.com/case/karta.html)
+
+
+---
+
+## Tysha — case study · Dennie Ordynskyi
+
+Source: https://imdennie.com/case/tysha.html
+
+Updated: 2026-09-22
+
+Baby sleep · iOS · Founder product
+
+# A sleep app you can use half-asleep.
+
+Tysha is white noise for the 3 a.m. shift — real-time sound for settling a baby, designed to be run one-handed, in the dark, by someone who is exhausted and out of patience.
+
+- **Role** · Founder, Product Designer & Engineer
+- **Timeline** · 2026 → live
+- **Platform** · iOS · Audio/DSP
+- **Scope** · Concept → UX → UI → build → App Store
+
+[ View on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [Read the study ↓](https://imdennie.com/case/tysha.html#problem)
+
+![Tysha product overview](https://imdennie.com/dist/img/covers/open-studio/tysha.webp)
+
+The design brief was a moment: 3 a.m., one hand, a crying baby, and a screen too bright.
+
+**01** — The problem
+
+## The context is hostile. The app has to be kind.
+
+A parent reaching for a white-noise app at 3 a.m. is half-asleep, holding a baby with one arm, in a dark room, with zero patience. Most apps meet that moment with the opposite: sign-in walls, ads, audible looping tracks, buried controls, and a screen that lights up the whole nursery.
+
+So the problem wasn’t “make white noise.” It was design for the worst moment of the day  — and get out of the way fast enough that the parent can put the phone down and the baby can settle.
+
+**02** — Product thinking
+
+## Three principles, all pointed at calm.
+
+### One hand, half-asleep
+
+Every core action lives within a thumb’s reach and works on the first tap. No hunting, no reading, no precision required.
+
+### Generated, never looped
+
+Sound is synthesized in real time — seamless and infinite, with no audible repeat — and it keeps working with no internet at all.
+
+### Calm by subtraction
+
+No accounts, no ads, no sign-up. Fewer choices and less chrome mean faster relief and nothing to distract at the worst hour.
+
+**03** — Who it’s for
+
+## The people at the crib.
+
+Personas grounded in Tysha’s audience — and the insights that shaped the app.
+
+#### The new parent
+
+Just wants the baby to settle — now
+
+0–6 months in, chronically sleep-deprived, often one-handed. Has no patience for setup and won’t remember a password. Success = sound playing within a second of opening.
+
+#### The light-sleeping partner
+
+Wants it to just keep working, quietly
+
+Cares that it runs all night, fades gently, and never interrupts with an ad or a reconnect. Values privacy and offline reliability over features.
+
+- “
+
+A parent’s own words on looping tracks: “the repeat wakes me before it wakes the baby.”
+
+- “
+
+The most-wanted sounds weren’t “nature” — they were hair dryers, vacuums, the womb and brown noise.
+
+- “
+
+Every second of setup at 3 a.m. is a second of crying — so the target is sound playing in under a second.
+
+**04** — Key UX & UI decisions
+
+## Designing for the dark.
+
+The mixer
+
+### Sounds you blend by touch
+
+The home is a calm, near-black canvas with floating sound nodes you tap to bring in and out, and one big play button anchored where a thumb naturally rests. Mixing is physical and forgiving — no sliders to land precisely, no menus to read.
+
+**Why it works:** a half-asleep parent can build the exact sound they need without focusing their eyes.
+
+![Tysha orbital sound mixer](https://imdennie.com/dist/img/tysha/screen-1.webp)
+
+The library
+
+### A sound list that speaks parent, not engineer
+
+Sounds are grouped the way tired parents actually think — “weird but it works” (hair dryer, vacuum, washing machine), “womb & body,” “nature, no surprises” — each with a reassuring one-line caption. It’s a synthesized library that’s seamless, infinite and free.
+
+**Why it works:** the copy does the reassuring, so a panicked parent trusts the pick instantly.
+
+![Tysha categorized sound library](https://imdennie.com/dist/img/tysha/screen-2.webp)
+
+Set & forget
+
+### Save the mix, fade it out, put the phone down
+
+A working mix can be saved as a “Room,” started with Siri or the Lock Screen, and handed a gentle fading sleep timer — so the whole interaction can end with the phone face-down on the nightstand and the baby drifting off.
+
+**Why it works:** the best sleep app is one you stop touching; every feature pushes toward putting it away.
+
+![Tysha saved rooms and fading sleep timer](https://imdennie.com/dist/img/tysha/screen-3.webp)
+
+**05** — Design system
+
+## Warm, quiet, and built for the dark.
+
+The app lives on a deep, warm near-black so it never lights up a nursery, with a single amber glow to guide the eye and oversized, rounded tap targets that forgive shaky, half-asleep aim. The voice is gentle and a little witty — reassurance, never instruction.
+
+Component language
+
+- Sound nodes
+- Big play control
+- Saved “Rooms”
+- Fading timer
+- Categorized picker
+- Reassuring captions
+- Lock-Screen / Siri
+- Offline-first
+
+Large targets, minimal chrome and one accent kept the whole app legible at a glance — and made it possible to design and build it solo without the system fragmenting.
+
+**06** — Outcomes
+
+## What shipped.
+
+Live on the App Store — a few honest markers of what it is.
+
+5.0
+
+App Store rating
+
+∞
+
+Seamless, never looped
+
+100%
+
+Offline · no account
+
+0
+
+Ads, ever
+
+**07** — More
+
+## Hear it, or read another study.
+
+[ View on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [All work](https://imdennie.com/index.html#work)
+
+[ Next case study Karta — restaurant platform    ](https://imdennie.com/case/karta.html) [ Case study Numi — AI nutrition    ](https://imdennie.com/case/numi.html)
+
+
+---
+
+## Karta — case study · Dennie Ordynskyi
+
+Source: https://imdennie.com/case/karta.html
+
+Updated: 2026-09-22
+
+Restaurant platform · Web · Founder product
+
+# One QR code for a whole restaurant.
+
+Karta is a two-sided platform: guests scan the sticker on their table to order and pay in their own language with no app, and owners get a full back office that runs the floor and splits every payment automatically.
+
+- **Role** · Founder, Product Designer & Engineer
+- **Timeline** · 2026 → live
+- **Platform** · Web · guest + back office
+- **Scope** · Two-sided product, end-to-end
+
+[ Try the live demo  ](https://karta-nu.vercel.app/) [Read the study ↓](https://imdennie.com/case/karta.html#problem)
+
+![Karta product overview](https://imdennie.com/dist/img/covers/open-studio/karta.webp)
+
+**01** — The problem
+
+## A restaurant runs on a dozen disconnected tools. The guest feels every seam.
+
+Paper menus that can’t be translated. A card terminal that walks to the table. A waiter chasing the bill. Allergens nobody can look up. Tips that feel awkward. And a POS that doesn’t talk to any of it — so every busy service leaks time and turns tables slower.
+
+-  Guests wait to order, then wait again to pay
+-  No translation, no allergen info at the table
+-  Splitting a bill and tipping is clumsy
+-  Owners reconcile kitchen, bar and tips by hand
+-  “Install our app” is a non-starter for a walk-in
+
+**02** — Product thinking
+
+## Three bets that shaped the platform.
+
+01
+
+### Zero friction for the guest
+
+No app, no login, no download — a scan opens the menu in their language. Meet people where they already are: their phone browser.
+
+02
+
+### One payment, correctly split
+
+A single guest tap settles the bill and auto-routes money to kitchen, bar and tips — so the owner never reconciles by hand.
+
+03
+
+### Two audiences, one system
+
+The guest app and the owner back office share a design language and data model, so the whole platform stays coherent.
+
+**03** — Two sides of one product
+
+## The hardest part was serving both at once.
+
+A guest wants speed and calm on a phone. An owner wants control and clarity on a screen full of numbers. One system had to do both.
+
+Guest · mobile web
+
+### Fast, calm, in your language
+
+- Scan the sticker → menu in seconds
+- Browse, filter, read allergens
+- “Help me choose” AI waiter
+- Order, split and pay in a tap
+
+Owner · back office
+
+### Control, in one place
+
+- Live floor plan and open tables
+- Menu editor and QR stickers
+- Revenue, tips and top-dish analytics
+- Auto-routed settlement, no reconciliation
+
+**04** — Who it’s for
+
+## Personas on both sides of the table.
+
+Grounded in Karta’s two audiences — and the design bets behind them.
+
+#### The diner
+
+Wants to eat, not fight the process
+
+Maybe a tourist who doesn’t read the local language. Won’t install an app for one meal. Success = ordering confidently and paying without flagging anyone down.
+
+#### The operator
+
+Wants faster turns and clean books
+
+Runs a busy floor on thin margins. Won’t rip out their POS. Success = tables turn faster, tips go up, and settlement just reconciles itself.
+
+- “
+
+The single biggest drop-off risk is any hint of a download — so the guest flow assumes scan → menu, instantly.
+
+- “
+
+Owners won’t adopt anything that means manual reconciliation — so the split is designed to be invisible and trustworthy.
+
+- “
+
+The bets to prove out next: higher tips  and faster table turns  from fewer, quicker interactions.
+
+**05** — Key UX & UI decisions
+
+## Where it became a real product.
+
+Guest · onboarding
+
+### The menu opens before you’d finish typing a URL
+
+Scanning the table sticker drops the guest straight into a branded, photo-rich menu — language auto-detected, allergens and dietary filters one tap away, table already known. There is no account and no install between hungry and ordering.
+
+**Why it works:** the moment of highest drop-off risk — “do I have to sign up?” — simply doesn’t exist.
+
+![Karta guest menu](https://imdennie.com/dist/img/karta/guest-menu.jpg)
+
+Guest · AI
+
+### An AI waiter for “I can’t decide”
+
+Tell Karta what the table feels like — “something light, we love seafood, one veggie” — and it suggests an order from what’s actually on the menu. It turns choice paralysis into a one-sentence conversation.
+
+**Why it works:** it recreates the best part of a great server — a confident recommendation — at every table, instantly.
+
+![Karta AI help-me-choose](https://imdennie.com/dist/img/karta/guest-ai.jpg)
+
+Owner · back office
+
+### The split is visible, so it’s trusted
+
+The dashboard shows revenue, tips and — crucially — the settlement split routing money to kitchen, bar and the tip pool in real time. Making the invisible plumbing legible is what earns an operator’s trust in the numbers.
+
+**Why it works:** owners adopt a money tool only when they can see exactly where every euro goes.
+
+![Karta owner dashboard with settlement split](https://imdennie.com/dist/img/karta/dashboard@2x.jpg)
+
+**06** — Design system
+
+## One language across a phone and a control room.
+
+Karta runs on a clean, light system with a single confident green, generous white space and photography that makes food the hero. The same tokens, type scale and components stretch from a calm, one-column guest menu to a dense, data-first owner dashboard — consistent, never repetitive.
+
+Component language
+
+- Menu cards
+- Allergen chips
+- Order sheet
+- Split payment
+- Floor plan
+- Analytics tiles
+- Settlement rows
+- QR stickers
+
+A shared system meant the guest app and the back office could be designed and built solo without the two sides drifting apart — one product, one voice.
+
+**07** — Outcomes
+
+## What shipped.
+
+A working two-sided platform with a live demo. A couple of these are early goals, not yet measured.
+
++25%
+
+More in tips · goal
+
+Faster
+
+Payments & table turns
+
+0
+
+Apps for guests to install
+
+2
+
+Audiences, one system
+
+**08** — More
+
+## Try the demo, or read another study.
+
+[ Try the live demo  ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/index.html#work)
+
+[ Next case study Numi — AI nutrition    ](https://imdennie.com/case/numi.html) [ Case study Tysha — baby sleep    ](https://imdennie.com/case/tysha.html)
+
+
+---
+
+## Blog — Dennie Ordynskyi on Product Design, AI & Building Apps
+
+Source: https://imdennie.com/blog/
+
+Updated: 2026-09-22
+
+Writing
+
+# Notes on design & building.
+
+Practical writing on design careers, AI products, and what happens when a designer ships apps alone. No fluff, no process theater.
+
+-  [
+
+![A laptop and a whiteboard titled “A brighter tomorrow” listing six steps — learn the basics, practice and build, get feedback, build a portfolio, land opportunities, keep growing — on a camp table beside a van, overlooking the sea at sunset](https://imdennie.com/dist/img/blog/how-to-become-a-product-designer.jpg)
+
+July 2026 · Careers in design · 9 min read
+
+## How to become a product designer in 2026 — advice from 14 years in
+
+My degree is in tourism. Here's the actual path into product design — the skills that matter now, a portfolio with zero experience, the first job, and an honest take on the AI question.
+
+Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
+-  [ July 2026 · Building in public · 8 min read
+
+## I shipped two iOS apps solo — what AI changed about being a designer
+
+After 14 years designing products other people built, I took Numi and Tysha from idea to the App Store alone. What AI tools actually changed — and what they didn't touch at all.
+
+Read the story →  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html)
+-  [ July 2026 · AI & design · 7 min read
+
+## Designing AI products: 6 lessons from building an AI nutrition app
+
+AI products are probabilistic — sometimes wrong, always uncertain, never instant. Six reusable UX lessons on uncertainty, latency, correction loops and failure states, from a shipped product.
+
+Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html)
+-  [ August 2026 · Design practice · 7 min read
+
+## AI product design: designing for the cost of being wrong
+
+AI product design is ordinary product design plus one new variable: the feature can be confidently wrong and you cannot tell which time. I name the wrongness budget, separate draft surfaces from commit surfaces, and go through the decisions I actually changed after shipping.
+
+Read the piece →  ](https://imdennie.com/blog/ai-product-design.html)
+-  [ September 2026 · Design & ML · 8 min read
+
+## UX for machine learning: the interface is a measuring device
+
+Machine learning products have three time horizons, and most design writing only covers the first one. Here is what I learned shipping ML features about correction paths, checkability bias, and the fields that should never ask for confirmation.
+
+](https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html)
+-  [ September 2026 · AI interfaces · 11 min read
+
+## AI UX patterns that survive contact with a real model
+
+A working list of the AI UX patterns I actually use, with the reasoning behind each one and the versions that failed first. Drawn from building and shipping Numi, a vision-based food tracker, on my own.
+
+](https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-real-model.html)
+
+
+---
+
+## AI product design: designing for the cost of being wrong | Dennie Ordynskyi
+
+Source: https://imdennie.com/blog/ai-product-design.html
+
+Updated: 2026-09-22
+
+[All writing  ](https://imdennie.com/blog/) Design practice
+
+# AI product design: designing for the cost of being wrong
+
+Dennie Ordynskyi · August 2026 · 7 min read
+
+**AI product design is ordinary product design with one extra variable: the feature can be confidently wrong at any moment, and you cannot tell in advance which moment.** Almost everything that is genuinely new about designing with models follows from that single fact. Not the prompt engineering, not the model choice, not the sparkle icon. The design work is deciding, per surface, what a wrong output is allowed to cost, and then building the surface so that cost is affordable.
+
+If you are searching for this term because you are about to add a model to a product that already works, the short version is: pick the surface where being wrong is cheapest, put the output in a draft state, and make disagreeing faster than agreeing. The rest of this piece is the detail, plus the parts I got wrong first time.
+
+## The wrongness budget
+
+Here is the term I use, plainly, so it can be cited:
+
+**The wrongness budget** is the amount of a user's time, attention and trust that one wrong output is allowed to spend before the feature stops being worth having. It is set per surface, before the surface is designed.
+
+The budget is not a number you can measure. It is a decision you make out loud, and its value is that it forces the design to change. Three examples of how the same model, wired into different surfaces, gets different treatment:
+
+- **Generous budget.** A creative tool where generation is the product. A bad variation costs one dismissal and the user was expecting to sift. You can show many outputs, you can be strange, you do not need to explain yourself. In Meraki Studio the cost of a poor generation is a click, so the interface optimises for throughput rather than for reassurance.
+- **Tight budget.** A natural-language input that turns a typed sentence into a structured record, which is how the fast path in Numi works. A wrong field is not dismissed, it is stored, and the user finds out later when the data is used for something. So the model never writes straight through. It fills a form the user can see in full before it becomes real.
+- **No budget at all.** Anything that sends, pays, deletes, or tells the user something they will act on immediately. If a single wrong output produces an irreversible outcome, the feature is not a design problem yet. It is a scoping problem.
+
+Most bad AI features I see are not badly built. They are built with a generous-budget interface on a tight-budget surface. Confident copy, single output, no visible intermediate state, instant write.
+
+## Draft surfaces and commit surfaces
+
+The most useful distinction I have found in AI product design is between the two kinds of place a model output can land.
+
+A **draft surface** holds output that has no consequences yet. A pre-filled form, a suggested tag, a proposed title in an editable field, a queue of candidates. Output on a draft surface can be wrong all day and nothing breaks.
+
+A **commit surface** is where something becomes true: the record is saved, the message is sent, the file is overwritten, the number goes into a total.
+
+My rule, and it is a real rule rather than a preference: **the model writes to draft surfaces, the human presses the commit surface.** The first version of the natural-language input I shipped did not work this way. You typed a sentence, it parsed, it saved, and a small toast told you what had happened. It felt fast and it read well in a screen recording. In use it was worse than the manual form, because the failure mode was silent. Correcting an entry you did not notice being created costs more than filling three fields.
+
+The fix was not a better prompt. It was moving the output one step earlier: the parse renders as a filled form, the user glances and confirms. Same model, same latency, an entirely different feature.
+
+### Make disagreeing cheaper than agreeing
+
+There is a corollary that I would defend as falsifiable: **if the fastest route through your feature is accepting the output, users will accept wrong outputs**, and your acceptance rate will look excellent while your data quality degrades. Acceptance is a measure of friction, not of quality, unless rejecting is at least as easy.
+
+Practically that means the edit affordance is not behind a menu. The rejected state does not cost a page load. And the moment after acceptance still allows a one-tap revert, because a user who notices a mistake two seconds later is the cheapest correction you will ever get.
+
+## Design for output length, not output content
+
+This is the most consistently underestimated part of the job. You cannot design against the content of a model output, because it changes. You can and must design against its shape: length, structure, whether it is empty, whether it is three times longer than the example you designed with.
+
+Every model swap and every prompt edit is a design event. Change one and the average output gets longer or shorter, more or less list-shaped, more or less prone to a preamble. Layouts that were built around one representative output break quietly: a card that fits three lines now clips, a fixed-height panel scrolls internally for no visible reason, a summary that was two sentences becomes a wall.
+
+What I do now, before building the surface:
+
+- Generate twenty outputs and design against the longest and the shortest, never the median.
+- Decide the truncation rule in the design, not in CSS as an afterthought. Where does it cut, and is there an expand?
+- Design the empty output. Models return nothing, or something useless, more often than demos suggest. "Nothing" needs a state.
+- Constrain the model to a structure your layout can hold, then validate it. Free prose into a fixed box is a bug waiting for a release.
+
+## The empty-state trap
+
+AI features demo brilliantly on a mature account and badly on a new one, because most of them are quietly powered by the user's own history. A categoriser with nothing to categorise against, a suggester with no prior choices to learn from, a summariser with one item to summarise: all of these are the same failure. The feature is strongest exactly where the user is least invested, and weakest on day one when they are deciding whether to stay.
+
+Two things that help. First, do not put the AI feature in the onboarding path if it needs history to be good, no matter how well it sells. Second, if it must appear early, seed it with something that is not the user's data and label it as such. A visibly generic starting point is more honest than a personalised one that is wrong.
+
+## Stop shipping confidence scores
+
+A specific claim: **if your interface needs to show the user a confidence score, you have not decided who is responsible for the output.** "87% confident" transfers a judgement the product should have made to a person with less context than the product has. Users do not have a policy for 87%. They either trust the surface or they check it manually, and a percentage does not change which.
+
+What actually communicates uncertainty is structure, not numbers:
+
+- Show the source. "From your last three entries" is a claim a user can verify in one glance.
+- Show the alternatives. Two or three candidates communicate "this is a guess" without saying it.
+- Change the commit behaviour. If the system is unsure, do not auto-apply. That is a design decision expressed as behaviour rather than as a caption.
+
+Use the threshold internally. Route low-confidence output to a draft surface and high-confidence output to a faster path. That is the same information, spent on the interface instead of on the user.
+
+## Evaluate on the worst five per cent
+
+Demos select for the best case, and so does self-testing, because you type inputs you already know the system handles. The single cheapest practice I have adopted is keeping a plain text file of the worst outputs I have seen, with the exact input that produced them, and treating it as a design artefact rather than a bug list.
+
+It changes what gets built. Reading twenty of your own worst outputs in a row makes it obvious which surfaces need a confirmation step and which do not, and it kills the instinct to smooth over failure with copy. You stop writing "I might make mistakes" and start moving the output somewhere a mistake does not matter.
+
+## Where chat belongs
+
+Chat is the right interface when the space of user intents is genuinely open and you cannot enumerate it. That is rarer in a focused product than in a general assistant. For most features, the model's job is to remove typing from a task the product already understands, and the correct interface is the one that already exists: the form, the list, the filter, filled in for you.
+
+My working prediction, and I am happy to be measured against it: the AI features that survive in narrow products are the ones whose output lands in an existing structured object rather than in a message bubble. Free text is what you ship when you have not decided what the feature does.
+
+## A short pre-ship checklist
+
+- Name the wrongness budget for this surface in one sentence.
+- Confirm the model writes to a draft surface and a human presses commit.
+- Check that rejecting is at least as fast as accepting, and that revert exists.
+- Design against the longest, shortest and empty outputs.
+- Check the feature on a brand new account, not yours.
+- Read your worst-output file end to end before you sign it off.
+
+None of this requires a model you trained or an evaluation harness. It requires deciding, before the interface exists, what happens when the thing is wrong. That decision is the design. Everything else is the same craft as before. I write up more of these decisions from the three products I run at [imdennie.com](https://imdennie.com/).
+
+[← All writing](https://imdennie.com/blog/)
+
+
+---
+
+## AI UX patterns that survive contact with a real model | Dennie Ordynskyi
+
+Source: https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-real-model.html
+
+Updated: 2026-09-22
+
+[All writing  ](https://imdennie.com/blog/)
+
+AI interfaces
+
+# AI UX patterns that survive contact with a real model
+
+Dennie Ordynskyi · September 2026 · 11 min read
+
+If you are searching for AI UX patterns, you probably want a list you can apply this week, not a taxonomy. Here is the short version: the patterns that hold up in production are the ones that assume the model is usually right rather than right, and design the interface around the gap. That means results presented as proposals you confirm, waits that show understanding rather than progress, numbers the user can audit, and a genuine empty state where the AI has nothing worth saying. Everything below comes from building and shipping [Numi](https://numi.app), a vision-based food tracker, where a wrong answer becomes a wrong number in someone's day, and from a set of patterns I tried first and pulled out.
+
+## Why most AI UX pattern lists do not survive shipping
+
+Most published patterns describe the happy path: a prompt input, a streaming response, a thumbs up and thumbs down. Those are components, not patterns. They describe what the interface contains rather than which decision it makes when the model is uncertain, slow, or confidently wrong.
+
+The useful unit of an AI pattern is a decision under a specific failure mode. So each pattern below is written as: the failure it absorbs, what I built, and what I built first that did not work.
+
+One framing sits under all of them. **A model's output is a proposal, not a verdict.** A model commits to an answer whether or not the answer is correct, and it does so with the same visual confidence either way. If the interface renders that as fact, every near-miss becomes silent damage: the user does not notice, does not correct, and the record quietly drifts. Treating output as a proposal is not humility for its own sake. It is the only way a wrong answer produces a correction instead of a corrupted history.
+
+## Pattern 1: Correction-first results
+
+**Absorbs:** the model being close but not right.
+
+In Numi, photographing a meal returns items with quantities and macros. The first version I built showed the analysis as a clean summary card with an edit affordance behind a tap. It looked finished. It tested well in the sense that people liked looking at it.
+
+It was wrong, because the finished look told people the answer was settled. Corrections dropped off, and what I got instead was quiet acceptance of numbers that were sometimes 30 percent out on portion size. The interface had made agreeing cheaper than checking.
+
+So the result screen became a list where every item is visibly adjustable in one tap, and confirmation is an explicit action. The consequence I care about is not accuracy in the model sense, it is that **being wrong is a normal state of the interaction rather than an error state**. Nothing apologises. Nothing turns red. You change 200g to 150g and move on.
+
+The falsifiable claim: in any AI product where output feeds a persistent record, the correction path is the most load-bearing screen you have, and it is almost always the least designed one. If you can name the visual design of your correction flow off the top of your head and it is just "an edit icon", you have not built this pattern.
+
+### How to apply it
+
+- Make the edit target the same size as the confirm target. If confirming is a big button and editing is a small pencil, you have expressed a preference.
+- Never require a mode switch to correct. "Tap to edit" as a separate state adds a decision before the correction.
+- Log corrections as a first-class event. They are your only honest accuracy signal, and far more informative than thumbs up and thumbs down.
+
+## Pattern 2: Latency as understanding
+
+**Absorbs:** multi-second inference you cannot engineer away.
+
+Vision analysis takes seconds. No amount of optimisation makes it instant, and pretending otherwise produces a worse product than accepting it. You cannot fake instant, so the design job is deciding what those seconds communicate.
+
+A spinner communicates "something is happening elsewhere". A staged sequence communicates "your meal is being understood". In Numi the wait shows the analysis progressing through what it is actually doing: the image being read, items being identified, portions being estimated. The user watches comprehension accumulate rather than watching time pass.
+
+What I learned is that **perceived competence during latency is an interface decision, not a model property**. The same model, behind a spinner, feels slower and less capable than behind a staged reveal, because the spinner gives the user nothing to attribute the delay to. Attribution is the whole trick. Time spent on something you can see being done reads as work. Time spent on nothing reads as failure.
+
+### How to apply it
+
+- Map your pipeline stages and expose them, in the real order, at their real speeds. Fake stages get noticed the moment one of them takes an inconsistent length of time.
+- Show partial output the moment it exists. Two identified items on screen beats four items three seconds later.
+- Do not animate a progress bar to a percentage you cannot compute. A bar that stalls at 90 percent is worse than no bar.
+
+## Pattern 3: Deterministic numbers with stated inputs
+
+**Absorbs:** the user needing to act on a figure they cannot verify.
+
+Numi shows a health score. The obvious implementation is to ask the model for a score out of 100. I did not do that, and this is the decision I would defend hardest.
+
+A model-generated score cannot be checked, argued with, or learned from. If it says 62, there is no follow-up question with an answer. The user's only options are to believe it or ignore it, and after the novelty wears off almost everyone ignores it. A deterministic score computed from named inputs behaves differently: you can see which inputs moved it, disagree with the weighting, and predict what tomorrow's number will be. That predictability is what keeps a number in use.
+
+The rule I now apply: **when the user has to act on a number, explainable beats accurate.** A rougher number they can reason about drives better behaviour than a more sophisticated one they cannot. Use the model for the parts that need judgement, such as identifying what is in the photo, and use arithmetic for the parts the user is going to argue with.
+
+## Pattern 4: The silence state
+
+**Absorbs:** having nothing specific to say, on a screen designed to say something.
+
+This is the pattern I see skipped most often, so I will name it plainly. **The silence state is a designed condition in which an AI feature renders nothing because it has nothing specific enough to justify rendering.** Not a placeholder, not a generic encouragement, not a tip of the day. Absent.
+
+Generic output is a trust leak. "Great choice!" reads as machinery rather than attention, and the damage is not confined to that one line. One obviously canned sentence retroactively makes the good insights around it look canned too, because the user now knows the system is willing to produce filler. You cannot recover credibility per-item once the user has decided the whole surface is decoration.
+
+My threshold in Numi: an insight has to cite something real about this person today, such as what they ate, what is left in their targets, or what changed this week. If it cannot, the slot does not render. Layouts have to be built to survive that, which is the actual engineering cost of the pattern and the reason people avoid it. A card that collapses cleanly to nothing is more work than a card that always has text in it.
+
+### How to apply it
+
+- Write the gate before the prompt. Decide what data must exist for an insight to be worth showing, and check it in code.
+- Ban whole categories of output rather than filtering case by case. No congratulation without a specific figure. No advice without a specific number attached.
+- Design the collapsed layout first, so silence is not a hole in the page.
+
+## Pattern 5: The autonomy ladder, with the user on the rungs
+
+**Absorbs:** the system knowing something the user has not agreed to act on.
+
+There are three separable things an AI feature can do: **detect**, **suggest**, and **act**. Most products collapse them, and collapsing them is where the trust breaks.
+
+Numi keeps them apart. Noticing that someone has plateaued is one thing. Proposing a change to their targets is a second thing. Changing the targets is a third, and it requires a confirmation. An app that silently rewrote a target would have taken a decision the person can neither see nor argue with, and when they later noticed their numbers had moved they would have no way to reconstruct why.
+
+The current agent conversation is rediscovering this as progressive delegation, and the shipped lesson has not changed: **a system earns the next rung visibly, one confirmed suggestion at a time, or it never earns it at all.** Users do not grant autonomy on the basis of stated capability. They grant it after watching a specific class of suggestion be right several times. Which means your interface needs to make that track record visible, or the trust never accumulates anywhere the user can see it.
+
+## Pattern 6: Design for the worst hour of use
+
+**Absorbs:** the demo being a poor model of real conditions.
+
+This one is not strictly an AI pattern, but it governs which of the others you get right, so it belongs on the list.
+
+[Tysha](https://tysha.app) is a sleep sound app, and its brief was a single scenario: one hand, lights off, a baby on the other arm, 3am. From that came every constraint that mattered. Sound in under a second. Fully offline. Nothing to sign into. No decision to make before audio plays.
+
+Notice what that brief rules out. It rules out a personalisation onboarding flow. It rules out anything that needs a network round trip. It rules out clever recommendations, because at 3am a recommendation is one more thing to read. A feature list would have added all three.
+
+Applied to AI features specifically: **work out the worst hour your feature will be used in, and check each pattern against it.** Multi-second latency is fine when someone is sitting down at lunch and not fine when they are standing in a queue. A correction flow that requires reading is fine on a laptop and not fine one-handed. A product judged in its worst hour earns a loyalty that demo-hour polish never does.
+
+## Pattern 7: The fixed deadline as a design instrument
+
+**Absorbs:** scope drift in features whose value is unproven.
+
+[Meraki](https://merakistudio.dev) delivers a site in seven days. The interesting effect of that is not speed, it is that it forces one question to be answered on day one: what must this business's website do first? Decisions that would drift for a month in an open-ended project get made in an afternoon when the ship date is real. The deadline does the prioritising.
+
+AI features are unusually prone to the drift the deadline prevents, because there is always another prompt to try and another edge case to handle, and none of that work has a natural stopping point. Boxing a feature into a fixed window forces the honest question: is this feature good enough to ship at all, or does it need to fall back to the silence state? Both answers are useful. Endless refinement is not.
+
+## Patterns I tried and removed
+
+Worth listing, because the popular AI UX pattern collections tend to include some of these:
+
+- **Confidence percentages on output.** I tried surfacing model confidence next to items. It shifted the burden of interpretation to the user without giving them anything to do with it. "78 percent confident" does not tell you whether to check the portion. Making everything equally editable was a better answer than labelling some things as shaky.
+- **Thumbs up and thumbs down.** Cheap to build, near-worthless as signal in a product where the user is already correcting real values. The correction itself tells you what was wrong and what the right answer was. A thumbs down tells you nothing actionable.
+- **Chat as a general entry point.** A text box invites arbitrary requests, and every request outside the supported set produces a small failure. Fixed affordances that always work beat an open input that mostly does. I wrote separately about [what actually breaks in chatbot UX](https://imdennie.com/blog/chatbot-ux-design-what-actually-breaks-in-production).
+- **Apologetic error copy.** "Sorry, I couldn't quite get that" frames a normal outcome as a malfunction. In a correction-first interface the model being slightly off is expected, and the copy should sound like it.
+
+## A checklist you can run against your own AI feature
+
+- Can the user change every value the model produced, in one tap, without entering an edit mode?
+- Does your loading state show what is being understood, or only that something is happening?
+- For every number the user is expected to act on, can you name the inputs that produced it?
+- Is there a code path where your AI surface renders nothing, and does the layout survive it?
+- Are detect, suggest, and act separate steps, with the user on the last one?
+- Does the feature still work one-handed, offline, or in whatever your worst hour is?
+- Do you log corrections as a metric, and do you look at them more often than you look at engagement?
+
+If the honest answer to five of those is no, the model is not your problem.
+
+[← All writing](https://imdennie.com/blog/)
+
+
+---
+
+## Designing AI Products: 6 Lessons From Building an AI Nutrition App | Dennie Ordynskyi
+
+Source: https://imdennie.com/blog/designing-ai-products.html
+
+Updated: 2026-09-22
+
+[All writing  ](https://imdennie.com/blog/) AI & design
+
+# Designing AI products: 6 lessons from building an AI nutrition app
+
+Dennie Ordynskyi · July 2026 · 7 min read
+
+Classic software is deterministic: the user taps, the same thing happens, every time. AI products are different in a way that changes the design job at its root — **they're probabilistic.** Sometimes brilliant, sometimes wrong, always uncertain, never instant. Most of what we know about interface design quietly assumes none of those things.
+
+I learned this the practical way, designing and building [Numi](https://getnumi.app) — an iOS app where you photograph your meal and AI estimates the calories, macros and micronutrients. A camera, a plate of food, and a model that is confidently almost-right many times a day: it's a perfect little laboratory for AI UX. Here are the six lessons I keep reusing.
+
+## 1. Design for "almost right" as the normal case
+
+A food photo is ambiguous. Is that yogurt or sour cream? 200g of rice or 300g? The model will commit to an answer either way. If your interface presents that answer as fact, every small miss erodes trust — and users don't tell you, they just leave.
+
+In Numi, an analysis is a proposal, not a verdict: the breakdown appears as editable parts, and adjusting any of them is a one-tap interaction, not a buried edit screen. The pattern generalizes: **make the AI's output the starting point of a conversation the user can win in one move.** Correction isn't an error state — it's a primary flow, and it deserves primary-flow design attention.
+
+## 2. Correction is also your data flywheel
+
+When fixing the AI is effortless, users do it — and each fix tells the product something true. Numi builds what I call a "Metabolic Fingerprint": accumulated context that makes tomorrow's guidance more personal than today's. None of that works if corrections feel like filing a complaint. Design the correction loop first and the personalization gets built for free.
+
+## 3. Latency is a design material now
+
+Models take seconds, and seconds are an eternity in an interface. You can't remove the wait, so you have to spend it. The rules I follow:
+
+- **Acknowledge instantly.** The tap must produce visible motion in under 100ms, even though the answer is seconds away.
+- **Show meaningful progress, not a spinner.** Staged feedback ("reading the plate → identifying items → estimating portions") keeps trust alive and makes the intelligence legible.
+- **Deliver value progressively.** If the food items appear before the micronutrients are ready, ship the items first. Something honest early beats everything late.
+
+## 4. Never make the human feel stupid — or idle
+
+The worst AI experiences do one of two things: they make the user feel interrogated by a machine ("was this helpful? rate 1–5!") or they reduce the user to a spectator. People don't want to operate an AI; they want to get on with their day with less friction. In Numi the entire interaction is: point camera, glance, maybe one adjustment, done. The AI is the plumbing, not the show. If your users spend their time managing the model instead of living their life, the design has failed no matter how good the model is.
+
+## 5. Set the confidence, don't hide it
+
+There's a temptation to present AI output with maximum confidence because it demos better. Resist it. There's an equal temptation to plaster percentages and disclaimers everywhere. Resist that too — numbers like "87% confident" mean nothing to a person holding a fork. The middle path is **calibrated presentation**: firm language and visual weight when the model is on solid ground, softer framing ("looks like…") and an inviting edit affordance when it isn't. Users learn the product's honesty within days, and honesty compounds.
+
+## 6. The failure states are the product
+
+Dark plate in a dim restaurant. A smoothie (opaque cup, mystery contents). A photo of a menu instead of food. Every AI product has these — inputs the model can't do much with. The lazy design punts ("Analysis failed, try again"). The good design has a plan: ask one clarifying question, offer graceful manual entry that respects the work already done, remember the correction for next time. When teams show me AI features, I look at the sad paths before anything else — that's where you can tell whether a designer thought about the model or just decorated it.
+
+## A starter checklist for your first AI feature
+
+**Before you ship, answer these:**
+
+- What does the user see in the first 100ms after asking?
+- What exactly happens when the model is wrong — and how many taps does the fix take?
+- Does the language match the model's actual reliability, or the demo's?
+- What are the three most common "bad inputs," and what's designed for each?
+- Does a correction make the product better tomorrow?
+- Could the user accomplish the task with less involvement in the AI, not more?
+
+The meta-lesson after shipping one of these: AI is a new design material, the way touch was in 2008. It has grain, strengths and failure modes, and the designers who learn its texture firsthand — by building with it, not reading about it — are the ones who'll define the next decade of products. That story is here: [I shipped two iOS apps solo](https://imdennie.com/blog/shipping-apps-solo-with-ai.html).
+
+Read next
+
+[ Building in public · 8 min read
+
+### I shipped two iOS apps solo — what AI changed about being a designer
+
+Read the story →  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ Careers in design · 9 min read
+
+### How to become a product designer in 2026 — advice from 14 years in
+
+Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
+
+**Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).
+
+
+---
+
+## How to Become a Product Designer in 2026 — Advice From 14 Years In | Dennie Ordynskyi
+
+Source: https://imdennie.com/blog/how-to-become-a-product-designer.html
+
+Updated: 2026-09-22
+
+[All writing  ](https://imdennie.com/blog/) Careers in design
+
+# How to become a product designer in 2026 — advice from 14 years in
+
+Dennie Ordynskyi · July 2026 · 9 min read
+
+![A laptop and a whiteboard titled “A brighter tomorrow” listing six steps — learn the basics, practice and build, get feedback, build a portfolio, land opportunities, keep growing — on a camp table beside a van, overlooking the sea at sunset](https://imdennie.com/dist/img/blog/how-to-become-a-product-designer.jpg)
+
+My university degree is in tourism, economics and law. I've now been a product designer for over fourteen years — through freelancing, startups, an e-commerce agency, and nearly a decade designing consumer products at DraftKings. Along the way I've mentored junior designers and watched a lot of people try to break into this field. Some made it fast. Some gave up. The difference was rarely talent.
+
+This is the guide I wish someone had handed me in 2012 — updated for what the job actually looks like in 2026, because it has changed more in the last two years than in the previous ten.
+
+## What a product designer actually does
+
+Forget the job-title soup (UX designer, UI designer, interaction designer). A product designer's job is simple to state and hard to do: **understand a real problem people have, and shape a product that solves it — in a way the business can sustain and engineers can build.**
+
+On a normal week that means:
+
+- Talking to users, or at least studying how they behave in the product
+- Turning fuzzy problems into concrete flows, wireframes and prototypes
+- Designing the final interface — and yes, visual craft still matters
+- Arguing (kindly) with product managers and engineers about trade-offs
+- Checking whether what shipped actually worked, and iterating
+
+Notice how little of that is "making things pretty." The pixels are maybe a third of the job. The rest is thinking, communicating and deciding.
+
+## The skills that actually matter now
+
+### 1. Craft — still non-negotiable
+
+Hiring managers keep saying it: visual and interaction craft is the entry ticket. AI has raised the floor — generic-looking screens are now free, which means clean, considered, opinionated design stands out more, not less. Learn typography, spacing, hierarchy and motion like a musician learns scales.
+
+### 2. Product thinking
+
+The question that separates juniors from seniors is never "does this look good?" It's "why does this exist, and how will we know it worked?" Practice attaching every design decision to a user problem and a measurable outcome. Even on practice projects, write down: who is this for, what were they doing before, what changes if I succeed?
+
+### 3. Communication
+
+You will spend more time explaining design than doing it. If you can present a decision in three sentences — problem, options considered, why this one — you're ahead of most working designers.
+
+### 4. AI fluency — the new requirement
+
+This one is genuinely new. Most design teams now expect you to use AI tools in your workflow, and increasingly to understand how to design AI-powered features. You don't need to be an engineer. You do need to have built something with these tools — because "familiar with AI" on a resume means nothing, and a shipped project means everything. I wrote more about this in [Designing AI products](https://imdennie.com/blog/designing-ai-products.html).
+
+## Do you need a degree? (No. Here's what to do instead.)
+
+I'm living proof you don't — and in fourteen years, nobody has ever asked about my diploma. What people ask for is evidence you can do the work. Here's the path I'd take today:
+
+-  **Learn the fundamentals deliberately.** A couple of well-chosen courses beat a hundred YouTube videos. Study human–computer interaction basics, then copy great products — literally recreate screens from apps you admire until your hands know why they work.
+-  **Solve real problems for real people, free if needed.** A local business, a nonprofit, a friend's side project. Constraints and stakeholders are what make a project real — and "real" is what portfolios live on.
+-  **Ship something of your own.** This used to be optional. With today's AI tools, a designer can take an idea to a working product alone — I shipped [two apps to the App Store](https://getnumi.app) this way. Nothing in your portfolio will say "I can do this job" louder than a live product, even a tiny one.
+
+## Building a portfolio when you have no experience
+
+The rules, straight from how hiring managers actually review:
+
+- **Three to five projects, not ten.** Two exceptional case studies beat six mediocre ones.
+- **Lead with the outcome.** "Redesigned a bakery's ordering flow — online orders up 30%" is a headline. "A UX case study" is not.
+- **State your role honestly.** If it was a team project, say exactly what you did. Reviewers can smell inflation.
+- **Show decisions, not process theater.** Nobody wants forty sticky-note photos. They want: here was the hard choice, here's what I picked and why.
+- **Reviewers skim.** Expect ten seconds on your homepage, two minutes on the whole site. Make your best project the first thing they see, and put the numbers in big type.
+- **No typos.** Design leaders notice tiny incongruencies for a living. Proofread like it's part of the craft — it is.
+
+## Getting the first job
+
+My first paid design work came through freelancing — I ground my way into the top 5% on a freelance marketplace before any company would look at me. That route still works, and it teaches you clients, deadlines and scope better than any course. The other reliable doors:
+
+- **Early-stage startups** — chaotic, underpaid, and the fastest learning environment that exists. My first startup taught me more in a year than the next three years combined.
+- **Agencies** — high volume and variety; you'll design more in a year than a product-company designer does in three.
+- **Adjacent roles** — support, QA, marketing at a company you like, then move sideways. Slower, but it works surprisingly often.
+
+Whichever door you take: apply with a tailored portfolio, not a bigger one. Five applications with the most relevant project first beat fifty identical ones.
+
+## The honest part: is this still a good career to enter?
+
+You'll read that AI is ending design jobs. Here's what I actually see from inside the field: the demand shifted senior — teams want fewer people who can each do more. That's harder for juniors, no point pretending otherwise. But it also means the path in has changed rather than closed: the junior designer who can research, design, and build a working prototype with AI tools is doing what took a three-person team five years ago. That person gets hired.
+
+Design didn't get smaller. The definition of one designer got bigger. If that excites you rather than scares you, come on in.
+
+**TL;DR:** Master craft fundamentals → practice product thinking on real problems → build 3–5 outcome-first case studies → ship one real thing with AI tools → target startups, agencies or freelance for the first role. No degree required. Typos fatal.
+
+Read next
+
+[ Building in public · 8 min read
+
+### I shipped two iOS apps solo — what AI changed about being a designer
+
+Read the story →  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ AI & design · 7 min read
+
+### Designing AI products: 6 lessons from building an AI nutrition app
+
+Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html)
+
+**Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).
+
+
+---
+
+## I Shipped Two iOS Apps Solo — What AI Changed About Being a Designer | Dennie Ordynskyi
+
+Source: https://imdennie.com/blog/shipping-apps-solo-with-ai.html
+
+Updated: 2026-09-22
+
+[All writing  ](https://imdennie.com/blog/) Building in public
+
+# I shipped two iOS apps solo — what AI changed about being a designer
+
+Dennie Ordynskyi · July 2026 · 8 min read
+
+For fourteen years I designed products that other people built. That's the deal, as a product designer: you shape the thing, you hand it over, engineers make it real. I was fine with that deal. Then, in 2025, I broke it — I designed and built an AI-powered nutrition app called [Numi](https://getnumi.app) and put it on the App Store. Alone. In 2026 I did it again with [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339), a white-noise app for new parents.
+
+No engineering team. No agency. A designer, an idea, and today's AI tools. This post is the honest version of how that went — what AI genuinely changed about my job, and what it turned out to change not at all.
+
+## Why these two apps
+
+Both came from my own life, which I now think is the only sane way to pick a solo project. Numi exists because I wanted to track what I ate without the misery of manual food logging — search the database, weigh the portion, give up by Thursday. The design thesis was simple: **point your camera at the plate, and the app does the rest** — calories, macros, micronutrients, plus context-aware guidance it builds up over time.
+
+Tysha exists because of the 3 a.m. shift with a baby. Every white-noise app I tried had looping audio that clicked, ads (ads! at 3 a.m.!), or needed an account and a connection. So: real-time generated white, pink and brown noise, fully offline, no accounts, one-handed. The entire product is designed around a person holding an infant in the dark.
+
+## What AI actually changed
+
+### The prototype became the product
+
+My old workflow: mockups → clickable prototype → specs → wait → review builds → polish what survived. The prototype was a promise, not a product. With AI-assisted coding tools, that gap collapsed. I could design a flow in the morning and hold a working version on my phone in the evening. Not a simulation of the feature — the feature.
+
+### Iteration got absurdly cheap
+
+When changing a real, running app costs minutes instead of a sprint, you stop guessing. Numi's photo-logging flow went through many working versions before launch — versions I could actually cook dinner with, not click through in a design tool. Some ideas I was sure about died in an evening of real use. That kind of learning used to cost weeks of someone else's time, so it rarely happened.
+
+### The design tool changed shape
+
+I still design screens, but a growing share of "designing" now happens in the working product itself: adjusting motion, spacing, haptics, the feel of things — details that never survive the translation from mockup to build. For the first time in my career, what shipped is exactly what I designed, because there was no translation step.
+
+## What AI didn't change
+
+This is the part the hype skips, and it's where fourteen years of design earned its keep:
+
+-  **Knowing what to build.** AI will happily build the wrong thing faster. Numi isn't "an AI calorie app" — it's a position against the misery of manual logging. Tysha isn't "a sound app" — it's one-handed, offline, instant, because that's what 3 a.m. actually requires. Those decisions are the product. No tool made them.
+-  **Taste and editing.** AI output — code or UI — trends toward the average of everything it's seen. Every screen in both apps had a generic version first. The job was saying no to it, over and over.
+-  **The last 20%.** App Store review, edge cases, empty states, what happens when the camera sees a plate that's half in shadow. Shipping is still shipping. It's just that one person can now afford to do all of it.
+
+## What this means if you're a designer
+
+I don't think every designer needs to become a founder. I do think the ground has moved under our role, in a direction that favors us:
+
+-  **Designers are the best-positioned people in tech right now.** We've always known what to build and how it should feel; building was the locked door. The door is open.
+-  **A shipped side project is the new portfolio piece.** Hiring teams now routinely ask for evidence of AI fluency. One live product answers every version of that question — it proves product thinking, craft, technical fluency and follow-through in a single link.
+-  **Start smaller than feels impressive.** Tysha is a "small" app and it taught me as much as products with teams behind them. Pick a problem from your own week, scope it to one core loop, and take it all the way to shipped. All the way — the learning is disproportionately in the last mile.
+
+**The one-line takeaway:** AI didn't replace the designer. It removed the excuse that a designer can't ship. Fourteen years in, that's the biggest change to this job I've ever seen — and it's an upgrade.
+
+If you're a designer thinking about building something: my next post breaks down the actual design lessons from working on AI — [Designing AI products: lessons from building Numi](https://imdennie.com/blog/designing-ai-products.html). And if you're starting your design career from zero, start here: [How to become a product designer in 2026](https://imdennie.com/blog/how-to-become-a-product-designer.html).
+
+Read next
+
+[ AI & design · 7 min read
+
+### Designing AI products: 6 lessons from building an AI nutrition app
+
+Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html) [ Careers in design · 9 min read
+
+### How to become a product designer in 2026 — advice from 14 years in
+
+Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
+
+**Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).
+
+
+---
+
+## UX for machine learning: the interface is a measuring device | Dennie Ordynskyi
+
+Source: https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html
+
+Updated: 2026-09-22
+
+[All writing  ](https://imdennie.com/blog/)
+
+Design & ML
+
+# UX for machine learning: the interface is a measuring device
+
+Dennie Ordynskyi · September 2026 · 8 min read
+
+UX for machine learning differs from ordinary product UX in one specific way: every screen you build is simultaneously a control surface and a measuring device. Deterministic software takes input and returns the same output forever. An ML feature returns a guess, and whatever your interface makes easy to inspect and cheap to fix becomes the only part of that guess you ever get feedback on. So the layout is not just how the model is presented. It is what the model will learn about next, and what it will stay blind to.
+
+That is the whole discipline compressed into a sentence. The rest of this piece is what it actually costs in practice, using decisions from features I have shipped and kept running.
+
+## UX for machine learning has three time horizons, not one
+
+Most design writing about ML covers a single inference: input goes in, prediction comes out, how do we show it. That is the easy third. A deployed ML product operates on three clocks at once, and they conflict.
+
+- **Seconds.** One inference. Latency, loading state, how the result is framed when it lands.
+- **The session.** The person disagrees with something and either fixes it or abandons the flow. This is where trust is won or lost, and it is the part with the least design attention in most products.
+- **Months.** The model is now shaped by your correction UI. Personalisation, drift, and the slow question of whether the feature is still being used at all.
+
+Design each screen for the clock it actually lives on. A loading animation is a seconds problem. A confirm-or-fix control is a session problem. Whether the thing degrades quietly over half a year is a months problem, and no amount of polish on the first two will save you from it.
+
+## Checkability bias: the interface decides your training set
+
+Here is the pattern I would most like other people to name and use, because it cost me the most to notice.
+
+**Checkability bias:** a machine learning product only receives corrections for outputs the interface renders checkable. Everything else is silently accepted, so it looks correct in your data whether it is or not.
+
+Numi analyses a photo of a meal and returns a breakdown: what the food is, roughly how much of it, and the nutrition that follows. Two things in that output have completely different feedback profiles.
+
+Portion size is checkable. The person is holding the plate. If the model says one egg and there were two, they know, they can see the field, and fixing it takes a tap. Corrections arrive constantly.
+
+Micronutrients are not checkable. Nobody looks at a potassium figure and thinks "that's off by fifteen percent." There is no ground truth in the room. So corrections on those fields arrive at approximately zero, forever, no matter how wrong they are.
+
+If you read the correction logs naively, you conclude the model is weakest exactly where the interface is strongest at exposing it. That is backwards, and it is a trap that scales: the fields you designed well look worst, and the fields nobody can verify look flawless. Any prioritisation done off that data drifts toward polishing what is already visible.
+
+The practical consequence: before you ship an ML surface, list every field and mark which ones the user can actually verify. That list is your real feedback surface. Treat the rest as unmeasured, not as accurate.
+
+## Only ask for confirmation where the user holds ground truth
+
+The obvious response to uncertainty is to ask. Put a confirm control on everything, let the person be the arbiter, ship it. This makes products worse, and it took me a while to work out why.
+
+A confirmation control is a claim about the user. It says: you know this better than the model does. When that is true, the interaction is respectful and fast. When it is false, you have handed someone a decision they have no basis for making, and they feel it immediately. Asking a person to confirm a micronutrient estimate does three bad things at once: it produces noise instead of signal, it teaches them nothing, and it makes the fields they could verify feel just as arbitrary as the ones they cannot.
+
+So the test I use now, before adding any confirm-or-fix affordance:
+
+- **Does the person have ground truth the model lacks?** If yes, confirmation is the right control and should be one tap.
+- **Is it derived from something they do have ground truth on?** Then let them fix the upstream value and recompute. Do not make them edit the derivative.
+- **Neither?** Show it as an estimate with its inputs visible, and do not ask. A number nobody can check should never wear a checkbox.
+
+Correcting a portion in Numi recalculates everything downstream from it. That is one edit against ground truth the person definitely has, and it moves the whole panel. The alternative, a form of twelve editable nutrition fields, would be technically more flexible and practically dead.
+
+The claim behind all this, stated plainly so it can be argued with: **a model's output is a proposal, not a verdict.** An interface that renders a prediction as fact turns every near-miss into damage the person cannot see. Rendering it as something you confirm or fix makes being wrong a normal, expected part of the interaction rather than an error state, and that difference is load-bearing. The correction path is the most important screen in an ML product and reliably the least designed one.
+
+## You cannot fake instant, so design the wait to show understanding
+
+Vision analysis takes seconds. No engineering effort removes that; you can shave it, you cannot eliminate it. What is fully under design control is what those seconds communicate.
+
+A single indeterminate spinner says: something is happening, possibly nothing, please wait. Staged progress that names what is being worked out says: this is being understood, in this order, and here is how far it has got. Same duration. Very different read on competence.
+
+The generalisation is worth keeping: perceived competence during latency is an interface decision, not a model property. Two products on the identical model, with identical response times, will be judged differently on how good the model is, purely on how the wait was staged. If your ML feature is slow and you have exhausted the engineering, the remaining work is not performance work. It is copy and sequencing.
+
+## When the user has to act on a number, explainable beats accurate
+
+This is the trade I would defend hardest, because it looks like settling for less.
+
+Numi's health score is deterministic. Stated inputs, fixed rules, same meal in gives the same number out. A language model could almost certainly produce a more nuanced score. I did not use one, and the reason is not accuracy.
+
+A score a model produced cannot be checked, argued with, or learned from. When a person sees it drop and asks why, the honest answer is a shrug. There is no lever. A deterministic score with visible inputs can be interrogated: it went down because of this, so here is what to change. That is the property that keeps a number in use after the novelty has worn off.
+
+So the rule: **if the user is expected to act on a number, the number needs a mechanism they can inspect.** Accuracy without explicability is fine for ranking, retrieval, and anything happening behind the scenes. It fails the moment you ask someone to change their behaviour because of it.
+
+## Silence is a state, and almost nobody builds it
+
+Generic output is a trust leak. "Great choice!" reads as machinery rather than attention, and one obviously canned line contaminates the credible ones around it. Users are extremely good at spotting the template, and once they have spotted one, they discount all of them.
+
+The rule I hold to: an insight either cites something real about this person today, what they ate, what is left, what changed this week, or it does not render at all. No fallback string. No encouraging filler when there is nothing to say.
+
+Which means the empty state is a designed feature, not a gap. Here is the falsifiable version: **if your ML feature has no condition under which it renders nothing, it will be ignored within weeks of daily use.** Something that always speaks is something the eye learns to skip. Something that speaks only when it has a reason gets read.
+
+## Autonomy is a ladder: detect, suggest, act
+
+The last structural decision. There are three separable capabilities, and products routinely collapse them into one.
+
+- **Detect.** Notice a pattern and say so. "Your intake has been flat for two weeks."
+- **Suggest.** Propose a specific change, with the reason attached, and wait.
+- **Act.** Make the change and report it afterwards.
+
+Numi keeps these separate on purpose. An app that silently rewrites your targets has taken a decision you can neither see nor contest, and when you eventually notice, you cannot tell which of your numbers were yours. Detection is nearly free in trust terms. Action is expensive and has to be earned.
+
+Earned how: one confirmed suggestion at a time, visibly. A system that has proposed twenty things and been accepted nineteen times has a case for acting unprompted on the twentieth kind of thing. A system that acts on day one has no case and no recovery. The agent tooling of the last two years is rediscovering this as "progressive delegation", and the shipped lesson has not changed: the rung is granted by the user, not claimed by the product.
+
+## What I would measure instead of accuracy
+
+Model accuracy is an engineering metric. It tells you very little about whether the interface around the model is working. Three things I find more informative:
+
+- **Correction rate per field.** Not aggregate. Per field, read against the checkability list from earlier. A field with zero corrections is either perfect or unverifiable, and you need to know which.
+- **Corrections per session over time, with session count flat.** Falling corrections against steady usage suggests the model is genuinely fitting the person. Falling corrections against falling usage means people gave up.
+- **Silence ratio.** How often the insight surface renders nothing. If that number is zero, you are producing filler and you will pay for it in attention.
+
+None of this is about making the model better. It is about the fact that in a machine learning product the interface is part of the system under test, and it is generating the data you will use to judge everything else. Build it as though it were, because it is. If you want the same argument applied to a specific product surface rather than to method, the work behind these decisions is at [imdennie.com](https://imdennie.com).
+
+[← All writing](https://imdennie.com/blog/)
+
