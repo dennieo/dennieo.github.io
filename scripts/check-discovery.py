@@ -105,4 +105,9 @@ llms = (ROOT / "llms.txt").read_text()
 assert "Numi is released on the App Store" in llms
 assert all("/" + file.relative_to(ROOT).as_posix() + ".md" in llms for file in PAGES)
 assert (ROOT / "llms-full.txt").stat().st_size > 10_000
+numi = (ROOT / "case/numi.html").read_text()
+expected_numi_images = ["device-fasting.webp", "device-home.webp", "device-meal.webp", "device-weekly-alt.webp"]
+numi_decisions = numi.split("Where the product thinking became pixels.", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
+assert re.findall(r'device-[^"/]+\.webp', numi_decisions) == expected_numi_images
+assert "/dist/open-studio/pages.css?v=20260922-images" in numi
 print(f"Discovery checks passed for {len(PAGES)} pages and {len(urls)} sitemap URLs.")

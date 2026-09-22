@@ -103,7 +103,7 @@ A persistent shutter button anchors the home screen. Tap it, point at the plate,
 
 **Why it works:** the highest-friction moment of every tracker is now the lowest-effort one, so the habit survives real life.
 
-![Numi meal / weekly analysis screen](https://imdennie.com/dist/img/numi/device-meal.webp)
+![Numi photo-based meal analysis with nutrition details](https://imdennie.com/dist/img/numi/device-fasting.webp)
 
 Home
 
@@ -123,7 +123,7 @@ Instead of a wall of charts, Numi writes the week up in plain language — “so
 
 **Why it works:** insight only changes behavior if it’s understood; a sentence lands where a scatter plot doesn’t.
 
-![Numi AI weekly narrative report](https://imdennie.com/dist/img/numi/device-weekly-alt.webp)
+![Numi AI weekly narrative report and adherence score](https://imdennie.com/dist/img/numi/device-meal.webp)
 
 Fasting
 
@@ -133,7 +133,7 @@ The eating window lives on the home, not in a separate app — with a plain-Engl
 
 **Why it works:** one mental model for the whole day beats stitching together three single-purpose tools.
 
-![Numi fasting window timeline](https://imdennie.com/dist/img/numi/device-fasting.webp)
+![Numi fasting state and eating-window guidance on the home screen](https://imdennie.com/dist/img/numi/device-weekly-alt.webp)
 
 **06** — Design system
 

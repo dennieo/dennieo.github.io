@@ -97,6 +97,16 @@ Evidence directory: `/Users/dennie/.codex/visualizations/2026/09/19/01a0bb1c-eb4
 
 final result: passed
 
+## Numi image-section repair — 2026-09-22
+
+- Audited the live case study and found three screenshots attached to the wrong decision labels: the weekly report appeared under Logging, the fasting/home screen appeared under Insights, and the meal analysis appeared under Fasting.
+- Corrected the sequence to meal analysis → Home → weekly report → fasting state, matching each screenshot to its section copy and alt text.
+- Restored alternating desktop image placement and reserved the full phone-image dimensions before lazy loading. This removes the collapsed image rows and the resulting page jumps while keeping the transparent, background-free presentation.
+- Verified all four image files load at their native 490 × 1000 dimensions. Desktop rows render at 255 × 520; mobile rows reserve 216 × 440 with no horizontal overflow.
+- Evidence and the accepted before/after comparison are stored in `numi-image-audit/` under the task’s visual evidence directory.
+
+final result: passed
+
 ## Discovery and release QA — 2026-09-22
 
 - Extended the approved visual system to the sixth article that was already present on the live site, preserving its full article text and publication date.
