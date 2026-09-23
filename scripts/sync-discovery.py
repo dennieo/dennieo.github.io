@@ -154,7 +154,7 @@ for path in FILES:
     block.append('    <script type="application/ld+json">\n' + json.dumps({'@context': 'https://schema.org', '@graph': nodes}, ensure_ascii=False, indent=2) + '\n    </script>')
     head = re.sub(r'\n\s*\n', '\n\n', head).rstrip()
     text = head + '\n' + '\n'.join(block) + '\n  </head>' + body
-    text = re.sub(r'/dist/open-studio/pages.css\?v=[^"\s]+', '/dist/open-studio/pages.css?v=20260922-images', text)
+    text = re.sub(r'/dist/open-studio/pages.css\?v=[^"\s]+', '/dist/open-studio/pages.css?v=20260923-simulator', text)
     file.write_text('\n'.join(line.rstrip() for line in text.splitlines()) + '\n')
     records.append((path, url, title, desc))
 

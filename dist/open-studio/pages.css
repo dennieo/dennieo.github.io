@@ -50,7 +50,7 @@ figure { margin: 0; }
 .d-media { padding: 36px; display: grid; place-items: center; }
 .d-media img { width: auto; max-width: 100%; max-height: 520px; object-fit: contain; }
 .case-numi .d-media { min-height: 592px; }
-.case-numi .d-media img { width: min(100%, 255px); height: auto; aspect-ratio: 49 / 100; }
+.case-numi .d-media img { width: min(100%, 255px); height: auto; aspect-ratio: 110 / 239; }
 .case-numi .decision:nth-child(even) .d-media { order: -1; }
 .case-karta .d-media:not(.phone) { padding: 22px; }
 .swatches { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 26px; }

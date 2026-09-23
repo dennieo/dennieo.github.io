@@ -8,7 +8,13 @@ I’m Dennie, a product designer at DraftKings.  I also make my own apps — fro
 
 [View selected work  ](https://imdennie.com/#work)
 
-Based in Kyiv 14+ years in product design
+14+: Years in product design
+
+0→1: Idea to launch, end to end
+
+3: Own products designed & built
+
+AI-native: Designing intelligent products
 
 ## Selected work
 

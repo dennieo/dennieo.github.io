@@ -97,33 +97,33 @@ The bar for effortless: even a complex, multi-item dish  logs in under 10 second
 
 Logging
 
-### The camera is the front door
+### Every meal becomes a useful record
 
-A persistent shutter button anchors the home screen. Tap it, point at the plate, and vision AI returns calories, macros and micronutrients — no search field, no portion slider. The plate becomes the input.
+A persistent shutter button anchors the app. After a photo or a quick description, each meal lands in a readable history with calories, macros, timing and a simple quality grade. Yesterday’s choices become something the user can scan in seconds.
 
 **Why it works:** the highest-friction moment of every tracker is now the lowest-effort one, so the habit survives real life.
 
-![Numi photo-based meal analysis with nutrition details](https://imdennie.com/dist/img/numi/device-fasting.webp)
+![Numi meal history showing mock meals, calories, macros, times, and quality grades](https://imdennie.com/dist/img/numi/simulator-meal-history.webp)
 
 Home
 
-### One glance, three rings
+### One glance, one clear next move
 
-The home leads with protein, carbs and fat as color-coded rings over a filmstrip of today’s meals. No reading required — the shape of the day tells you if you’re on track before you’ve parsed a single number.
+The home brings calories, macros, meal photos and the fasting state into one calm summary. The first sentence explains the day; the progress card gives the detail; the timeline shows what comes next.
 
 **Why it works:** answers the only question most people have — “am I good?” — in under a second, then lets the curious drill in.
 
-![Numi home with macro rings and meals](https://imdennie.com/dist/img/numi/device-home.webp)
+![Numi home screen populated with mock nutrition, meal, fasting, and weight data](https://imdennie.com/dist/img/numi/simulator-home.webp)
 
 Insights
 
-### A weekly report that reads like a note
+### A score with a reason behind it
 
-Instead of a wall of charts, Numi writes the week up in plain language — “something broke mid-week,” an adherence score, what to fix — backed by a simple seven-day bar. The AI does the interpreting so the user doesn’t have to.
+Instead of a wall of charts, Numi combines calories, macros, timing and consistency into one decision score. It explains the biggest opportunity in plain language, then connects the current pattern to a seven-day projection.
 
 **Why it works:** insight only changes behavior if it’s understood; a sentence lands where a scatter plot doesn’t.
 
-![Numi AI weekly narrative report and adherence score](https://imdennie.com/dist/img/numi/device-meal.webp)
+![Numi Progress screen with a mock decision score, recommendation, and seven-day projection](https://imdennie.com/dist/img/numi/simulator-progress.webp)
 
 Fasting
 
@@ -133,7 +133,7 @@ The eating window lives on the home, not in a separate app — with a plain-Engl
 
 **Why it works:** one mental model for the whole day beats stitching together three single-purpose tools.
 
-![Numi fasting state and eating-window guidance on the home screen](https://imdennie.com/dist/img/numi/device-weekly-alt.webp)
+![Numi home timeline with a mock eating window, weight trend, hydration, and macro timing](https://imdennie.com/dist/img/numi/simulator-fasting.webp)
 
 **06** — Design system
 

@@ -97,6 +97,17 @@ Evidence directory: `/Users/dennie/.codex/visualizations/2026/09/19/01a0bb1c-eb4
 
 final result: passed
 
+## Numi simulator artwork refresh — 2026-09-23
+
+- Replaced all four decision-section images with current Numi simulator captures generated from the app’s built-in three-month demo seed: 88 days of history, mock meals and photos, weight trend, hydration, fasting state, and nutrition insights.
+- The four production WebP files are 660 × 1434 and total 205 KB. They preserve the simulator aspect ratio and render without a decorative image background.
+- Updated the Logging, Home, and Insights copy and alt text to describe the current released interface shown in each capture.
+- Regenerated the Numi Markdown mirror and combined LLM document; updated the discovery sync and validation scripts for the new image names and stylesheet cache key.
+- Verified the decision layout in the local browser, including the meal-history, Home, and Progress rows. Discovery checks and git whitespace checks pass.
+- Full-resolution source captures are stored in `numi-simulator-refresh/` under the task’s visual evidence directory.
+
+final result: passed
+
 ## Numi image-section repair — 2026-09-22
 
 - Audited the live case study and found three screenshots attached to the wrong decision labels: the weekly report appeared under Logging, the fasting/home screen appeared under Insights, and the meal analysis appeared under Fasting.
