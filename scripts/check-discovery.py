@@ -107,12 +107,12 @@ assert all("/" + file.relative_to(ROOT).as_posix() + ".md" in llms for file in P
 assert (ROOT / "llms-full.txt").stat().st_size > 10_000
 numi = (ROOT / "case/numi.html").read_text()
 expected_numi_images = [
-    "simulator-meal-history.webp",
-    "simulator-home.webp",
-    "simulator-progress.webp",
-    "simulator-fasting.webp",
+    "device-meal-history.webp",
+    "device-home.webp",
+    "device-progress.webp",
+    "device-fasting.webp",
 ]
 numi_decisions = numi.split("Where the product thinking became pixels.", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
-assert re.findall(r'simulator-[^"/]+\.webp', numi_decisions) == expected_numi_images
-assert "/dist/open-studio/pages.css?v=20260923-numi-screens" in numi
+assert re.findall(r'device-[^"/]+\.webp', numi_decisions) == expected_numi_images
+assert "/dist/open-studio/pages.css?v=20260923-device-bezel" in numi
 print(f"Discovery checks passed for {len(PAGES)} pages and {len(urls)} sitemap URLs.")

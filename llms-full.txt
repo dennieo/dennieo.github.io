@@ -544,7 +544,7 @@ A persistent shutter button anchors the app. After a photo or a quick descriptio
 
 **Why it works:** the highest-friction moment of every tracker is now the lowest-effort one, so the habit survives real life.
 
-![Numi meal history showing mock meals, calories, macros, times, and quality grades](https://imdennie.com/dist/img/numi/simulator-meal-history.webp)
+![Numi meal history showing mock meals, calories, macros, times, and quality grades in an iPhone 18 Pro Max](https://imdennie.com/dist/img/numi/device-meal-history.webp)
 
 Home
 
@@ -554,7 +554,7 @@ The home brings calories, macros, meal photos and the fasting state into one cal
 
 **Why it works:** answers the only question most people have — “am I good?” — in under a second, then lets the curious drill in.
 
-![Numi home screen populated with mock nutrition, meal, fasting, and weight data](https://imdennie.com/dist/img/numi/simulator-home.webp)
+![Numi home screen populated with mock nutrition, meal, fasting, and weight data in an iPhone 18 Pro Max](https://imdennie.com/dist/img/numi/device-home.webp)
 
 Insights
 
@@ -564,7 +564,7 @@ Instead of a wall of charts, Numi combines calories, macros, timing and consiste
 
 **Why it works:** insight only changes behavior if it’s understood; a sentence lands where a scatter plot doesn’t.
 
-![Numi Progress screen with a mock decision score, recommendation, and seven-day projection](https://imdennie.com/dist/img/numi/simulator-progress.webp)
+![Numi Progress screen with a mock decision score, recommendation, and seven-day projection in an iPhone 18 Pro Max](https://imdennie.com/dist/img/numi/device-progress.webp)
 
 Fasting
 
@@ -574,7 +574,7 @@ The eating window lives on the home, not in a separate app — with a plain-Engl
 
 **Why it works:** one mental model for the whole day beats stitching together three single-purpose tools.
 
-![Numi home timeline with a mock eating window, weight trend, hydration, and macro timing](https://imdennie.com/dist/img/numi/simulator-fasting.webp)
+![Numi home timeline with a mock eating window, weight trend, hydration, and macro timing in an iPhone 18 Pro Max](https://imdennie.com/dist/img/numi/device-fasting.webp)
 
 **06** — Design system
 
