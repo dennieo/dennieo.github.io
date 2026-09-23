@@ -110,7 +110,8 @@ home = (ROOT / "index.html").read_text()
 assert "https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164" in home
 assert "https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" in home
 assert home.count("Live on the App Store") == 2
-assert "dist/open-studio/style.css?v=20260923-app-store" in home
+assert "dist/open-studio/style.css?v=20260923-pointer" in home
+assert "a[href], button { cursor: pointer; }" in (ROOT / "dist/open-studio/style.css").read_text()
 expected_numi_images = [
     "device-meal-history.webp",
     "device-home.webp",
