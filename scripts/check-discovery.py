@@ -114,5 +114,5 @@ expected_numi_images = [
 ]
 numi_decisions = numi.split("Where the product thinking became pixels.", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
 assert re.findall(r'simulator-[^"/]+\.webp', numi_decisions) == expected_numi_images
-assert "/dist/open-studio/pages.css?v=20260923-simulator" in numi
+assert "/dist/open-studio/pages.css?v=20260923-numi-screens" in numi
 print(f"Discovery checks passed for {len(PAGES)} pages and {len(urls)} sitemap URLs.")
