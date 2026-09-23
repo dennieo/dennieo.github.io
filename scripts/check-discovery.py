@@ -106,6 +106,11 @@ assert "Numi is released on the App Store" in llms
 assert all("/" + file.relative_to(ROOT).as_posix() + ".md" in llms for file in PAGES)
 assert (ROOT / "llms-full.txt").stat().st_size > 10_000
 numi = (ROOT / "case/numi.html").read_text()
+home = (ROOT / "index.html").read_text()
+assert "https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164" in home
+assert "https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" in home
+assert home.count("Live on the App Store") == 2
+assert "dist/open-studio/style.css?v=20260923-app-store" in home
 expected_numi_images = [
     "device-meal-history.webp",
     "device-home.webp",

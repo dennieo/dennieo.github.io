@@ -52,6 +52,9 @@ h2 { font-size: clamp(36px, 5.3vw, 64px); font-weight: 600; line-height: 1.08; l
 .project h3 .arrow { width: .7em; height: .7em; }
 .project p { color: var(--muted); font-size: 20px; line-height: 1.5; letter-spacing: -.025em; }
 .project p.project-role { margin-top: 5px; color: var(--subtle); font-size: 16px; letter-spacing: -.01em; }
+.project-store { display: inline-flex; align-items: center; gap: 8px; margin-top: 16px; padding-bottom: 3px; border-bottom: 1px solid currentColor; font-size: 16px; font-weight: 500; line-height: 1.4; }
+.project-store::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #477a62; }
+.project-store .arrow { width: .78em; height: .78em; }
 .archive { margin-top: 70px; border-top: 1px solid var(--line); padding-top: 24px; display: flex; align-items: baseline; gap: 48px; }
 .archive h3 { font-size: 16px; font-weight: 400; color: var(--subtle); }
 .archive-links { display: flex; flex-wrap: wrap; gap: 20px 32px; }
@@ -107,6 +110,7 @@ h2 { font-size: clamp(36px, 5.3vw, 64px); font-weight: 600; line-height: 1.08; l
   .project h3 { font-size: 30px; margin-top: 20px; }
   .project p { font-size: 18px; }
   .project p.project-role { font-size: 14px; }
+  .project-store { margin-top: 14px; font-size: 15px; }
   .archive { display: block; margin-top: 48px; }
   .archive-links { margin-top: 12px; gap: 8px 24px; }
   .about, .writing { margin-top: 70px; }
