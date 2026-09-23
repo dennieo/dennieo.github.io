@@ -13,7 +13,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://imdennie.com/'
-UPDATED = '2026-09-22'
+UPDATED = '2026-09-23'
 FILES = ['index.html', 'story.html', 'approach.html', 'resume.html',
          'case/numi.html', 'case/tysha.html', 'case/karta.html',
          'blog/index.html'] + [str(p.relative_to(ROOT)) for p in sorted((ROOT / 'blog').glob('*.html')) if p.name != 'index.html']
@@ -102,7 +102,7 @@ for path in FILES:
                         'author': {'@id': BASE + '#person'}, 'publisher': {'@id': BASE + '#person'},
                         'mainEntityOfPage': {'@id': url + '#webpage'}, 'inLanguage': 'en'})
         article['isPartOf'] = {'@id': BASE + ('blog/#blog' if path.startswith('blog/') else '#website')}
-        if path == 'case/numi.html': article['dateModified'] = UPDATED
+        if path in ['case/numi.html', 'case/tysha.html']: article['dateModified'] = UPDATED
         webpage['mainEntity'] = {'@id': url + '#article'}; nodes.append(article)
     if path == 'blog/index.html':
         nodes.append({'@type': 'Blog', '@id': BASE + 'blog/#blog', 'url': BASE + 'blog/', 'name': title,
@@ -155,7 +155,7 @@ for path in FILES:
     head = re.sub(r'\n\s*\n', '\n\n', head).rstrip()
     text = head + '\n' + '\n'.join(block) + '\n  </head>' + body
     text = re.sub(r'(/?dist/open-studio/style\.css)\?v=[^"\s]+', r'\1?v=20260923-pointer', text)
-    text = re.sub(r'/dist/open-studio/pages.css\?v=[^"\s]+', '/dist/open-studio/pages.css?v=20260923-device-bezel', text)
+    text = re.sub(r'/dist/open-studio/pages.css\?v=[^"\s]+', '/dist/open-studio/pages.css?v=20260923-tysha-device', text)
     file.write_text('\n'.join(line.rstrip() for line in text.splitlines()) + '\n')
     records.append((path, url, title, desc))
 

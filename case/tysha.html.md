@@ -1,6 +1,6 @@
 Source: https://imdennie.com/case/tysha.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 Baby sleep · iOS · Founder product
 
@@ -85,7 +85,7 @@ The home is a calm, near-black canvas with floating sound nodes you tap to bring
 
 **Why it works:** a half-asleep parent can build the exact sound they need without focusing their eyes.
 
-![Tysha orbital sound mixer](https://imdennie.com/dist/img/tysha/screen-1.webp)
+![Tysha orbital sound mixer with brown noise, shushing, and soft rain on iPhone](https://imdennie.com/dist/img/tysha/device-mixer.webp)
 
 The library
 
@@ -95,7 +95,7 @@ Sounds are grouped the way tired parents actually think — “weird but it work
 
 **Why it works:** the copy does the reassuring, so a panicked parent trusts the pick instantly.
 
-![Tysha categorized sound library](https://imdennie.com/dist/img/tysha/screen-2.webp)
+![Tysha categorized sound library open over the mixer on iPhone](https://imdennie.com/dist/img/tysha/device-library.webp)
 
 Set & forget
 
@@ -105,7 +105,7 @@ A working mix can be saved as a “Room,” started with Siri or the Lock Screen
 
 **Why it works:** the best sleep app is one you stop touching; every feature pushes toward putting it away.
 
-![Tysha saved rooms and fading sleep timer](https://imdennie.com/dist/img/tysha/screen-3.webp)
+![Tysha fading sleep timer open over a three-sound mix on iPhone](https://imdennie.com/dist/img/tysha/device-timer.webp)
 
 **05** — Design system
 

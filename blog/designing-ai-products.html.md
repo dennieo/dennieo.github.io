@@ -1,6 +1,6 @@
 Source: https://imdennie.com/blog/designing-ai-products.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 [All writing  ](https://imdennie.com/blog/) AI & design
 

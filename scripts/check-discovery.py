@@ -106,6 +106,7 @@ assert "Numi is released on the App Store" in llms
 assert all("/" + file.relative_to(ROOT).as_posix() + ".md" in llms for file in PAGES)
 assert (ROOT / "llms-full.txt").stat().st_size > 10_000
 numi = (ROOT / "case/numi.html").read_text()
+tysha = (ROOT / "case/tysha.html").read_text()
 home = (ROOT / "index.html").read_text()
 assert "https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164" in home
 assert "https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" in home
@@ -120,5 +121,13 @@ expected_numi_images = [
 ]
 numi_decisions = numi.split("Where the product thinking became pixels.", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
 assert re.findall(r'device-[^"/]+\.webp', numi_decisions) == expected_numi_images
-assert "/dist/open-studio/pages.css?v=20260923-device-bezel" in numi
+assert "/dist/open-studio/pages.css?v=20260923-tysha-device" in numi
+expected_tysha_images = [
+    "device-mixer.webp",
+    "device-library.webp",
+    "device-timer.webp",
+]
+tysha_decisions = tysha.split("<!-- DECISIONS -->", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
+assert re.findall(r'device-[^"/]+\.webp', tysha_decisions) == expected_tysha_images
+assert "/dist/open-studio/pages.css?v=20260923-tysha-device" in tysha
 print(f"Discovery checks passed for {len(PAGES)} pages and {len(urls)} sitemap URLs.")

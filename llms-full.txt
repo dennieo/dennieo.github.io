@@ -2,7 +2,7 @@
 
 ---
 
-Updated: 2026-09-22. Generated from the public HTML pages; canonical URLs are listed for each page.
+Updated: 2026-09-23. Generated from the public HTML pages; canonical URLs are listed for each page.
 
 ---
 
@@ -10,7 +10,7 @@ Updated: 2026-09-22. Generated from the public HTML pages; canonical URLs are li
 
 Source: https://imdennie.com/
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 # I design and build digital products.
 
@@ -113,7 +113,7 @@ I’m open to senior product design roles  and select collaborations.
 
 Source: https://imdennie.com/story.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 My story
 
@@ -267,7 +267,7 @@ Today I’m in Kyiv — designing at DraftKings, running three live products, an
 
 Source: https://imdennie.com/approach.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 My approach
 
@@ -336,7 +336,7 @@ Open to senior product design roles and select collaborations.
 
 Source: https://imdennie.com/resume.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 Resume
 
@@ -445,7 +445,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 Source: https://imdennie.com/case/numi.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 AI nutrition · iOS · Founder product
 
@@ -636,7 +636,7 @@ Designer-engineer, end-to-end
 
 Source: https://imdennie.com/case/tysha.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 Baby sleep · iOS · Founder product
 
@@ -721,7 +721,7 @@ The home is a calm, near-black canvas with floating sound nodes you tap to bring
 
 **Why it works:** a half-asleep parent can build the exact sound they need without focusing their eyes.
 
-![Tysha orbital sound mixer](https://imdennie.com/dist/img/tysha/screen-1.webp)
+![Tysha orbital sound mixer with brown noise, shushing, and soft rain on iPhone](https://imdennie.com/dist/img/tysha/device-mixer.webp)
 
 The library
 
@@ -731,7 +731,7 @@ Sounds are grouped the way tired parents actually think — “weird but it work
 
 **Why it works:** the copy does the reassuring, so a panicked parent trusts the pick instantly.
 
-![Tysha categorized sound library](https://imdennie.com/dist/img/tysha/screen-2.webp)
+![Tysha categorized sound library open over the mixer on iPhone](https://imdennie.com/dist/img/tysha/device-library.webp)
 
 Set & forget
 
@@ -741,7 +741,7 @@ A working mix can be saved as a “Room,” started with Siri or the Lock Screen
 
 **Why it works:** the best sleep app is one you stop touching; every feature pushes toward putting it away.
 
-![Tysha saved rooms and fading sleep timer](https://imdennie.com/dist/img/tysha/screen-3.webp)
+![Tysha fading sleep timer open over a three-sound mix on iPhone](https://imdennie.com/dist/img/tysha/device-timer.webp)
 
 **05** — Design system
 
@@ -799,7 +799,7 @@ Ads, ever
 
 Source: https://imdennie.com/case/karta.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 Restaurant platform · Web · Founder product
 
@@ -994,7 +994,7 @@ Audiences, one system
 
 Source: https://imdennie.com/blog/
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 Writing
 
@@ -1056,7 +1056,7 @@ A working list of the AI UX patterns I actually use, with the reasoning behind e
 
 Source: https://imdennie.com/blog/ai-product-design.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 [All writing  ](https://imdennie.com/blog/) Design practice
 
@@ -1163,7 +1163,7 @@ None of this requires a model you trained or an evaluation harness. It requires 
 
 Source: https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-real-model.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 [All writing  ](https://imdennie.com/blog/)
 
@@ -1303,7 +1303,7 @@ If the honest answer to five of those is no, the model is not your problem.
 
 Source: https://imdennie.com/blog/designing-ai-products.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 [All writing  ](https://imdennie.com/blog/) AI & design
 
@@ -1379,7 +1379,7 @@ Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer
 
 Source: https://imdennie.com/blog/how-to-become-a-product-designer.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 [All writing  ](https://imdennie.com/blog/) Careers in design
 
@@ -1483,7 +1483,7 @@ Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html)
 
 Source: https://imdennie.com/blog/shipping-apps-solo-with-ai.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 [All writing  ](https://imdennie.com/blog/) Building in public
 
@@ -1556,7 +1556,7 @@ Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer
 
 Source: https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 [All writing  ](https://imdennie.com/blog/)
 

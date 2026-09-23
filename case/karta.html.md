@@ -1,6 +1,6 @@
 Source: https://imdennie.com/case/karta.html
 
-Updated: 2026-09-22
+Updated: 2026-09-23
 
 Restaurant platform · Web · Founder product
 
