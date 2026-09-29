@@ -1,6 +1,47 @@
 (() => {
   "use strict";
   document.querySelector("#year").textContent = new Date().getFullYear();
+  const rotator = document.querySelector(".hero-rotator");
+  if (rotator) {
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const texts = [rotator.textContent, ...rotator.dataset.words.split("|")];
+    const phrases = texts.map((text, index) => {
+      const phrase = document.createElement("span");
+      phrase.className = index === 0 ? "hero-phrase is-active" : "hero-phrase";
+      // Screen readers only get the first phrase, so the heading stays stable.
+      if (index > 0) phrase.setAttribute("aria-hidden", "true");
+      text.split(" ").forEach((word, wordIndex) => {
+        const span = document.createElement("span");
+        span.className = "hero-word";
+        span.style.setProperty("--i", wordIndex);
+        span.textContent = word;
+        phrase.append(...(wordIndex ? [" ", span] : [span]));
+      });
+      return phrase;
+    });
+    rotator.replaceChildren(...phrases);
+    let phraseIndex = 0;
+    let inView = true;
+    let timer;
+    const schedule = () => {
+      clearTimeout(timer);
+      if (inView && !document.hidden && !reduceMotion.matches)
+        timer = setTimeout(advance, 3000);
+    };
+    const advance = () => {
+      rotator.classList.add("is-running");
+      phrases[phraseIndex].className = "hero-phrase is-leaving";
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+      phrases[phraseIndex].className = "hero-phrase is-active";
+      schedule();
+    };
+    new IntersectionObserver(([entry]) => {
+      inView = entry.isIntersecting;
+      schedule();
+    }).observe(rotator);
+    document.addEventListener("visibilitychange", schedule);
+    reduceMotion.addEventListener("change", schedule);
+  }
   const galleries = {
     linc: { name: "Linc", files: ["linc-1", "linc-3", "linc-2", "linc-4"] },
     mgt: {
