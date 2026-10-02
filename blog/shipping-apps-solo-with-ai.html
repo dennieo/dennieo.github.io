@@ -20,7 +20,7 @@
 
   <script defer src="/dist/analytics.js"></script>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="/dist/open-studio/style.css?v=20260923-pointer" />
+    <link rel="stylesheet" href="/dist/open-studio/style.css?v=20261002-nav" />
     <link rel="stylesheet" href="/dist/open-studio/pages.css?v=20260923-tysha-device" />
 <link
       rel="icon"
@@ -183,9 +183,32 @@
       <nav aria-label="Main navigation">
         <a href="/index.html#work">Work</a>
         <a href="/index.html#about">About</a>
+        <a href="/blog/" aria-current="true">Writing</a>
+        <a href="/resume.html">Resume</a>
         <a href="/index.html#contact">Contact <span class="arrow" aria-hidden="true"></span></a>
       </nav>
+      <div class="header-actions">
+        <a href="/resume.html">Resume</a>
+        <button class="menu-toggle" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="site-menu">Menu <span class="menu-icon" aria-hidden="true"></span></button>
+      </div>
     </header>
+    <dialog class="site-menu" id="site-menu" aria-label="Site menu">
+      <div class="site-header shell">
+        <a class="wordmark" href="/index.html" aria-label="Dennie Ordynskyi home">dennie.</a>
+        <button class="menu-toggle" type="button" autofocus data-menu-close>Close <span class="menu-icon" aria-hidden="true"></span></button>
+      </div>
+      <nav class="site-menu-nav shell" aria-label="Main navigation">
+        <a href="/index.html#work"><span>Work</span><span class="arrow" aria-hidden="true"></span></a>
+        <a href="/index.html#about"><span>About</span><span class="arrow" aria-hidden="true"></span></a>
+        <a href="/blog/" aria-current="true"><span>Writing</span><span class="arrow" aria-hidden="true"></span></a>
+        <a href="/resume.html"><span>Resume</span><span class="arrow" aria-hidden="true"></span></a>
+        <a href="/index.html#contact"><span>Contact</span><span class="arrow" aria-hidden="true"></span></a>
+      </nav>
+      <div class="site-menu-footer shell">
+        <p>Open to senior product design roles and select collaborations.</p>
+        <div><a href="https://www.linkedin.com/in/dennieo/" target="_blank" rel="noopener">LinkedIn <span class="arrow" aria-hidden="true"></span></a><a href="mailto:gehucka@gmail.com?subject=Hello%20Dennie">Email <span class="arrow" aria-hidden="true"></span></a></div>
+      </div>
+    </dialog>
     <main class="post" id="main-content">
       <div class="wrap"><nav class="article-crumb" aria-label="Breadcrumb"><a href="/blog/">All writing <span class="arrow" aria-hidden="true"></span></a></nav>
         <span class="eyebrow">Building in public</span>
@@ -342,5 +365,6 @@
       <div><a href="/story.html">My story</a><a href="/approach.html">Approach</a><a href="/blog/">Writing</a><a href="/resume.html">Resume</a></div>
     </footer>
     <script src="/dist/open-studio/pages.js?v=20260919" defer></script>
+    <script src="/dist/open-studio/menu.js?v=20261002-nav" defer></script>
   </body>
 </html>
