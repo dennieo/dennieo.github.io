@@ -26,8 +26,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="dist/open-studio/style.css?v=20260929-hero" />
+    <link rel="stylesheet" href="dist/open-studio/style.css?v=20261002-nav" />
     <script src="dist/open-studio/main.js?v=20260929-hero" defer></script>
+    <script src="dist/open-studio/menu.js?v=20261002-nav" defer></script>
     <script src="dist/analytics.js" defer></script>
 <link
       rel="icon"
@@ -136,9 +137,34 @@
     <header class="site-header shell">
       <a class="wordmark" href="#top" aria-label="Dennie Ordynskyi home">dennie.</a>
       <nav aria-label="Main navigation">
-        <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact <span class="arrow" aria-hidden="true"></span></a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="blog/">Writing</a>
+        <a href="resume.html">Resume</a>
+        <a href="#contact">Contact <span class="arrow" aria-hidden="true"></span></a>
       </nav>
+      <div class="header-actions">
+        <a href="resume.html">Resume</a>
+        <button class="menu-toggle" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="site-menu">Menu <span class="menu-icon" aria-hidden="true"></span></button>
+      </div>
     </header>
+    <dialog class="site-menu" id="site-menu" aria-label="Site menu">
+      <div class="site-header shell">
+        <a class="wordmark" href="#top" aria-label="Dennie Ordynskyi home">dennie.</a>
+        <button class="menu-toggle" type="button" autofocus data-menu-close>Close <span class="menu-icon" aria-hidden="true"></span></button>
+      </div>
+      <nav class="site-menu-nav shell" aria-label="Main navigation">
+        <a href="#work"><span>Work</span><span class="arrow" aria-hidden="true"></span></a>
+        <a href="#about"><span>About</span><span class="arrow" aria-hidden="true"></span></a>
+        <a href="blog/"><span>Writing</span><span class="arrow" aria-hidden="true"></span></a>
+        <a href="resume.html"><span>Resume</span><span class="arrow" aria-hidden="true"></span></a>
+        <a href="#contact"><span>Contact</span><span class="arrow" aria-hidden="true"></span></a>
+      </nav>
+      <div class="site-menu-footer shell">
+        <p>Open to senior product design roles and select collaborations.</p>
+        <div><a href="https://www.linkedin.com/in/dennieo/" target="_blank" rel="noopener">LinkedIn <span class="arrow" aria-hidden="true"></span></a><a href="mailto:gehucka@gmail.com?subject=Hello%20Dennie">Email <span class="arrow" aria-hidden="true"></span></a></div>
+      </div>
+    </dialog>
     <main>
       <section class="hero shell" aria-labelledby="hero-title">
         <h1 id="hero-title">I design and build<br /><span class="hero-rotator" data-words="iOS apps.|web apps.|AI products.|design systems.">digital products.</span></h1>

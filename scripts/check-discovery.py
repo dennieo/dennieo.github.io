@@ -111,7 +111,12 @@ home = (ROOT / "index.html").read_text()
 assert "https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164" in home
 assert "https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" in home
 assert home.count("Live on the App Store") == 2
-assert "dist/open-studio/style.css?v=20260929-hero" in home
+assert "dist/open-studio/style.css?v=20261002-nav" in home
+for file in PAGES:
+    text = file.read_text()
+    header = text.split('<header class="site-header shell">', 1)[1].split("</header>", 1)[0]
+    assert ">Resume</a>" in header, file
+    assert '<dialog class="site-menu" id="site-menu"' in text and "dist/open-studio/menu.js?v=20261002-nav" in text, file
 assert "dist/open-studio/main.js?v=20260929-hero" in home
 assert '<span class="hero-rotator" data-words="iOS apps.|web apps.|AI products.|design systems.">digital products.</span></h1>' in home
 assert "a[href], button { cursor: pointer; }" in (ROOT / "dist/open-studio/style.css").read_text()
