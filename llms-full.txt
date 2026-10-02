@@ -2,7 +2,7 @@
 
 ---
 
-Updated: 2026-09-23. Generated from the public HTML pages; canonical URLs are listed for each page.
+Updated: 2026-10-02. Generated from the public HTML pages; canonical URLs are listed for each page.
 
 ---
 
@@ -10,7 +10,7 @@ Updated: 2026-09-23. Generated from the public HTML pages; canonical URLs are li
 
 Source: https://imdennie.com/
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 # I design and build digital products.
 
@@ -57,6 +57,8 @@ Concept, design & development
 QR ordering and payments for restaurants.
 
 Concept, design & development
+
+[Live demo  ](https://karta-nu.vercel.app/)
 
 ![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
 
@@ -113,7 +115,7 @@ I’m open to senior product design roles  and select collaborations.
 
 Source: https://imdennie.com/story.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 My story
 
@@ -239,7 +241,7 @@ Along the way
 
 Chapter 11 · One QR code
 
-## Two apps in one year — done?
+## Two apps in two years — done?
 
 Not even close. Mid-2026 I started [Karta](https://karta-nu.vercel.app/) — one QR code for a whole restaurant.  Guests scan the table sticker to browse, order, split and pay in their own language, no app needed; owners get a full back office with live floor plans, analytics, auto-split payouts and an AI waiter. My biggest solo build yet — guest app, dashboard and design system, end-to-end.
 
@@ -254,9 +256,9 @@ Chapter 12 · Now playing
 
 ## So… what’s next?
 
-Today I’m in Kyiv — designing at DraftKings, running three live products, and open to senior product design roles & select collaborations. The next chapter could start with your message.
+Today I’m in Kyiv — designing at DraftKings, building three products of my own, and open to senior product design roles & select collaborations. The next chapter could start with your message.
 
-14+ years of design  3 products shipped & live  3 languages  ∞ curiosity
+14+ years of design  3 products designed & built  3 languages  ∞ curiosity
 
 [  Write the next chapter  ](mailto:gehucka@gmail.com?subject=The%20next%20chapter) [  LinkedIn ](https://www.linkedin.com/in/dennieo/) [ Selected work  ](https://imdennie.com/index.html)
 
@@ -267,7 +269,7 @@ Today I’m in Kyiv — designing at DraftKings, running three live products, an
 
 Source: https://imdennie.com/approach.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 My approach
 
@@ -336,7 +338,7 @@ Open to senior product design roles and select collaborations.
 
 Source: https://imdennie.com/resume.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 Resume
 
@@ -350,7 +352,7 @@ Kyiv, Ukraine · Remote  [imdennie.com](https://imdennie.com) [linkedin.com/in/d
 
 ## Summary
 
-Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has shipped three products from concept to launch — Numi (AI-powered nutrition, iOS), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, prototyping in code and shipping.
+Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who designs and builds products end to end — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, live demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, prototyping in code and shipping.
 
 ## Experience
 
@@ -401,7 +403,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 - Helped grow a small agency into a large e-commerce brand, designing conversion-focused experiences for major retail clients.
 - Established the company’s design practices and development flows; mentored junior designers.
 
-### Lead Product Designer · ShipShape Smart Homes — IoT
+### Lead Product Designer · Shipshape Smart Homes — IoT
 
 2016 — 2017
 
@@ -418,7 +420,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 ### Earlier
 
-2012 — 2014
+2012 — 2017
 
 - UI/UX Designer at Bilberry Software (clients incl. Chipotle, reviews.com); freelance product designer ranked top 5% on Elance; program management for a distributed R&D team at Audyssey Laboratories (2017).
 
@@ -445,7 +447,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 Source: https://imdennie.com/case/numi.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 AI nutrition · iOS · Founder product
 
@@ -454,7 +456,7 @@ AI nutrition · iOS · Founder product
 A nutrition app that kills the tap-tap-tap of manual food logging. Snap a photo, get calories, macros and micronutrients back — and a coach that speaks in plain language, not spreadsheets.
 
 - **Role** · Founder, Product Designer & Engineer
-- **Timeline** · 2025 → present
+- **Timeline** · 2025 → live
 - **Platform** · iOS (SwiftUI)
 - **Scope** · Concept → UX → UI → build → App Store
 
@@ -636,7 +638,7 @@ Designer-engineer, end-to-end
 
 Source: https://imdennie.com/case/tysha.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 Baby sleep · iOS · Founder product
 
@@ -799,7 +801,7 @@ Ads, ever
 
 Source: https://imdennie.com/case/karta.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 Restaurant platform · Web · Founder product
 
@@ -808,7 +810,7 @@ Restaurant platform · Web · Founder product
 Karta is a two-sided platform: guests scan the sticker on their table to order and pay in their own language with no app, and owners get a full back office that runs the floor and splits every payment automatically.
 
 - **Role** · Founder, Product Designer & Engineer
-- **Timeline** · 2026 → live
+- **Timeline** · 2026 → live demo
 - **Platform** · Web · guest + back office
 - **Scope** · Two-sided product, end-to-end
 
@@ -994,7 +996,7 @@ Audiences, one system
 
 Source: https://imdennie.com/blog/
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 Writing
 
@@ -1056,7 +1058,7 @@ A working list of the AI UX patterns I actually use, with the reasoning behind e
 
 Source: https://imdennie.com/blog/ai-product-design.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 [All writing  ](https://imdennie.com/blog/) Design practice
 
@@ -1163,7 +1165,7 @@ None of this requires a model you trained or an evaluation harness. It requires 
 
 Source: https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-real-model.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 [All writing  ](https://imdennie.com/blog/)
 
@@ -1173,7 +1175,7 @@ AI interfaces
 
 Dennie Ordynskyi · September 2026 · 11 min read
 
-If you are searching for AI UX patterns, you probably want a list you can apply this week, not a taxonomy. Here is the short version: the patterns that hold up in production are the ones that assume the model is usually right rather than right, and design the interface around the gap. That means results presented as proposals you confirm, waits that show understanding rather than progress, numbers the user can audit, and a genuine empty state where the AI has nothing worth saying. Everything below comes from building and shipping [Numi](https://numi.app), a vision-based food tracker, where a wrong answer becomes a wrong number in someone's day, and from a set of patterns I tried first and pulled out.
+If you are searching for AI UX patterns, you probably want a list you can apply this week, not a taxonomy. Here is the short version: the patterns that hold up in production are the ones that assume the model is usually right rather than right, and design the interface around the gap. That means results presented as proposals you confirm, waits that show understanding rather than progress, numbers the user can audit, and a genuine empty state where the AI has nothing worth saying. Everything below comes from building and shipping [Numi](https://getnumi.app), a vision-based food tracker, where a wrong answer becomes a wrong number in someone's day, and from a set of patterns I tried first and pulled out.
 
 ## Why most AI UX pattern lists do not survive shipping
 
@@ -1259,7 +1261,7 @@ The current agent conversation is rediscovering this as progressive delegation, 
 
 This one is not strictly an AI pattern, but it governs which of the others you get right, so it belongs on the list.
 
-[Tysha](https://tysha.app) is a sleep sound app, and its brief was a single scenario: one hand, lights off, a baby on the other arm, 3am. From that came every constraint that mattered. Sound in under a second. Fully offline. Nothing to sign into. No decision to make before audio plays.
+[Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) is a sleep sound app, and its brief was a single scenario: one hand, lights off, a baby on the other arm, 3am. From that came every constraint that mattered. Sound in under a second. Fully offline. Nothing to sign into. No decision to make before audio plays.
 
 Notice what that brief rules out. It rules out a personalisation onboarding flow. It rules out anything that needs a network round trip. It rules out clever recommendations, because at 3am a recommendation is one more thing to read. A feature list would have added all three.
 
@@ -1279,7 +1281,7 @@ Worth listing, because the popular AI UX pattern collections tend to include som
 
 - **Confidence percentages on output.** I tried surfacing model confidence next to items. It shifted the burden of interpretation to the user without giving them anything to do with it. "78 percent confident" does not tell you whether to check the portion. Making everything equally editable was a better answer than labelling some things as shaky.
 - **Thumbs up and thumbs down.** Cheap to build, near-worthless as signal in a product where the user is already correcting real values. The correction itself tells you what was wrong and what the right answer was. A thumbs down tells you nothing actionable.
-- **Chat as a general entry point.** A text box invites arbitrary requests, and every request outside the supported set produces a small failure. Fixed affordances that always work beat an open input that mostly does. I wrote separately about [what actually breaks in chatbot UX](https://imdennie.com/blog/chatbot-ux-design-what-actually-breaks-in-production).
+- **Chat as a general entry point.** A text box invites arbitrary requests, and every request outside the supported set produces a small failure. Fixed affordances that always work beat an open input that mostly does.
 - **Apologetic error copy.** "Sorry, I couldn't quite get that" frames a normal outcome as a malfunction. In a correction-first interface the model being slightly off is expected, and the copy should sound like it.
 
 ## A checklist you can run against your own AI feature
@@ -1303,7 +1305,7 @@ If the honest answer to five of those is no, the model is not your problem.
 
 Source: https://imdennie.com/blog/designing-ai-products.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 [All writing  ](https://imdennie.com/blog/) AI & design
 
@@ -1379,7 +1381,7 @@ Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer
 
 Source: https://imdennie.com/blog/how-to-become-a-product-designer.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 [All writing  ](https://imdennie.com/blog/) Careers in design
 
@@ -1483,7 +1485,7 @@ Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html)
 
 Source: https://imdennie.com/blog/shipping-apps-solo-with-ai.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 [All writing  ](https://imdennie.com/blog/) Building in public
 
@@ -1556,7 +1558,7 @@ Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer
 
 Source: https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 [All writing  ](https://imdennie.com/blog/)
 

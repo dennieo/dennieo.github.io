@@ -13,7 +13,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://imdennie.com/'
-UPDATED = '2026-09-23'
+UPDATED = '2026-10-02'
 FILES = ['index.html', 'story.html', 'approach.html', 'resume.html',
          'case/numi.html', 'case/tysha.html', 'case/karta.html',
          'blog/index.html'] + [str(p.relative_to(ROOT)) for p in sorted((ROOT / 'blog').glob('*.html')) if p.name != 'index.html']
@@ -154,8 +154,8 @@ for path in FILES:
     block.append('    <script type="application/ld+json">\n' + json.dumps({'@context': 'https://schema.org', '@graph': nodes}, ensure_ascii=False, indent=2) + '\n    </script>')
     head = re.sub(r'\n\s*\n', '\n\n', head).rstrip()
     text = head + '\n' + '\n'.join(block) + '\n  </head>' + body
-    text = re.sub(r'(/?dist/open-studio/style\.css)\?v=[^"\s]+', r'\1?v=20260923-pointer', text)
-    text = re.sub(r'/dist/open-studio/pages.css\?v=[^"\s]+', '/dist/open-studio/pages.css?v=20260923-tysha-device', text)
+    text = re.sub(r'(/?dist/open-studio/style\.css)\?v=[^"\s]+', r'\1?v=20261002-tidy', text)
+    text = re.sub(r'/dist/open-studio/pages.css\?v=[^"\s]+', '/dist/open-studio/pages.css?v=20261002-karta', text)
     file.write_text('\n'.join(line.rstrip() for line in text.splitlines()) + '\n')
     records.append((path, url, title, desc))
 
@@ -204,7 +204,7 @@ intro = f'''# Dennie Ordynskyi
 
 > Product designer at DraftKings and creator of Numi, Tysha, and Karta. Based in Kyiv, Ukraine, with 14+ years of experience designing mobile and web products.
 
-Updated: {UPDATED}. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch. Numi is released on the App Store. Tysha is also available on the App Store; Karta is a live restaurant ordering and payment web platform. He is open to senior product design roles and select collaborations, working with teams in the US and Europe.
+Updated: {UPDATED}. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch. Numi is released on the App Store. Tysha is also available on the App Store; Karta is a restaurant ordering and payment web platform, available as a live demo. He is open to senior product design roles and select collaborations, working with teams in the US and Europe.
 
 This index links to Markdown versions of the public website. Each document identifies its canonical HTML source. The case studies explain project decisions; the résumé contains the career history. Original article publication dates remain in the HTML metadata.
 

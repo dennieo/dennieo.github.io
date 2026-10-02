@@ -1,6 +1,6 @@
 Source: https://imdennie.com/case/karta.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 Restaurant platform · Web · Founder product
 
@@ -9,7 +9,7 @@ Restaurant platform · Web · Founder product
 Karta is a two-sided platform: guests scan the sticker on their table to order and pay in their own language with no app, and owners get a full back office that runs the floor and splits every payment automatically.
 
 - **Role** · Founder, Product Designer & Engineer
-- **Timeline** · 2026 → live
+- **Timeline** · 2026 → live demo
 - **Platform** · Web · guest + back office
 - **Scope** · Two-sided product, end-to-end
 

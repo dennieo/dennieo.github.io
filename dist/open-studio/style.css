@@ -23,7 +23,7 @@ h1, h2, h3, p { margin: 0; }
 a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 2px solid #326454; outline-offset: 6px; }
 ::selection { color: var(--ink); background: #dce9e3; }
 .shell { width: min(100%, 1600px); padding-inline: var(--gutter); margin-inline: auto; }
-.arrow { display: inline-block; width: 1em; height: 1em; flex-shrink: 0; background: currentColor; mask: url('../turtle-alt/arrow-right.svg') center / contain no-repeat; transform: rotate(-45deg); }
+.arrow { display: inline-block; width: 1em; height: 1em; flex-shrink: 0; background: currentColor; mask: url('arrow-right.svg') center / contain no-repeat; transform: rotate(-45deg); }
 .arrow-down { transform: rotate(90deg); }
 .skip-link { position: fixed; top: -100px; left: 20px; background: var(--ink); color: white; padding: 16px; z-index: 10; }
 .skip-link:focus { top: 12px; }

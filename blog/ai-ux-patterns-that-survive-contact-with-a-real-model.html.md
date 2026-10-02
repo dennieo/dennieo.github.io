@@ -1,6 +1,6 @@
 Source: https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-real-model.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 [All writing  ](https://imdennie.com/blog/)
 
@@ -10,7 +10,7 @@ AI interfaces
 
 Dennie Ordynskyi · September 2026 · 11 min read
 
-If you are searching for AI UX patterns, you probably want a list you can apply this week, not a taxonomy. Here is the short version: the patterns that hold up in production are the ones that assume the model is usually right rather than right, and design the interface around the gap. That means results presented as proposals you confirm, waits that show understanding rather than progress, numbers the user can audit, and a genuine empty state where the AI has nothing worth saying. Everything below comes from building and shipping [Numi](https://numi.app), a vision-based food tracker, where a wrong answer becomes a wrong number in someone's day, and from a set of patterns I tried first and pulled out.
+If you are searching for AI UX patterns, you probably want a list you can apply this week, not a taxonomy. Here is the short version: the patterns that hold up in production are the ones that assume the model is usually right rather than right, and design the interface around the gap. That means results presented as proposals you confirm, waits that show understanding rather than progress, numbers the user can audit, and a genuine empty state where the AI has nothing worth saying. Everything below comes from building and shipping [Numi](https://getnumi.app), a vision-based food tracker, where a wrong answer becomes a wrong number in someone's day, and from a set of patterns I tried first and pulled out.
 
 ## Why most AI UX pattern lists do not survive shipping
 
@@ -96,7 +96,7 @@ The current agent conversation is rediscovering this as progressive delegation, 
 
 This one is not strictly an AI pattern, but it governs which of the others you get right, so it belongs on the list.
 
-[Tysha](https://tysha.app) is a sleep sound app, and its brief was a single scenario: one hand, lights off, a baby on the other arm, 3am. From that came every constraint that mattered. Sound in under a second. Fully offline. Nothing to sign into. No decision to make before audio plays.
+[Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) is a sleep sound app, and its brief was a single scenario: one hand, lights off, a baby on the other arm, 3am. From that came every constraint that mattered. Sound in under a second. Fully offline. Nothing to sign into. No decision to make before audio plays.
 
 Notice what that brief rules out. It rules out a personalisation onboarding flow. It rules out anything that needs a network round trip. It rules out clever recommendations, because at 3am a recommendation is one more thing to read. A feature list would have added all three.
 
@@ -116,7 +116,7 @@ Worth listing, because the popular AI UX pattern collections tend to include som
 
 - **Confidence percentages on output.** I tried surfacing model confidence next to items. It shifted the burden of interpretation to the user without giving them anything to do with it. "78 percent confident" does not tell you whether to check the portion. Making everything equally editable was a better answer than labelling some things as shaky.
 - **Thumbs up and thumbs down.** Cheap to build, near-worthless as signal in a product where the user is already correcting real values. The correction itself tells you what was wrong and what the right answer was. A thumbs down tells you nothing actionable.
-- **Chat as a general entry point.** A text box invites arbitrary requests, and every request outside the supported set produces a small failure. Fixed affordances that always work beat an open input that mostly does. I wrote separately about [what actually breaks in chatbot UX](https://imdennie.com/blog/chatbot-ux-design-what-actually-breaks-in-production).
+- **Chat as a general entry point.** A text box invites arbitrary requests, and every request outside the supported set produces a small failure. Fixed affordances that always work beat an open input that mostly does.
 - **Apologetic error copy.** "Sorry, I couldn't quite get that" frames a normal outcome as a malfunction. In a correction-first interface the model being slightly off is expected, and the copy should sound like it.
 
 ## A checklist you can run against your own AI feature

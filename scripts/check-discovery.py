@@ -111,7 +111,7 @@ home = (ROOT / "index.html").read_text()
 assert "https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164" in home
 assert "https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" in home
 assert home.count("Live on the App Store") == 2
-assert "dist/open-studio/style.css?v=20260929-hero" in home
+assert "dist/open-studio/style.css?v=20261002-tidy" in home
 assert "dist/open-studio/main.js?v=20260929-hero" in home
 assert '<span class="hero-rotator" data-words="iOS apps.|web apps.|AI products.|design systems.">digital products.</span></h1>' in home
 assert "a[href], button { cursor: pointer; }" in (ROOT / "dist/open-studio/style.css").read_text()
@@ -123,7 +123,7 @@ expected_numi_images = [
 ]
 numi_decisions = numi.split("Where the product thinking became pixels.", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
 assert re.findall(r'device-[^"/]+\.webp', numi_decisions) == expected_numi_images
-assert "/dist/open-studio/pages.css?v=20260923-tysha-device" in numi
+assert "/dist/open-studio/pages.css?v=20261002-karta" in numi
 expected_tysha_images = [
     "device-mixer.webp",
     "device-library.webp",
@@ -131,5 +131,5 @@ expected_tysha_images = [
 ]
 tysha_decisions = tysha.split("<!-- DECISIONS -->", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
 assert re.findall(r'device-[^"/]+\.webp', tysha_decisions) == expected_tysha_images
-assert "/dist/open-studio/pages.css?v=20260923-tysha-device" in tysha
+assert "/dist/open-studio/pages.css?v=20261002-karta" in tysha
 print(f"Discovery checks passed for {len(PAGES)} pages and {len(urls)} sitemap URLs.")

@@ -1,6 +1,6 @@
 Source: https://imdennie.com/case/numi.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 AI nutrition · iOS · Founder product
 
@@ -9,7 +9,7 @@ AI nutrition · iOS · Founder product
 A nutrition app that kills the tap-tap-tap of manual food logging. Snap a photo, get calories, macros and micronutrients back — and a coach that speaks in plain language, not spreadsheets.
 
 - **Role** · Founder, Product Designer & Engineer
-- **Timeline** · 2025 → present
+- **Timeline** · 2025 → live
 - **Platform** · iOS (SwiftUI)
 - **Scope** · Concept → UX → UI → build → App Store
 

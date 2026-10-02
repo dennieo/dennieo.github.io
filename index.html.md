@@ -1,6 +1,6 @@
 Source: https://imdennie.com/
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 # I design and build digital products.
 
@@ -47,6 +47,8 @@ Concept, design & development
 QR ordering and payments for restaurants.
 
 Concept, design & development
+
+[Live demo  ](https://karta-nu.vercel.app/)
 
 ![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
 

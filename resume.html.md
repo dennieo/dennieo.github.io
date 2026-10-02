@@ -1,6 +1,6 @@
 Source: https://imdennie.com/resume.html
 
-Updated: 2026-09-23
+Updated: 2026-10-02
 
 Resume
 
@@ -14,7 +14,7 @@ Kyiv, Ukraine · Remote  [imdennie.com](https://imdennie.com) [linkedin.com/in/d
 
 ## Summary
 
-Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has shipped three products from concept to launch — Numi (AI-powered nutrition, iOS), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, prototyping in code and shipping.
+Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who designs and builds products end to end — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, live demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, prototyping in code and shipping.
 
 ## Experience
 
@@ -65,7 +65,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 - Helped grow a small agency into a large e-commerce brand, designing conversion-focused experiences for major retail clients.
 - Established the company’s design practices and development flows; mentored junior designers.
 
-### Lead Product Designer · ShipShape Smart Homes — IoT
+### Lead Product Designer · Shipshape Smart Homes — IoT
 
 2016 — 2017
 
@@ -82,7 +82,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 ### Earlier
 
-2012 — 2014
+2012 — 2017
 
 - UI/UX Designer at Bilberry Software (clients incl. Chipotle, reviews.com); freelance product designer ranked top 5% on Elance; program management for a distributed R&D team at Audyssey Laboratories (2017).
 
