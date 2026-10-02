@@ -26,7 +26,7 @@ Chapter 03 · First pixels
 
 ## When did design find you?
 
-Around 2011 — and it stuck. My product-design journey properly began at Chatbox , a team-messaging SaaS — the pattern Slack would later make famous — working between management, sales and engineering. The features I helped ship fast helped secure investment and land the first big customers.
+Around 2012 — and it stuck. My product-design journey properly began at Chatbox , a team-messaging SaaS — the pattern Slack would later make famous — working between management, sales and engineering. The features I helped ship fast helped secure investment and land the first big customers.
 
 Along the way
 

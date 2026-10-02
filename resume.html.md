@@ -53,21 +53,21 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 ### Founding Product Designer · Linc — cloud studio platform
 
-2016 — 2018
+2016 — 2018 · Contract
 
 - First designer: established the brand, scalable design system and end-to-end UX for a studio platform-as-a-service for content creators.
 - Defined personas and flows, and iterated from user feedback alongside engineering.
 
 ### Senior Product Designer · Blue Stout — e-commerce agency
 
-2014 — 2018
+2014 — 2018 · Contract
 
 - Helped grow a small agency into a large e-commerce brand, designing conversion-focused experiences for major retail clients.
 - Established the company’s design practices and development flows; mentored junior designers.
 
 ### Lead Product Designer · Shipshape Smart Homes — IoT
 
-2016 — 2017
+2016 — 2017 · Contract
 
 - Owned product design end to end for a smart-home monitoring platform — UI/UX, design system, brand identity and mascot — while leading and mentoring a team of three designers.
 - Ran hands-on research, including field interviews and site visits into the crawlspaces where the sensors get installed, to ground the product in real-world conditions.
@@ -75,7 +75,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 ### Product Designer · Chatbox — customer-messaging SaaS
 
-2014 — 2016
+2014 — 2016 · Contract
 
 - Designed and built the front-end UI for a channel-based team-messaging product — the pattern Slack would later define — working across management, sales and engineering to ship core features fast.
 - Design work contributed to securing investment and landing the first major customers.
