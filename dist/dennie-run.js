@@ -44,7 +44,7 @@
         '.wrap:focus-visible{box-shadow:0 0 0 2px currentColor}.wrap.ptr:focus-visible{box-shadow:none}' +
         'canvas{display:block;width:100%;height:' + h + 'px}' +
         '.status{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:6px;font-size:12px;line-height:1.4;min-height:1.4em;font-variant-numeric:tabular-nums}' +
-        '.l{opacity:.6}.r{opacity:.45;white-space:nowrap}' +
+        '.l{opacity:.62}.r{opacity:.62;white-space:nowrap}' +
         'a{color:inherit;opacity:1;text-underline-offset:3px}' +
         '</style>' +
         '<div class="wrap" tabindex="0" role="application" aria-label="Mini game. Press Space or tap to jump over obstacles.">' +

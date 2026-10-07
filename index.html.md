@@ -1,20 +1,22 @@
 Source: https://imdennie.com/
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
-# I design and build digital products.
+Product Designer & Design Engineer
 
-I’m Dennie, a product designer at DraftKings.  I also make my own apps — from first idea to launch.
+# I design and build iOS and web apps with AI.
 
-[View selected work  ](https://imdennie.com/#work)
+I’m Dennie Ordynskyi, a product designer with 14+ years of experience, including DraftKings. I help founders turn ideas into working products — from product strategy and UX to code and launch. I independently designed and built Numi, Tysha, and Karta.
+
+[Discuss your app  ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [See shipped products  ](https://imdennie.com/#work)
 
 14+: Years in product design
 
 0→1: Idea to launch, end to end
 
-3: Own products designed & built
+2: iOS apps live on the App Store
 
-AI-native: Designing intelligent products
+AI-assisted: Built with Claude Code & Cursor
 
 ## Selected work
 
@@ -26,7 +28,7 @@ Independent products & collaborations
 
 AI nutrition tracking for iPhone.
 
-Concept, design & development
+Solo design & build · iOS · SwiftUI · AI nutrition
 
 [Live on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
 
@@ -36,7 +38,7 @@ Concept, design & development
 
 Sleep sounds for babies and tired parents.
 
-Concept, design & development
+Solo design & build · iOS · Offline, real-time audio
 
 [Live on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
 
@@ -46,7 +48,9 @@ Concept, design & development
 
 QR ordering and payments for restaurants.
 
-Concept, design & development
+Solo design & build · Web · Guest app + owner dashboard
+
+[Try the live demo  ](https://karta-nu.vercel.app/)
 
 ![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
 
@@ -60,15 +64,29 @@ Founding product designer
 
 MyGoTrainer   Shipshape   Chatbox   E-commerce
 
+## How I build
+
+Design and code, one person, AI-assisted
+
+Product and design: Product strategy, UX, UI, design systems, Figma
+
+AI-assisted development: Claude Code, Cursor — first drafts generated, every line reviewed before it ships
+
+iOS: Swift, SwiftUI, Xcode, TestFlight, App Store release
+
+Web: React, TypeScript, Next.js, Tailwind, deployed on Vercel
+
+Backend, integrations, payments and analytics are scoped per project. See exactly what I built and how I used AI on each product: [Numi](https://imdennie.com/case/numi.html#build), [Tysha](https://imdennie.com/case/tysha.html#build) and [Karta](https://imdennie.com/case/karta.html#build) — or read [how I work with clients](https://imdennie.com/work-with-me.html).
+
 ## A bit about me
 
 A designer who likes to see things through.
 
 I’m Dennie Ordynskyi. I’ve spent 14+ years designing products across mobile and web. Today, I work on large-scale consumer experiences at DraftKings.
 
-I also build my own products. Numi, Tysha, and Karta are projects I’ve taken from the initial idea through design and development.
+I also build my own products. Numi, Tysha, and Karta are projects I’ve taken from the initial idea through design, code and release — on my own, with AI coding tools doing the first drafts.
 
-I’m based in Kyiv and work with teams across the US and Europe.
+I’m based in Kyiv and work remotely with teams across the US and Europe — on contract design-and-build projects and in senior product design roles.
 
 [My story  ](https://imdennie.com/story.html)[My approach  ](https://imdennie.com/approach.html)[Resume  ](https://imdennie.com/resume.html)
 
@@ -90,8 +108,10 @@ I’m based in Kyiv and work with teams across the US and Europe.
 
 7 min read  ](https://imdennie.com/blog/designing-ai-products.html)
 
-## Have something in mind?
+## Let’s design and build  your product.
 
-I’m open to senior product design roles  and select collaborations.
+Open to contract product design and AI-assisted app development projects,  and to senior product design roles. Remote, with teams in Europe and the US.
 
-[Get in touch  ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
+[See how I work with clients  ](https://imdennie.com/work-with-me.html)
+
+[Get in touch  ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry)

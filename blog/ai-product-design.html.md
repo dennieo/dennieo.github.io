@@ -1,6 +1,6 @@
 Source: https://imdennie.com/blog/ai-product-design.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
 [All writing  ](https://imdennie.com/blog/) Design practice
 

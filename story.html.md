@@ -1,6 +1,6 @@
 Source: https://imdennie.com/story.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
 My story
 
@@ -141,8 +141,8 @@ Chapter 12 · Now playing
 
 ## So… what’s next?
 
-Today I’m in Kyiv — designing at DraftKings, running three live products, and open to senior product design roles & select collaborations. The next chapter could start with your message.
+Today I’m in Kyiv — designing at DraftKings, running two apps on the App Store and a restaurant platform in public demo, and open to contract design-and-build projects as well as senior product design roles. The next chapter could start with your message.
 
-14+ years of design  3 products shipped & live  3 languages  ∞ curiosity
+14+ years of design  2 apps on the App Store · 1 web platform  3 languages  ∞ curiosity
 
 [  Write the next chapter  ](mailto:gehucka@gmail.com?subject=The%20next%20chapter) [  LinkedIn ](https://www.linkedin.com/in/dennieo/) [ Selected work  ](https://imdennie.com/index.html)

@@ -75,6 +75,46 @@ figure { margin: 0; }
 .next .lbl { display: block; color: var(--subtle); font-size: 14px; margin-bottom: 12px; }
 .next .nm { font-size: 24px; line-height: 1.3; }
 .pull { padding-top: 70px; }
+/* "What I built and how I used AI" block on each case study. */
+.build-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 60px; margin-top: 44px; align-items: start; }
+.build-facts { margin: 0; }
+.build-facts .row { display: grid; grid-template-columns: 170px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid var(--line); font-size: 17px; line-height: 1.55; }
+.build-facts .row:last-child { border-bottom: 1px solid var(--line); }
+.build-facts dt { color: var(--subtle); }
+.build-facts dd { margin: 0; color: var(--muted); }
+.build-facts dd a, .build-loop a { text-decoration: underline; text-underline-offset: 4px; }
+.build-loop { border-top: 1px solid var(--line); padding-top: 18px; }
+.build-loop .kicker { margin-bottom: 16px; }
+.build-loop ol { margin: 0; padding-left: 22px; color: var(--muted); font-size: 17px; line-height: 1.6; }
+.build-loop li { padding-left: 6px; margin-bottom: 14px; }
+.build-loop li b, .build-limit b { color: var(--ink); font-weight: 500; }
+.build-limit, .build-more { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 16px; line-height: 1.6; color: var(--muted); }
+/* Work with me: engagements, deliverables, proof and FAQ. */
+.hire-page h1 { text-wrap: balance; }
+.nowrap { white-space: nowrap; }
+.hire-page .meta { grid-template-columns: 1fr 1fr; }
+.hire-page .cards .card p + p { margin-top: 14px; font-size: 16px; }
+.hire-page .cards .card .fit { color: var(--subtle); font-size: 15px; }
+.deliverables { display: grid; grid-template-columns: 1fr 1fr; gap: 40px 60px; margin-top: 40px; align-items: start; }
+.deliverables h3 { font-size: 22px; margin-bottom: 14px; }
+.deliverables ul { margin: 0; padding-left: 20px; color: var(--muted); }
+.deliverables li { padding-left: 6px; margin-bottom: 12px; }
+.deliverables .col { border-top: 1px solid var(--line); padding-top: 24px; }
+.proof-list { margin: 44px 0 0; padding: 0; list-style: none; }
+.proof-list li { display: grid; grid-template-columns: 1fr 1.3fr auto; gap: 16px 40px; padding: 26px 0; border-top: 1px solid var(--line); align-items: start; }
+.proof-list li:last-child { border-bottom: 1px solid var(--line); }
+.proof-list h3 { font-size: 24px; }
+.proof-list .proof-tag { display: block; color: var(--subtle); font-size: 15px; margin-top: 8px; }
+.proof-list p { color: var(--muted); font-size: 17px; }
+.proof-links { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 16px; }
+.proof-links a { border-bottom: 1px solid currentColor; padding-bottom: 2px; white-space: nowrap; }
+.faq { display: grid; grid-template-columns: 1fr 1fr; gap: 36px 60px; margin-top: 44px; align-items: start; }
+.faq-item { border-top: 1px solid var(--line); padding-top: 22px; }
+.faq-item h3 { font-size: 22px; }
+.faq-item p { color: var(--muted); margin-top: 12px; font-size: 17px; line-height: 1.6; }
+.faq-item a { text-decoration: underline; text-underline-offset: 4px; }
+.hire-page .cta .row { align-items: center; }
+.hire-note { max-width: 760px; color: var(--muted); margin-top: 26px; font-size: 17px; }
 .pull blockquote { margin: 0; max-width: 950px; font-size: clamp(27px, 3.6vw, 46px); letter-spacing: -.035em; line-height: 1.3; }
 /* Writing: generous titles, narrow reading measure, open list of essays. */
 .writing-index main > .wrap { max-width: 1200px; }
@@ -184,6 +224,10 @@ figcaption { margin-top: 12px; color: var(--subtle); font-size: 14px; }
   .meta { grid-template-columns: 1fr; gap: 12px; }
   .case-cover img { height: auto; }
   .over, .split2, .ds, .cards, .personas, .decision, .approach-story { grid-template-columns: 1fr; gap: 32px; }
+  .build-grid { grid-template-columns: 1fr; gap: 36px; }
+  .build-facts .row { grid-template-columns: 1fr; gap: 6px; }
+  .deliverables, .faq { grid-template-columns: 1fr; gap: 28px; }
+  .proof-list li { grid-template-columns: 1fr; gap: 10px; }
   .decision { margin-top: 46px; }
   .d-media { padding: 28px; }
   .d-media img { max-height: 440px; }

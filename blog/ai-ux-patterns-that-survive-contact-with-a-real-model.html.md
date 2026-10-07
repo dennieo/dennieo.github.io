@@ -1,6 +1,6 @@
 Source: https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-real-model.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
 [All writing  ](https://imdennie.com/blog/)
 

@@ -13,18 +13,19 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://imdennie.com/'
-UPDATED = '2026-09-23'
-FILES = ['index.html', 'story.html', 'approach.html', 'resume.html',
+UPDATED = '2026-10-08'
+FILES = ['index.html', 'story.html', 'approach.html', 'resume.html', 'work-with-me.html',
          'case/numi.html', 'case/tysha.html', 'case/karta.html',
          'blog/index.html'] + [str(p.relative_to(ROOT)) for p in sorted((ROOT / 'blog').glob('*.html')) if p.name != 'index.html']
 DESCRIPTIONS = {
-    'index.html': 'Dennie Ordynskyi is a product designer at DraftKings and the creator of Numi, Tysha, and Karta. Explore his work, approach, and writing.',
+    'index.html': 'Product designer and design engineer building iOS and web apps with AI. Creator of Numi, Tysha and Karta. Available for contract projects.',
+    'work-with-me.html': 'Hire Dennie Ordynskyi to design and build your iOS or web app: idea-to-release builds, working MVPs and ongoing design-and-build partnerships, delivered solo with AI-assisted development.',
     'story.html': 'From Ukraine to products used by millions: the story of Dennie Ordynskyi, a product designer at DraftKings and the creator of three independent products.',
     'approach.html': 'How Dennie Ordynskyi designs products: understand the problem, prototype early, simplify complex experiences, and follow the idea through to launch.',
-    'resume.html': 'Dennie Ordynskyi’s résumé: 14+ years in product design, experience at DraftKings, and the design and launch of Numi, Tysha, and Karta.',
-    'case/numi.html': 'How Dennie Ordynskyi designed and launched Numi, an AI nutrition app for iPhone. Explore photo logging, product decisions, and the App Store release.',
-    'case/tysha.html': 'Designing Tysha, a baby-sleep sound app for one-handed use at 3 a.m. A case study in calm interfaces, offline audio, and shipping an iPhone app solo.',
-    'case/karta.html': 'Designing Karta, a QR ordering and payment platform for restaurants. Explore the guest experience, owner dashboard, and product decisions.',
+    'resume.html': 'Dennie Ordynskyi’s résumé: 14+ years in product design, experience at DraftKings, and the solo design and build of Numi, Tysha, and Karta with AI-assisted development.',
+    'case/numi.html': 'How Dennie Ordynskyi designed and built Numi, an AI nutrition app for iPhone, solo with AI tooling: SwiftUI implementation, photo logging, product decisions, and the App Store release.',
+    'case/tysha.html': 'How Dennie Ordynskyi designed and built Tysha, an offline baby-sleep sound app for iPhone, solo with AI-assisted development: calm interfaces, real-time audio, and the App Store release.',
+    'case/karta.html': 'How Dennie Ordynskyi designed and built Karta, a QR ordering and payment web platform for restaurants: guest menu, owner dashboard, AI recommender, and a public working demo.',
     'blog/index.html': 'Notes by Dennie Ordynskyi on product design, AI interfaces, design careers, and building independent apps from idea to launch.',
     'blog/how-to-become-a-product-designer.html': 'How to become a product designer in 2026: practical advice on skills, portfolios, first jobs, and AI from a designer with 14+ years of experience.',
     'blog/shipping-apps-solo-with-ai.html': 'What changed when a product designer built and shipped Numi and Tysha solo with AI: prototyping, iteration, and the design work that still matters.',
@@ -52,12 +53,12 @@ def canonical(path):
 person = {
     '@type': 'Person', '@id': BASE + '#person', 'name': 'Dennie Ordynskyi',
     'alternateName': 'Denys Ordynskyi', 'url': BASE,
-    'image': BASE + 'dist/img/hero/dennie-hero.png', 'jobTitle': 'Product Designer',
-    'description': 'Product designer at DraftKings and creator of Numi, Tysha, and Karta, based in Kyiv, Ukraine.',
+    'image': BASE + 'dist/img/hero/dennie-hero.png', 'jobTitle': 'Product Designer & Design Engineer',
+    'description': 'Product designer and design engineer who designs and builds iOS and web apps with AI-assisted development. Product designer at DraftKings and creator of Numi, Tysha, and Karta, based in Kyiv, Ukraine; available for contract design-and-build projects.',
     'worksFor': {'@type': 'Organization', 'name': 'DraftKings'},
     'address': {'@type': 'PostalAddress', 'addressLocality': 'Kyiv', 'addressCountry': 'UA'},
     'knowsLanguage': ['Ukrainian', 'English', 'Russian'],
-    'knowsAbout': ['Product design', 'User experience design', 'Design systems', 'AI product design', 'Mobile and web applications'],
+    'knowsAbout': ['Product design', 'User experience design', 'Design systems', 'AI product design', 'AI-assisted software development', 'iOS app development', 'SwiftUI', 'Web application development', 'Mobile and web applications'],
     'sameAs': ['https://www.linkedin.com/in/dennieo/'],
 }
 website = {'@type': 'WebSite', '@id': BASE + '#website', 'name': 'Dennie Ordynskyi', 'url': BASE,
@@ -102,7 +103,7 @@ for path in FILES:
                         'author': {'@id': BASE + '#person'}, 'publisher': {'@id': BASE + '#person'},
                         'mainEntityOfPage': {'@id': url + '#webpage'}, 'inLanguage': 'en'})
         article['isPartOf'] = {'@id': BASE + ('blog/#blog' if path.startswith('blog/') else '#website')}
-        if path in ['case/numi.html', 'case/tysha.html']: article['dateModified'] = UPDATED
+        if path in ['case/numi.html', 'case/tysha.html', 'case/karta.html']: article['dateModified'] = UPDATED
         webpage['mainEntity'] = {'@id': url + '#article'}; nodes.append(article)
     if path == 'blog/index.html':
         nodes.append({'@type': 'Blog', '@id': BASE + 'blog/#blog', 'url': BASE + 'blog/', 'name': title,
@@ -154,8 +155,8 @@ for path in FILES:
     block.append('    <script type="application/ld+json">\n' + json.dumps({'@context': 'https://schema.org', '@graph': nodes}, ensure_ascii=False, indent=2) + '\n    </script>')
     head = re.sub(r'\n\s*\n', '\n\n', head).rstrip()
     text = head + '\n' + '\n'.join(block) + '\n  </head>' + body
-    text = re.sub(r'(/?dist/open-studio/style\.css)\?v=[^"\s]+', r'\1?v=20261002-nav', text)
-    text = re.sub(r'/dist/open-studio/pages.css\?v=[^"\s]+', '/dist/open-studio/pages.css?v=20260923-tysha-device', text)
+    text = re.sub(r'(/?dist/open-studio/style\.css)\?v=[^"\s]+', r'\1?v=20261008-hire', text)
+    text = re.sub(r'/dist/open-studio/pages.css\?v=[^"\s]+', '/dist/open-studio/pages.css?v=20261008-hire', text)
     file.write_text('\n'.join(line.rstrip() for line in text.splitlines()) + '\n')
     records.append((path, url, title, desc))
 
@@ -202,9 +203,9 @@ for path, url, title, desc in records:
 
 intro = f'''# Dennie Ordynskyi
 
-> Product designer at DraftKings and creator of Numi, Tysha, and Karta. Based in Kyiv, Ukraine, with 14+ years of experience designing mobile and web products.
+> Product designer and design engineer who designs and builds iOS and web apps with AI. Product designer at DraftKings and creator of Numi, Tysha, and Karta. Based in Kyiv, Ukraine, with 14+ years of experience designing mobile and web products.
 
-Updated: {UPDATED}. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch. Numi is released on the App Store. Tysha is also available on the App Store; Karta is a live restaurant ordering and payment web platform. He is open to senior product design roles and select collaborations, working with teams in the US and Europe.
+Updated: {UPDATED}. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch, solo, with AI-assisted development (Claude Code and Cursor; Swift and SwiftUI for iOS; React, TypeScript and Next.js for the web). Numi is released on the App Store. Tysha is also available on the App Store; Karta is a restaurant ordering and payment web platform with a public working demo. He is available for contract product design and AI-assisted app development projects, and open to senior product design roles, working remotely with teams in Europe and the US. The Work with me page lists engagement types, deliverables and an FAQ.
 
 This index links to Markdown versions of the public website. Each document identifies its canonical HTML source. The case studies explain project decisions; the résumé contains the career history. Original article publication dates remain in the HTML metadata.
 
@@ -228,7 +229,8 @@ lines.append('''
 - [Linc project](https://imdennie.com/#linc): Cloud studio platform for content creators; Dennie was the founding product designer.
 - [Earlier work](https://imdennie.com/#track-record): MyGoTrainer, Shipshape, Chatbox, and e-commerce project galleries.
 - [LinkedIn](https://www.linkedin.com/in/dennieo/): Professional profile.
-- [Contact](https://imdennie.com/#contact): Senior product design roles and select collaborations.
+- [Work with me](https://imdennie.com/work-with-me.html): Contract product design and AI-assisted app development — engagement types, what a client receives, FAQ, and proof links.
+- [Contact](https://imdennie.com/#contact): Contract design-and-build projects and senior product design roles.
 
 ## Optional
 

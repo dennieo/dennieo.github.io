@@ -1,6 +1,6 @@
 Source: https://imdennie.com/approach.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
 My approach
 
@@ -60,4 +60,4 @@ Have something in mind?
 
 [Start a conversation  ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
 
-Open to senior product design roles and select collaborations.
+Open to contract product design and AI-assisted app development, and to senior product design roles.

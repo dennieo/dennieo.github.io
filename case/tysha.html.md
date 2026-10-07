@@ -1,6 +1,6 @@
 Source: https://imdennie.com/case/tysha.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
 Baby sleep · iOS · Founder product
 
@@ -12,14 +12,43 @@ Tysha is white noise for the 3 a.m. shift — real-time sound for settling a bab
 - **Timeline** · 2026 → live
 - **Platform** · iOS · Audio/DSP
 - **Scope** · Concept → UX → UI → build → App Store
+- **Team** · Solo, with AI tooling (Claude Code, Cursor)
+- **Status** · Live on the App Store
 
-[ View on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [Read the study ↓](https://imdennie.com/case/tysha.html#problem)
+[ View on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [How it was built ↓](https://imdennie.com/case/tysha.html#build)
 
 ![Tysha product overview](https://imdennie.com/dist/img/covers/open-studio/tysha.webp)
 
 The design brief was a moment: 3 a.m., one hand, a crying baby, and a screen too bright.
 
-**01** — The problem
+**01** — What I built and how I used AI
+
+## No AI in the product. A lot of AI in building it.
+
+Tysha has no model inside it: it is a real-time audio app that has to work offline, in under a second, at 3 a.m. That makes it the clearer proof of AI-assisted building — the tooling shipped a native audio app, not a chat feature.
+
+My responsibility: Product definition, UX and UI, the sound library and its copy, the iOS codebase and the real-time audio engine, Siri and Lock Screen control, testing on device, and the App Store release.
+
+Implementation: Native iOS app in Swift, built in Xcode, released through TestFlight and the App Store. Sound is synthesised in real time on the device — white, pink and brown noise and the rest of the library — rather than played from looped files, so it never repeats and needs no connection. No accounts, no ads, no backend.
+
+AI-assisted development: Claude Code and Cursor wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief.
+
+My review and decisions: Synthesis over looping; offline-first with no account; what the sound categories are called and how they reassure; the size of every tap target; reviewing, changing and testing generated code; when it was good enough to submit.
+
+Release status: Published on the App Store, 2026 → present; 5.0 App Store rating at the time of writing. [View on the App Store](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
+
+One build loop, start to finish
+
+- **Rough flow.** One screen: a near-black canvas, floating sound nodes you tap in and out, one big play button under the thumb.
+- **AI-generated first implementation.** Claude Code produced the first mixer from that sketch — nodes, a play control and audio playback — running on my phone the same day.
+- **What I changed.** The decisions that made it Tysha rather than a generic sound app: real-time synthesis instead of looped files, tap-to-blend nodes instead of precise sliders, a warm near-black surface that does not light up a nursery, and no account or ads anywhere.
+- **Working result.** Sound playing within a second of opening, mixes saved as Rooms, started from Siri or the Lock Screen, and faded out by a timer — with the phone face-down on the nightstand.
+
+**A limitation I diagnosed and resolved:** looped audio files have a seam. A parent put it exactly: “the repeat wakes me before it wakes the baby.” Rather than hunting for a longer loop, I moved sound generation to real time, which removed the seam entirely and, as a side effect, removed the need for downloads or a connection.
+
+Why this app, and what the tooling did and did not change: [I shipped two iOS apps solo](https://imdennie.com/blog/shipping-apps-solo-with-ai.html).
+
+**02** — The problem
 
 ## The context is hostile. The app has to be kind.
 
@@ -27,7 +56,7 @@ A parent reaching for a white-noise app at 3 a.m. is half-asleep, holding a baby
 
 So the problem wasn’t “make white noise.” It was design for the worst moment of the day  — and get out of the way fast enough that the parent can put the phone down and the baby can settle.
 
-**02** — Product thinking
+**03** — Product thinking
 
 ## Three principles, all pointed at calm.
 
@@ -43,7 +72,7 @@ Sound is synthesized in real time — seamless and infinite, with no audible rep
 
 No accounts, no ads, no sign-up. Fewer choices and less chrome mean faster relief and nothing to distract at the worst hour.
 
-**03** — Who it’s for
+**04** — Who it’s for
 
 ## The people at the crib.
 
@@ -73,7 +102,7 @@ The most-wanted sounds weren’t “nature” — they were hair dryers, vacuums
 
 Every second of setup at 3 a.m. is a second of crying — so the target is sound playing in under a second.
 
-**04** — Key UX & UI decisions
+**05** — Key UX & UI decisions
 
 ## Designing for the dark.
 
@@ -107,7 +136,7 @@ A working mix can be saved as a “Room,” started with Siri or the Lock Screen
 
 ![Tysha fading sleep timer open over a three-sound mix on iPhone](https://imdennie.com/dist/img/tysha/device-timer.webp)
 
-**05** — Design system
+**06** — Design system
 
 ## Warm, quiet, and built for the dark.
 
@@ -126,7 +155,7 @@ Component language
 
 Large targets, minimal chrome and one accent kept the whole app legible at a glance — and made it possible to design and build it solo without the system fragmenting.
 
-**06** — Outcomes
+**07** — Outcomes
 
 ## What shipped.
 
@@ -148,7 +177,7 @@ Offline · no account
 
 Ads, ever
 
-**07** — More
+**08** — More
 
 ## Hear it, or read another study.
 

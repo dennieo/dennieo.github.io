@@ -1,6 +1,6 @@
 Source: https://imdennie.com/case/numi.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
 AI nutrition · iOS · Founder product
 
@@ -13,7 +13,7 @@ A nutrition app that kills the tap-tap-tap of manual food logging. Snap a photo,
 - **Platform** · iOS (SwiftUI)
 - **Scope** · Concept → UX → UI → build → App Store
 
-[ Visit getnumi.app  ](https://getnumi.app) [Read the study ↓](https://imdennie.com/case/numi.html#problem)
+[ View on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app  ](https://getnumi.app) [How it was built ↓](https://imdennie.com/case/numi.html#build)
 
 ![Numi product overview](https://imdennie.com/dist/img/covers/open-studio/numi.webp)
 
@@ -29,9 +29,38 @@ Surfaces: Logging · Insights · Fasting
 
 Core tech: Vision AI · SwiftUI
 
+Built with: Claude Code · Cursor · Xcode
+
 Status: Released on the App Store
 
-**02** — The problem
+**02** — What I built and how I used AI
+
+## One person, the whole product — with AI writing the first draft of the code.
+
+What I owned, what the tools accelerated, and which calls stayed human. Two things are easy to blur here: Numi has AI inside the product (the photo analysis), and AI was used to build the product (the coding workflow). This section keeps them apart.
+
+My responsibility: Product definition and positioning, UX and UI, the design system, the SwiftUI codebase, the photo-analysis and correction flows, testing on device, and the App Store submission and release.
+
+Implementation: Native iOS app in Swift and SwiftUI, built in Xcode, tested through TestFlight, released on the App Store. Meal photos are analysed by a vision model; the health score is deterministic arithmetic over named inputs, not a model output; insights that cannot cite something real about the person’s day do not render.
+
+AI-assisted development: Claude Code and Cursor generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
+
+My review and decisions: Which surfaces the model writes to and where a human confirms; the data model for meals, fasting and weight; reviewing, changing and testing generated code; what shipped in 1.0 and what waited.
+
+Release status: Published on the App Store, 2025 → present. [View on the App Store](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
+
+One build loop, start to finish
+
+- **Rough flow.** Photo-first logging as four screens: shutter → analysis → result → save.
+- **AI-generated first implementation.** Claude Code turned that flow into the first running SwiftUI screens and the vision request. That first version showed the analysis as a clean summary card, with editing behind a tap.
+- **What I changed.** In use, the finished look made people accept numbers that were sometimes 30% off on portion size — corrections dropped off. I rebuilt the result as a list where every item is adjustable in one tap, made confirmation an explicit action, and replaced the spinner with a staged reveal: reading the image → identifying items → estimating portions.
+- **Working result.** A multi-item dish logs from one photo in under ten seconds, every value is correctable in place, and the flow went through many working versions over real dinners before launch.
+
+**A limitation I diagnosed and resolved:** the first natural-language input parsed a typed sentence and saved it straight away, with a toast. It read well in a screen recording and was worse than manual entry in practice, because a wrong field was stored silently. The fix was not a better prompt: the parse now renders as a filled form the user glances at and confirms before anything becomes real.
+
+More on these decisions: [AI UX patterns that survive contact with a real model](https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-real-model.html) and [what AI changed about shipping solo](https://imdennie.com/blog/shipping-apps-solo-with-ai.html).
+
+**03** — The problem
 
 ## People don’t quit tracking because they stop caring. They quit because it’s work.
 
@@ -39,7 +68,7 @@ Every food diary starts the same way: motivated. Then real life hits — a rushe
 
 So the real design problem was never “show more nutrition data.” It was protect the habit  — make the first log of the day effortless, and make the data earn its place by changing what the person does next.
 
-**03** — Product thinking
+**04** — Product thinking
 
 ## Three bets the whole product leans on.
 
@@ -61,7 +90,7 @@ If capturing a meal costs more than a photo, the habit dies. The camera is the p
 
 Eating, fasting, weight and hydration live on one home — because they’re one story, not four apps.
 
-**04** — Who it’s for
+**05** — Who it’s for
 
 ## Two people I kept designing for.
 
@@ -91,7 +120,7 @@ Users don’t want more charts; they want to be told one thing — “are you on
 
 The bar for effortless: even a complex, multi-item dish  logs in under 10 seconds from a single photo.
 
-**05** — Key UX & UI decisions
+**06** — Key UX & UI decisions
 
 ## Where the product thinking became pixels.
 
@@ -135,7 +164,7 @@ The eating window lives on the home, not in a separate app — with a plain-Engl
 
 ![Numi home timeline with a mock eating window, weight trend, hydration, and macro timing in an iPhone 18 Pro Max](https://imdennie.com/dist/img/numi/device-fasting.webp)
 
-**06** — Design system
+**07** — Design system
 
 ## A dark canvas so the food pops.
 
@@ -154,7 +183,7 @@ Component language
 
 Reusable tokens and components meant the whole app could stay consistent while shipping fast — one designer-engineer, one system, no drift between concept and build.
 
-**07** — Outcomes
+**08** — Outcomes
 
 ## What shipped.
 
@@ -176,10 +205,10 @@ To log a complex dish
 
 Designer-engineer, end-to-end
 
-**08** — More
+**09** — More
 
 ## See it running, or read another study.
 
-[ Visit getnumi.app  ](https://getnumi.app) [All work](https://imdennie.com/index.html#work)
+[ View on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app  ](https://getnumi.app) [All work](https://imdennie.com/index.html#work)
 
 [ Next case study Tysha — baby sleep    ](https://imdennie.com/case/tysha.html) [ Case study Karta — restaurant platform    ](https://imdennie.com/case/karta.html)
