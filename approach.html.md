@@ -60,4 +60,4 @@ Have something in mind?
 
 [Start a conversation ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
 
-Open to contract design-and-build projects and senior product design roles.
+Open to freelance and contract design-and-build projects, and to senior product design roles.

@@ -29,7 +29,7 @@ Surfaces: Logging · Insights · Fasting
 
 Core tech: Vision AI · SwiftUI
 
-Built with: AI coding tools · Xcode
+Built with: Claude Code · Cursor · Xcode
 
 Status: Released on the App Store
 
@@ -43,7 +43,7 @@ My responsibility: Product definition and positioning, UX and UI, the design sys
 
 Implementation: Native iOS app in Swift and SwiftUI, built in Xcode and released on the App Store. Meal photos are analyzed by a vision model; the health score is deterministic arithmetic over named inputs, not a model output; insights that cannot cite something real about the person’s day do not render.
 
-AI-assisted development: AI coding tools generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
+AI-assisted development: Claude Code and Cursor generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
 
 My review and decisions: Which surfaces the model writes to and where a human confirms; the data model for meals, fasting and weight; reviewing, changing and testing generated code; what shipped in 1.0 and what waited.
 
@@ -52,7 +52,7 @@ Release status: Released on the App Store, 2025 → present. [View on the App St
 One build loop, start to finish
 
 1. **Rough flow.** Photo-first logging: shutter → analysis → result → save.
-2. **AI-generated first implementation.** AI coding tools turned that flow into the first running SwiftUI screens and the vision request. The first version I built showed the analysis as a clean summary card, with editing behind a tap.
+2. **AI-generated first implementation.** Claude Code and Cursor turned that flow into the first running SwiftUI screens and the vision request. The first version I built showed the analysis as a clean summary card, with editing behind a tap.
 3. **What I changed.** In use, the finished look made people accept numbers that were sometimes 30% off on portion size — corrections dropped off. I rebuilt the result as a list where every item is adjustable in one tap, made confirmation an explicit action, and replaced the spinner with a staged reveal: reading the image → identifying items → estimating portions.
 4. **Working result.** A multi-item dish logs from one photo in under ten seconds, every value is correctable in place, and the flow went through many working versions over real dinners before launch.
 

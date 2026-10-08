@@ -135,6 +135,8 @@ h2 { font-size: clamp(36px, 5.3vw, 64px); font-weight: 600; line-height: 1.08; l
 .contact-bottom > a { font-size: 26px; flex-shrink: 0; }
 .contact-copy { display: grid; justify-items: start; gap: 18px; }
 .contact-more { font-size: 17px; }
+.contact-email { font-size: 17px; color: var(--muted); }
+.contact-email a { text-decoration: underline; text-underline-offset: 4px; }
 .play { padding-bottom: 28px; color: var(--ink); }
 .play dennie-run { --dennie-run-accent: var(--brand-accent-text, var(--ink)); }
 .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 28px; padding-block: 30px; color: var(--muted); font-size: 15px; }

@@ -18,7 +18,7 @@ FILES = ['index.html', 'story.html', 'approach.html', 'resume.html', 'work-with-
          'case/numi.html', 'case/tysha.html', 'case/karta.html',
          'blog/index.html'] + [str(p.relative_to(ROOT)) for p in sorted((ROOT / 'blog').glob('*.html')) if p.name != 'index.html']
 DESCRIPTIONS = {
-    'index.html': 'Product designer and design engineer building iOS and web apps with AI. Creator of Numi, Tysha and Karta. Available for contract projects.',
+    'index.html': 'Product designer and design engineer building iOS and web apps with AI. Creator of Numi, Tysha and Karta. Available for freelance and contract projects.',
     'work-with-me.html': 'Hire Dennie Ordynskyi to design and build your iOS or web app: idea-to-release builds, working MVPs and design-and-build partnerships, solo with AI tooling.',
     'story.html': 'From Ukraine to products used by millions: the story of Dennie Ordynskyi, a product designer at DraftKings and the creator of three independent products.',
     'approach.html': 'How Dennie Ordynskyi designs products: understand the problem, prototype early, simplify complex experiences, and follow the idea through to launch.',
@@ -54,7 +54,7 @@ person = {
     '@type': 'Person', '@id': BASE + '#person', 'name': 'Dennie Ordynskyi',
     'alternateName': 'Denys Ordynskyi', 'url': BASE,
     'image': BASE + 'dist/img/hero/dennie-hero.png', 'jobTitle': 'Product Designer & Design Engineer',
-    'description': 'Product designer and design engineer who designs and builds iOS and web apps with AI-assisted development. Product designer at DraftKings and creator of Numi, Tysha, and Karta, based in Kyiv, Ukraine; available for contract design-and-build projects.',
+    'description': 'Product designer and design engineer who designs and builds iOS and web apps with AI-assisted development. Product designer at DraftKings and creator of Numi, Tysha, and Karta, based in Kyiv, Ukraine; available for freelance and contract design-and-build projects.',
     'worksFor': {'@type': 'Organization', 'name': 'DraftKings'},
     'address': {'@type': 'PostalAddress', 'addressLocality': 'Kyiv', 'addressCountry': 'UA'},
     'knowsLanguage': ['Ukrainian', 'English', 'Russian'],
@@ -213,7 +213,7 @@ intro = f'''# Dennie Ordynskyi
 
 > Product designer and design engineer who designs and builds iOS and web apps with AI. Product designer at DraftKings and creator of Numi, Tysha, and Karta. Based in Kyiv, Ukraine, with 14+ years of experience designing mobile and web products.
 
-Updated: {UPDATED}. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch, solo, with AI-assisted development (Claude Code and Cursor; Swift and SwiftUI for iOS; React, TypeScript and Next.js for the web). Numi is released on the App Store. Tysha is also available on the App Store; Karta is a restaurant ordering and payment web platform with a public working demo. He is available for contract product design and AI-assisted app development projects, and open to senior product design roles, working remotely with teams in Europe and the US. The Work with me page lists engagement types, deliverables and an FAQ.
+Updated: {UPDATED}. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch, solo, with AI-assisted development (Claude Code and Cursor for code, Claude and ChatGPT alongside; Swift and SwiftUI for iOS; React, TypeScript and Next.js for the web). Numi is released on the App Store. Tysha is also available on the App Store; Karta is a restaurant ordering and payment web platform with a public working demo. He is available for freelance and contract product design and AI-assisted app development projects, and open to senior product design roles, working remotely with teams in Europe and the US. The Work with me page lists engagement types, deliverables and an FAQ.
 
 This index links to Markdown versions of the public website. Each document identifies its canonical HTML source. The case studies explain project decisions; the résumé contains the career history. Original article publication dates remain in the HTML metadata.
 
@@ -237,8 +237,8 @@ lines.append('''
 - [Linc project](https://imdennie.com/#linc): Cloud studio platform for content creators; Dennie was the founding product designer.
 - [Earlier work](https://imdennie.com/#track-record): MyGoTrainer, Shipshape, Chatbox, and e-commerce project galleries.
 - [LinkedIn](https://www.linkedin.com/in/dennieo/): Professional profile.
-- [Work with me](https://imdennie.com/work-with-me.html): Contract product design and AI-assisted app development — engagement types, what a client receives, FAQ, and proof links.
-- [Contact](https://imdennie.com/#contact): Contract design-and-build projects and senior product design roles.
+- [Work with me](https://imdennie.com/work-with-me.html): Freelance and contract product design and AI-assisted app development — engagement types, what a client receives, FAQ, and proof links.
+- [Contact](https://imdennie.com/#contact): gehucka@gmail.com — freelance and contract design-and-build projects, and senior product design roles.
 
 ## Optional
 

@@ -114,6 +114,7 @@ figure { margin: 0; }
 .faq-item a { text-decoration: underline; text-underline-offset: 4px; }
 .hire-page .cta .row { align-items: center; }
 .hire-note { max-width: 760px; color: var(--muted); margin-top: 26px; font-size: 17px; }
+.hire-email a { text-decoration: underline; text-underline-offset: 4px; }
 .pull blockquote { margin: 0; max-width: 950px; font-size: clamp(27px, 3.6vw, 46px); letter-spacing: -.035em; line-height: 1.3; }
 /* Writing: generous titles, narrow reading measure, open list of essays. */
 .writing-index main > .wrap { max-width: 1200px; }

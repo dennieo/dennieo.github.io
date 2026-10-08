@@ -70,7 +70,7 @@ Design and code, one person, AI-assisted
 
 Product and design: Product strategy, UX, UI, design systems, Figma
 
-AI-assisted development: Claude Code, Cursor — first drafts generated, reviewed and reworked before anything ships
+AI-assisted development: Claude Code and Cursor for code; Claude and ChatGPT for thinking, copy and debugging. First drafts generated, then reviewed and reworked before anything ships
 
 iOS: Swift, SwiftUI, Xcode, TestFlight, App Store release
 
@@ -110,8 +110,10 @@ I’m based in Kyiv and work remotely with teams across the US and Europe.
 
 ## Let’s design and build your product.
 
-Open to contract product design and AI-assisted app development projects, and to senior product design roles. Remote, with teams in Europe and the US.
+Open to freelance and contract product design and AI-assisted app development projects, and to senior product design roles. Remote, with teams in Europe and the US.
 
 [See how I work with clients ](https://imdennie.com/work-with-me.html)
+
+Email [gehucka@gmail.com](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) or find me on [LinkedIn](https://www.linkedin.com/in/dennieo/).
 
 [Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry)

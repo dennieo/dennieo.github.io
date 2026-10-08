@@ -2,15 +2,15 @@ Source: https://imdennie.com/work-with-me.html
 
 Updated: 2026-10-08
 
-Work with me · Contract projects
+Work with me · Freelance and contract projects
 
 # Product design and AI-assisted app development.
 
 I design and build iOS and web apps as one person — product strategy, UX, UI, code and launch. I shipped Numi and Tysha to the App Store and built Karta, a two-sided web platform, with AI tooling and no engineering team. If you have an idea, a prototype that needs to become real, or a product that needs a designer who can also ship, this is how we can work together.
 
-- **Format** · Remote, with teams in Europe and the US
+- **Format** · Freelance, contract or fractional · Remote, with teams in Europe and the US
 - **Platforms** · iOS (Swift, SwiftUI) and web (React, TypeScript, Next.js)
-- **Tooling** · Figma · Claude Code · Cursor · Xcode · TestFlight
+- **Tooling** · Figma · Claude Code · Cursor · Claude · ChatGPT · Xcode · TestFlight
 - **Also open to** · Senior product design roles
 
 [ Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [How it works ↓](https://imdennie.com/work-with-me.html#engagements)
@@ -111,7 +111,7 @@ iOS, in Swift and SwiftUI, and the web, in React, TypeScript and Next.js. I don�
 
 ### Which AI tools do you use, and where?
 
-Two separate things. To build the product: Claude Code and Cursor for code, Figma for design. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
+Two separate things. To build the product: Claude Code and Cursor for code; Claude and ChatGPT for product thinking, copy and debugging; Figma for design. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
 
 ### Who owns the source code and the designs?
 
@@ -137,8 +137,10 @@ Yes, senior product design roles alongside contract work. The [résumé](https:/
 
 ## Tell me about your product.
 
-A few lines are enough: what it is, who it is for, where it stands today — idea, prototype or live product — and the platform you have in mind. I reply with questions, then a proposal.
+A few lines are enough: what it is, who it is for, where it stands today — idea, prototype or live product — and the platform you have in mind.
 
 [ Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [ LinkedIn ](https://www.linkedin.com/in/dennieo/)
+
+Or email [gehucka@gmail.com](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) directly. I reply with questions, then a proposal.
 
 [ See the workflow on a shipped product Numi — what I built and how I used AI ](https://imdennie.com/case/numi.html#build) [ Writing I shipped two iOS apps solo. Here’s what AI changed. ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html)

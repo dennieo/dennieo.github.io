@@ -12,7 +12,7 @@ Tysha is white noise for the 3 a.m. shift — real-time sound for settling a bab
 - **Timeline** · 2026 → present
 - **Platform** · iOS · Audio/DSP
 - **Scope** · Concept → UX → UI → build → App Store
-- **Team** · Solo, with AI tooling
+- **Team** · Solo, with AI tooling (Claude Code, Cursor)
 - **Status** · Live on the App Store
 
 [ View on the App Store ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [How it was built ↓](https://imdennie.com/case/tysha.html#build)
@@ -31,7 +31,7 @@ My responsibility: Product definition, UX and UI, the sound library and its copy
 
 Implementation: Native iOS app, released on the App Store. Sound is synthesized in real time on the device — white, pink and brown noise and the rest of the library — rather than played from looped files, so it never repeats and needs no connection. No accounts, no ads, no sign-up.
 
-AI-assisted development: AI coding tools wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief.
+AI-assisted development: Claude Code and Cursor wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief.
 
 My review and decisions: Synthesis over looping; offline-first with no account; what the sound categories are called and how they reassure; the size of every tap target; reviewing, changing and testing generated code; when it was good enough to submit.
 
@@ -40,7 +40,7 @@ Release status: Released on the App Store, 2026 → present; 5.0 App Store ratin
 One build loop, start to finish
 
 1. **Rough flow.** One screen: a near-black canvas, floating sound nodes you tap in and out, one big play button under the thumb.
-2. **AI-generated first implementation.** AI coding tools produced the first mixer from that sketch — nodes, a play control and audio playback — running on my phone the same day.
+2. **AI-generated first implementation.** Claude Code and Cursor produced the first mixer from that sketch — nodes, a play control and audio playback — running on my phone the same day.
 3. **What I decided.** The decisions that made it Tysha rather than a generic sound app: real-time synthesis instead of looped files, tap-to-blend nodes instead of precise sliders, a warm near-black surface that does not light up a nursery, and no account or ads anywhere.
 4. **Working result.** Sound on the first tap (the brief was under a second from opening), mixes saved as Rooms, started from Siri or the Lock Screen, and faded out by a timer — with the phone face-down on the nightstand.
 

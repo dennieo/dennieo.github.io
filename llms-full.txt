@@ -80,7 +80,7 @@ Design and code, one person, AI-assisted
 
 Product and design: Product strategy, UX, UI, design systems, Figma
 
-AI-assisted development: Claude Code, Cursor — first drafts generated, reviewed and reworked before anything ships
+AI-assisted development: Claude Code and Cursor for code; Claude and ChatGPT for thinking, copy and debugging. First drafts generated, then reviewed and reworked before anything ships
 
 iOS: Swift, SwiftUI, Xcode, TestFlight, App Store release
 
@@ -120,9 +120,11 @@ I’m based in Kyiv and work remotely with teams across the US and Europe.
 
 ## Let’s design and build your product.
 
-Open to contract product design and AI-assisted app development projects, and to senior product design roles. Remote, with teams in Europe and the US.
+Open to freelance and contract product design and AI-assisted app development projects, and to senior product design roles. Remote, with teams in Europe and the US.
 
 [See how I work with clients ](https://imdennie.com/work-with-me.html)
+
+Email [gehucka@gmail.com](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) or find me on [LinkedIn](https://www.linkedin.com/in/dennieo/).
 
 [Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry)
 
@@ -347,7 +349,7 @@ Have something in mind?
 
 [Start a conversation ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
 
-Open to contract design-and-build projects and senior product design roles.
+Open to freelance and contract design-and-build projects, and to senior product design roles.
 
 
 ---
@@ -370,7 +372,7 @@ Kyiv, Ukraine · Remote [imdennie.com](https://imdennie.com) [linkedin.com/in/de
 
 ## Summary
 
-Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has designed and built three products with AI-assisted development — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, public demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, writing the code with Claude Code and Cursor, and shipping. Available for contract design-and-build projects.
+Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has designed and built three products with AI-assisted development — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, public demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, writing the code with Claude Code and Cursor, and shipping. Available for freelance and contract design-and-build projects.
 
 ## Experience
 
@@ -452,7 +454,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 **Languages** English (professional), Ukrainian (native), Russian (professional)
 
-**Tools** Figma & FigJam (design, prototyping) · Claude Code, Cursor and other AI coding tools · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
+**Tools** Figma & FigJam (design, prototyping) · Claude Code and Cursor (code) · Claude and ChatGPT (thinking, copy, debugging) · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
 
 ## Education
 
@@ -467,15 +469,15 @@ Source: https://imdennie.com/work-with-me.html
 
 Updated: 2026-10-08
 
-Work with me · Contract projects
+Work with me · Freelance and contract projects
 
 # Product design and AI-assisted app development.
 
 I design and build iOS and web apps as one person — product strategy, UX, UI, code and launch. I shipped Numi and Tysha to the App Store and built Karta, a two-sided web platform, with AI tooling and no engineering team. If you have an idea, a prototype that needs to become real, or a product that needs a designer who can also ship, this is how we can work together.
 
-- **Format** · Remote, with teams in Europe and the US
+- **Format** · Freelance, contract or fractional · Remote, with teams in Europe and the US
 - **Platforms** · iOS (Swift, SwiftUI) and web (React, TypeScript, Next.js)
-- **Tooling** · Figma · Claude Code · Cursor · Xcode · TestFlight
+- **Tooling** · Figma · Claude Code · Cursor · Claude · ChatGPT · Xcode · TestFlight
 - **Also open to** · Senior product design roles
 
 [ Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [How it works ↓](https://imdennie.com/work-with-me.html#engagements)
@@ -576,7 +578,7 @@ iOS, in Swift and SwiftUI, and the web, in React, TypeScript and Next.js. I don�
 
 ### Which AI tools do you use, and where?
 
-Two separate things. To build the product: Claude Code and Cursor for code, Figma for design. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
+Two separate things. To build the product: Claude Code and Cursor for code; Claude and ChatGPT for product thinking, copy and debugging; Figma for design. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
 
 ### Who owns the source code and the designs?
 
@@ -602,9 +604,11 @@ Yes, senior product design roles alongside contract work. The [résumé](https:/
 
 ## Tell me about your product.
 
-A few lines are enough: what it is, who it is for, where it stands today — idea, prototype or live product — and the platform you have in mind. I reply with questions, then a proposal.
+A few lines are enough: what it is, who it is for, where it stands today — idea, prototype or live product — and the platform you have in mind.
 
 [ Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [ LinkedIn ](https://www.linkedin.com/in/dennieo/)
+
+Or email [gehucka@gmail.com](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) directly. I reply with questions, then a proposal.
 
 [ See the workflow on a shipped product Numi — what I built and how I used AI ](https://imdennie.com/case/numi.html#build) [ Writing I shipped two iOS apps solo. Here’s what AI changed. ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html)
 
@@ -644,7 +648,7 @@ Surfaces: Logging · Insights · Fasting
 
 Core tech: Vision AI · SwiftUI
 
-Built with: AI coding tools · Xcode
+Built with: Claude Code · Cursor · Xcode
 
 Status: Released on the App Store
 
@@ -658,7 +662,7 @@ My responsibility: Product definition and positioning, UX and UI, the design sys
 
 Implementation: Native iOS app in Swift and SwiftUI, built in Xcode and released on the App Store. Meal photos are analyzed by a vision model; the health score is deterministic arithmetic over named inputs, not a model output; insights that cannot cite something real about the person’s day do not render.
 
-AI-assisted development: AI coding tools generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
+AI-assisted development: Claude Code and Cursor generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
 
 My review and decisions: Which surfaces the model writes to and where a human confirms; the data model for meals, fasting and weight; reviewing, changing and testing generated code; what shipped in 1.0 and what waited.
 
@@ -667,7 +671,7 @@ Release status: Released on the App Store, 2025 → present. [View on the App St
 One build loop, start to finish
 
 1. **Rough flow.** Photo-first logging: shutter → analysis → result → save.
-2. **AI-generated first implementation.** AI coding tools turned that flow into the first running SwiftUI screens and the vision request. The first version I built showed the analysis as a clean summary card, with editing behind a tap.
+2. **AI-generated first implementation.** Claude Code and Cursor turned that flow into the first running SwiftUI screens and the vision request. The first version I built showed the analysis as a clean summary card, with editing behind a tap.
 3. **What I changed.** In use, the finished look made people accept numbers that were sometimes 30% off on portion size — corrections dropped off. I rebuilt the result as a list where every item is adjustable in one tap, made confirmation an explicit action, and replaced the spinner with a staged reveal: reading the image → identifying items → estimating portions.
 4. **Working result.** A multi-item dish logs from one photo in under ten seconds, every value is correctable in place, and the flow went through many working versions over real dinners before launch.
 
@@ -847,7 +851,7 @@ Tysha is white noise for the 3 a.m. shift — real-time sound for settling a bab
 - **Timeline** · 2026 → present
 - **Platform** · iOS · Audio/DSP
 - **Scope** · Concept → UX → UI → build → App Store
-- **Team** · Solo, with AI tooling
+- **Team** · Solo, with AI tooling (Claude Code, Cursor)
 - **Status** · Live on the App Store
 
 [ View on the App Store ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [How it was built ↓](https://imdennie.com/case/tysha.html#build)
@@ -866,7 +870,7 @@ My responsibility: Product definition, UX and UI, the sound library and its copy
 
 Implementation: Native iOS app, released on the App Store. Sound is synthesized in real time on the device — white, pink and brown noise and the rest of the library — rather than played from looped files, so it never repeats and needs no connection. No accounts, no ads, no sign-up.
 
-AI-assisted development: AI coding tools wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief.
+AI-assisted development: Claude Code and Cursor wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief.
 
 My review and decisions: Synthesis over looping; offline-first with no account; what the sound categories are called and how they reassure; the size of every tap target; reviewing, changing and testing generated code; when it was good enough to submit.
 
@@ -875,7 +879,7 @@ Release status: Released on the App Store, 2026 → present; 5.0 App Store ratin
 One build loop, start to finish
 
 1. **Rough flow.** One screen: a near-black canvas, floating sound nodes you tap in and out, one big play button under the thumb.
-2. **AI-generated first implementation.** AI coding tools produced the first mixer from that sketch — nodes, a play control and audio playback — running on my phone the same day.
+2. **AI-generated first implementation.** Claude Code and Cursor produced the first mixer from that sketch — nodes, a play control and audio playback — running on my phone the same day.
 3. **What I decided.** The decisions that made it Tysha rather than a generic sound app: real-time synthesis instead of looped files, tap-to-blend nodes instead of precise sliders, a warm near-black surface that does not light up a nursery, and no account or ads anywhere.
 4. **Working result.** Sound on the first tap (the brief was under a second from opening), mixes saved as Rooms, started from Siri or the Lock Screen, and faded out by a timer — with the phone face-down on the nightstand.
 
@@ -1039,7 +1043,7 @@ Karta is a two-sided platform: guests scan the sticker on their table to order a
 - **Timeline** · 2026 → public demo
 - **Platform** · Web · guest + back office
 - **Scope** · Two-sided product, end-to-end
-- **Team** · Solo, with AI tooling
+- **Team** · Solo, with AI tooling (Claude Code, Cursor)
 - **Status** · Working platform, public demo
 
 [ Try the live demo ](https://karta-nu.vercel.app/) [How it was built ↓](https://imdennie.com/case/karta.html#build)
@@ -1056,7 +1060,7 @@ My responsibility: Product definition for both audiences, UX and UI, the shared 
 
 Implementation: A mobile-web guest app and a desktop back office built as one web product with a shared design system and data model, deployed on Vercel. The guest menu needs no app or account; the dashboard shows the floor plan, menu editor, QR stickers, analytics and the settlement split.
 
-AI-assisted development: AI coding tools wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
+AI-assisted development: Claude Code and Cursor wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
 
 My review and decisions: One system and data model for two audiences; which numbers an owner must see to trust the split; a guest flow with zero sign-up; what is in the demo and what is not; reviewing, changing and testing generated code.
 
@@ -1065,7 +1069,7 @@ Release status: Working two-sided platform with a public demo. The tips and tabl
 One build loop, start to finish
 
 1. **Rough flow.** Scan → menu → order → pay on the guest side, and the owner’s view of that same order on the other.
-2. **AI-generated first implementation.** AI coding tools produced the guest menu, the order sheet and a first dashboard from those flows and the design-system tokens.
+2. **AI-generated first implementation.** Claude Code and Cursor produced the guest menu, the order sheet and a first dashboard from those flows and the design-system tokens.
 3. **What I decided.** A dashboard of totals is not enough — owners adopt a money tool only when they can see where every euro goes — so the settlement split to kitchen, bar and the tip pool is a visible, real-time row on the dashboard rather than hidden plumbing. On the guest side, nothing stands between scan and menu: no account, no install, language auto-detected.
 4. **Working result.** In the demo a guest can scan, browse in their language, ask the AI waiter and put together an order; the owner dashboard shows revenue, tips and the settlement split.
 

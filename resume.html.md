@@ -14,7 +14,7 @@ Kyiv, Ukraine · Remote [imdennie.com](https://imdennie.com) [linkedin.com/in/de
 
 ## Summary
 
-Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has designed and built three products with AI-assisted development — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, public demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, writing the code with Claude Code and Cursor, and shipping. Available for contract design-and-build projects.
+Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has designed and built three products with AI-assisted development — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, public demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, writing the code with Claude Code and Cursor, and shipping. Available for freelance and contract design-and-build projects.
 
 ## Experience
 
@@ -96,7 +96,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 **Languages** English (professional), Ukrainian (native), Russian (professional)
 
-**Tools** Figma & FigJam (design, prototyping) · Claude Code, Cursor and other AI coding tools · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
+**Tools** Figma & FigJam (design, prototyping) · Claude Code and Cursor (code) · Claude and ChatGPT (thinking, copy, debugging) · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
 
 ## Education
 
