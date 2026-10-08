@@ -78,15 +78,15 @@ MyGoTrainer Shipshape Chatbox E-commerce
 
 Design and code, one person, AI-assisted
 
-Product and design: Product strategy, UX, UI, design systems, Figma
+Product and design: Product strategy, UX, UI, design systems · Figma and Figma Make · Claude and ChatGPT for thinking and copy
 
-AI-assisted development: Claude Code and Cursor for code; Claude and ChatGPT for thinking, copy and debugging. First drafts generated, then reviewed and reworked before anything ships
+AI-assisted development: Claude Code, Cursor, OpenAI Codex, Gemini CLI, Windsurf, GitHub Copilot · v0, Lovable, Bolt and Replit for fast UI and prototypes
 
 iOS: Swift, SwiftUI, Xcode, TestFlight, App Store release
 
 Web: React, TypeScript, Next.js, Tailwind, deployed on Vercel
 
-Backend, integrations, payments and analytics are scoped per project. See exactly what I built and how I used AI on each product: [Numi](https://imdennie.com/case/numi.html#build), [Tysha](https://imdennie.com/case/tysha.html#build) and [Karta](https://imdennie.com/case/karta.html#build) — or read [how I work with clients](https://imdennie.com/work-with-me.html).
+AI writes the first drafts; I review and rework them before anything ships. Backend, integrations, payments and analytics are scoped per project. See exactly what I built and how I used AI on each product: [Numi](https://imdennie.com/case/numi.html#build), [Tysha](https://imdennie.com/case/tysha.html#build) and [Karta](https://imdennie.com/case/karta.html#build) — or read [how I work with clients](https://imdennie.com/work-with-me.html).
 
 ## A bit about me
 
@@ -454,7 +454,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 **Languages** English (professional), Ukrainian (native), Russian (professional)
 
-**Tools** Figma & FigJam (design, prototyping) · Claude Code and Cursor (code) · Claude and ChatGPT (thinking, copy, debugging) · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
+**Tools** Figma, FigJam & Figma Make (design, prototyping) · Claude Code, Cursor, OpenAI Codex, Gemini CLI, Windsurf, GitHub Copilot (AI coding) · v0, Lovable, Bolt, Replit (AI prototyping) · Claude, ChatGPT (thinking, copy, debugging) · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
 
 ## Education
 
@@ -477,7 +477,9 @@ I design and build iOS and web apps as one person — product strategy, UX, UI, 
 
 - **Format** · Freelance, contract or fractional · Remote, with teams in Europe and the US
 - **Platforms** · iOS (Swift, SwiftUI) and web (React, TypeScript, Next.js)
-- **Tooling** · Figma · Claude Code · Cursor · Claude · ChatGPT · Xcode · TestFlight
+- **AI coding** · Claude Code · Cursor · OpenAI Codex · Gemini CLI · Windsurf · GitHub Copilot
+- **Design and prototyping** · Figma · Figma Make · v0 · Lovable · Bolt · Replit
+- **Thinking and shipping** · Claude · ChatGPT · Xcode · TestFlight · Vercel
 - **Also open to** · Senior product design roles
 
 [ Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [How it works ↓](https://imdennie.com/work-with-me.html#engagements)
@@ -578,7 +580,7 @@ iOS, in Swift and SwiftUI, and the web, in React, TypeScript and Next.js. I don�
 
 ### Which AI tools do you use, and where?
 
-Two separate things. To build the product: Claude Code and Cursor for code; Claude and ChatGPT for product thinking, copy and debugging; Figma for design. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
+Two separate things. To build the product: Claude Code, Cursor, OpenAI Codex, Gemini CLI, Windsurf and GitHub Copilot for code; v0, Lovable, Bolt and Replit for fast UI and prototypes; Figma and Figma Make for design; Claude and ChatGPT for product thinking, copy and debugging. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
 
 ### Who owns the source code and the designs?
 
@@ -662,7 +664,7 @@ My responsibility: Product definition and positioning, UX and UI, the design sys
 
 Implementation: Native iOS app in Swift and SwiftUI, built in Xcode and released on the App Store. Meal photos are analyzed by a vision model; the health score is deterministic arithmetic over named inputs, not a model output; insights that cannot cite something real about the person’s day do not render.
 
-AI-assisted development: Claude Code and Cursor generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
+AI-assisted development: Claude Code and Cursor generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype. Also in the kit on this project: OpenAI Codex and Gemini CLI alongside Claude Code, and Claude and ChatGPT for product thinking and copy.
 
 My review and decisions: Which surfaces the model writes to and where a human confirms; the data model for meals, fasting and weight; reviewing, changing and testing generated code; what shipped in 1.0 and what waited.
 
@@ -870,7 +872,7 @@ My responsibility: Product definition, UX and UI, the sound library and its copy
 
 Implementation: Native iOS app, released on the App Store. Sound is synthesized in real time on the device — white, pink and brown noise and the rest of the library — rather than played from looped files, so it never repeats and needs no connection. No accounts, no ads, no sign-up.
 
-AI-assisted development: Claude Code and Cursor wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief.
+AI-assisted development: Claude Code and Cursor wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief. Also in the kit on this project: Windsurf and GitHub Copilot in the editor, and Claude and ChatGPT for the sound-library copy.
 
 My review and decisions: Synthesis over looping; offline-first with no account; what the sound categories are called and how they reassure; the size of every tap target; reviewing, changing and testing generated code; when it was good enough to submit.
 
@@ -1060,7 +1062,7 @@ My responsibility: Product definition for both audiences, UX and UI, the shared 
 
 Implementation: A mobile-web guest app and a desktop back office built as one web product with a shared design system and data model, deployed on Vercel. The guest menu needs no app or account; the dashboard shows the floor plan, menu editor, QR stickers, analytics and the settlement split.
 
-AI-assisted development: Claude Code and Cursor wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
+AI-assisted development: Claude Code and Cursor wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked. Also in the kit on this project: v0, Lovable and Bolt for fast UI explorations of the guest menu and dashboard, Replit and Figma Make for prototypes, and Claude and ChatGPT for product thinking and copy.
 
 My review and decisions: One system and data model for two audiences; which numbers an owner must see to trust the split; a guest flow with zero sign-up; what is in the demo and what is not; reviewing, changing and testing generated code.
 

@@ -96,7 +96,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 **Languages** English (professional), Ukrainian (native), Russian (professional)
 
-**Tools** Figma & FigJam (design, prototyping) · Claude Code and Cursor (code) · Claude and ChatGPT (thinking, copy, debugging) · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
+**Tools** Figma, FigJam & Figma Make (design, prototyping) · Claude Code, Cursor, OpenAI Codex, Gemini CLI, Windsurf, GitHub Copilot (AI coding) · v0, Lovable, Bolt, Replit (AI prototyping) · Claude, ChatGPT (thinking, copy, debugging) · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
 
 ## Education
 

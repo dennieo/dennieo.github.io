@@ -29,7 +29,7 @@ My responsibility: Product definition for both audiences, UX and UI, the shared 
 
 Implementation: A mobile-web guest app and a desktop back office built as one web product with a shared design system and data model, deployed on Vercel. The guest menu needs no app or account; the dashboard shows the floor plan, menu editor, QR stickers, analytics and the settlement split.
 
-AI-assisted development: Claude Code and Cursor wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
+AI-assisted development: Claude Code and Cursor wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked. Also in the kit on this project: v0, Lovable and Bolt for fast UI explorations of the guest menu and dashboard, Replit and Figma Make for prototypes, and Claude and ChatGPT for product thinking and copy.
 
 My review and decisions: One system and data model for two audiences; which numbers an owner must see to trust the split; a guest flow with zero sign-up; what is in the demo and what is not; reviewing, changing and testing generated code.
 

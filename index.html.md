@@ -68,15 +68,15 @@ MyGoTrainer Shipshape Chatbox E-commerce
 
 Design and code, one person, AI-assisted
 
-Product and design: Product strategy, UX, UI, design systems, Figma
+Product and design: Product strategy, UX, UI, design systems · Figma and Figma Make · Claude and ChatGPT for thinking and copy
 
-AI-assisted development: Claude Code and Cursor for code; Claude and ChatGPT for thinking, copy and debugging. First drafts generated, then reviewed and reworked before anything ships
+AI-assisted development: Claude Code, Cursor, OpenAI Codex, Gemini CLI, Windsurf, GitHub Copilot · v0, Lovable, Bolt and Replit for fast UI and prototypes
 
 iOS: Swift, SwiftUI, Xcode, TestFlight, App Store release
 
 Web: React, TypeScript, Next.js, Tailwind, deployed on Vercel
 
-Backend, integrations, payments and analytics are scoped per project. See exactly what I built and how I used AI on each product: [Numi](https://imdennie.com/case/numi.html#build), [Tysha](https://imdennie.com/case/tysha.html#build) and [Karta](https://imdennie.com/case/karta.html#build) — or read [how I work with clients](https://imdennie.com/work-with-me.html).
+AI writes the first drafts; I review and rework them before anything ships. Backend, integrations, payments and analytics are scoped per project. See exactly what I built and how I used AI on each product: [Numi](https://imdennie.com/case/numi.html#build), [Tysha](https://imdennie.com/case/tysha.html#build) and [Karta](https://imdennie.com/case/karta.html#build) — or read [how I work with clients](https://imdennie.com/work-with-me.html).
 
 ## A bit about me
 

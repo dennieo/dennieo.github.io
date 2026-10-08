@@ -10,7 +10,9 @@ I design and build iOS and web apps as one person — product strategy, UX, UI, 
 
 - **Format** · Freelance, contract or fractional · Remote, with teams in Europe and the US
 - **Platforms** · iOS (Swift, SwiftUI) and web (React, TypeScript, Next.js)
-- **Tooling** · Figma · Claude Code · Cursor · Claude · ChatGPT · Xcode · TestFlight
+- **AI coding** · Claude Code · Cursor · OpenAI Codex · Gemini CLI · Windsurf · GitHub Copilot
+- **Design and prototyping** · Figma · Figma Make · v0 · Lovable · Bolt · Replit
+- **Thinking and shipping** · Claude · ChatGPT · Xcode · TestFlight · Vercel
 - **Also open to** · Senior product design roles
 
 [ Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [How it works ↓](https://imdennie.com/work-with-me.html#engagements)
@@ -111,7 +113,7 @@ iOS, in Swift and SwiftUI, and the web, in React, TypeScript and Next.js. I don�
 
 ### Which AI tools do you use, and where?
 
-Two separate things. To build the product: Claude Code and Cursor for code; Claude and ChatGPT for product thinking, copy and debugging; Figma for design. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
+Two separate things. To build the product: Claude Code, Cursor, OpenAI Codex, Gemini CLI, Windsurf and GitHub Copilot for code; v0, Lovable, Bolt and Replit for fast UI and prototypes; Figma and Figma Make for design; Claude and ChatGPT for product thinking, copy and debugging. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
 
 ### Who owns the source code and the designs?
 
