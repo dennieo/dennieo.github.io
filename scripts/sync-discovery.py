@@ -19,13 +19,13 @@ FILES = ['index.html', 'story.html', 'approach.html', 'resume.html', 'work-with-
          'blog/index.html'] + [str(p.relative_to(ROOT)) for p in sorted((ROOT / 'blog').glob('*.html')) if p.name != 'index.html']
 DESCRIPTIONS = {
     'index.html': 'Product designer and design engineer building iOS and web apps with AI. Creator of Numi, Tysha and Karta. Available for contract projects.',
-    'work-with-me.html': 'Hire Dennie Ordynskyi to design and build your iOS or web app: idea-to-release builds, working MVPs and ongoing design-and-build partnerships, delivered solo with AI-assisted development.',
+    'work-with-me.html': 'Hire Dennie Ordynskyi to design and build your iOS or web app: idea-to-release builds, working MVPs and design-and-build partnerships, solo with AI tooling.',
     'story.html': 'From Ukraine to products used by millions: the story of Dennie Ordynskyi, a product designer at DraftKings and the creator of three independent products.',
     'approach.html': 'How Dennie Ordynskyi designs products: understand the problem, prototype early, simplify complex experiences, and follow the idea through to launch.',
-    'resume.html': 'Dennie Ordynskyi’s résumé: 14+ years in product design, experience at DraftKings, and the solo design and build of Numi, Tysha, and Karta with AI-assisted development.',
-    'case/numi.html': 'How Dennie Ordynskyi designed and built Numi, an AI nutrition app for iPhone, solo with AI tooling: SwiftUI implementation, photo logging, product decisions, and the App Store release.',
-    'case/tysha.html': 'How Dennie Ordynskyi designed and built Tysha, an offline baby-sleep sound app for iPhone, solo with AI-assisted development: calm interfaces, real-time audio, and the App Store release.',
-    'case/karta.html': 'How Dennie Ordynskyi designed and built Karta, a QR ordering and payment web platform for restaurants: guest menu, owner dashboard, AI recommender, and a public working demo.',
+    'resume.html': 'Dennie Ordynskyi’s résumé: 14+ years in product design, nearly a decade at DraftKings, and Numi, Tysha and Karta designed and built solo with AI tooling.',
+    'case/numi.html': 'How Dennie Ordynskyi designed and built Numi, an AI nutrition iPhone app, solo with AI tooling: SwiftUI, photo logging, product decisions, App Store release.',
+    'case/tysha.html': 'How Dennie Ordynskyi designed and built Tysha, an offline baby-sleep sound app for iPhone, solo with AI-assisted development, and released it on the App Store.',
+    'case/karta.html': 'How Dennie Ordynskyi designed and built Karta, a QR ordering and payment web platform for restaurants: guest menu, owner dashboard, AI recommender, public demo.',
     'blog/index.html': 'Notes by Dennie Ordynskyi on product design, AI interfaces, design careers, and building independent apps from idea to launch.',
     'blog/how-to-become-a-product-designer.html': 'How to become a product designer in 2026: practical advice on skills, portfolios, first jobs, and AI from a designer with 14+ years of experience.',
     'blog/shipping-apps-solo-with-ai.html': 'What changed when a product designer built and shipped Numi and Tysha solo with AI: prototyping, iteration, and the design work that still matters.',
@@ -116,7 +116,8 @@ for path in FILES:
             crumbs.append({'@type': 'ListItem', 'position': 2, 'name': 'Work', 'item': BASE + '#work'})
         elif path.startswith('blog/') and path != 'blog/index.html':
             crumbs.append({'@type': 'ListItem', 'position': 2, 'name': 'Writing', 'item': BASE + 'blog/'})
-        crumbs.append({'@type': 'ListItem', 'position': len(crumbs) + 1, 'name': title.split(' — ')[0], 'item': url})
+        leaf = (article.get('headline') or title) if (article and path.startswith('blog/')) else re.split(r' — | \| ', title)[0]
+        crumbs.append({'@type': 'ListItem', 'position': len(crumbs) + 1, 'name': leaf, 'item': url})
         nodes.append({'@type': 'BreadcrumbList', '@id': url + '#breadcrumbs', 'itemListElement': crumbs})
         webpage['breadcrumb'] = {'@id': url + '#breadcrumbs'}
 
@@ -163,7 +164,7 @@ for path in FILES:
 class Markdown(HTMLParser):
     """Export visible main content only; preserve destinations and headings."""
     def __init__(self, url):
-        super().__init__(); self.url = url; self.active = False; self.parts = []; self.links = []; self.skip = 0
+        super().__init__(); self.url = url; self.active = False; self.parts = []; self.links = []; self.skip = 0; self.lists = []
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == 'main': self.active = True
@@ -171,8 +172,12 @@ class Markdown(HTMLParser):
         if tag in ['script', 'style', 'svg']: self.skip += 1
         if self.skip: return
         if tag in ['h1', 'h2', 'h3', 'h4']: self.parts.append('\n\n' + '#' * int(tag[1]) + ' ')
-        elif tag in ['p', 'section', 'article', 'div', 'ul', 'ol', 'figure', 'dl']: self.parts.append('\n\n')
-        elif tag == 'li': self.parts.append('\n- ')
+        elif tag in ['ul', 'ol']: self.parts.append('\n\n'); self.lists.append([tag, 0])
+        elif tag in ['p', 'section', 'article', 'div', 'figure', 'dl']: self.parts.append('\n\n')
+        elif tag == 'li':
+            if self.lists and self.lists[-1][0] == 'ol':
+                self.lists[-1][1] += 1; self.parts.append(f'\n{self.lists[-1][1]}. ')
+            else: self.parts.append('\n- ')
         elif tag == 'br': self.parts.append(' ')
         elif tag == 'a': self.parts.append('['); self.links.append(urljoin(self.url, a.get('href', '')))
         elif tag == 'img' and a.get('alt'): self.parts.append('\n\n![' + a['alt'] + '](' + urljoin(self.url, a.get('src', '')) + ')\n\n')
@@ -186,7 +191,10 @@ class Markdown(HTMLParser):
         elif tag in ['strong', 'b']: self.parts.append('**')
         elif tag == 'dt': self.parts.append(': ')
         elif tag == 'span': self.parts.append(' ')
-        elif tag in ['p', 'h1', 'h2', 'h3', 'h4', 'dd', 'section', 'article', 'div', 'ul', 'ol', 'figure']: self.parts.append('\n\n')
+        elif tag in ['ul', 'ol']:
+            if self.lists: self.lists.pop()
+            self.parts.append('\n\n')
+        elif tag in ['p', 'h1', 'h2', 'h3', 'h4', 'dd', 'section', 'article', 'div', 'figure']: self.parts.append('\n\n')
     def handle_data(self, data):
         if self.active and not self.skip: self.parts.append(re.sub(r'\s+', ' ', data))
 
@@ -194,7 +202,7 @@ full = ['# Dennie Ordynskyi — public website content', f'Updated: {UPDATED}. G
 for path, url, title, desc in records:
     parser = Markdown(url); parser.feed((ROOT / path).read_text())
     content = ''.join(parser.parts)
-    content = re.sub(r' *\n *', '\n', content); content = re.sub(r'\n{3,}', '\n\n', content).strip()
+    content = re.sub(r' *\n *', '\n', content); content = re.sub(r'[ \t]{2,}', ' ', content); content = re.sub(r'\n{3,}', '\n\n', content).strip()
     content = re.sub(r'\[\s+(!\[.*?\]\(.*?\))\s+\]\((.*?)\)', r'[\1](\2)', content)
     doc = f'Source: {url}\n\nUpdated: {UPDATED}\n\n{content}\n'
     (ROOT / (path + '.md')).write_text(doc)
@@ -225,7 +233,7 @@ lines.append('''
 
 - [Numi](https://getnumi.app): Released iPhone nutrition app with photo-based meal logging, macros, micronutrients, insights, and fasting.
 - [Tysha](https://tyshaapp.com): Baby-sleep sound app with real-time noise mixing, saved Rooms, and a fading sleep timer; works offline without accounts or ads.
-- [Karta](https://karta-nu.vercel.app/): QR ordering and payments for restaurants, with a guest menu and an owner dashboard.
+- [Karta](https://karta-nu.vercel.app/): QR ordering and payments for restaurants, with a guest menu and an owner dashboard; a working platform with a public demo.
 - [Linc project](https://imdennie.com/#linc): Cloud studio platform for content creators; Dennie was the founding product designer.
 - [Earlier work](https://imdennie.com/#track-record): MyGoTrainer, Shipshape, Chatbox, and e-commerce project galleries.
 - [LinkedIn](https://www.linkedin.com/in/dennieo/): Professional profile.

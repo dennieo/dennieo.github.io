@@ -25,9 +25,11 @@
     var external = /^https?:\/\//i.test(href) && a.hostname !== location.hostname;
     if (!external) {
       // Internal navigation — page_view already covers it. Only flag the
-      // sections worth measuring intent on.
+      // sections worth measuring intent on. Same-page anchors and self-links
+      // (skip link, "How it works ↓", aria-current nav) are not intent.
+      if (a.pathname === location.pathname) return null;
       if (/\/case\//.test(a.pathname)) return "case_study";
-      if (/work-with-me/.test(a.pathname)) return "work_with_me";
+      if (/^\/work-with-me\.html$/.test(a.pathname)) return "work_with_me";
       if (/\/blog\//.test(a.pathname)) return "blog";
       return null;
     }

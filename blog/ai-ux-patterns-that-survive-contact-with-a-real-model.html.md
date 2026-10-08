@@ -2,7 +2,7 @@ Source: https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-rea
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/)
+[All writing ](https://imdennie.com/blog/)
 
 AI interfaces
 
@@ -121,13 +121,13 @@ Worth listing, because the popular AI UX pattern collections tend to include som
 
 ## A checklist you can run against your own AI feature
 
-- Can the user change every value the model produced, in one tap, without entering an edit mode?
-- Does your loading state show what is being understood, or only that something is happening?
-- For every number the user is expected to act on, can you name the inputs that produced it?
-- Is there a code path where your AI surface renders nothing, and does the layout survive it?
-- Are detect, suggest, and act separate steps, with the user on the last one?
-- Does the feature still work one-handed, offline, or in whatever your worst hour is?
-- Do you log corrections as a metric, and do you look at them more often than you look at engagement?
+1. Can the user change every value the model produced, in one tap, without entering an edit mode?
+2. Does your loading state show what is being understood, or only that something is happening?
+3. For every number the user is expected to act on, can you name the inputs that produced it?
+4. Is there a code path where your AI surface renders nothing, and does the layout survive it?
+5. Are detect, suggest, and act separate steps, with the user on the last one?
+6. Does the feature still work one-handed, offline, or in whatever your worst hour is?
+7. Do you log corrections as a metric, and do you look at them more often than you look at engagement?
 
 If the honest answer to five of those is no, the model is not your problem.
 

@@ -4,7 +4,7 @@ Updated: 2026-10-08
 
 My approach
 
-#  I get close to the problem.  Make the complicated feel simple.   And stay with it until it ships.
+# I get close to the problem. Make the complicated feel simple. And stay with it until it ships.
 
 ![Dennie Ordynskyi playing golf](https://imdennie.com/dist/img/hero/dennie-hero.png)
 
@@ -30,7 +30,7 @@ At DraftKings, I design for usability, performance, and consistency at scale. I 
 
 I like taking responsibility beyond the design file. Building Numi, Tysha, and Karta myself keeps me close to the decisions that shape the final experience.
 
-[See the work behind the words  ](https://imdennie.com/index.html#work)
+[See the work behind the words ](https://imdennie.com/index.html#work)
 
 Where that thinking shows up
 
@@ -58,6 +58,6 @@ Have something in mind?
 
 ## Let’s make something matter.
 
-[Start a conversation  ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
+[Start a conversation ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
 
-Open to contract product design and AI-assisted app development, and to senior product design roles.
+Open to contract design-and-build projects and senior product design roles.

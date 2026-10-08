@@ -74,7 +74,8 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 2px s
 @media (max-width: 760px) and (max-height: 700px) { .site-menu-nav a { font-size: clamp(30px, min(13vw, 6.6dvh), 88px); padding-block: 6px; } .site-menu-footer { padding-block: 18px 14px; } }
 a:hover, button:hover { color: #466656; }
 .hero { padding-top: 94px; }
-h1 { max-width: 1300px; font-size: clamp(62px, 8.2vw, 112px); font-weight: 700; line-height: 1.04; letter-spacing: -.052em; text-wrap: balance; }
+h1 { font-size: clamp(62px, 8.55vw, 120px); font-weight: 700; line-height: 1.04; letter-spacing: -.052em; }
+.hero > h1 { max-width: 1300px; font-size: clamp(62px, 8.2vw, 112px); text-wrap: balance; }
 /* The role line and headline stay static so the offer never depends on an animation. */
 .hero-role { margin-bottom: 26px; color: var(--subtle); font-size: 18px; letter-spacing: -.01em; }
 .hero-description { margin-top: 42px; max-width: 1000px; font-size: clamp(22px, 2.4vw, 30px); line-height: 1.4; letter-spacing: -.03em; color: var(--muted); }
@@ -150,6 +151,7 @@ h2 { font-size: clamp(36px, 5.3vw, 64px); font-weight: 600; line-height: 1.08; l
 .gallery button { padding: 10px 16px; min-height: 44px; border: 1px solid var(--line); }
 .gallery button:hover { background: #eef2ef; }
 @media (min-width: 1400px) { .hero { padding-top: 140px; } .hero-facts { margin-top: 88px; } .work { padding-top: 100px; } }
+@media (max-width: 1000px) { .build-layers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 760px) {
   .site-header { min-height: 100px; }
   .wordmark { font-size: 32px; }

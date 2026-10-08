@@ -11,14 +11,14 @@ This index links to Markdown versions of the public website. Each document ident
 - [Dennie Ordynskyi — Product Designer & Design Engineer](https://imdennie.com/index.html.md): Product designer and design engineer building iOS and web apps with AI. Creator of Numi, Tysha and Karta. Available for contract projects.
 - [My story — Dennie Ordynskyi](https://imdennie.com/story.html.md): From Ukraine to products used by millions: the story of Dennie Ordynskyi, a product designer at DraftKings and the creator of three independent products.
 - [My approach — Dennie Ordynskyi](https://imdennie.com/approach.html.md): How Dennie Ordynskyi designs products: understand the problem, prototype early, simplify complex experiences, and follow the idea through to launch.
-- [Resume — Dennie Ordynskyi, Product Designer & Design Engineer](https://imdennie.com/resume.html.md): Dennie Ordynskyi’s résumé: 14+ years in product design, experience at DraftKings, and the solo design and build of Numi, Tysha, and Karta with AI-assisted development.
-- [Work with me — Product Design & AI-Assisted App Development by Dennie Ordynskyi](https://imdennie.com/work-with-me.html.md): Hire Dennie Ordynskyi to design and build your iOS or web app: idea-to-release builds, working MVPs and ongoing design-and-build partnerships, delivered solo with AI-assisted development.
+- [Resume — Dennie Ordynskyi, Product Designer & Design Engineer](https://imdennie.com/resume.html.md): Dennie Ordynskyi’s résumé: 14+ years in product design, nearly a decade at DraftKings, and Numi, Tysha and Karta designed and built solo with AI tooling.
+- [Hire Dennie Ordynskyi — Product Design & AI-Assisted App Development](https://imdennie.com/work-with-me.html.md): Hire Dennie Ordynskyi to design and build your iOS or web app: idea-to-release builds, working MVPs and design-and-build partnerships, solo with AI tooling.
 
 ## Case studies
 
-- [Numi — AI iOS App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/numi.html.md): How Dennie Ordynskyi designed and built Numi, an AI nutrition app for iPhone, solo with AI tooling: SwiftUI implementation, photo logging, product decisions, and the App Store release.
-- [Tysha — iOS App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/tysha.html.md): How Dennie Ordynskyi designed and built Tysha, an offline baby-sleep sound app for iPhone, solo with AI-assisted development: calm interfaces, real-time audio, and the App Store release.
-- [Karta — Web App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/karta.html.md): How Dennie Ordynskyi designed and built Karta, a QR ordering and payment web platform for restaurants: guest menu, owner dashboard, AI recommender, and a public working demo.
+- [Numi — AI Nutrition iOS App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/numi.html.md): How Dennie Ordynskyi designed and built Numi, an AI nutrition iPhone app, solo with AI tooling: SwiftUI, photo logging, product decisions, App Store release.
+- [Tysha — iOS App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/tysha.html.md): How Dennie Ordynskyi designed and built Tysha, an offline baby-sleep sound app for iPhone, solo with AI-assisted development, and released it on the App Store.
+- [Karta — Web App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/karta.html.md): How Dennie Ordynskyi designed and built Karta, a QR ordering and payment web platform for restaurants: guest menu, owner dashboard, AI recommender, public demo.
 
 ## Writing
 
@@ -34,7 +34,7 @@ This index links to Markdown versions of the public website. Each document ident
 
 - [Numi](https://getnumi.app): Released iPhone nutrition app with photo-based meal logging, macros, micronutrients, insights, and fasting.
 - [Tysha](https://tyshaapp.com): Baby-sleep sound app with real-time noise mixing, saved Rooms, and a fading sleep timer; works offline without accounts or ads.
-- [Karta](https://karta-nu.vercel.app/): QR ordering and payments for restaurants, with a guest menu and an owner dashboard.
+- [Karta](https://karta-nu.vercel.app/): QR ordering and payments for restaurants, with a guest menu and an owner dashboard; a working platform with a public demo.
 - [Linc project](https://imdennie.com/#linc): Cloud studio platform for content creators; Dennie was the founding product designer.
 - [Earlier work](https://imdennie.com/#track-record): MyGoTrainer, Shipshape, Chatbox, and e-commerce project galleries.
 - [LinkedIn](https://www.linkedin.com/in/dennieo/): Professional profile.

@@ -13,13 +13,13 @@ A nutrition app that kills the tap-tap-tap of manual food logging. Snap a photo,
 - **Platform** · iOS (SwiftUI)
 - **Scope** · Concept → UX → UI → build → App Store
 
-[ View on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app  ](https://getnumi.app) [How it was built ↓](https://imdennie.com/case/numi.html#build)
+[ View on the App Store ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app ](https://getnumi.app) [How it was built ↓](https://imdennie.com/case/numi.html#build)
 
 ![Numi product overview](https://imdennie.com/dist/img/covers/open-studio/numi.webp)
 
 **01** — Overview
 
-Most trackers ask you to search a database and do portion math  three times a day. Numi’s bet is that the log has to disappear into a single tap — and that the numbers only matter if the app tells you what they mean.
+Most trackers ask you to search a database and do portion math three times a day. Numi’s bet is that the log has to disappear into a single tap — and that the numbers only matter if the app tells you what they mean.
 
 My role: Founder · Design · Build
 
@@ -29,7 +29,7 @@ Surfaces: Logging · Insights · Fasting
 
 Core tech: Vision AI · SwiftUI
 
-Built with: Claude Code · Cursor · Xcode
+Built with: AI coding tools · Xcode
 
 Status: Released on the App Store
 
@@ -41,20 +41,20 @@ What I owned, what the tools accelerated, and which calls stayed human. Two thin
 
 My responsibility: Product definition and positioning, UX and UI, the design system, the SwiftUI codebase, the photo-analysis and correction flows, testing on device, and the App Store submission and release.
 
-Implementation: Native iOS app in Swift and SwiftUI, built in Xcode, tested through TestFlight, released on the App Store. Meal photos are analysed by a vision model; the health score is deterministic arithmetic over named inputs, not a model output; insights that cannot cite something real about the person’s day do not render.
+Implementation: Native iOS app in Swift and SwiftUI, built in Xcode and released on the App Store. Meal photos are analyzed by a vision model; the health score is deterministic arithmetic over named inputs, not a model output; insights that cannot cite something real about the person’s day do not render.
 
-AI-assisted development: Claude Code and Cursor generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
+AI-assisted development: AI coding tools generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
 
 My review and decisions: Which surfaces the model writes to and where a human confirms; the data model for meals, fasting and weight; reviewing, changing and testing generated code; what shipped in 1.0 and what waited.
 
-Release status: Published on the App Store, 2025 → present. [View on the App Store](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
+Release status: Released on the App Store, 2025 → present. [View on the App Store](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
 
 One build loop, start to finish
 
-- **Rough flow.** Photo-first logging as four screens: shutter → analysis → result → save.
-- **AI-generated first implementation.** Claude Code turned that flow into the first running SwiftUI screens and the vision request. That first version showed the analysis as a clean summary card, with editing behind a tap.
-- **What I changed.** In use, the finished look made people accept numbers that were sometimes 30% off on portion size — corrections dropped off. I rebuilt the result as a list where every item is adjustable in one tap, made confirmation an explicit action, and replaced the spinner with a staged reveal: reading the image → identifying items → estimating portions.
-- **Working result.** A multi-item dish logs from one photo in under ten seconds, every value is correctable in place, and the flow went through many working versions over real dinners before launch.
+1. **Rough flow.** Photo-first logging: shutter → analysis → result → save.
+2. **AI-generated first implementation.** AI coding tools turned that flow into the first running SwiftUI screens and the vision request. The first version I built showed the analysis as a clean summary card, with editing behind a tap.
+3. **What I changed.** In use, the finished look made people accept numbers that were sometimes 30% off on portion size — corrections dropped off. I rebuilt the result as a list where every item is adjustable in one tap, made confirmation an explicit action, and replaced the spinner with a staged reveal: reading the image → identifying items → estimating portions.
+4. **Working result.** A multi-item dish logs from one photo in under ten seconds, every value is correctable in place, and the flow went through many working versions over real dinners before launch.
 
 **A limitation I diagnosed and resolved:** the first natural-language input parsed a typed sentence and saved it straight away, with a toast. It read well in a screen recording and was worse than manual entry in practice, because a wrong field was stored silently. The fix was not a better prompt: the parse now renders as a filled form the user glances at and confirms before anything becomes real.
 
@@ -66,7 +66,7 @@ More on these decisions: [AI UX patterns that survive contact with a real model]
 
 Every food diary starts the same way: motivated. Then real life hits — a rushed lunch, a shared plate, a dish with no barcode — and the friction compounds. Search, scroll, guess the grams, repeat. Within a couple of weeks most people just… stop.
 
-So the real design problem was never “show more nutrition data.” It was protect the habit  — make the first log of the day effortless, and make the data earn its place by changing what the person does next.
+So the real design problem was never “show more nutrition data.” It was protect the habit — make the first log of the day effortless, and make the data earn its place by changing what the person does next.
 
 **04** — Product thinking
 
@@ -110,7 +110,7 @@ Already disciplined; cares about macros, fasting windows and trends. Will stay i
 
 - “
 
-People don’t quit tracking because they stop caring — they quit because it’s work.  Friction is the enemy, not willpower.
+People don’t quit tracking because they stop caring — they quit because it’s work. Friction is the enemy, not willpower.
 
 - “
 
@@ -118,7 +118,7 @@ Users don’t want more charts; they want to be told one thing — “are you on
 
 - “
 
-The bar for effortless: even a complex, multi-item dish  logs in under 10 seconds from a single photo.
+The bar for effortless: even a complex, multi-item dish logs in under 10 seconds from a single photo.
 
 **06** — Key UX & UI decisions
 
@@ -209,6 +209,6 @@ Designer-engineer, end-to-end
 
 ## See it running, or read another study.
 
-[ View on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app  ](https://getnumi.app) [All work](https://imdennie.com/index.html#work)
+[ View on the App Store ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app ](https://getnumi.app) [All work](https://imdennie.com/index.html#work)
 
-[ Next case study Tysha — baby sleep    ](https://imdennie.com/case/tysha.html) [ Case study Karta — restaurant platform    ](https://imdennie.com/case/karta.html)
+[ Next case study Tysha — baby sleep ](https://imdennie.com/case/tysha.html) [ Case study Karta — restaurant platform ](https://imdennie.com/case/karta.html)

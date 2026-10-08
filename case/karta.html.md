@@ -12,10 +12,10 @@ Karta is a two-sided platform: guests scan the sticker on their table to order a
 - **Timeline** · 2026 → public demo
 - **Platform** · Web · guest + back office
 - **Scope** · Two-sided product, end-to-end
-- **Team** · Solo, with AI tooling (Claude Code, Cursor)
+- **Team** · Solo, with AI tooling
 - **Status** · Working platform, public demo
 
-[ Try the live demo  ](https://karta-nu.vercel.app/) [How it was built ↓](https://imdennie.com/case/karta.html#build)
+[ Try the live demo ](https://karta-nu.vercel.app/) [How it was built ↓](https://imdennie.com/case/karta.html#build)
 
 ![Karta product overview](https://imdennie.com/dist/img/covers/open-studio/karta.webp)
 
@@ -27,9 +27,9 @@ Karta is a web platform with a guest ordering app and an owner back office. It h
 
 My responsibility: Product definition for both audiences, UX and UI, the shared design system, the guest web app, the owner dashboard, the AI menu recommender, and the public demo.
 
-Implementation: A mobile-web guest app and a desktop back office built as one web product with a shared design system and data model, deployed on Vercel. The guest menu needs no app or account; the dashboard shows the floor plan, menu editor, QR stickers, analytics and the settlement split. The recommender only suggests dishes that are actually on the menu.
+Implementation: A mobile-web guest app and a desktop back office built as one web product with a shared design system and data model, deployed on Vercel. The guest menu needs no app or account; the dashboard shows the floor plan, menu editor, QR stickers, analytics and the settlement split.
 
-AI-assisted development: Claude Code and Cursor wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
+AI-assisted development: AI coding tools wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
 
 My review and decisions: One system and data model for two audiences; which numbers an owner must see to trust the split; a guest flow with zero sign-up; what is in the demo and what is not; reviewing, changing and testing generated code.
 
@@ -37,12 +37,12 @@ Release status: Working two-sided platform with a public demo. The tips and tabl
 
 One build loop, start to finish
 
-- **Rough flow.** Scan → menu → order → pay on the guest side, and the owner’s view of that same order on the other.
-- **AI-generated first implementation.** Claude Code produced the guest menu, the order sheet and a first dashboard from those flows and the design-system tokens.
-- **What I changed.** A dashboard of totals is not enough — owners adopt a money tool only when they can see where every euro goes — so the settlement split to kitchen, bar and the tip pool became a visible, real-time row instead of back-end plumbing. On the guest side I removed every step between scan and menu: no account, no install, language auto-detected.
-- **Working result.** In the demo a guest can scan, browse in their language, ask the AI waiter, order and pay, and the owner sees the order and the split on the dashboard.
+1. **Rough flow.** Scan → menu → order → pay on the guest side, and the owner’s view of that same order on the other.
+2. **AI-generated first implementation.** AI coding tools produced the guest menu, the order sheet and a first dashboard from those flows and the design-system tokens.
+3. **What I decided.** A dashboard of totals is not enough — owners adopt a money tool only when they can see where every euro goes — so the settlement split to kitchen, bar and the tip pool is a visible, real-time row on the dashboard rather than hidden plumbing. On the guest side, nothing stands between scan and menu: no account, no install, language auto-detected.
+4. **Working result.** In the demo a guest can scan, browse in their language, ask the AI waiter and put together an order; the owner dashboard shows revenue, tips and the settlement split.
 
-**A limitation I diagnosed and resolved:** an open-ended AI waiter will happily recommend a dish the kitchen does not serve. The recommender is constrained to the live menu, so a suggestion is always something the guest can actually order — and the chat is a one-sentence “help me choose”, not a general assistant.
+**A limitation I designed around:** an open-ended AI waiter will happily recommend a dish the kitchen does not serve. The recommender is constrained to the live menu, so a suggestion is always something the guest can actually order — and the chat is a one-sentence “help me choose”, not a general assistant.
 
 **02** — The problem
 
@@ -50,11 +50,11 @@ One build loop, start to finish
 
 Paper menus that can’t be translated. A card terminal that walks to the table. A waiter chasing the bill. Allergens nobody can look up. Tips that feel awkward. And a POS that doesn’t talk to any of it — so every busy service leaks time and turns tables slower.
 
--  Guests wait to order, then wait again to pay
--  No translation, no allergen info at the table
--  Splitting a bill and tipping is clumsy
--  Owners reconcile kitchen, bar and tips by hand
--  “Install our app” is a non-starter for a walk-in
+- Guests wait to order, then wait again to pay
+- No translation, no allergen info at the table
+- Splitting a bill and tipping is clumsy
+- Owners reconcile kitchen, bar and tips by hand
+- “Install our app” is a non-starter for a walk-in
 
 **03** — Product thinking
 
@@ -130,7 +130,7 @@ Owners won’t adopt anything that means manual reconciliation — so the split 
 
 - “
 
-The bets to prove out next: higher tips  and faster table turns  from fewer, quicker interactions.
+The bets to prove out next: higher tips and faster table turns from fewer, quicker interactions.
 
 **06** — Key UX & UI decisions
 
@@ -193,7 +193,7 @@ A working two-sided platform with a public demo. The first two are goals to prov
 
 +25%
 
-Tips · goal, not yet measured
+Tips · goal
 
 Faster
 
@@ -211,6 +211,6 @@ Audiences, one system
 
 ## Try the demo, or read another study.
 
-[ Try the live demo  ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/index.html#work)
+[ Try the live demo ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/index.html#work)
 
-[ Next case study Numi — AI nutrition    ](https://imdennie.com/case/numi.html) [ Case study Tysha — baby sleep    ](https://imdennie.com/case/tysha.html)
+[ Next case study Numi — AI nutrition ](https://imdennie.com/case/numi.html) [ Case study Tysha — baby sleep ](https://imdennie.com/case/tysha.html)

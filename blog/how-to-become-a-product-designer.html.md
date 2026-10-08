@@ -2,7 +2,7 @@ Source: https://imdennie.com/blog/how-to-become-a-product-designer.html
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/) Careers in design
+[All writing ](https://imdennie.com/blog/) Careers in design
 
 # How to become a product designer in 2026 — advice from 14 years in
 
@@ -50,9 +50,9 @@ This one is genuinely new. Most design teams now expect you to use AI tools in y
 
 I'm living proof you don't — and in fourteen years, nobody has ever asked about my diploma. What people ask for is evidence you can do the work. Here's the path I'd take today:
 
--  **Learn the fundamentals deliberately.** A couple of well-chosen courses beat a hundred YouTube videos. Study human–computer interaction basics, then copy great products — literally recreate screens from apps you admire until your hands know why they work.
--  **Solve real problems for real people, free if needed.** A local business, a nonprofit, a friend's side project. Constraints and stakeholders are what make a project real — and "real" is what portfolios live on.
--  **Ship something of your own.** This used to be optional. With today's AI tools, a designer can take an idea to a working product alone — I shipped [two apps to the App Store](https://getnumi.app) this way. Nothing in your portfolio will say "I can do this job" louder than a live product, even a tiny one.
+1. **Learn the fundamentals deliberately.** A couple of well-chosen courses beat a hundred YouTube videos. Study human–computer interaction basics, then copy great products — literally recreate screens from apps you admire until your hands know why they work.
+2. **Solve real problems for real people, free if needed.** A local business, a nonprofit, a friend's side project. Constraints and stakeholders are what make a project real — and "real" is what portfolios live on.
+3. **Ship something of your own.** This used to be optional. With today's AI tools, a designer can take an idea to a working product alone — I shipped [two apps to the App Store](https://getnumi.app) this way. Nothing in your portfolio will say "I can do this job" louder than a live product, even a tiny one.
 
 ## Building a portfolio when you have no experience
 
@@ -89,10 +89,10 @@ Read next
 
 ### I shipped two iOS apps solo — what AI changed about being a designer
 
-Read the story →  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ AI & design · 7 min read
+Read the story → ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ AI & design · 7 min read
 
 ### Designing AI products: 6 lessons from building an AI nutrition app
 
-Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html)
+Read the lessons → ](https://imdennie.com/blog/designing-ai-products.html)
 
 **Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).

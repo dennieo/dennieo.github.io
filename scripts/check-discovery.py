@@ -119,7 +119,9 @@ for file in PAGES:
     assert ">Work with me</a>" in header, file
     assert '<dialog class="site-menu" id="site-menu"' in text and "dist/open-studio/menu.js?v=20261002-nav" in text, file
     assert "<span>Work with me</span>" in text, file
-    assert "Open to contract product design and AI-assisted app development" in text, file
+    assert "Open to contract design-and-build projects and senior product design roles" in text, file
+    assert "style.css?v=20261008-hire" in text, file
+    assert (file.name == "index.html" and file.parent == ROOT) or "pages.css?v=20261008-hire" in text, file
     assert "Open to senior product design roles and select collaborations" not in text, file
 assert "dist/open-studio/main.js?v=20261008-hire" in home
 assert "hero-rotator" not in home and "hero-rotator" not in (ROOT / "dist/open-studio/main.js").read_text()

@@ -2,7 +2,7 @@ Source: https://imdennie.com/blog/designing-ai-products.html
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/) AI & design
+[All writing ](https://imdennie.com/blog/) AI & design
 
 # Designing AI products: 6 lessons from building an AI nutrition app
 
@@ -61,10 +61,10 @@ Read next
 
 ### I shipped two iOS apps solo — what AI changed about being a designer
 
-Read the story →  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ Careers in design · 9 min read
+Read the story → ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ Careers in design · 9 min read
 
 ### How to become a product designer in 2026 — advice from 14 years in
 
-Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
+Read the guide → ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
 
 **Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).

@@ -16,9 +16,9 @@ Product Designer & Design Engineer
 
 # I design and build iOS and web apps with AI.
 
-I’m Dennie Ordynskyi, a product designer with 14+ years of experience, including DraftKings. I help founders turn ideas into working products — from product strategy and UX to code and launch. I independently designed and built Numi, Tysha, and Karta.
+I’m Dennie, a product designer at DraftKings. I’m available to help founders take an app from idea to release — strategy, UX, UI and AI-assisted code — the way I built Numi, Tysha and Karta on my own.
 
-[Discuss your app  ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [See shipped products  ](https://imdennie.com/#work)
+[Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [See shipped products ](https://imdennie.com/#work)
 
 14+: Years in product design
 
@@ -34,33 +34,33 @@ Independent products & collaborations
 
 [![Numi home and photo-based meal analysis on two phones against pale lavender](https://imdennie.com/dist/img/covers/open-studio/numi.webp)](https://imdennie.com/case/numi.html)
 
-### [Numi  ](https://imdennie.com/case/numi.html)
+### [Numi ](https://imdennie.com/case/numi.html)
 
 AI nutrition tracking for iPhone.
 
-Solo design & build · iOS · SwiftUI · AI nutrition
+Solo design & build · iOS · SwiftUI · Vision AI
 
-[Live on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
+[Live on the App Store ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
 
 [![Tysha live sound mixer beside its fading sleep timer on a soft oatmeal background](https://imdennie.com/dist/img/covers/open-studio/tysha.webp)](https://imdennie.com/case/tysha.html)
 
-### [Tysha  ](https://imdennie.com/case/tysha.html)
+### [Tysha ](https://imdennie.com/case/tysha.html)
 
 Sleep sounds for babies and tired parents.
 
 Solo design & build · iOS · Offline, real-time audio
 
-[Live on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
+[Live on the App Store ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
 
 [![Karta restaurant dashboard with the guest pancake ordering screen on pale sage](https://imdennie.com/dist/img/covers/open-studio/karta.webp)](https://imdennie.com/case/karta.html)
 
-### [Karta  ](https://imdennie.com/case/karta.html)
+### [Karta ](https://imdennie.com/case/karta.html)
 
 QR ordering and payments for restaurants.
 
 Solo design & build · Web · Guest app + owner dashboard
 
-[Try the live demo  ](https://karta-nu.vercel.app/)
+[Try the live demo ](https://karta-nu.vercel.app/)
 
 ![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
 
@@ -72,7 +72,7 @@ Founding product designer
 
 ### Earlier work
 
-MyGoTrainer   Shipshape   Chatbox   E-commerce
+MyGoTrainer Shipshape Chatbox E-commerce
 
 ## How I build
 
@@ -80,7 +80,7 @@ Design and code, one person, AI-assisted
 
 Product and design: Product strategy, UX, UI, design systems, Figma
 
-AI-assisted development: Claude Code, Cursor — first drafts generated, every line reviewed before it ships
+AI-assisted development: Claude Code, Cursor — first drafts generated, reviewed and reworked before anything ships
 
 iOS: Swift, SwiftUI, Xcode, TestFlight, App Store release
 
@@ -96,35 +96,35 @@ I’m Dennie Ordynskyi. I’ve spent 14+ years designing products across mobile 
 
 I also build my own products. Numi, Tysha, and Karta are projects I’ve taken from the initial idea through design, code and release — on my own, with AI coding tools doing the first drafts.
 
-I’m based in Kyiv and work remotely with teams across the US and Europe — on contract design-and-build projects and in senior product design roles.
+I’m based in Kyiv and work remotely with teams across the US and Europe.
 
-[My story  ](https://imdennie.com/story.html)[My approach  ](https://imdennie.com/approach.html)[Resume  ](https://imdennie.com/resume.html)
+[My story ](https://imdennie.com/story.html)[My approach ](https://imdennie.com/approach.html)[Resume ](https://imdennie.com/resume.html)
 
 ## Notes on design & building
 
-[All writing  ](https://imdennie.com/blog/)
+[All writing ](https://imdennie.com/blog/)
 
 [
 
 ### How to become a product designer in 2026
 
-9 min read  ](https://imdennie.com/blog/how-to-become-a-product-designer.html) [
+9 min read ](https://imdennie.com/blog/how-to-become-a-product-designer.html) [
 
 ### I shipped two iOS apps solo. Here’s what AI changed.
 
-8 min read  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [
+8 min read ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [
 
 ### Designing AI products: six lessons from building one
 
-7 min read  ](https://imdennie.com/blog/designing-ai-products.html)
+7 min read ](https://imdennie.com/blog/designing-ai-products.html)
 
-## Let’s design and build  your product.
+## Let’s design and build your product.
 
-Open to contract product design and AI-assisted app development projects,  and to senior product design roles. Remote, with teams in Europe and the US.
+Open to contract product design and AI-assisted app development projects, and to senior product design roles. Remote, with teams in Europe and the US.
 
-[See how I work with clients  ](https://imdennie.com/work-with-me.html)
+[See how I work with clients ](https://imdennie.com/work-with-me.html)
 
-[Get in touch  ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry)
+[Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry)
 
 
 ---
@@ -141,13 +141,13 @@ My story
 
 It’s the story of how a kid from Ukraine ended up designing products used by millions. Questions asked, lessons learned, products shipped.
 
-[Read my story  ](https://imdennie.com/story.html#story)
+[Read my story ](https://imdennie.com/story.html#story)
 
 Chapter 01 · Origins
 
 ## So… where does this story begin?
 
-In Ukraine  — where I was born and raised, and where I first learned that the fastest way to understand how something works is to take it apart. Most things survived the process. Some even worked afterwards.
+In Ukraine — where I was born and raised, and where I first learned that the fastest way to understand how something works is to take it apart. Most things survived the process. Some even worked afterwards.
 
 Chapter 02 · Kyiv
 
@@ -185,7 +185,7 @@ Chapter 05 · Going lead
 
 ## When did you start leading?
 
-As Lead Product Designer  I led a team of three and shipped Shipshape  — smart-home monitoring that catches household problems early, from the app and design system to the brand and its mascot. I even climbed into the crawlspaces where the sensors get installed to get the research right. Then MyGoTrainer , an iOS marketplace where I owned the UX for all three sides: clients, trainers and facilities.
+As Lead Product Designer I led a team of three and shipped Shipshape — smart-home monitoring that catches household problems early, from the app and design system to the brand and its mascot. I even climbed into the crawlspaces where the sensors get installed to get the research right. Then MyGoTrainer , an iOS marketplace where I owned the UX for all three sides: clients, trainers and facilities.
 
 Along the way
 
@@ -198,7 +198,7 @@ Chapter 06 · Day one
 
 ## What was your biggest bet?
 
-Joining Linc  as Founding Product Designer  — employee-one energy, a studio platform for content creators, nothing but a blank canvas. I built the design system and the end-to-end UX from scratch, iterating with users and engineers daily.
+Joining Linc as Founding Product Designer — employee-one energy, a studio platform for content creators, nothing but a blank canvas. I built the design system and the end-to-end UX from scratch, iterating with users and engineers daily.
 
 Along the way
 
@@ -210,7 +210,7 @@ Chapter 07 · The big leagues
 
 ## And where do you work now?
 
-DraftKings  — since 2016, nearly a decade of designing large-scale consumer experiences  in one of the fastest-moving, most regulated spaces in tech. When millions of people use what you design, usability, performance and consistency stop being nice-to-haves.
+DraftKings — since 2016, nearly a decade of designing large-scale consumer experiences in one of the fastest-moving, most regulated spaces in tech. When millions of people use what you design, usability, performance and consistency stop being nice-to-haves.
 
 Along the way
 
@@ -223,7 +223,7 @@ Chapter 08 · Everything changes
 
 ## When did everything change?
 
-When AI agents  showed up. Suddenly one designer could research, design, code and ship an entire product. I went all-in — prototyping at the speed of thought, with language models as teammates instead of tools.
+When AI agents showed up. Suddenly one designer could research, design, code and ship an entire product. I went all-in — prototyping at the speed of thought, with language models as teammates instead of tools.
 
 Along the way
 
@@ -237,7 +237,7 @@ Chapter 09 · Proof of work
 
 ## Okay — prove it.
 
-[Numi](https://getnumi.app) — an AI nutrition tracker  for iPhone, live on the App Store. Snap a photo of your meal; it reads calories, macros and micronutrients, and builds a personal “Metabolic Fingerprint.” Concept, design, code, App Store — designed and built solo , shipped in 2025.
+[Numi](https://getnumi.app) — an AI nutrition tracker for iPhone, live on the App Store. Snap a photo of your meal; it reads calories, macros and micronutrients, and builds a personal “Metabolic Fingerprint.” Concept, design, code, App Store — designed and built solo , shipped in 2025.
 
 Along the way
 
@@ -261,7 +261,7 @@ Chapter 11 · One QR code
 
 ## Two apps in one year — done?
 
-Not even close. Mid-2026 I started [Karta](https://karta-nu.vercel.app/) — one QR code for a whole restaurant.  Guests scan the table sticker to browse, order, split and pay in their own language, no app needed; owners get a full back office with live floor plans, analytics, auto-split payouts and an AI waiter. My biggest solo build yet — guest app, dashboard and design system, end-to-end.
+Not even close. Mid-2026 I started [Karta](https://karta-nu.vercel.app/) — one QR code for a whole restaurant. Guests scan the table sticker to browse, order, split and pay in their own language, no app needed; owners get a full back office with live floor plans, analytics, auto-split payouts and an AI waiter. My biggest solo build yet — guest app, dashboard and design system, end-to-end.
 
 Along the way
 
@@ -274,11 +274,11 @@ Chapter 12 · Now playing
 
 ## So… what’s next?
 
-Today I’m in Kyiv — designing at DraftKings, running two apps on the App Store and a restaurant platform in public demo, and open to contract design-and-build projects as well as senior product design roles. The next chapter could start with your message.
+Today I’m in Kyiv — designing at DraftKings, running two apps on the App Store and a restaurant platform with a public demo, and open to contract design-and-build projects as well as senior product design roles. The next chapter could start with your message.
 
-14+ years of design  2 apps on the App Store · 1 web platform  3 languages  ∞ curiosity
+14+ years of design 2 apps on the App Store · 1 web platform 3 languages ∞ curiosity
 
-[  Write the next chapter  ](mailto:gehucka@gmail.com?subject=The%20next%20chapter) [  LinkedIn ](https://www.linkedin.com/in/dennieo/) [ Selected work  ](https://imdennie.com/index.html)
+[ Write the next chapter ](mailto:gehucka@gmail.com?subject=The%20next%20chapter) [ LinkedIn ](https://www.linkedin.com/in/dennieo/) [ Selected work ](https://imdennie.com/index.html)
 
 
 ---
@@ -291,7 +291,7 @@ Updated: 2026-10-08
 
 My approach
 
-#  I get close to the problem.  Make the complicated feel simple.   And stay with it until it ships.
+# I get close to the problem. Make the complicated feel simple. And stay with it until it ships.
 
 ![Dennie Ordynskyi playing golf](https://imdennie.com/dist/img/hero/dennie-hero.png)
 
@@ -317,7 +317,7 @@ At DraftKings, I design for usability, performance, and consistency at scale. I 
 
 I like taking responsibility beyond the design file. Building Numi, Tysha, and Karta myself keeps me close to the decisions that shape the final experience.
 
-[See the work behind the words  ](https://imdennie.com/index.html#work)
+[See the work behind the words ](https://imdennie.com/index.html#work)
 
 Where that thinking shows up
 
@@ -345,9 +345,9 @@ Have something in mind?
 
 ## Let’s make something matter.
 
-[Start a conversation  ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
+[Start a conversation ](mailto:gehucka@gmail.com?subject=Hello%20Dennie)
 
-Open to contract product design and AI-assisted app development, and to senior product design roles.
+Open to contract design-and-build projects and senior product design roles.
 
 
 ---
@@ -366,11 +366,11 @@ Save as PDF
 
 Product Designer & Design Engineer — AI-powered consumer & B2B products, designed and built end to end
 
-Kyiv, Ukraine · Remote  [imdennie.com](https://imdennie.com) [linkedin.com/in/dennieo](https://www.linkedin.com/in/dennieo/) [gehucka@gmail.com ](mailto:gehucka@gmail.com)
+Kyiv, Ukraine · Remote [imdennie.com](https://imdennie.com) [linkedin.com/in/dennieo](https://www.linkedin.com/in/dennieo/) [gehucka@gmail.com ](mailto:gehucka@gmail.com)
 
 ## Summary
 
-Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has designed and built three products solo with AI-assisted development — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, public demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, writing the code with Claude Code and Cursor, and shipping. Available for contract design-and-build projects.
+Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has designed and built three products with AI-assisted development — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, public demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, writing the code with Claude Code and Cursor, and shipping. Available for contract design-and-build projects.
 
 ## Experience
 
@@ -444,24 +444,24 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 ## Skills
 
-**Product design**  Product strategy & discovery, end-to-end UX, UI & interaction design, design systems, rapid prototyping, user research, mobile (iOS/Android) & web
+**Product design** Product strategy & discovery, end-to-end UX, UI & interaction design, design systems, rapid prototyping, user research, mobile (iOS/Android) & web
 
-**AI**  AI product design, human–AI interaction, LLM-powered features, AI-assisted development & prototyping (concept → working product)
+**AI** AI product design, human–AI interaction, LLM-powered features, AI-assisted development & prototyping (concept → working product)
 
-**Ways of working**  0→1 and scale-up environments, cross-functional collaboration with engineering & PM, agile (Scrum/Kanban), mentoring
+**Ways of working** 0→1 and scale-up environments, cross-functional collaboration with engineering & PM, agile (Scrum/Kanban), mentoring
 
-**Languages**  English (professional), Ukrainian (native), Russian (professional)
+**Languages** English (professional), Ukrainian (native), Russian (professional)
 
-**Tools**  Figma & FigJam (design, prototyping) · Claude Code, Cursor and other AI coding tools · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
+**Tools** Figma & FigJam (design, prototyping) · Claude Code, Cursor and other AI coding tools · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
 
 ## Education
 
-2002 — 2007  **Kyiv University of Tourism, Economics and Law** — Master’s degree  Additional coursework: Machine Learning — Stanford University, via Coursera
+2002 — 2007 **Kyiv University of Tourism, Economics and Law** — Master’s degree Additional coursework: Machine Learning — Stanford University, via Coursera
 
 
 ---
 
-## Work with me — Product Design & AI-Assisted App Development by Dennie Ordynskyi
+## Hire Dennie Ordynskyi — Product Design & AI-Assisted App Development
 
 Source: https://imdennie.com/work-with-me.html
 
@@ -469,16 +469,16 @@ Updated: 2026-10-08
 
 Work with me · Contract projects
 
-# Product design and AI-assisted  app development.
+# Product design and AI-assisted app development.
 
-I design and build iOS and web apps as one person — product strategy, UX, UI, code and launch. I shipped Numi and Tysha to the App Store and built Karta, a two-sided web platform, on my own with AI tooling. If you have an idea, a prototype that needs to become real, or a product that needs a designer who can also ship, this is how we can work together.
+I design and build iOS and web apps as one person — product strategy, UX, UI, code and launch. I shipped Numi and Tysha to the App Store and built Karta, a two-sided web platform, with AI tooling and no engineering team. If you have an idea, a prototype that needs to become real, or a product that needs a designer who can also ship, this is how we can work together.
 
 - **Format** · Remote, with teams in Europe and the US
 - **Platforms** · iOS (Swift, SwiftUI) and web (React, TypeScript, Next.js)
 - **Tooling** · Figma · Claude Code · Cursor · Xcode · TestFlight
 - **Also open to** · Senior product design roles
 
-[ Discuss your app  ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [How it works ↓](https://imdennie.com/work-with-me.html#engagements)
+[ Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [How it works ↓](https://imdennie.com/work-with-me.html#engagements)
 
 **01** — Engagements
 
@@ -498,7 +498,7 @@ Best for founders and small teams who need one person to design and ship the fir
 
 ### Working MVP or prototype
 
-A clearly scoped core workflow, built for real: a deployed web build or an installable iOS build on TestFlight, plus an honest list of what is still needed for production. Enough to test with users, raise on, or hand to an engineering team.
+A clearly scoped core workflow, built for real: a deployed web build or an installable iOS build on TestFlight, plus an honest list of what is still needed for production. Enough to test with users, show to investors, or hand to an engineering team.
 
 Best for validating a product before committing to a full build.
 
@@ -508,13 +508,13 @@ Best for validating a product before committing to a full build.
 
 Ongoing UX improvements, new features, coded components and iteration on an existing product — working inside your team’s codebase and conventions, as the designer who also ships.
 
-Best for products with a team that needs design capacity that turns into working code.
+Best for products with a team that needs design work that ships as code.
 
 **02** — What you receive
 
 ## What a project includes, and what we decide together.
 
-The left column comes with every engagement. The right column is real work that some products need and others don’t, so it is scoped per project and named in the proposal rather than assumed.
+The first list comes with every engagement. The second is real work that some products need and others don’t, so it is scoped per project and named in the proposal rather than assumed.
 
 ### Included in every engagement
 
@@ -534,31 +534,25 @@ The left column comes with every engagement. The right column is real work that 
 
 **03** — Proof
 
-## Shipped on my own, with the same workflow.
+## Built on my own, with the same workflow.
 
 Three products, each with a case study that spells out what I built, what AI assisted with, and what stayed a human decision. Two are on the App Store; the third has a public working demo.
-
--
 
 ### Numi
 
 Solo design & build · iOS · SwiftUI · Released on the App Store
 
-AI nutrition tracking for iPhone: photo-based meal logging with a vision model, deterministic insights, and fasting and weight on one timeline.
+AI nutrition tracking for iPhone: photo-based meal logging with a vision model, a deterministic health score, and fasting and weight on one timeline.
 
 [Case study](https://imdennie.com/case/numi.html#build) [App Store](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [getnumi.app](https://getnumi.app)
 
--
-
 ### Tysha
 
-Solo design & build · iOS · Offline, real-time audio · 5.0 App Store rating
+Solo design & build · iOS · Offline, real-time audio · Released on the App Store, 5.0 rating
 
-Sleep sounds for babies and tired parents: real-time synthesised sound, saved Rooms, a fading timer, Siri and Lock Screen control. No accounts, no ads, no backend.
+Sleep sounds for babies and tired parents: real-time synthesized sound, saved Rooms, a fading timer, Siri and Lock Screen control. No accounts, no ads, no sign-up.
 
 [Case study](https://imdennie.com/case/tysha.html#build) [App Store](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
-
--
 
 ### Karta
 
@@ -574,7 +568,7 @@ QR ordering and payments for restaurants: guests scan, browse in their language,
 
 ### Do you write the code yourself?
 
-Yes. Claude Code and Cursor generate first implementations from my designs; I review, change and test that code, and I am responsible for what ships. Numi and Tysha on the App Store, and Karta’s guest app and dashboard, were all built this way, with no engineering team.
+Yes, with AI writing the first draft. Claude Code and Cursor generate first implementations from my designs; I review, change and test that code, and I’m responsible for what ships. Numi and Tysha on the App Store, and Karta’s guest app and dashboard, were all built this way, with no engineering team.
 
 ### Which platforms do you build for?
 
@@ -582,7 +576,7 @@ iOS, in Swift and SwiftUI, and the web, in React, TypeScript and Next.js. I don�
 
 ### Which AI tools do you use, and where?
 
-Two separate things. To build the product: Claude Code and Cursor for code, Figma for design. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and language models (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
+Two separate things. To build the product: Claude Code and Cursor for code, Figma for design. Inside the product, only when it needs it: vision models (Numi’s photo analysis) and AI recommendations (Karta’s menu recommender). Every case study has a section on [what I built and how I used AI](https://imdennie.com/case/numi.html#build).
 
 ### Who owns the source code and the designs?
 
@@ -594,7 +588,7 @@ Remote and async-first, with regular working builds — TestFlight for iOS, a pr
 
 ### How do you scope and estimate?
 
-Start with a short written brief and a call. I come back with a proposal: what the first release includes and leaves out, which of the per-project parts are in (backend, integrations, payments, analytics, support), and an estimate. There are no prices on this page because every product is different, and I won’t quote capacity or start dates before we have talked.
+Start with a short written brief and a call. I come back with a proposal: what the first release includes and leaves out, which of the per-project parts are in (backend, integrations, payments, analytics, support), and an estimate. Every product is different, so there are no fixed prices here; the estimate and the timing come with the proposal, once we’ve talked.
 
 ### Can you join an existing product or team?
 
@@ -610,14 +604,14 @@ Yes, senior product design roles alongside contract work. The [résumé](https:/
 
 A few lines are enough: what it is, who it is for, where it stands today — idea, prototype or live product — and the platform you have in mind. I reply with questions, then a proposal.
 
-[ Discuss your app  ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [ LinkedIn  ](https://www.linkedin.com/in/dennieo/)
+[ Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [ LinkedIn ](https://www.linkedin.com/in/dennieo/)
 
-[ See the workflow on a shipped product Numi — what I built and how I used AI    ](https://imdennie.com/case/numi.html#build) [ Writing I shipped two iOS apps solo. Here’s what AI changed.    ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html)
+[ See the workflow on a shipped product Numi — what I built and how I used AI ](https://imdennie.com/case/numi.html#build) [ Writing I shipped two iOS apps solo. Here’s what AI changed. ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html)
 
 
 ---
 
-## Numi — AI iOS App Designed & Built by Dennie Ordynskyi
+## Numi — AI Nutrition iOS App Designed & Built by Dennie Ordynskyi
 
 Source: https://imdennie.com/case/numi.html
 
@@ -634,13 +628,13 @@ A nutrition app that kills the tap-tap-tap of manual food logging. Snap a photo,
 - **Platform** · iOS (SwiftUI)
 - **Scope** · Concept → UX → UI → build → App Store
 
-[ View on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app  ](https://getnumi.app) [How it was built ↓](https://imdennie.com/case/numi.html#build)
+[ View on the App Store ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app ](https://getnumi.app) [How it was built ↓](https://imdennie.com/case/numi.html#build)
 
 ![Numi product overview](https://imdennie.com/dist/img/covers/open-studio/numi.webp)
 
 **01** — Overview
 
-Most trackers ask you to search a database and do portion math  three times a day. Numi’s bet is that the log has to disappear into a single tap — and that the numbers only matter if the app tells you what they mean.
+Most trackers ask you to search a database and do portion math three times a day. Numi’s bet is that the log has to disappear into a single tap — and that the numbers only matter if the app tells you what they mean.
 
 My role: Founder · Design · Build
 
@@ -650,7 +644,7 @@ Surfaces: Logging · Insights · Fasting
 
 Core tech: Vision AI · SwiftUI
 
-Built with: Claude Code · Cursor · Xcode
+Built with: AI coding tools · Xcode
 
 Status: Released on the App Store
 
@@ -662,20 +656,20 @@ What I owned, what the tools accelerated, and which calls stayed human. Two thin
 
 My responsibility: Product definition and positioning, UX and UI, the design system, the SwiftUI codebase, the photo-analysis and correction flows, testing on device, and the App Store submission and release.
 
-Implementation: Native iOS app in Swift and SwiftUI, built in Xcode, tested through TestFlight, released on the App Store. Meal photos are analysed by a vision model; the health score is deterministic arithmetic over named inputs, not a model output; insights that cannot cite something real about the person’s day do not render.
+Implementation: Native iOS app in Swift and SwiftUI, built in Xcode and released on the App Store. Meal photos are analyzed by a vision model; the health score is deterministic arithmetic over named inputs, not a model output; insights that cannot cite something real about the person’s day do not render.
 
-AI-assisted development: Claude Code and Cursor generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
+AI-assisted development: AI coding tools generated first implementations from my flows — screens, state, the analysis request — so a design in the morning could be a working build on my phone by the evening. Iteration then happened in the real app, over real meals, not in a prototype.
 
 My review and decisions: Which surfaces the model writes to and where a human confirms; the data model for meals, fasting and weight; reviewing, changing and testing generated code; what shipped in 1.0 and what waited.
 
-Release status: Published on the App Store, 2025 → present. [View on the App Store](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
+Release status: Released on the App Store, 2025 → present. [View on the App Store](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
 
 One build loop, start to finish
 
-- **Rough flow.** Photo-first logging as four screens: shutter → analysis → result → save.
-- **AI-generated first implementation.** Claude Code turned that flow into the first running SwiftUI screens and the vision request. That first version showed the analysis as a clean summary card, with editing behind a tap.
-- **What I changed.** In use, the finished look made people accept numbers that were sometimes 30% off on portion size — corrections dropped off. I rebuilt the result as a list where every item is adjustable in one tap, made confirmation an explicit action, and replaced the spinner with a staged reveal: reading the image → identifying items → estimating portions.
-- **Working result.** A multi-item dish logs from one photo in under ten seconds, every value is correctable in place, and the flow went through many working versions over real dinners before launch.
+1. **Rough flow.** Photo-first logging: shutter → analysis → result → save.
+2. **AI-generated first implementation.** AI coding tools turned that flow into the first running SwiftUI screens and the vision request. The first version I built showed the analysis as a clean summary card, with editing behind a tap.
+3. **What I changed.** In use, the finished look made people accept numbers that were sometimes 30% off on portion size — corrections dropped off. I rebuilt the result as a list where every item is adjustable in one tap, made confirmation an explicit action, and replaced the spinner with a staged reveal: reading the image → identifying items → estimating portions.
+4. **Working result.** A multi-item dish logs from one photo in under ten seconds, every value is correctable in place, and the flow went through many working versions over real dinners before launch.
 
 **A limitation I diagnosed and resolved:** the first natural-language input parsed a typed sentence and saved it straight away, with a toast. It read well in a screen recording and was worse than manual entry in practice, because a wrong field was stored silently. The fix was not a better prompt: the parse now renders as a filled form the user glances at and confirms before anything becomes real.
 
@@ -687,7 +681,7 @@ More on these decisions: [AI UX patterns that survive contact with a real model]
 
 Every food diary starts the same way: motivated. Then real life hits — a rushed lunch, a shared plate, a dish with no barcode — and the friction compounds. Search, scroll, guess the grams, repeat. Within a couple of weeks most people just… stop.
 
-So the real design problem was never “show more nutrition data.” It was protect the habit  — make the first log of the day effortless, and make the data earn its place by changing what the person does next.
+So the real design problem was never “show more nutrition data.” It was protect the habit — make the first log of the day effortless, and make the data earn its place by changing what the person does next.
 
 **04** — Product thinking
 
@@ -731,7 +725,7 @@ Already disciplined; cares about macros, fasting windows and trends. Will stay i
 
 - “
 
-People don’t quit tracking because they stop caring — they quit because it’s work.  Friction is the enemy, not willpower.
+People don’t quit tracking because they stop caring — they quit because it’s work. Friction is the enemy, not willpower.
 
 - “
 
@@ -739,7 +733,7 @@ Users don’t want more charts; they want to be told one thing — “are you on
 
 - “
 
-The bar for effortless: even a complex, multi-item dish  logs in under 10 seconds from a single photo.
+The bar for effortless: even a complex, multi-item dish logs in under 10 seconds from a single photo.
 
 **06** — Key UX & UI decisions
 
@@ -830,9 +824,9 @@ Designer-engineer, end-to-end
 
 ## See it running, or read another study.
 
-[ View on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app  ](https://getnumi.app) [All work](https://imdennie.com/index.html#work)
+[ View on the App Store ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app ](https://getnumi.app) [All work](https://imdennie.com/index.html#work)
 
-[ Next case study Tysha — baby sleep    ](https://imdennie.com/case/tysha.html) [ Case study Karta — restaurant platform    ](https://imdennie.com/case/karta.html)
+[ Next case study Tysha — baby sleep ](https://imdennie.com/case/tysha.html) [ Case study Karta — restaurant platform ](https://imdennie.com/case/karta.html)
 
 
 ---
@@ -850,13 +844,13 @@ Baby sleep · iOS · Founder product
 Tysha is white noise for the 3 a.m. shift — real-time sound for settling a baby, designed to be run one-handed, in the dark, by someone who is exhausted and out of patience.
 
 - **Role** · Founder, Product Designer & Engineer
-- **Timeline** · 2026 → live
+- **Timeline** · 2026 → present
 - **Platform** · iOS · Audio/DSP
 - **Scope** · Concept → UX → UI → build → App Store
-- **Team** · Solo, with AI tooling (Claude Code, Cursor)
+- **Team** · Solo, with AI tooling
 - **Status** · Live on the App Store
 
-[ View on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [How it was built ↓](https://imdennie.com/case/tysha.html#build)
+[ View on the App Store ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [How it was built ↓](https://imdennie.com/case/tysha.html#build)
 
 ![Tysha product overview](https://imdennie.com/dist/img/covers/open-studio/tysha.webp)
 
@@ -866,26 +860,26 @@ The design brief was a moment: 3 a.m., one hand, a crying baby, and a screen too
 
 ## No AI in the product. A lot of AI in building it.
 
-Tysha has no model inside it: it is a real-time audio app that has to work offline, in under a second, at 3 a.m. That makes it the clearer proof of AI-assisted building — the tooling shipped a native audio app, not a chat feature.
+Tysha has no model inside it: it is a real-time audio app that has to work offline, in under a second, at 3 a.m. That makes it the clearer proof of AI-assisted building — what the tools helped ship is a native audio app, not a chat feature.
 
 My responsibility: Product definition, UX and UI, the sound library and its copy, the iOS codebase and the real-time audio engine, Siri and Lock Screen control, testing on device, and the App Store release.
 
-Implementation: Native iOS app in Swift, built in Xcode, released through TestFlight and the App Store. Sound is synthesised in real time on the device — white, pink and brown noise and the rest of the library — rather than played from looped files, so it never repeats and needs no connection. No accounts, no ads, no backend.
+Implementation: Native iOS app, released on the App Store. Sound is synthesized in real time on the device — white, pink and brown noise and the rest of the library — rather than played from looped files, so it never repeats and needs no connection. No accounts, no ads, no sign-up.
 
-AI-assisted development: Claude Code and Cursor wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief.
+AI-assisted development: AI coding tools wrote the first implementations of the mixer, the saved “Rooms”, the fading timer and the Siri / Lock Screen controls from my flows; I iterated on the running app against the 3 a.m. brief.
 
 My review and decisions: Synthesis over looping; offline-first with no account; what the sound categories are called and how they reassure; the size of every tap target; reviewing, changing and testing generated code; when it was good enough to submit.
 
-Release status: Published on the App Store, 2026 → present; 5.0 App Store rating at the time of writing. [View on the App Store](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
+Release status: Released on the App Store, 2026 → present; 5.0 App Store rating at the time of writing. [View on the App Store](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
 
 One build loop, start to finish
 
-- **Rough flow.** One screen: a near-black canvas, floating sound nodes you tap in and out, one big play button under the thumb.
-- **AI-generated first implementation.** Claude Code produced the first mixer from that sketch — nodes, a play control and audio playback — running on my phone the same day.
-- **What I changed.** The decisions that made it Tysha rather than a generic sound app: real-time synthesis instead of looped files, tap-to-blend nodes instead of precise sliders, a warm near-black surface that does not light up a nursery, and no account or ads anywhere.
-- **Working result.** Sound playing within a second of opening, mixes saved as Rooms, started from Siri or the Lock Screen, and faded out by a timer — with the phone face-down on the nightstand.
+1. **Rough flow.** One screen: a near-black canvas, floating sound nodes you tap in and out, one big play button under the thumb.
+2. **AI-generated first implementation.** AI coding tools produced the first mixer from that sketch — nodes, a play control and audio playback — running on my phone the same day.
+3. **What I decided.** The decisions that made it Tysha rather than a generic sound app: real-time synthesis instead of looped files, tap-to-blend nodes instead of precise sliders, a warm near-black surface that does not light up a nursery, and no account or ads anywhere.
+4. **Working result.** Sound on the first tap (the brief was under a second from opening), mixes saved as Rooms, started from Siri or the Lock Screen, and faded out by a timer — with the phone face-down on the nightstand.
 
-**A limitation I diagnosed and resolved:** looped audio files have a seam. A parent put it exactly: “the repeat wakes me before it wakes the baby.” Rather than hunting for a longer loop, I moved sound generation to real time, which removed the seam entirely and, as a side effect, removed the need for downloads or a connection.
+**A limitation I designed around:** looped audio files have a seam. A parent put it exactly: “the repeat wakes me before it wakes the baby.” Rather than hide the seam behind a longer loop, Tysha synthesizes its sound in real time on the device, which removes the seam entirely and, as a side effect, removes the need for downloads or a connection.
 
 Why this app, and what the tooling did and did not change: [I shipped two iOS apps solo](https://imdennie.com/blog/shipping-apps-solo-with-ai.html).
 
@@ -895,7 +889,7 @@ Why this app, and what the tooling did and did not change: [I shipped two iOS ap
 
 A parent reaching for a white-noise app at 3 a.m. is half-asleep, holding a baby with one arm, in a dark room, with zero patience. Most apps meet that moment with the opposite: sign-in walls, ads, audible looping tracks, buried controls, and a screen that lights up the whole nursery.
 
-So the problem wasn’t “make white noise.” It was design for the worst moment of the day  — and get out of the way fast enough that the parent can put the phone down and the baby can settle.
+So the problem wasn’t “make white noise.” It was design for the worst moment of the day — and get out of the way fast enough that the parent can put the phone down and the baby can settle.
 
 **03** — Product thinking
 
@@ -1022,9 +1016,9 @@ Ads, ever
 
 ## Hear it, or read another study.
 
-[ View on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [All work](https://imdennie.com/index.html#work)
+[ View on the App Store ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [All work](https://imdennie.com/index.html#work)
 
-[ Next case study Karta — restaurant platform    ](https://imdennie.com/case/karta.html) [ Case study Numi — AI nutrition    ](https://imdennie.com/case/numi.html)
+[ Next case study Karta — restaurant platform ](https://imdennie.com/case/karta.html) [ Case study Numi — AI nutrition ](https://imdennie.com/case/numi.html)
 
 
 ---
@@ -1045,10 +1039,10 @@ Karta is a two-sided platform: guests scan the sticker on their table to order a
 - **Timeline** · 2026 → public demo
 - **Platform** · Web · guest + back office
 - **Scope** · Two-sided product, end-to-end
-- **Team** · Solo, with AI tooling (Claude Code, Cursor)
+- **Team** · Solo, with AI tooling
 - **Status** · Working platform, public demo
 
-[ Try the live demo  ](https://karta-nu.vercel.app/) [How it was built ↓](https://imdennie.com/case/karta.html#build)
+[ Try the live demo ](https://karta-nu.vercel.app/) [How it was built ↓](https://imdennie.com/case/karta.html#build)
 
 ![Karta product overview](https://imdennie.com/dist/img/covers/open-studio/karta.webp)
 
@@ -1060,9 +1054,9 @@ Karta is a web platform with a guest ordering app and an owner back office. It h
 
 My responsibility: Product definition for both audiences, UX and UI, the shared design system, the guest web app, the owner dashboard, the AI menu recommender, and the public demo.
 
-Implementation: A mobile-web guest app and a desktop back office built as one web product with a shared design system and data model, deployed on Vercel. The guest menu needs no app or account; the dashboard shows the floor plan, menu editor, QR stickers, analytics and the settlement split. The recommender only suggests dishes that are actually on the menu.
+Implementation: A mobile-web guest app and a desktop back office built as one web product with a shared design system and data model, deployed on Vercel. The guest menu needs no app or account; the dashboard shows the floor plan, menu editor, QR stickers, analytics and the settlement split.
 
-AI-assisted development: Claude Code and Cursor wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
+AI-assisted development: AI coding tools wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
 
 My review and decisions: One system and data model for two audiences; which numbers an owner must see to trust the split; a guest flow with zero sign-up; what is in the demo and what is not; reviewing, changing and testing generated code.
 
@@ -1070,12 +1064,12 @@ Release status: Working two-sided platform with a public demo. The tips and tabl
 
 One build loop, start to finish
 
-- **Rough flow.** Scan → menu → order → pay on the guest side, and the owner’s view of that same order on the other.
-- **AI-generated first implementation.** Claude Code produced the guest menu, the order sheet and a first dashboard from those flows and the design-system tokens.
-- **What I changed.** A dashboard of totals is not enough — owners adopt a money tool only when they can see where every euro goes — so the settlement split to kitchen, bar and the tip pool became a visible, real-time row instead of back-end plumbing. On the guest side I removed every step between scan and menu: no account, no install, language auto-detected.
-- **Working result.** In the demo a guest can scan, browse in their language, ask the AI waiter, order and pay, and the owner sees the order and the split on the dashboard.
+1. **Rough flow.** Scan → menu → order → pay on the guest side, and the owner’s view of that same order on the other.
+2. **AI-generated first implementation.** AI coding tools produced the guest menu, the order sheet and a first dashboard from those flows and the design-system tokens.
+3. **What I decided.** A dashboard of totals is not enough — owners adopt a money tool only when they can see where every euro goes — so the settlement split to kitchen, bar and the tip pool is a visible, real-time row on the dashboard rather than hidden plumbing. On the guest side, nothing stands between scan and menu: no account, no install, language auto-detected.
+4. **Working result.** In the demo a guest can scan, browse in their language, ask the AI waiter and put together an order; the owner dashboard shows revenue, tips and the settlement split.
 
-**A limitation I diagnosed and resolved:** an open-ended AI waiter will happily recommend a dish the kitchen does not serve. The recommender is constrained to the live menu, so a suggestion is always something the guest can actually order — and the chat is a one-sentence “help me choose”, not a general assistant.
+**A limitation I designed around:** an open-ended AI waiter will happily recommend a dish the kitchen does not serve. The recommender is constrained to the live menu, so a suggestion is always something the guest can actually order — and the chat is a one-sentence “help me choose”, not a general assistant.
 
 **02** — The problem
 
@@ -1083,11 +1077,11 @@ One build loop, start to finish
 
 Paper menus that can’t be translated. A card terminal that walks to the table. A waiter chasing the bill. Allergens nobody can look up. Tips that feel awkward. And a POS that doesn’t talk to any of it — so every busy service leaks time and turns tables slower.
 
--  Guests wait to order, then wait again to pay
--  No translation, no allergen info at the table
--  Splitting a bill and tipping is clumsy
--  Owners reconcile kitchen, bar and tips by hand
--  “Install our app” is a non-starter for a walk-in
+- Guests wait to order, then wait again to pay
+- No translation, no allergen info at the table
+- Splitting a bill and tipping is clumsy
+- Owners reconcile kitchen, bar and tips by hand
+- “Install our app” is a non-starter for a walk-in
 
 **03** — Product thinking
 
@@ -1163,7 +1157,7 @@ Owners won’t adopt anything that means manual reconciliation — so the split 
 
 - “
 
-The bets to prove out next: higher tips  and faster table turns  from fewer, quicker interactions.
+The bets to prove out next: higher tips and faster table turns from fewer, quicker interactions.
 
 **06** — Key UX & UI decisions
 
@@ -1226,7 +1220,7 @@ A working two-sided platform with a public demo. The first two are goals to prov
 
 +25%
 
-Tips · goal, not yet measured
+Tips · goal
 
 Faster
 
@@ -1244,9 +1238,9 @@ Audiences, one system
 
 ## Try the demo, or read another study.
 
-[ Try the live demo  ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/index.html#work)
+[ Try the live demo ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/index.html#work)
 
-[ Next case study Numi — AI nutrition    ](https://imdennie.com/case/numi.html) [ Case study Tysha — baby sleep    ](https://imdennie.com/case/tysha.html)
+[ Next case study Numi — AI nutrition ](https://imdennie.com/case/numi.html) [ Case study Tysha — baby sleep ](https://imdennie.com/case/tysha.html)
 
 
 ---
@@ -1263,7 +1257,7 @@ Writing
 
 Practical writing on design careers, AI products, and what happens when a designer ships apps alone. No fluff, no process theater.
 
--  [
+- [
 
 ![A laptop and a whiteboard titled “A brighter tomorrow” listing six steps — learn the basics, practice and build, get feedback, build a portfolio, land opportunities, keep growing — on a camp table beside a van, overlooking the sea at sunset](https://imdennie.com/dist/img/blog/how-to-become-a-product-designer.jpg)
 
@@ -1273,36 +1267,36 @@ July 2026 · Careers in design · 9 min read
 
 My degree is in tourism. Here's the actual path into product design — the skills that matter now, a portfolio with zero experience, the first job, and an honest take on the AI question.
 
-Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
--  [ July 2026 · Building in public · 8 min read
+Read the guide → ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
+- [ July 2026 · Building in public · 8 min read
 
 ## I shipped two iOS apps solo — what AI changed about being a designer
 
 After 14 years designing products other people built, I took Numi and Tysha from idea to the App Store alone. What AI tools actually changed — and what they didn't touch at all.
 
-Read the story →  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html)
--  [ July 2026 · AI & design · 7 min read
+Read the story → ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html)
+- [ July 2026 · AI & design · 7 min read
 
 ## Designing AI products: 6 lessons from building an AI nutrition app
 
 AI products are probabilistic — sometimes wrong, always uncertain, never instant. Six reusable UX lessons on uncertainty, latency, correction loops and failure states, from a shipped product.
 
-Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html)
--  [ August 2026 · Design practice · 7 min read
+Read the lessons → ](https://imdennie.com/blog/designing-ai-products.html)
+- [ August 2026 · Design practice · 7 min read
 
 ## AI product design: designing for the cost of being wrong
 
 AI product design is ordinary product design plus one new variable: the feature can be confidently wrong and you cannot tell which time. I name the wrongness budget, separate draft surfaces from commit surfaces, and go through the decisions I actually changed after shipping.
 
-Read the piece →  ](https://imdennie.com/blog/ai-product-design.html)
--  [ September 2026 · Design & ML · 8 min read
+Read the piece → ](https://imdennie.com/blog/ai-product-design.html)
+- [ September 2026 · Design & ML · 8 min read
 
 ## UX for machine learning: the interface is a measuring device
 
 Machine learning products have three time horizons, and most design writing only covers the first one. Here is what I learned shipping ML features about correction paths, checkability bias, and the fields that should never ask for confirmation.
 
 ](https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html)
--  [ September 2026 · AI interfaces · 11 min read
+- [ September 2026 · AI interfaces · 11 min read
 
 ## AI UX patterns that survive contact with a real model
 
@@ -1319,7 +1313,7 @@ Source: https://imdennie.com/blog/ai-product-design.html
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/) Design practice
+[All writing ](https://imdennie.com/blog/) Design practice
 
 # AI product design: designing for the cost of being wrong
 
@@ -1406,12 +1400,12 @@ My working prediction, and I am happy to be measured against it: the AI features
 
 ## A short pre-ship checklist
 
-- Name the wrongness budget for this surface in one sentence.
-- Confirm the model writes to a draft surface and a human presses commit.
-- Check that rejecting is at least as fast as accepting, and that revert exists.
-- Design against the longest, shortest and empty outputs.
-- Check the feature on a brand new account, not yours.
-- Read your worst-output file end to end before you sign it off.
+1. Name the wrongness budget for this surface in one sentence.
+2. Confirm the model writes to a draft surface and a human presses commit.
+3. Check that rejecting is at least as fast as accepting, and that revert exists.
+4. Design against the longest, shortest and empty outputs.
+5. Check the feature on a brand new account, not yours.
+6. Read your worst-output file end to end before you sign it off.
 
 None of this requires a model you trained or an evaluation harness. It requires deciding, before the interface exists, what happens when the thing is wrong. That decision is the design. Everything else is the same craft as before. I write up more of these decisions from the three products I run at [imdennie.com](https://imdennie.com/).
 
@@ -1426,7 +1420,7 @@ Source: https://imdennie.com/blog/ai-ux-patterns-that-survive-contact-with-a-rea
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/)
+[All writing ](https://imdennie.com/blog/)
 
 AI interfaces
 
@@ -1545,13 +1539,13 @@ Worth listing, because the popular AI UX pattern collections tend to include som
 
 ## A checklist you can run against your own AI feature
 
-- Can the user change every value the model produced, in one tap, without entering an edit mode?
-- Does your loading state show what is being understood, or only that something is happening?
-- For every number the user is expected to act on, can you name the inputs that produced it?
-- Is there a code path where your AI surface renders nothing, and does the layout survive it?
-- Are detect, suggest, and act separate steps, with the user on the last one?
-- Does the feature still work one-handed, offline, or in whatever your worst hour is?
-- Do you log corrections as a metric, and do you look at them more often than you look at engagement?
+1. Can the user change every value the model produced, in one tap, without entering an edit mode?
+2. Does your loading state show what is being understood, or only that something is happening?
+3. For every number the user is expected to act on, can you name the inputs that produced it?
+4. Is there a code path where your AI surface renders nothing, and does the layout survive it?
+5. Are detect, suggest, and act separate steps, with the user on the last one?
+6. Does the feature still work one-handed, offline, or in whatever your worst hour is?
+7. Do you log corrections as a metric, and do you look at them more often than you look at engagement?
 
 If the honest answer to five of those is no, the model is not your problem.
 
@@ -1566,7 +1560,7 @@ Source: https://imdennie.com/blog/designing-ai-products.html
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/) AI & design
+[All writing ](https://imdennie.com/blog/) AI & design
 
 # Designing AI products: 6 lessons from building an AI nutrition app
 
@@ -1625,11 +1619,11 @@ Read next
 
 ### I shipped two iOS apps solo — what AI changed about being a designer
 
-Read the story →  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ Careers in design · 9 min read
+Read the story → ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ Careers in design · 9 min read
 
 ### How to become a product designer in 2026 — advice from 14 years in
 
-Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
+Read the guide → ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
 
 **Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).
 
@@ -1642,7 +1636,7 @@ Source: https://imdennie.com/blog/how-to-become-a-product-designer.html
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/) Careers in design
+[All writing ](https://imdennie.com/blog/) Careers in design
 
 # How to become a product designer in 2026 — advice from 14 years in
 
@@ -1690,9 +1684,9 @@ This one is genuinely new. Most design teams now expect you to use AI tools in y
 
 I'm living proof you don't — and in fourteen years, nobody has ever asked about my diploma. What people ask for is evidence you can do the work. Here's the path I'd take today:
 
--  **Learn the fundamentals deliberately.** A couple of well-chosen courses beat a hundred YouTube videos. Study human–computer interaction basics, then copy great products — literally recreate screens from apps you admire until your hands know why they work.
--  **Solve real problems for real people, free if needed.** A local business, a nonprofit, a friend's side project. Constraints and stakeholders are what make a project real — and "real" is what portfolios live on.
--  **Ship something of your own.** This used to be optional. With today's AI tools, a designer can take an idea to a working product alone — I shipped [two apps to the App Store](https://getnumi.app) this way. Nothing in your portfolio will say "I can do this job" louder than a live product, even a tiny one.
+1. **Learn the fundamentals deliberately.** A couple of well-chosen courses beat a hundred YouTube videos. Study human–computer interaction basics, then copy great products — literally recreate screens from apps you admire until your hands know why they work.
+2. **Solve real problems for real people, free if needed.** A local business, a nonprofit, a friend's side project. Constraints and stakeholders are what make a project real — and "real" is what portfolios live on.
+3. **Ship something of your own.** This used to be optional. With today's AI tools, a designer can take an idea to a working product alone — I shipped [two apps to the App Store](https://getnumi.app) this way. Nothing in your portfolio will say "I can do this job" louder than a live product, even a tiny one.
 
 ## Building a portfolio when you have no experience
 
@@ -1729,11 +1723,11 @@ Read next
 
 ### I shipped two iOS apps solo — what AI changed about being a designer
 
-Read the story →  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ AI & design · 7 min read
+Read the story → ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [ AI & design · 7 min read
 
 ### Designing AI products: 6 lessons from building an AI nutrition app
 
-Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html)
+Read the lessons → ](https://imdennie.com/blog/designing-ai-products.html)
 
 **Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).
 
@@ -1746,7 +1740,7 @@ Source: https://imdennie.com/blog/shipping-apps-solo-with-ai.html
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/) Building in public
+[All writing ](https://imdennie.com/blog/) Building in public
 
 # I shipped two iOS apps solo — what AI changed about being a designer
 
@@ -1780,17 +1774,17 @@ I still design screens, but a growing share of "designing" now happens in the wo
 
 This is the part the hype skips, and it's where fourteen years of design earned its keep:
 
--  **Knowing what to build.** AI will happily build the wrong thing faster. Numi isn't "an AI calorie app" — it's a position against the misery of manual logging. Tysha isn't "a sound app" — it's one-handed, offline, instant, because that's what 3 a.m. actually requires. Those decisions are the product. No tool made them.
--  **Taste and editing.** AI output — code or UI — trends toward the average of everything it's seen. Every screen in both apps had a generic version first. The job was saying no to it, over and over.
--  **The last 20%.** App Store review, edge cases, empty states, what happens when the camera sees a plate that's half in shadow. Shipping is still shipping. It's just that one person can now afford to do all of it.
+- **Knowing what to build.** AI will happily build the wrong thing faster. Numi isn't "an AI calorie app" — it's a position against the misery of manual logging. Tysha isn't "a sound app" — it's one-handed, offline, instant, because that's what 3 a.m. actually requires. Those decisions are the product. No tool made them.
+- **Taste and editing.** AI output — code or UI — trends toward the average of everything it's seen. Every screen in both apps had a generic version first. The job was saying no to it, over and over.
+- **The last 20%.** App Store review, edge cases, empty states, what happens when the camera sees a plate that's half in shadow. Shipping is still shipping. It's just that one person can now afford to do all of it.
 
 ## What this means if you're a designer
 
 I don't think every designer needs to become a founder. I do think the ground has moved under our role, in a direction that favors us:
 
--  **Designers are the best-positioned people in tech right now.** We've always known what to build and how it should feel; building was the locked door. The door is open.
--  **A shipped side project is the new portfolio piece.** Hiring teams now routinely ask for evidence of AI fluency. One live product answers every version of that question — it proves product thinking, craft, technical fluency and follow-through in a single link.
--  **Start smaller than feels impressive.** Tysha is a "small" app and it taught me as much as products with teams behind them. Pick a problem from your own week, scope it to one core loop, and take it all the way to shipped. All the way — the learning is disproportionately in the last mile.
+- **Designers are the best-positioned people in tech right now.** We've always known what to build and how it should feel; building was the locked door. The door is open.
+- **A shipped side project is the new portfolio piece.** Hiring teams now routinely ask for evidence of AI fluency. One live product answers every version of that question — it proves product thinking, craft, technical fluency and follow-through in a single link.
+- **Start smaller than feels impressive.** Tysha is a "small" app and it taught me as much as products with teams behind them. Pick a problem from your own week, scope it to one core loop, and take it all the way to shipped. All the way — the learning is disproportionately in the last mile.
 
 **The one-line takeaway:** AI didn't replace the designer. It removed the excuse that a designer can't ship. Fourteen years in, that's the biggest change to this job I've ever seen — and it's an upgrade.
 
@@ -1802,11 +1796,11 @@ Read next
 
 ### Designing AI products: 6 lessons from building an AI nutrition app
 
-Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html) [ Careers in design · 9 min read
+Read the lessons → ](https://imdennie.com/blog/designing-ai-products.html) [ Careers in design · 9 min read
 
 ### How to become a product designer in 2026 — advice from 14 years in
 
-Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
+Read the guide → ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
 
 **Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).
 
@@ -1819,7 +1813,7 @@ Source: https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-mea
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/)
+[All writing ](https://imdennie.com/blog/)
 
 Design & ML
 
@@ -1865,9 +1859,9 @@ A confirmation control is a claim about the user. It says: you know this better 
 
 So the test I use now, before adding any confirm-or-fix affordance:
 
-- **Does the person have ground truth the model lacks?** If yes, confirmation is the right control and should be one tap.
-- **Is it derived from something they do have ground truth on?** Then let them fix the upstream value and recompute. Do not make them edit the derivative.
-- **Neither?** Show it as an estimate with its inputs visible, and do not ask. A number nobody can check should never wear a checkbox.
+1. **Does the person have ground truth the model lacks?** If yes, confirmation is the right control and should be one tap.
+2. **Is it derived from something they do have ground truth on?** Then let them fix the upstream value and recompute. Do not make them edit the derivative.
+3. **Neither?** Show it as an estimate with its inputs visible, and do not ask. A number nobody can check should never wear a checkbox.
 
 Correcting a portion in Numi recalculates everything downstream from it. That is one edit against ground truth the person definitely has, and it moves the whole panel. The alternative, a form of twelve editable nutrition fields, would be technically more flexible and practically dead.
 

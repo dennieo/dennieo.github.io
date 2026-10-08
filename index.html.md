@@ -6,9 +6,9 @@ Product Designer & Design Engineer
 
 # I design and build iOS and web apps with AI.
 
-I’m Dennie Ordynskyi, a product designer with 14+ years of experience, including DraftKings. I help founders turn ideas into working products — from product strategy and UX to code and launch. I independently designed and built Numi, Tysha, and Karta.
+I’m Dennie, a product designer at DraftKings. I’m available to help founders take an app from idea to release — strategy, UX, UI and AI-assisted code — the way I built Numi, Tysha and Karta on my own.
 
-[Discuss your app  ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [See shipped products  ](https://imdennie.com/#work)
+[Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry) [See shipped products ](https://imdennie.com/#work)
 
 14+: Years in product design
 
@@ -24,33 +24,33 @@ Independent products & collaborations
 
 [![Numi home and photo-based meal analysis on two phones against pale lavender](https://imdennie.com/dist/img/covers/open-studio/numi.webp)](https://imdennie.com/case/numi.html)
 
-### [Numi  ](https://imdennie.com/case/numi.html)
+### [Numi ](https://imdennie.com/case/numi.html)
 
 AI nutrition tracking for iPhone.
 
-Solo design & build · iOS · SwiftUI · AI nutrition
+Solo design & build · iOS · SwiftUI · Vision AI
 
-[Live on the App Store  ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
+[Live on the App Store ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164)
 
 [![Tysha live sound mixer beside its fading sleep timer on a soft oatmeal background](https://imdennie.com/dist/img/covers/open-studio/tysha.webp)](https://imdennie.com/case/tysha.html)
 
-### [Tysha  ](https://imdennie.com/case/tysha.html)
+### [Tysha ](https://imdennie.com/case/tysha.html)
 
 Sleep sounds for babies and tired parents.
 
 Solo design & build · iOS · Offline, real-time audio
 
-[Live on the App Store  ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
+[Live on the App Store ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339)
 
 [![Karta restaurant dashboard with the guest pancake ordering screen on pale sage](https://imdennie.com/dist/img/covers/open-studio/karta.webp)](https://imdennie.com/case/karta.html)
 
-### [Karta  ](https://imdennie.com/case/karta.html)
+### [Karta ](https://imdennie.com/case/karta.html)
 
 QR ordering and payments for restaurants.
 
 Solo design & build · Web · Guest app + owner dashboard
 
-[Try the live demo  ](https://karta-nu.vercel.app/)
+[Try the live demo ](https://karta-nu.vercel.app/)
 
 ![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
 
@@ -62,7 +62,7 @@ Founding product designer
 
 ### Earlier work
 
-MyGoTrainer   Shipshape   Chatbox   E-commerce
+MyGoTrainer Shipshape Chatbox E-commerce
 
 ## How I build
 
@@ -70,7 +70,7 @@ Design and code, one person, AI-assisted
 
 Product and design: Product strategy, UX, UI, design systems, Figma
 
-AI-assisted development: Claude Code, Cursor — first drafts generated, every line reviewed before it ships
+AI-assisted development: Claude Code, Cursor — first drafts generated, reviewed and reworked before anything ships
 
 iOS: Swift, SwiftUI, Xcode, TestFlight, App Store release
 
@@ -86,32 +86,32 @@ I’m Dennie Ordynskyi. I’ve spent 14+ years designing products across mobile 
 
 I also build my own products. Numi, Tysha, and Karta are projects I’ve taken from the initial idea through design, code and release — on my own, with AI coding tools doing the first drafts.
 
-I’m based in Kyiv and work remotely with teams across the US and Europe — on contract design-and-build projects and in senior product design roles.
+I’m based in Kyiv and work remotely with teams across the US and Europe.
 
-[My story  ](https://imdennie.com/story.html)[My approach  ](https://imdennie.com/approach.html)[Resume  ](https://imdennie.com/resume.html)
+[My story ](https://imdennie.com/story.html)[My approach ](https://imdennie.com/approach.html)[Resume ](https://imdennie.com/resume.html)
 
 ## Notes on design & building
 
-[All writing  ](https://imdennie.com/blog/)
+[All writing ](https://imdennie.com/blog/)
 
 [
 
 ### How to become a product designer in 2026
 
-9 min read  ](https://imdennie.com/blog/how-to-become-a-product-designer.html) [
+9 min read ](https://imdennie.com/blog/how-to-become-a-product-designer.html) [
 
 ### I shipped two iOS apps solo. Here’s what AI changed.
 
-8 min read  ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [
+8 min read ](https://imdennie.com/blog/shipping-apps-solo-with-ai.html) [
 
 ### Designing AI products: six lessons from building one
 
-7 min read  ](https://imdennie.com/blog/designing-ai-products.html)
+7 min read ](https://imdennie.com/blog/designing-ai-products.html)
 
-## Let’s design and build  your product.
+## Let’s design and build your product.
 
-Open to contract product design and AI-assisted app development projects,  and to senior product design roles. Remote, with teams in Europe and the US.
+Open to contract product design and AI-assisted app development projects, and to senior product design roles. Remote, with teams in Europe and the US.
 
-[See how I work with clients  ](https://imdennie.com/work-with-me.html)
+[See how I work with clients ](https://imdennie.com/work-with-me.html)
 
-[Get in touch  ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry)
+[Discuss your app ](mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry)

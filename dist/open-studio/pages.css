@@ -92,7 +92,6 @@ figure { margin: 0; }
 /* Work with me: engagements, deliverables, proof and FAQ. */
 .hire-page h1 { text-wrap: balance; }
 .nowrap { white-space: nowrap; }
-.hire-page .meta { grid-template-columns: 1fr 1fr; }
 .hire-page .cards .card p + p { margin-top: 14px; font-size: 16px; }
 .hire-page .cards .card .fit { color: var(--subtle); font-size: 15px; }
 .deliverables { display: grid; grid-template-columns: 1fr 1fr; gap: 40px 60px; margin-top: 40px; align-items: start; }
@@ -101,8 +100,8 @@ figure { margin: 0; }
 .deliverables li { padding-left: 6px; margin-bottom: 12px; }
 .deliverables .col { border-top: 1px solid var(--line); padding-top: 24px; }
 .proof-list { margin: 44px 0 0; padding: 0; list-style: none; }
-.proof-list li { display: grid; grid-template-columns: 1fr 1.3fr auto; gap: 16px 40px; padding: 26px 0; border-top: 1px solid var(--line); align-items: start; }
-.proof-list li:last-child { border-bottom: 1px solid var(--line); }
+.proof-list > article { display: grid; grid-template-columns: 1fr 1.3fr auto; gap: 16px 40px; padding: 26px 0; border-top: 1px solid var(--line); align-items: start; }
+.proof-list > article:last-child { border-bottom: 1px solid var(--line); }
 .proof-list h3 { font-size: 24px; }
 .proof-list .proof-tag { display: block; color: var(--subtle); font-size: 15px; margin-top: 8px; }
 .proof-list p { color: var(--muted); font-size: 17px; }
@@ -215,6 +214,9 @@ figcaption { margin-top: 12px; color: var(--subtle); font-size: 14px; }
 .skill-group b { color: var(--ink); font-weight: 500; }
 .wide { grid-column: 1 / -1; }
 .edu .dates { display: block; margin-bottom: 10px; }
+@media (max-width: 1000px) {
+  .build-grid { grid-template-columns: 1fr; gap: 36px; }
+}
 @media (max-width: 760px) {
   main { padding-bottom: 70px; }
   .case-page .hero, .blog-head, .intro, .approach-intro { padding-top: 45px; }
@@ -227,7 +229,7 @@ figcaption { margin-top: 12px; color: var(--subtle); font-size: 14px; }
   .build-grid { grid-template-columns: 1fr; gap: 36px; }
   .build-facts .row { grid-template-columns: 1fr; gap: 6px; }
   .deliverables, .faq { grid-template-columns: 1fr; gap: 28px; }
-  .proof-list li { grid-template-columns: 1fr; gap: 10px; }
+  .proof-list > article { grid-template-columns: 1fr; gap: 10px; }
   .decision { margin-top: 46px; }
   .d-media { padding: 28px; }
   .d-media img { max-height: 440px; }

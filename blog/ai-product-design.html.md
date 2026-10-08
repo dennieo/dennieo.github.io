@@ -2,7 +2,7 @@ Source: https://imdennie.com/blog/ai-product-design.html
 
 Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/) Design practice
+[All writing ](https://imdennie.com/blog/) Design practice
 
 # AI product design: designing for the cost of being wrong
 
@@ -89,12 +89,12 @@ My working prediction, and I am happy to be measured against it: the AI features
 
 ## A short pre-ship checklist
 
-- Name the wrongness budget for this surface in one sentence.
-- Confirm the model writes to a draft surface and a human presses commit.
-- Check that rejecting is at least as fast as accepting, and that revert exists.
-- Design against the longest, shortest and empty outputs.
-- Check the feature on a brand new account, not yours.
-- Read your worst-output file end to end before you sign it off.
+1. Name the wrongness budget for this surface in one sentence.
+2. Confirm the model writes to a draft surface and a human presses commit.
+3. Check that rejecting is at least as fast as accepting, and that revert exists.
+4. Design against the longest, shortest and empty outputs.
+5. Check the feature on a brand new account, not yours.
+6. Read your worst-output file end to end before you sign it off.
 
 None of this requires a model you trained or an evaluation harness. It requires deciding, before the interface exists, what happens when the thing is wrong. That decision is the design. Everything else is the same craft as before. I write up more of these decisions from the three products I run at [imdennie.com](https://imdennie.com/).
 
