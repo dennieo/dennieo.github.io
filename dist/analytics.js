@@ -4,7 +4,8 @@
  * in each page's <head> — that's what Google's tag detection looks for. This
  * file only adds the extra, high-intent events on top of it:
  *   - link_click  (link_category: app_store, karta_demo, numi_site, prompt_io,
- *                  linkedin, github, shipshape, email, case_study, blog)
+ *                  linkedin, github, shipshape, email, case_study, blog,
+ *                  work_with_me)
  *   - resume_pdf  (someone saved / printed the resume)
  *
  * It pushes to the same dataLayer the inline tag created, so nothing loads
@@ -24,8 +25,11 @@
     var external = /^https?:\/\//i.test(href) && a.hostname !== location.hostname;
     if (!external) {
       // Internal navigation — page_view already covers it. Only flag the
-      // sections worth measuring intent on.
+      // sections worth measuring intent on. Same-page anchors and self-links
+      // (skip link, "How it works ↓", aria-current nav) are not intent.
+      if (a.pathname === location.pathname) return null;
       if (/\/case\//.test(a.pathname)) return "case_study";
+      if (/^\/work-with-me\.html$/.test(a.pathname)) return "work_with_me";
       if (/\/blog\//.test(a.pathname)) return "blog";
       return null;
     }

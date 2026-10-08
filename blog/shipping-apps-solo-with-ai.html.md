@@ -1,8 +1,8 @@
 Source: https://imdennie.com/blog/shipping-apps-solo-with-ai.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/) Building in public
+[All writing ](https://imdennie.com/blog/) Building in public
 
 # I shipped two iOS apps solo — what AI changed about being a designer
 
@@ -36,17 +36,17 @@ I still design screens, but a growing share of "designing" now happens in the wo
 
 This is the part the hype skips, and it's where fourteen years of design earned its keep:
 
--  **Knowing what to build.** AI will happily build the wrong thing faster. Numi isn't "an AI calorie app" — it's a position against the misery of manual logging. Tysha isn't "a sound app" — it's one-handed, offline, instant, because that's what 3 a.m. actually requires. Those decisions are the product. No tool made them.
--  **Taste and editing.** AI output — code or UI — trends toward the average of everything it's seen. Every screen in both apps had a generic version first. The job was saying no to it, over and over.
--  **The last 20%.** App Store review, edge cases, empty states, what happens when the camera sees a plate that's half in shadow. Shipping is still shipping. It's just that one person can now afford to do all of it.
+- **Knowing what to build.** AI will happily build the wrong thing faster. Numi isn't "an AI calorie app" — it's a position against the misery of manual logging. Tysha isn't "a sound app" — it's one-handed, offline, instant, because that's what 3 a.m. actually requires. Those decisions are the product. No tool made them.
+- **Taste and editing.** AI output — code or UI — trends toward the average of everything it's seen. Every screen in both apps had a generic version first. The job was saying no to it, over and over.
+- **The last 20%.** App Store review, edge cases, empty states, what happens when the camera sees a plate that's half in shadow. Shipping is still shipping. It's just that one person can now afford to do all of it.
 
 ## What this means if you're a designer
 
 I don't think every designer needs to become a founder. I do think the ground has moved under our role, in a direction that favors us:
 
--  **Designers are the best-positioned people in tech right now.** We've always known what to build and how it should feel; building was the locked door. The door is open.
--  **A shipped side project is the new portfolio piece.** Hiring teams now routinely ask for evidence of AI fluency. One live product answers every version of that question — it proves product thinking, craft, technical fluency and follow-through in a single link.
--  **Start smaller than feels impressive.** Tysha is a "small" app and it taught me as much as products with teams behind them. Pick a problem from your own week, scope it to one core loop, and take it all the way to shipped. All the way — the learning is disproportionately in the last mile.
+- **Designers are the best-positioned people in tech right now.** We've always known what to build and how it should feel; building was the locked door. The door is open.
+- **A shipped side project is the new portfolio piece.** Hiring teams now routinely ask for evidence of AI fluency. One live product answers every version of that question — it proves product thinking, craft, technical fluency and follow-through in a single link.
+- **Start smaller than feels impressive.** Tysha is a "small" app and it taught me as much as products with teams behind them. Pick a problem from your own week, scope it to one core loop, and take it all the way to shipped. All the way — the learning is disproportionately in the last mile.
 
 **The one-line takeaway:** AI didn't replace the designer. It removed the excuse that a designer can't ship. Fourteen years in, that's the biggest change to this job I've ever seen — and it's an upgrade.
 
@@ -58,10 +58,10 @@ Read next
 
 ### Designing AI products: 6 lessons from building an AI nutrition app
 
-Read the lessons →  ](https://imdennie.com/blog/designing-ai-products.html) [ Careers in design · 9 min read
+Read the lessons → ](https://imdennie.com/blog/designing-ai-products.html) [ Careers in design · 9 min read
 
 ### How to become a product designer in 2026 — advice from 14 years in
 
-Read the guide →  ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
+Read the guide → ](https://imdennie.com/blog/how-to-become-a-product-designer.html)
 
 **Dennie Ordynskyi** is a product designer with 14+ years of experience, currently designing large-scale consumer products at DraftKings. He's also the founder and designer of [Numi](https://getnumi.app) (AI nutrition) and [Tysha](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) (baby sleep) on the App Store. More at [imdennie.com](https://imdennie.com/) · [LinkedIn](https://www.linkedin.com/in/dennieo/).

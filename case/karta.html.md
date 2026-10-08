@@ -1,6 +1,6 @@
 Source: https://imdennie.com/case/karta.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
 Restaurant platform · Web · Founder product
 
@@ -9,27 +9,54 @@ Restaurant platform · Web · Founder product
 Karta is a two-sided platform: guests scan the sticker on their table to order and pay in their own language with no app, and owners get a full back office that runs the floor and splits every payment automatically.
 
 - **Role** · Founder, Product Designer & Engineer
-- **Timeline** · 2026 → live
+- **Timeline** · 2026 → public demo
 - **Platform** · Web · guest + back office
 - **Scope** · Two-sided product, end-to-end
+- **Team** · Solo, with AI tooling
+- **Status** · Working platform, public demo
 
-[ Try the live demo  ](https://karta-nu.vercel.app/) [Read the study ↓](https://imdennie.com/case/karta.html#problem)
+[ Try the live demo ](https://karta-nu.vercel.app/) [How it was built ↓](https://imdennie.com/case/karta.html#build)
 
 ![Karta product overview](https://imdennie.com/dist/img/covers/open-studio/karta.webp)
 
-**01** — The problem
+**01** — What I built and how I used AI
+
+## Two apps, one system, one person.
+
+Karta is a web platform with a guest ordering app and an owner back office. It has AI inside the product — the “help me choose” recommender — and it was built with AI-assisted development. Those are separate things, and this section keeps them apart.
+
+My responsibility: Product definition for both audiences, UX and UI, the shared design system, the guest web app, the owner dashboard, the AI menu recommender, and the public demo.
+
+Implementation: A mobile-web guest app and a desktop back office built as one web product with a shared design system and data model, deployed on Vercel. The guest menu needs no app or account; the dashboard shows the floor plan, menu editor, QR stickers, analytics and the settlement split.
+
+AI-assisted development: AI coding tools wrote first implementations of screens, components and the recommender flow from my designs; the shared design system kept both surfaces consistent while generated code was reviewed and reworked.
+
+My review and decisions: One system and data model for two audiences; which numbers an owner must see to trust the split; a guest flow with zero sign-up; what is in the demo and what is not; reviewing, changing and testing generated code.
+
+Release status: Working two-sided platform with a public demo. The tips and table-turn figures in the outcomes are goals to prove with restaurants, not measured results. [Try the live demo](https://karta-nu.vercel.app/)
+
+One build loop, start to finish
+
+1. **Rough flow.** Scan → menu → order → pay on the guest side, and the owner’s view of that same order on the other.
+2. **AI-generated first implementation.** AI coding tools produced the guest menu, the order sheet and a first dashboard from those flows and the design-system tokens.
+3. **What I decided.** A dashboard of totals is not enough — owners adopt a money tool only when they can see where every euro goes — so the settlement split to kitchen, bar and the tip pool is a visible, real-time row on the dashboard rather than hidden plumbing. On the guest side, nothing stands between scan and menu: no account, no install, language auto-detected.
+4. **Working result.** In the demo a guest can scan, browse in their language, ask the AI waiter and put together an order; the owner dashboard shows revenue, tips and the settlement split.
+
+**A limitation I designed around:** an open-ended AI waiter will happily recommend a dish the kitchen does not serve. The recommender is constrained to the live menu, so a suggestion is always something the guest can actually order — and the chat is a one-sentence “help me choose”, not a general assistant.
+
+**02** — The problem
 
 ## A restaurant runs on a dozen disconnected tools. The guest feels every seam.
 
 Paper menus that can’t be translated. A card terminal that walks to the table. A waiter chasing the bill. Allergens nobody can look up. Tips that feel awkward. And a POS that doesn’t talk to any of it — so every busy service leaks time and turns tables slower.
 
--  Guests wait to order, then wait again to pay
--  No translation, no allergen info at the table
--  Splitting a bill and tipping is clumsy
--  Owners reconcile kitchen, bar and tips by hand
--  “Install our app” is a non-starter for a walk-in
+- Guests wait to order, then wait again to pay
+- No translation, no allergen info at the table
+- Splitting a bill and tipping is clumsy
+- Owners reconcile kitchen, bar and tips by hand
+- “Install our app” is a non-starter for a walk-in
 
-**02** — Product thinking
+**03** — Product thinking
 
 ## Three bets that shaped the platform.
 
@@ -51,7 +78,7 @@ A single guest tap settles the bill and auto-routes money to kitchen, bar and ti
 
 The guest app and the owner back office share a design language and data model, so the whole platform stays coherent.
 
-**03** — Two sides of one product
+**04** — Two sides of one product
 
 ## The hardest part was serving both at once.
 
@@ -75,7 +102,7 @@ Owner · back office
 - Revenue, tips and top-dish analytics
 - Auto-routed settlement, no reconciliation
 
-**04** — Who it’s for
+**05** — Who it’s for
 
 ## Personas on both sides of the table.
 
@@ -103,9 +130,9 @@ Owners won’t adopt anything that means manual reconciliation — so the split 
 
 - “
 
-The bets to prove out next: higher tips  and faster table turns  from fewer, quicker interactions.
+The bets to prove out next: higher tips and faster table turns from fewer, quicker interactions.
 
-**05** — Key UX & UI decisions
+**06** — Key UX & UI decisions
 
 ## Where it became a real product.
 
@@ -139,7 +166,7 @@ The dashboard shows revenue, tips and — crucially — the settlement split rou
 
 ![Karta owner dashboard with settlement split](https://imdennie.com/dist/img/karta/dashboard@2x.jpg)
 
-**06** — Design system
+**07** — Design system
 
 ## One language across a phone and a control room.
 
@@ -158,19 +185,19 @@ Component language
 
 A shared system meant the guest app and the back office could be designed and built solo without the two sides drifting apart — one product, one voice.
 
-**07** — Outcomes
+**08** — Outcomes
 
 ## What shipped.
 
-A working two-sided platform with a live demo. A couple of these are early goals, not yet measured.
+A working two-sided platform with a public demo. The first two are goals to prove with restaurants, not measured results.
 
 +25%
 
-More in tips · goal
+Tips · goal
 
 Faster
 
-Payments & table turns
+Payments & table turns · goal
 
 0
 
@@ -180,10 +207,10 @@ Apps for guests to install
 
 Audiences, one system
 
-**08** — More
+**09** — More
 
 ## Try the demo, or read another study.
 
-[ Try the live demo  ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/index.html#work)
+[ Try the live demo ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/index.html#work)
 
-[ Next case study Numi — AI nutrition    ](https://imdennie.com/case/numi.html) [ Case study Tysha — baby sleep    ](https://imdennie.com/case/tysha.html)
+[ Next case study Numi — AI nutrition ](https://imdennie.com/case/numi.html) [ Case study Tysha — baby sleep ](https://imdennie.com/case/tysha.html)

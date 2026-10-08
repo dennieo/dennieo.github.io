@@ -1,6 +1,6 @@
 Source: https://imdennie.com/resume.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
 Resume
 
@@ -8,13 +8,13 @@ Save as PDF
 
 # Dennie Ordynskyi
 
-Product Designer — AI-powered consumer & B2B products
+Product Designer & Design Engineer — AI-powered consumer & B2B products, designed and built end to end
 
-Kyiv, Ukraine · Remote  [imdennie.com](https://imdennie.com) [linkedin.com/in/dennieo](https://www.linkedin.com/in/dennieo/) [gehucka@gmail.com ](mailto:gehucka@gmail.com)
+Kyiv, Ukraine · Remote [imdennie.com](https://imdennie.com) [linkedin.com/in/dennieo](https://www.linkedin.com/in/dennieo/) [gehucka@gmail.com ](mailto:gehucka@gmail.com)
 
 ## Summary
 
-Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has shipped three products from concept to launch — Numi (AI-powered nutrition, iOS), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, prototyping in code and shipping.
+Product designer with 14+ years turning complex problems into simple, intelligent products — including nearly a decade at DraftKings designing large-scale, regulated consumer experiences: the bet slip and checkout, the web sportsbook and retail betting kiosks. Independently, a founder who has designed and built three products with AI-assisted development — Numi (AI-powered nutrition, iOS, on the App Store), Tysha (baby sleep, iOS, 5.0 App Store rating) and Karta (QR ordering and payments for restaurants, web, public demo). I work across 0→1 product design, AI-powered experiences, complex product UX and design systems: defining the product, designing the experience, writing the code with Claude Code and Cursor, and shipping. Available for contract design-and-build projects.
 
 ## Experience
 
@@ -28,7 +28,7 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 - Started on the self-service betting kiosks for retail casino sportsbooks — designing within hardware and compliance constraints alongside hardware, operations and compliance teams — rolled out across multiple casinos and states.
 - Partner with product and engineering leads on the roadmap, review work across squads in design critiques, and drove cross-team initiatives spanning web and native.
 
-### Founder & Product Designer · Karta — QR ordering & payments, web
+### Founder, Product Designer & Engineer · Karta — QR ordering & payments, web
 
 2026 — Present
 
@@ -36,15 +36,15 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 - Owner back office with real-time floor plan, menu editor, analytics, POS integrations and auto-routed payment splits between kitchen, bar and staff tips.
 - Built the guest web app, owner dashboard, AI menu recommender and shared design system solo.
 
-### Founder & Product Designer · Numi — AI nutrition app (iOS)
+### Founder, Product Designer & Engineer · Numi — AI nutrition app (iOS)
 
 2025 — Present
 
-- Designed and built an AI-powered nutrition tracker end-to-end — concept, positioning, UX, design system and App Store release.
+- Designed and built an AI-powered nutrition tracker end-to-end — concept, positioning, UX, design system, SwiftUI codebase and App Store release — solo, with Claude Code and Cursor generating first implementations that I reviewed and shipped.
 - Photo-based meal logging: snap a photo and AI analyzes calories, macros and micronutrients — replacing manual food logging entirely.
 - Designed a personal “Metabolic Fingerprint” insight engine plus fasting, weight and hydration tracking.
 
-### Founder & Product Designer · Tysha — baby-sleep app (iOS)
+### Founder, Product Designer & Engineer · Tysha — baby-sleep app (iOS)
 
 2026 — Present
 
@@ -88,16 +88,16 @@ Product designer with 14+ years turning complex problems into simple, intelligen
 
 ## Skills
 
-**Product design**  Product strategy & discovery, end-to-end UX, UI & interaction design, design systems, rapid prototyping, user research, mobile (iOS/Android) & web
+**Product design** Product strategy & discovery, end-to-end UX, UI & interaction design, design systems, rapid prototyping, user research, mobile (iOS/Android) & web
 
-**AI**  AI product design, human–AI interaction, LLM-powered features, AI-assisted development & prototyping (concept → working product)
+**AI** AI product design, human–AI interaction, LLM-powered features, AI-assisted development & prototyping (concept → working product)
 
-**Ways of working**  0→1 and scale-up environments, cross-functional collaboration with engineering & PM, agile (Scrum/Kanban), mentoring
+**Ways of working** 0→1 and scale-up environments, cross-functional collaboration with engineering & PM, agile (Scrum/Kanban), mentoring
 
-**Languages**  English (professional), Ukrainian (native), Russian (professional)
+**Languages** English (professional), Ukrainian (native), Russian (professional)
 
-**Tools**  Figma & FigJam (design, prototyping) · Claude Code, Cursor and other AI coding tools · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
+**Tools** Figma & FigJam (design, prototyping) · Claude Code, Cursor and other AI coding tools · Swift/SwiftUI, Xcode, TestFlight · React, TypeScript, Next.js, Tailwind, Supabase, Vercel
 
 ## Education
 
-2002 — 2007  **Kyiv University of Tourism, Economics and Law** — Master’s degree  Additional coursework: Machine Learning — Stanford University, via Coursera
+2002 — 2007 **Kyiv University of Tourism, Economics and Law** — Master’s degree Additional coursework: Machine Learning — Stanford University, via Coursera

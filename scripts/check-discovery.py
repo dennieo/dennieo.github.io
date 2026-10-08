@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://imdennie.com/"
-PAGES = [ROOT / "index.html", ROOT / "story.html", ROOT / "approach.html", ROOT / "resume.html"]
+PAGES = [ROOT / "index.html", ROOT / "story.html", ROOT / "approach.html", ROOT / "resume.html", ROOT / "work-with-me.html"]
 PAGES += sorted((ROOT / "case").glob("*.html"))
 PAGES += sorted((ROOT / "blog").glob("*.html"))
 
@@ -111,14 +111,33 @@ home = (ROOT / "index.html").read_text()
 assert "https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164" in home
 assert "https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339" in home
 assert home.count("Live on the App Store") == 2
-assert "dist/open-studio/style.css?v=20261002-nav" in home
+assert "dist/open-studio/style.css?v=20261008-hire" in home
 for file in PAGES:
     text = file.read_text()
     header = text.split('<header class="site-header shell">', 1)[1].split("</header>", 1)[0]
     assert ">Resume</a>" in header, file
+    assert ">Work with me</a>" in header, file
     assert '<dialog class="site-menu" id="site-menu"' in text and "dist/open-studio/menu.js?v=20261002-nav" in text, file
-assert "dist/open-studio/main.js?v=20260929-hero" in home
-assert '<span class="hero-rotator" data-words="iOS apps.|web apps.|AI products.|design systems.">digital products.</span></h1>' in home
+    assert "<span>Work with me</span>" in text, file
+    assert "Open to contract design-and-build projects and senior product design roles" in text, file
+    assert "style.css?v=20261008-hire" in text, file
+    assert (file.name == "index.html" and file.parent == ROOT) or "pages.css?v=20261008-hire" in text, file
+    assert "Open to senior product design roles and select collaborations" not in text, file
+assert "dist/open-studio/main.js?v=20261008-hire" in home
+assert "hero-rotator" not in home and "hero-rotator" not in (ROOT / "dist/open-studio/main.js").read_text()
+assert '<h1 id="hero-title">I design and build iOS and web apps with AI.</h1>' in home
+assert '<p class="hero-role">Product Designer &amp; Design Engineer</p>' in home
+assert 'href="mailto:gehucka@gmail.com?subject=App%20design%20and%20build%20enquiry">Discuss your app' in home
+assert "https://karta-nu.vercel.app/" in home and 'id="how-i-build"' in home
+hire = (ROOT / "work-with-me.html").read_text()
+for needle in ("App from idea to release", "Working MVP or prototype", "Design and build partnership", "case/numi.html", "case/tysha.html", "case/karta.html", "App%20design%20and%20build%20enquiry"):
+    assert needle in hire, needle
+for case in ("numi", "tysha", "karta"):
+    case_text = (ROOT / f"case/{case}.html").read_text()
+    assert '<section id="build">' in case_text and "What I built and how I used AI" in case_text, case
+    kickers = re.findall(r'<p class="kicker"><b>(\d\d)</b>', case_text)
+    assert kickers == [f"{i:02d}" for i in range(1, len(kickers) + 1)], (case, kickers)
+assert numi.count("https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164") >= 3
 assert "a[href], button { cursor: pointer; }" in (ROOT / "dist/open-studio/style.css").read_text()
 expected_numi_images = [
     "device-meal-history.webp",
@@ -128,7 +147,7 @@ expected_numi_images = [
 ]
 numi_decisions = numi.split("Where the product thinking became pixels.", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
 assert re.findall(r'device-[^"/]+\.webp', numi_decisions) == expected_numi_images
-assert "/dist/open-studio/pages.css?v=20260923-tysha-device" in numi
+assert "/dist/open-studio/pages.css?v=20261008-hire" in numi
 expected_tysha_images = [
     "device-mixer.webp",
     "device-library.webp",
@@ -136,5 +155,5 @@ expected_tysha_images = [
 ]
 tysha_decisions = tysha.split("<!-- DECISIONS -->", 1)[1].split("<!-- DESIGN SYSTEM", 1)[0]
 assert re.findall(r'device-[^"/]+\.webp', tysha_decisions) == expected_tysha_images
-assert "/dist/open-studio/pages.css?v=20260923-tysha-device" in tysha
+assert "/dist/open-studio/pages.css?v=20261008-hire" in tysha
 print(f"Discovery checks passed for {len(PAGES)} pages and {len(urls)} sitemap URLs.")

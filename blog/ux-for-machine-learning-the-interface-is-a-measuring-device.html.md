@@ -1,8 +1,8 @@
 Source: https://imdennie.com/blog/ux-for-machine-learning-the-interface-is-a-measuring-device.html
 
-Updated: 2026-09-23
+Updated: 2026-10-08
 
-[All writing  ](https://imdennie.com/blog/)
+[All writing ](https://imdennie.com/blog/)
 
 Design & ML
 
@@ -48,9 +48,9 @@ A confirmation control is a claim about the user. It says: you know this better 
 
 So the test I use now, before adding any confirm-or-fix affordance:
 
-- **Does the person have ground truth the model lacks?** If yes, confirmation is the right control and should be one tap.
-- **Is it derived from something they do have ground truth on?** Then let them fix the upstream value and recompute. Do not make them edit the derivative.
-- **Neither?** Show it as an estimate with its inputs visible, and do not ask. A number nobody can check should never wear a checkbox.
+1. **Does the person have ground truth the model lacks?** If yes, confirmation is the right control and should be one tap.
+2. **Is it derived from something they do have ground truth on?** Then let them fix the upstream value and recompute. Do not make them edit the derivative.
+3. **Neither?** Show it as an estimate with its inputs visible, and do not ask. A number nobody can check should never wear a checkbox.
 
 Correcting a portion in Numi recalculates everything downstream from it. That is one edit against ground truth the person definitely has, and it moves the whole panel. The alternative, a form of twelve editable nutrition fields, would be technically more flexible and practically dead.
 
