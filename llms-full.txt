@@ -70,17 +70,9 @@ A navigator for Kyiv that never guesses where you are.
 
 Solo design & build · iOS · On-device routing & offline map · In development
 
-![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
-
-### Linc
-
-A cloud studio for content creators.
-
-Founding product designer
-
 ### Earlier work
 
-MyGoTrainer Shipshape Chatbox E-commerce
+Linc MyGoTrainer Shipshape Chatbox E-commerce
 
 ## How I build
 
