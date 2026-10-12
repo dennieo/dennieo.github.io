@@ -52,6 +52,14 @@ Solo design & build · Web · Guest app + owner dashboard
 
 [Try the live demo ](https://karta-nu.vercel.app/)
 
+[![Veylo route options across Kyiv beside a manual-steps turn card, on two phones against pale blue](https://imdennie.com/dist/img/covers/open-studio/veylo.webp)](https://imdennie.com/case/veylo.html)
+
+### [Veylo ](https://imdennie.com/case/veylo.html)
+
+A navigator for Kyiv that never guesses where you are.
+
+Solo design & build · iOS · On-device routing & offline map · In development
+
 ![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
 
 ### Linc

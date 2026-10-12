@@ -31,3 +31,12 @@ Exact generation prompts are saved alongside each cover as `*-prompt.txt`.
 These are composed presentation images: generated fine text and icons may differ
 slightly from the original screenshots. The original screenshots and galleries
 remain available; the existing cover files are preserved for rollback.
+
+## Veylo — 2026-10-12
+
+- **Veylo** (`veylo.webp`, 1340 × 1174): route options across Kyiv and the manual-steps turn card on
+  two phones against pale blue. Not image-generated: composed by `scripts/compose-veylo-images.swift`
+  from iPhone 17 Pro simulator screenshots of the app (build f409c8d, demo route, simulated location),
+  with a drawn phone frame. The same script made the case-study images in `../../veylo/`
+  (1470 × 3000, the Numi device canvas); the original screenshots are in `../../veylo/sources/`.
+- `../../social/veylo.jpg` is the same composition as JPEG for link previews.
