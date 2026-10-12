@@ -2,7 +2,7 @@
 
 > Product designer and design engineer who designs and builds iOS and web apps with AI. Product designer at DraftKings and creator of Numi, Tysha, and Karta. Based in Kyiv, Ukraine, with 14+ years of experience designing mobile and web products.
 
-Updated: 2026-10-08. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch, solo, with AI-assisted development (Claude Code and Cursor; Swift and SwiftUI for iOS; React, TypeScript and Next.js for the web). Numi is released on the App Store. Tysha is also available on the App Store; Karta is a restaurant ordering and payment web platform with a public working demo. He is available for contract product design and AI-assisted app development projects, and open to senior product design roles, working remotely with teams in Europe and the US. The Work with me page lists engagement types, deliverables and an FAQ.
+Updated: 2026-10-08. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch, solo, with AI-assisted development (Claude Code and Cursor; Swift and SwiftUI for iOS; React, TypeScript and Next.js for the web). Numi is released on the App Store. Tysha is also available on the App Store; Karta is a restaurant ordering and payment web platform with a public working demo; Veylo, an iPhone navigator for Kyiv built for jammed and spoofed GPS, is in development. He is available for contract product design and AI-assisted app development projects, and open to senior product design roles, working remotely with teams in Europe and the US. The Work with me page lists engagement types, deliverables and an FAQ.
 
 This index links to Markdown versions of the public website. Each document identifies its canonical HTML source. The case studies explain project decisions; the résumé contains the career history. Original article publication dates remain in the HTML metadata.
 
@@ -19,6 +19,7 @@ This index links to Markdown versions of the public website. Each document ident
 - [Numi — AI Nutrition iOS App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/numi.html.md): How Dennie Ordynskyi designed and built Numi, an AI nutrition iPhone app, solo with AI tooling: SwiftUI, photo logging, product decisions, App Store release.
 - [Tysha — iOS App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/tysha.html.md): How Dennie Ordynskyi designed and built Tysha, an offline baby-sleep sound app for iPhone, solo with AI-assisted development, and released it on the App Store.
 - [Karta — Web App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/karta.html.md): How Dennie Ordynskyi designed and built Karta, a QR ordering and payment web platform for restaurants: guest menu, owner dashboard, AI recommender, public demo.
+- [Veylo — iOS Navigation App Designed & Built by Dennie Ordynskyi](https://imdennie.com/case/veylo.html.md): How Dennie Ordynskyi designed and built Veylo, an iPhone navigator for Kyiv that never trusts a jammed or spoofed GPS blindly: on-device routing, offline map and search.
 
 ## Writing
 
@@ -35,6 +36,7 @@ This index links to Markdown versions of the public website. Each document ident
 - [Numi](https://getnumi.app): Released iPhone nutrition app with photo-based meal logging, macros, micronutrients, insights, and fasting.
 - [Tysha](https://tyshaapp.com): Baby-sleep sound app with real-time noise mixing, saved Rooms, and a fading sleep timer; works offline without accounts or ads.
 - [Karta](https://karta-nu.vercel.app/): QR ordering and payments for restaurants, with a guest menu and an owner dashboard; a working platform with a public demo.
+- [Veylo](https://imdennie.com/case/veylo.html): iPhone navigator for Kyiv and Kyiv oblast that asks before trusting GPS, keeps directions as manual steps when it can't, and routes, maps and searches on the phone; in development. Support: https://imdennie.com/veylo/support/ · Privacy: https://imdennie.com/veylo/privacy/
 - [Linc project](https://imdennie.com/#linc): Cloud studio platform for content creators; Dennie was the founding product designer.
 - [Earlier work](https://imdennie.com/#track-record): MyGoTrainer, Shipshape, Chatbox, and e-commerce project galleries.
 - [LinkedIn](https://www.linkedin.com/in/dennieo/): Professional profile.
