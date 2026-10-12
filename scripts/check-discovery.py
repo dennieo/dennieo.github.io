@@ -85,6 +85,8 @@ for file in PAGES:
 for file, page in parsed.items():
     for ref in page.refs:
         split = urlsplit(ref)
+        # index.html URLs canonicalize to their directory, so Search Console reports them as alternates.
+        assert not (split.netloc in ("", "imdennie.com") and split.path.rsplit("/", 1)[-1] == "index.html"), (file, ref)
         if split.scheme or split.netloc or ref.startswith(("data:", "mailto:")):
             continue
         target = ROOT / split.path.lstrip("/") if split.path.startswith("/") else file.parent / split.path if split.path else file

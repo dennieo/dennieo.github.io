@@ -211,6 +211,6 @@ Audiences, one system
 
 ## Try the demo, or read another study.
 
-[ Try the live demo ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/index.html#work)
+[ Try the live demo ](https://karta-nu.vercel.app/) [All work](https://imdennie.com/#work)
 
 [ Next case study Numi — AI nutrition ](https://imdennie.com/case/numi.html) [ Case study Tysha — baby sleep ](https://imdennie.com/case/tysha.html)
