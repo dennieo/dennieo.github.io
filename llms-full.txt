@@ -1437,7 +1437,7 @@ Automated core tests
 
 ## App support, privacy, or another study.
 
-[ Veylo support ](https://imdennie.com/veylo/support/) [Privacy policy](https://imdennie.com/veylo/privacy/) [All work](https://imdennie.com/index.html#work)
+[ Veylo support ](https://imdennie.com/veylo/support/) [Privacy policy](https://imdennie.com/veylo/privacy/) [All work](https://imdennie.com/#work)
 
 [ Next case study Numi — AI nutrition ](https://imdennie.com/case/numi.html) [ Case study Karta — restaurant platform ](https://imdennie.com/case/karta.html)
 

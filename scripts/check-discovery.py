@@ -85,8 +85,6 @@ for file in PAGES:
 for file, page in parsed.items():
     for ref in page.refs:
         split = urlsplit(ref)
-        # index.html URLs canonicalize to their directory, so Search Console reports them as alternates.
-        assert not (split.netloc in ("", "imdennie.com") and split.path.rsplit("/", 1)[-1] == "index.html"), (file, ref)
         if split.scheme or split.netloc or ref.startswith(("data:", "mailto:")):
             continue
         target = ROOT / split.path.lstrip("/") if split.path.startswith("/") else file.parent / split.path if split.path else file
@@ -96,6 +94,14 @@ for file, page in parsed.items():
         if split.fragment and target.suffix == ".html":
             ids = parsed[target].ids if target in parsed else page_ids(target)
             assert unquote(split.fragment) in ids, (file, ref)
+
+# index.html URLs canonicalize to their directory, so Search Console reports them as alternates.
+for file in sorted(ROOT.glob("**/*.html")):
+    page = Page()
+    page.feed(file.read_text())
+    for ref in page.refs:
+        split = urlsplit(ref)
+        assert not (split.netloc in ("", "imdennie.com") and split.path.rsplit("/", 1)[-1] == "index.html"), (file, ref)
 
 
 sitemap = ET.parse(ROOT / "sitemap.xml")
