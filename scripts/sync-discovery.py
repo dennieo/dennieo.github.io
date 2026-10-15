@@ -14,8 +14,10 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://imdennie.com/'
 UPDATED = '2026-10-08'
+# Pages changed after UPDATED keep their own date (page metadata, Markdown mirror, sitemap).
+PAGE_UPDATED = {'case/veylo.html': '2026-10-12'}
 FILES = ['index.html', 'story.html', 'approach.html', 'resume.html', 'work-with-me.html',
-         'case/numi.html', 'case/tysha.html', 'case/karta.html',
+         'case/numi.html', 'case/tysha.html', 'case/karta.html', 'case/veylo.html',
          'blog/index.html'] + [str(p.relative_to(ROOT)) for p in sorted((ROOT / 'blog').glob('*.html')) if p.name != 'index.html']
 DESCRIPTIONS = {
     'index.html': 'Product designer and design engineer building iOS and web apps with AI. Creator of Numi, Tysha and Karta. Available for contract projects.',
@@ -26,6 +28,7 @@ DESCRIPTIONS = {
     'case/numi.html': 'How Dennie Ordynskyi designed and built Numi, an AI nutrition iPhone app, solo with AI tooling: SwiftUI, photo logging, product decisions, App Store release.',
     'case/tysha.html': 'How Dennie Ordynskyi designed and built Tysha, an offline baby-sleep sound app for iPhone, solo with AI-assisted development, and released it on the App Store.',
     'case/karta.html': 'How Dennie Ordynskyi designed and built Karta, a QR ordering and payment web platform for restaurants: guest menu, owner dashboard, AI recommender, public demo.',
+    'case/veylo.html': 'How Dennie Ordynskyi designed and built Veylo, an iPhone navigator for Kyiv that never trusts a jammed or spoofed GPS blindly: on-device routing, offline map and search.',
     'blog/index.html': 'Notes by Dennie Ordynskyi on product design, AI interfaces, design careers, and building independent apps from idea to launch.',
     'blog/how-to-become-a-product-designer.html': 'How to become a product designer in 2026: practical advice on skills, portfolios, first jobs, and AI from a designer with 14+ years of experience.',
     'blog/shipping-apps-solo-with-ai.html': 'What changed when a product designer built and shipped Numi and Tysha solo with AI: prototyping, iteration, and the design work that still matters.',
@@ -91,7 +94,7 @@ for path in FILES:
 
     webpage_type = 'ProfilePage' if path in ['index.html', 'story.html', 'resume.html'] else 'CollectionPage' if path == 'blog/index.html' else 'WebPage'
     webpage = {'@type': webpage_type, '@id': url + '#webpage', 'url': url, 'name': title,
-               'description': desc, 'inLanguage': 'en', 'dateModified': UPDATED,
+               'description': desc, 'inLanguage': 'en', 'dateModified': PAGE_UPDATED.get(path, UPDATED),
                'isPartOf': {'@id': BASE + '#website'}, 'about': {'@id': BASE + '#person'},
                'primaryImageOfPage': {'@type': 'ImageObject', 'url': image, 'width': width, 'height': height}}
     nodes = [person, website, webpage]
@@ -204,7 +207,7 @@ for path, url, title, desc in records:
     content = ''.join(parser.parts)
     content = re.sub(r' *\n *', '\n', content); content = re.sub(r'[ \t]{2,}', ' ', content); content = re.sub(r'\n{3,}', '\n\n', content).strip()
     content = re.sub(r'\[\s+(!\[.*?\]\(.*?\))\s+\]\((.*?)\)', r'[\1](\2)', content)
-    doc = f'Source: {url}\n\nUpdated: {UPDATED}\n\n{content}\n'
+    doc = f'Source: {url}\n\nUpdated: {PAGE_UPDATED.get(path, UPDATED)}\n\n{content}\n'
     (ROOT / (path + '.md')).write_text(doc)
     full.append(f'## {title}\n\n{doc}')
 (ROOT / 'llms-full.txt').write_text('\n\n---\n\n'.join(full) + '\n')
@@ -213,7 +216,7 @@ intro = f'''# Dennie Ordynskyi
 
 > Product designer and design engineer who designs and builds iOS and web apps with AI. Product designer at DraftKings and creator of Numi, Tysha, and Karta. Based in Kyiv, Ukraine, with 14+ years of experience designing mobile and web products.
 
-Updated: {UPDATED}. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch, solo, with AI-assisted development (Claude Code and Cursor; Swift and SwiftUI for iOS; React, TypeScript and Next.js for the web). Numi is released on the App Store. Tysha is also available on the App Store; Karta is a restaurant ordering and payment web platform with a public working demo. He is available for contract product design and AI-assisted app development projects, and open to senior product design roles, working remotely with teams in Europe and the US. The Work with me page lists engagement types, deliverables and an FAQ.
+Updated: {UPDATED}. Dennie (also known as Denys Ordynskyi) designs and builds independent products from idea to launch, solo, with AI-assisted development (Claude Code and Cursor; Swift and SwiftUI for iOS; React, TypeScript and Next.js for the web). Numi is released on the App Store. Tysha is also available on the App Store; Karta is a restaurant ordering and payment web platform with a public working demo; Veylo, an iPhone navigator for Kyiv built for jammed and spoofed GPS, is in development. He is available for contract product design and AI-assisted app development projects, and open to senior product design roles, working remotely with teams in Europe and the US. The Work with me page lists engagement types, deliverables and an FAQ.
 
 This index links to Markdown versions of the public website. Each document identifies its canonical HTML source. The case studies explain project decisions; the résumé contains the career history. Original article publication dates remain in the HTML metadata.
 
@@ -234,6 +237,7 @@ lines.append('''
 - [Numi](https://getnumi.app): Released iPhone nutrition app with photo-based meal logging, macros, micronutrients, insights, and fasting.
 - [Tysha](https://tyshaapp.com): Baby-sleep sound app with real-time noise mixing, saved Rooms, and a fading sleep timer; works offline without accounts or ads.
 - [Karta](https://karta-nu.vercel.app/): QR ordering and payments for restaurants, with a guest menu and an owner dashboard; a working platform with a public demo.
+- [Veylo](https://imdennie.com/case/veylo.html): iPhone navigator for Kyiv and Kyiv oblast that asks before trusting GPS, keeps directions as manual steps when it can't, and routes, maps and searches on the phone; in development. Support: https://imdennie.com/veylo/support/ · Privacy: https://imdennie.com/veylo/privacy/
 - [Linc project](https://imdennie.com/#linc): Cloud studio platform for content creators; Dennie was the founding product designer.
 - [Earlier work](https://imdennie.com/#track-record): MyGoTrainer, Shipshape, Chatbox, and e-commerce project galleries.
 - [LinkedIn](https://www.linkedin.com/in/dennieo/): Professional profile.
@@ -248,7 +252,7 @@ lines.append('''
 (ROOT / 'llms.txt').write_text('\n'.join(lines).strip() + '\n')
 sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for path, url, title, desc in records:
-    sitemap.append(f'  <url><loc>{escape(url)}</loc><lastmod>{UPDATED}</lastmod></url>')
+    sitemap.append(f'  <url><loc>{escape(url)}</loc><lastmod>{PAGE_UPDATED.get(path, UPDATED)}</lastmod></url>')
 sitemap.append('</urlset>')
 (ROOT / 'sitemap.xml').write_text('\n'.join(sitemap) + '\n')
 print(f'Updated metadata, structured data, sitemap, and Markdown mirrors for {len(records)} pages.')

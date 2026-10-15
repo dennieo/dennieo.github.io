@@ -52,17 +52,17 @@ Solo design & build · Web · Guest app + owner dashboard
 
 [Try the live demo ](https://karta-nu.vercel.app/)
 
-![Linc mountain asset workspace and render queue against pale blue-gray](https://imdennie.com/dist/img/covers/open-studio/linc.webp)
+[![Veylo route options across Kyiv beside a manual-steps turn card, on two phones against pale blue](https://imdennie.com/dist/img/covers/open-studio/veylo.webp)](https://imdennie.com/case/veylo.html)
 
-### Linc
+### [Veylo ](https://imdennie.com/case/veylo.html)
 
-A cloud studio for content creators.
+A navigator for Kyiv that never guesses where you are.
 
-Founding product designer
+Solo design & build · iOS · On-device routing & offline map · In development
 
 ### Earlier work
 
-MyGoTrainer Shipshape Chatbox E-commerce
+Linc MyGoTrainer Shipshape Chatbox E-commerce
 
 ## How I build
 
