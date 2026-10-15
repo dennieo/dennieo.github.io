@@ -181,6 +181,6 @@ Ads, ever
 
 ## Hear it, or read another study.
 
-[ View on the App Store ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [All work](https://imdennie.com/index.html#work)
+[ View on the App Store ](https://apps.apple.com/us/app/tysha-baby-sleep-sounds/id6783016339) [All work](https://imdennie.com/#work)
 
 [ Next case study Karta — restaurant platform ](https://imdennie.com/case/karta.html) [ Case study Numi — AI nutrition ](https://imdennie.com/case/numi.html)

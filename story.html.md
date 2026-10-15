@@ -145,4 +145,4 @@ Today I’m in Kyiv — designing at DraftKings, running two apps on the App Sto
 
 14+ years of design 2 apps on the App Store · 1 web platform 3 languages ∞ curiosity
 
-[ Write the next chapter ](mailto:gehucka@gmail.com?subject=The%20next%20chapter) [ LinkedIn ](https://www.linkedin.com/in/dennieo/) [ Selected work ](https://imdennie.com/index.html)
+[ Write the next chapter ](mailto:gehucka@gmail.com?subject=The%20next%20chapter) [ LinkedIn ](https://www.linkedin.com/in/dennieo/) [ Selected work ](https://imdennie.com/)
