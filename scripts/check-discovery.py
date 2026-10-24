@@ -95,6 +95,14 @@ for file, page in parsed.items():
             ids = parsed[target].ids if target in parsed else page_ids(target)
             assert unquote(split.fragment) in ids, (file, ref)
 
+# index.html URLs canonicalize to their directory, so Search Console reports them as alternates.
+for file in sorted(ROOT.glob("**/*.html")):
+    page = Page()
+    page.feed(file.read_text())
+    for ref in page.refs:
+        split = urlsplit(ref)
+        assert not (split.netloc in ("", "imdennie.com") and split.path.rsplit("/", 1)[-1] == "index.html"), (file, ref)
+
 
 sitemap = ET.parse(ROOT / "sitemap.xml")
 urls = [node.text for node in sitemap.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]

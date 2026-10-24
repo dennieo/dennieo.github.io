@@ -209,6 +209,6 @@ Designer-engineer, end-to-end
 
 ## See it running, or read another study.
 
-[ View on the App Store ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app ](https://getnumi.app) [All work](https://imdennie.com/index.html#work)
+[ View on the App Store ](https://apps.apple.com/us/app/numi-eat-with-clarity/id6760961164) [ Visit getnumi.app ](https://getnumi.app) [All work](https://imdennie.com/#work)
 
 [ Next case study Tysha — baby sleep ](https://imdennie.com/case/tysha.html) [ Case study Karta — restaurant platform ](https://imdennie.com/case/karta.html)

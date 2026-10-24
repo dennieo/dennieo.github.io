@@ -30,7 +30,7 @@ At DraftKings, I design for usability, performance, and consistency at scale. I 
 
 I like taking responsibility beyond the design file. Building Numi, Tysha, and Karta myself keeps me close to the decisions that shape the final experience.
 
-[See the work behind the words ](https://imdennie.com/index.html#work)
+[See the work behind the words ](https://imdennie.com/#work)
 
 Where that thinking shows up
 
