@@ -80,11 +80,16 @@ for file in PAGES:
     assert any(x.get("@id") == BASE + "#person" for x in graph), file
     assert any(x.get("@id") == expected + "#webpage" for x in graph), file
     assert text.count('rel="icon"') == 1, file
+    # Google Search only shows a favicon it can crawl at a stable URL, not a data: URI.
+    assert 'rel="icon" href="/favicon.svg"' in text, file
     assert text.count("gtag('config'") <= 1, file
 
 for file, page in parsed.items():
     for ref in page.refs:
         split = urlsplit(ref)
+        if split.netloc == "imdennie.com":
+            # Absolute links to this site must resolve like relative ones.
+            split = split._replace(scheme="", netloc="", path=split.path or "/")
         if split.scheme or split.netloc or ref.startswith(("data:", "mailto:")):
             continue
         target = ROOT / split.path.lstrip("/") if split.path.startswith("/") else file.parent / split.path if split.path else file
