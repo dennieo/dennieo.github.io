@@ -20,7 +20,7 @@ Here is the term I use, plainly, so it can be cited:
 
 The budget is not a number you can measure. It is a decision you make out loud, and its value is that it forces the design to change. Three examples of how the same model, wired into different surfaces, gets different treatment:
 
-- **Generous budget.** A creative tool where generation is the product. A bad variation costs one dismissal and the user was expecting to sift. You can show many outputs, you can be strange, you do not need to explain yourself. In Meraki Studio the cost of a poor generation is a click, so the interface optimises for throughput rather than for reassurance.
+- **Generous budget.** A creative tool where generation is the product. A bad variation costs one dismissal and the user was expecting to sift. You can show many outputs, you can be strange, you do not need to explain yourself. In [Meraki](https://merakicrete.com) the cost of a poor generation is a click, so the interface optimises for throughput rather than for reassurance.
 - **Tight budget.** A natural-language input that turns a typed sentence into a structured record, which is how the fast path in Numi works. A wrong field is not dismissed, it is stored, and the user finds out later when the data is used for something. So the model never writes straight through. It fills a form the user can see in full before it becomes real.
 - **No budget at all.** Anything that sends, pays, deletes, or tells the user something they will act on immediately. If a single wrong output produces an irreversible outcome, the feature is not a design problem yet. It is a scoping problem.
 
