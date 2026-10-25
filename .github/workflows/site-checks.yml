@@ -1,0 +1,20 @@
+# Runs the discovery check (links, canonical URLs, metadata, sitemap) on every
+# pull request, and on pushes to master so posts committed there directly are
+# checked too.
+name: Site checks
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check links and discovery metadata
+        run: python3 scripts/check-discovery.py
