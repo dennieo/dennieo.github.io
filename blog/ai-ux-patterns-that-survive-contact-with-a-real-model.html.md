@@ -106,7 +106,7 @@ Applied to AI features specifically: **work out the worst hour your feature will
 
 **Absorbs:** scope drift in features whose value is unproven.
 
-[Meraki](https://merakistudio.dev) delivers a site in seven days. The interesting effect of that is not speed, it is that it forces one question to be answered on day one: what must this business's website do first? Decisions that would drift for a month in an open-ended project get made in an afternoon when the ship date is real. The deadline does the prioritising.
+[Meraki](https://merakicrete.com) delivers a site in seven days. The interesting effect of that is not speed, it is that it forces one question to be answered on day one: what must this business's website do first? Decisions that would drift for a month in an open-ended project get made in an afternoon when the ship date is real. The deadline does the prioritising.
 
 AI features are unusually prone to the drift the deadline prevents, because there is always another prompt to try and another edge case to handle, and none of that work has a natural stopping point. Boxing a feature into a fixed window forces the honest question: is this feature good enough to ship at all, or does it need to fall back to the silence state? Both answers are useful. Endless refinement is not.
 
