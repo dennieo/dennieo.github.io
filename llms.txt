@@ -46,4 +46,5 @@ This index links to Markdown versions of the public website. Each document ident
 ## Optional
 
 - [Complete public website text](https://imdennie.com/llms-full.txt): Combined Markdown content from all public pages.
+- [Privacy notice](https://imdennie.com/privacy.html.md): How this website handles personal data, cookies and analytics.
 - [Sitemap](https://imdennie.com/sitemap.xml): Canonical HTML pages for crawlers.
