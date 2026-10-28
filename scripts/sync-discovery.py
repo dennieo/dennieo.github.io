@@ -15,12 +15,13 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://imdennie.com/'
 UPDATED = '2026-10-08'
 # Pages changed after UPDATED keep their own date (page metadata, Markdown mirror, sitemap).
-PAGE_UPDATED = {'case/veylo.html': '2026-10-12'}
-FILES = ['index.html', 'story.html', 'approach.html', 'resume.html', 'work-with-me.html',
+PAGE_UPDATED = {'case/veylo.html': '2026-10-12', 'privacy.html': '2026-10-28'}
+FILES = ['index.html', 'story.html', 'approach.html', 'resume.html', 'work-with-me.html', 'privacy.html',
          'case/numi.html', 'case/tysha.html', 'case/karta.html', 'case/veylo.html',
          'blog/index.html'] + [str(p.relative_to(ROOT)) for p in sorted((ROOT / 'blog').glob('*.html')) if p.name != 'index.html']
 DESCRIPTIONS = {
     'index.html': 'Product designer and design engineer building iOS and web apps with AI. Creator of Numi, Tysha and Karta. Available for contract projects.',
+    'privacy.html': 'How imdennie.com handles personal data: GitHub Pages hosting, Google Analytics only with consent, self-hosted fonts, cookies, email and your rights.',
     'work-with-me.html': 'Hire Dennie Ordynskyi to design and build your iOS or web app: idea-to-release builds, working MVPs and design-and-build partnerships, solo with AI tooling.',
     'story.html': 'From Ukraine to products used by millions: the story of Dennie Ordynskyi, a product designer at DraftKings and the creator of three independent products.',
     'approach.html': 'How Dennie Ordynskyi designs products: understand the problem, prototype early, simplify complex experiences, and follow the idea through to launch.',
@@ -224,7 +225,7 @@ This index links to Markdown versions of the public website. Each document ident
 '''
 lines = [intro]
 for path, url, title, desc in records:
-    if not path.startswith(('case/', 'blog/')): lines.append(f'- [{title}]({BASE}{path}.md): {desc}')
+    if not path.startswith(('case/', 'blog/')) and path != 'privacy.html': lines.append(f'- [{title}]({BASE}{path}.md): {desc}')
 lines.append('\n## Case studies\n')
 for path, url, title, desc in records:
     if path.startswith('case/'): lines.append(f'- [{title}]({BASE}{path}.md): {desc}')
@@ -247,6 +248,7 @@ lines.append('''
 ## Optional
 
 - [Complete public website text](https://imdennie.com/llms-full.txt): Combined Markdown content from all public pages.
+- [Privacy notice](https://imdennie.com/privacy.html.md): How this website handles personal data, cookies and analytics.
 - [Sitemap](https://imdennie.com/sitemap.xml): Canonical HTML pages for crawlers.
 ''')
 (ROOT / 'llms.txt').write_text('\n'.join(lines).strip() + '\n')

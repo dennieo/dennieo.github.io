@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://imdennie.com/"
-PAGES = [ROOT / "index.html", ROOT / "story.html", ROOT / "approach.html", ROOT / "resume.html", ROOT / "work-with-me.html"]
+PAGES = [ROOT / "index.html", ROOT / "story.html", ROOT / "approach.html", ROOT / "resume.html", ROOT / "work-with-me.html", ROOT / "privacy.html"]
 PAGES += sorted((ROOT / "case").glob("*.html"))
 PAGES += sorted((ROOT / "blog").glob("*.html"))
 
